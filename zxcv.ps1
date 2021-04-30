@@ -1,0 +1,1 @@
+Write-Host "开机拍摄地方:$env:GITHUB_RUN_NUMBER"
