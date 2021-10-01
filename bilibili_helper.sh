@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-const $ = new Env('签到领现金9');
+#new Env('BILIBILI-HELPER');
 
 if ! [ -x "$(command -v java)" ]; then
    echo "开始安装Java运行环境........."
