@@ -11,32 +11,6 @@ if [ ! -d "/ql/scripts/bilibili/" ]; then
    cp -f bilibili_helper.sh ./bilibili/bilibili_helper.sh  
 fi
 cd bilibili
-token=$(cat /ql/config/auth.json | jq -r .token)
-currentTimeStamp=$(date +%s)
-data=$(curl -H "Authorization: Bearer $token" "http://0.0.0.0:5700/api/crons?searchValue=&t=$currentTimeStamp")
-if [[ "$data" != *BILIBILI-HELPER* ]]
-then
-   api=$(
-        curl -s --noproxy "*" "http://0.0.0.0:5600/api/crons?t=$currentTimeStamp" \
-            -H "Accept: application/json" \
-            -H "Authorization: Bearer $token" \
-            -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" \
-            -H "Content-Type: application/json;charset=UTF-8" \
-            -H "Origin: http://0.0.0.0:5700" \
-            -H "Referer: http://0.0.0.0:5700/crontab" \
-            -H "Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7" \
-            --data-raw "{\"name\":\"BILIBILI-HELPER\",\"command\":\"task ./bilibili/bilibili_helper.sh\",\"schedule\":\"0 8 * * *\"}" \
-            --compressed
-    )
-    code=$(echo $api | jq -r .code)
-    message=$(echo $api | jq -r .message)
-    if [[ $code == 200 ]]; then
-        echo -e "定时任务添加成功"
-    else
-        echo -e "定时任务添加失败"
-    fi
-fi
-
 if [ -f "/tmp/bili-helper.log" ];then
   VERSION=$(grep "当前版本" "/tmp/bili-helper.log" | awk '{print $2}')
   else
