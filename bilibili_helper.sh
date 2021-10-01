@@ -8,7 +8,6 @@ if ! [ -x "$(command -v java)" ]; then
 fi
 if [ ! -d "/ql/scripts/bilibili/" ]; then
    mkdir /ql/scripts/bilibili
-   cp -f bilibili_helper.sh ./bilibili/bilibili_helper.sh  
 fi
 cd bilibili
 if [ -f "/tmp/bili-helper.log" ];then
