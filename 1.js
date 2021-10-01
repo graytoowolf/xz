@@ -12,7 +12,7 @@
 
 ================Loon==============
 [Script]
-cron "2 0-23/4 * * *" script-path=jd_cash.js,tag=签到领现金
+cron "2 0-23/4 * * *" script-path=jd_cash.js,tag=签到领现金1
 
 ===============Surge=================
 签到领现金 = type=cron,cronexp="2 0-23/4 * * *",wake-system=1,timeout=3600,script-path=jd_cash.js
