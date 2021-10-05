@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #new Env('BILIBILI-HELPER');
-echo "脚本版本:v1.0"
+echo "脚本版本:v1.01"
 
 if ! [ -x "$(command -v java)" ]; then
    echo "开始安装Java运行环境........."
