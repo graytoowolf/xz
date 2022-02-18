@@ -12,4 +12,4 @@ jobs:
     - name: 执行上传
       shell: cmd
       run: |
-        echo $env:GITHUB_RUN_NUMBER
+        echo $env.GITHUB_RUN_NUMBER
