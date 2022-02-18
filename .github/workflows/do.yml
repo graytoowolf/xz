@@ -11,4 +11,4 @@ jobs:
 
     - name: Setup CMake
       run: |
-        echo $GITHUB_RUN_NUMBER
+        echo $env:GITHUB_RUN_NUMBER
