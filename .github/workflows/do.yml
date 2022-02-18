@@ -11,8 +11,4 @@ jobs:
 
     - name: Setup CMake
       run: |
-        curl -L https://github.com/Kitware/CMake/releases/download/v3.22.1/cmake-3.22.1-windows-i386.zip -o cmake.zip
-        unzip cmake.zip
-        Compress-Archive -Path D:\test -DestinationPath E:\test.zip
-        dir
         echo $GITHUB_RUN_NUMBER
