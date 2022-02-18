@@ -7,4 +7,5 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: condition 1
-      run: echo $env:GITHUB_RUN_NUMBER
+      shell: cmd
+      run: echo %GITHUB_RUN_NUMBER%
