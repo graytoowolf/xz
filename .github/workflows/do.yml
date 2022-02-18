@@ -11,5 +11,4 @@ jobs:
 
     - name: 执行上传
       shell: cmd
-      run: |
-        echo $GITHUB_RUN_NUMBER
+      run: echo "The operating system on the runner is not Windows, it's $RUNNER_OS."
