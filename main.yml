@@ -31,10 +31,10 @@ jobs:
            -DCMAKE_CXX_COMPILER=/usr/bin/g++-5 \
            -DCMAKE_BUILD_TYPE=Release \
            -DLauncher_NOTIFICATION_URL:STRING=https://files.multimc.org/notifications.json \
-           -DCMAKE_INSTALL_PREFIX:PATH=/home/runner/UltimMC/UltimMC \
-           -DLauncher_UPDATER_BASE=https://files.multimc.org/update/ \
-           -DLauncher_PASTE_EE_API_KEY:STRING=utLvciUouSURFzfjPxLBf5W4ISsUX4pwBDF7N1AfZ \
-           -DLauncher_ANALYTICS_ID:STRING=UA-87731965-2 \
+           -DCMAKE_INSTALL_PREFIX:PATH=/home/runner/MCLauncher/MCLauncher \
+           -DLauncher_PASTE_EE_API_KEY:STRING=ajtc1fWcjZqLl0jWJ9orxvAs0em2VyeTYr8eX2NrA \
+           -DLauncher_IMGUR_CLIENT_ID:STRING=d7340b1158a28c6 \
+           -DLauncher_ANALYTICS_ID:STRING=G-JNJEESP8JE \
            -DLauncher_LAYOUT=lin-nodeps \
            -DLauncher_BUILD_PLATFORM=lin64 \
            $GITHUB_WORKSPACE
@@ -49,20 +49,20 @@ jobs:
         run: |
           cd build
           make test
-          cmake -E remove_directory "/home/runner/UltimMC/UltimMC"
+          cmake -E remove_directory "/home/runner/MCLauncher/MCLauncher"
 
       - name: Install
         run: |
           cd build
           make install
-          chmod +x /home/runner/UltimMC/UltimMC/UltimMC
-          chmod +x /home/runner/UltimMC/UltimMC/bin/UltimMC
+          chmod +x /home/runner/MCLauncher/MCLauncher/MCLauncher
+          chmod +x /home/runner/MCLauncher/MCLauncher/bin//MCLauncher
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v3.1.0
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: mmc-cracked-lin64
-          path: /home/runner/UltimMC
+          path: /home/runner/MCLauncher
 
   build-windows:
     name: build-windows
@@ -100,7 +100,7 @@ jobs:
 
       - name: Download Qt non-Interactive Script
         if: steps.qt-cached.outputs.cache-hit != 'true'
-        run: curl https://gist.githubusercontent.com/Sebastian-byte/aa6c051abc17e7d9d609add7f6dfd16a/raw/074dedb7525c0ffc010b39871615b008c2efbcd6/qt-installer-noninteractive.qs --output nonInteractive.qs
+        run: curl https://gist.githubusercontent.com/PibePlayer/cf6bd0a9f7e4d51e3e618ceedfba4b94/raw/09cb1415952b914f1567ce935d4618c396aec340/qt-installer-noninteractive.qs --output nonInteractive.qs
 
       - name: Install Qt
         if: steps.qt-cached.outputs.cache-hit != 'true'
@@ -109,11 +109,11 @@ jobs:
 
       - name: Setup CMake
         run: |
-          curl -L https://github.com/Kitware/CMake/releases/download/v3.23.1/cmake-3.23.1-windows-i386.zip -o cmake.zip
+          curl -L https://github.com/Kitware/CMake/releases/download/v3.22.1/cmake-3.22.1-windows-i386.zip -o cmake.zip
           unzip cmake.zip
 
       - name: Setup JDK
-        uses: actions/setup-java@v3.3.0
+        uses: actions/setup-java@v2.5.0
         with:
           distribution: 'zulu'
           java-version: '8'
@@ -132,8 +132,8 @@ jobs:
         run: |
           mkdir OpenSSL
           cd OpenSSL
-          curl -L https://files.catbox.moe/ctwswu.dll -o libeay32.dll
-          curl -L https://files.catbox.moe/ie9e77.dll -o ssleay32.dll
+          curl -L https://github.com/IndySockets/OpenSSL-Binaries/raw/master/Archive/openssl-1.0.2n-i386-win32.zip -o OpenSSL.zip
+          unzip OpenSSL.zip
 
       - name: Build
         shell: cmd
@@ -142,19 +142,21 @@ jobs:
           set PATH=D:\Qt\5.6.3\mingw49_32\bin;D:\Qt\Tools\mingw492_32\bin;
           set PATH=%CD%\zlib;%CD%\zlib\bin;%CD%\zlib\lib;%CD%\zlib\include;%PATH%
           set PATH=%CD%\OpenSSL;%PATH%
-          set PATH=%CD%\cmake-3.23.1-windows-i386\bin;%PATH%
+          set PATH=%CD%\cmake-3.22.1-windows-i386\bin;%PATH%
           set CC=D:\Qt\Tools\mingw492_32\bin\gcc.exe
           set CXX=D:\Qt\Tools\mingw492_32\bin\g++.exe
           mkdir build
+          dir
           cd build
           cmake ^
            -DCMAKE_BUILD_TYPE=Release ^
            -DLauncher_NOTIFICATION_URL:STRING=https://files.multimc.org/notifications.json ^
-           -DCMAKE_INSTALL_PREFIX:PATH="D:/UltimMC/UltimMC" ^
-           -DLauncher_UPDATER_BASE=https://files.multimc.org/update/ ^
-           -DLauncher_PASTE_EE_API_KEY:STRING=utLvciUouSURFzfjPxLBf5W4ISsUX4pwBDF7N1AfZ ^
-           -DLauncher_ANALYTICS_ID:STRING=UA-87731965-2 ^
-           -DLauncher_LAYOUT=win-bundle ^
+           -DCMAKE_INSTALL_PREFIX:PATH=D:/MCLauncher/install  ^
+           -DLauncher_UPDATER_BASE=https://mmc.mcpeau.com/ ^
+           -DLauncher_VERSION_BUILD=%GITHUB_RUN_NUMBER% ^
+           -DLauncher_PASTE_EE_API_KEY:STRING=ajtc1fWcjZqLl0jWJ9orxvAs0em2VyeTYr8eX2NrA ^
+           -DLauncher_IMGUR_CLIENT_ID:STRING=d7340b1158a28c6 ^
+           -DLauncher_ANALYTICS_ID:STRING=G-JNJEESP8JE ^
            -DLauncher_BUILD_PLATFORM=win32 ^
            -G "MinGW Makefiles" ^
            ..
@@ -165,7 +167,7 @@ jobs:
           set PATH=D:\Qt\5.6.3\mingw49_32\bin;D:\Qt\Tools\mingw492_32\bin;
           set PATH=%CD%\zlib;%CD%\zlib\bin;%PATH%
           set PATH=%CD%\OpenSSL;%PATH%
-          set PATH=%CD%\cmake-3.23.1-windows-i386\bin;%PATH%
+          set PATH=%CD%\cmake-3.22.1-windows-i386\bin;%PATH%
           set PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;%PATH%
           cd build
           mingw32-make tcversion
@@ -177,11 +179,11 @@ jobs:
           set PATH=D:\Qt\5.6.3\mingw49_32\bin;D:\Qt\Tools\mingw492_32\bin;
           set PATH=%CD%\zlib;%CD%\zlib\bin;%PATH%
           set PATH=%CD%\OpenSSL;%PATH%
-          set PATH=%CD%\cmake-3.23.1-windows-i386\bin;%PATH%
+          set PATH=%CD%\cmake-3.22.1-windows-i386\bin;%PATH%
           set PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;%PATH%
           cd build
           mingw32-make test
-          cmake -E remove_directory "D:/UltimMC/UltimMC"
+          cmake -E remove_directory "D:/MCLauncher/install"
 
       - name: Install
         shell: cmd
@@ -189,7 +191,7 @@ jobs:
           set PATH=D:\Qt\5.6.3\mingw49_32\bin;D:\Qt\Tools\mingw492_32\bin;
           set PATH=%CD%\zlib;%CD%\zlib\bin;%PATH%
           set PATH=%CD%\OpenSSL;%PATH%
-          set PATH=%CD%\cmake-3.23.1-windows-i386\bin;%PATH%
+          set PATH=%CD%\cmake-3.22.1-windows-i386\bin;%PATH%
           set PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;%PATH%
           cd build
           mingw32-make install
@@ -197,26 +199,43 @@ jobs:
       - name: Copy OpenSSL
         shell: cmd
         run: |
-          cp OpenSSL/ssleay32.dll D:/UltimMC/UltimMC/ssleay32.dll
-          cp OpenSSL/libeay32.dll D:/UltimMC/UltimMC/libeay32.dll
+          cp OpenSSL/ssleay32.dll D:/MCLauncher/install/ssleay32.dll
+          cp OpenSSL/libeay32.dll D:/MCLauncher/install/libeay32.dll
+
+      - name: 生成json文件
+        run: |
+          cd D:/MCLauncher/
+          mkdir D:/MCLauncher/qiniu/win32/bs
+          mkdir D:/MCLauncher/qiniu/MCLauncher
+          curl -L https://mmc.mcpeau.com/mc.exe -o mc.exe
+          Compress-Archive -Path D:/MCLauncher/install/* -DestinationPath D:/MCLauncher/qiniu/MCLauncher.zip
+          .\mc $env:GITHUB_RUN_NUMBER
+
+      - name: Upload qiniu
+        run: |
+          cd D:/MCLauncher/
+          curl -L https://devtools.qiniu.com/qshell-v2.6.2-windows-386.zip -o qshell.zip
+          unzip qshell.zip
+          .\qshell account ${{ secrets.AK }} ${{ secrets.SK }} bs
+          .\qshell qupload2 --src-dir=./qiniu --bucket=${{ secrets.QINIU_Name }} --up-host=http://upload-z2.qiniu.com --overwrite=true --rescan-local=true
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v3.1.0
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: mmc-cracked-win32
-          path: "D:/UltimMC"
+          path: "D:/MCLauncher/install"
 
   build-mac:
     name: build-mac
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v3.0.2
+      - uses: actions/checkout@v2.4.0
         with:
           submodules: 'recursive'
 
       - name: Cache Dependencies
-        uses: actions/cache@v3.0.2
+        uses: actions/cache@v2.1.7
         with:
           path: /Users/runner/Library/Caches/Homebrew
           key: ${{ runner.os }}-deps-cache
@@ -235,13 +254,12 @@ jobs:
           -DCMAKE_CXX_COMPILER=/usr/bin/clang++ \
           -DCMAKE_BUILD_TYPE=Release \
           -DLauncher_NOTIFICATION_URL:STRING=https://files.multimc.org/notifications.json \
-          -DCMAKE_INSTALL_PREFIX:PATH="/Users/runner/work/UltimMC/build/dist" \
+          -DCMAKE_INSTALL_PREFIX:PATH=/Users/runner/work/MCLauncher/build/dist \
           -DCMAKE_PREFIX_PATH="$(brew --prefix qt@5);$(brew --prefix qt@5)/lib/cmake/Qt5Core;$(brew --prefix qt@5)/lib/cmake/Qt5Widgets;$(brew --prefix qt@5)/lib/cmake/Qt5Concurrent;$(brew --prefix qt@5)/lib/cmake/Qt5Network;$(brew --prefix qt@5)/lib/cmake/Qt5Test;$(brew --prefix qt@5)/lib/cmake/Qt5Xml" \
           -DQt5_DIR="$(brew --prefix qt@5)" \
-          -DLauncher_UPDATER_BASE=https://files.multimc.org/update/ \
-          -DLauncher_PASTE_EE_API_KEY:STRING=utLvciUouSURFzfjPxLBf5W4ISsUX4pwBDF7N1AfZ \
-          -DLauncher_ANALYTICS_ID:STRING=UA-87731965-2 \
-          -DLauncher_LAYOUT=mac-bundle \
+          -DLauncher_PASTE_EE_API_KEY:STRING=ajtc1fWcjZqLl0jWJ9orxvAs0em2VyeTYr8eX2NrA \
+          -DLauncher_IMGUR_CLIENT_ID:STRING=d7340b1158a28c6 \
+          -DLauncher_ANALYTICS_ID:STRING=G-JNJEESP8JE \
           -DLauncher_BUILD_PLATFORM=osx64-5.15.2 \
           -DCMAKE_OSX_DEPLOYMENT_TARGET=10.13 \
           $GITHUB_WORKSPACE
@@ -256,16 +274,17 @@ jobs:
         run: |
           cd build
           make test
-          cmake -E remove_directory "/Users/runner/work/UltimMC/build/dist"
+          cmake -E remove_directory "/Users/runner/work/MCLauncher/build/dist"
 
       - name: Install
         run: |
+          ls
           cd build
           make install
-          chmod +x /Users/runner/work/UltimMC/build/dist/UltimMC.app/Contents/MacOS/UltimMC
+          chmod +x /Users/runner/work/MCLauncher/build/dist/MCLauncher.app/Contents/MacOS/MCLauncher
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v3.1.0
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: mmc-cracked-osx64
-          path: /Users/runner/work/UltimMC/build/dist
+          path: /Users/runner/work/MCLauncher/build/dist

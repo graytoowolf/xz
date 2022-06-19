@@ -9,5 +9,5 @@ jobs:
     steps:
       - name: Setup OpenSSL
         run: |
-          $PSVersionTable
-          dir
+
+          echo $GITHUB_SHA
