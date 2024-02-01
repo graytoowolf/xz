@@ -10,4 +10,4 @@ jobs:
       - name: Setup OpenSSL
         run: |
 
-          echo $GITHUB_SHA
+          echo ${{ secrets.AK }}
