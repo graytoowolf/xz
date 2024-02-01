@@ -9,7 +9,9 @@ jobs:
     steps:
       - name: Setup OpenSSL
         run: |
-          echo ${{ secrets.GITEE_RSA }} >> ~/.ssh/id_rsa
+          ssh = ${{ secrets.GITEE_RSA }}
+          echo "$ssh"
+          echo "$ssh" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           mkdir cs
           cd cs
