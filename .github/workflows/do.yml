@@ -9,5 +9,15 @@ jobs:
     steps:
       - name: Setup OpenSSL
         run: |
+          echo ${{ secrets.GITEE_RSA }} >> ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          mkdir cs
+          cd cs
+          git init
+          touch README.md
+          git add README.md
+          git commit -m "first commit"
+          git remote add origin git@gitee.com:15874613/cs.git
+          git push -u origin "master"
 
-          echo ${{ secrets.AK }}
+
