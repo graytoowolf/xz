@@ -9,17 +9,15 @@ jobs:
     steps:
       - name: Setup OpenSSL
         run: |
-          sfas=${{ secrets.GITEE_RSA }}
-          echo "$sfas"
-          echo "$sfas" > ~/.ssh/id_rsa
+          echo "${{ secrets.GITEE_RSA }}" > id_rsa
           chmod 600 ~/.ssh/id_rsa
           mkdir cs
           cd cs
           git init
           touch README.md
-          git add README.md
+          git add .
           git commit -m "first commit"
           git remote add origin git@gitee.com:15874613/cs.git
-          git push -u origin "master"
+          GIT_SSH_COMMAND="ssh -i id_rsa -o StrictHostKeyChecking=no" git push -u origin "cs" || exit 1
 
 
