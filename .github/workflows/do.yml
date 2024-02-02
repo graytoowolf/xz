@@ -12,8 +12,8 @@ jobs:
           pwd
           echo "${{ secrets.GITEE_RSA }}" > /home/runner/work/xz/xz/id_rsa
           chmod 600 /home/runner/work/xz/xz/id_rsa
-          git config --global user.name "graywolf"
-          git config --global user.email "graywolf@qq.com"
+          git config --global user.name "123456"
+          git config --global user.email "123456@qq.com"
           mkdir cs
           cd cs
           git init
