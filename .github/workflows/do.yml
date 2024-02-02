@@ -9,6 +9,7 @@ jobs:
     steps:
       - name: Setup OpenSSL
         run: |
+          pwd
           echo "${{ secrets.GITEE_RSA }}" > id_rsa
           chmod 600 id_rsa
           git config user.name "graywolf"
