@@ -11,6 +11,8 @@ jobs:
         run: |
           echo "${{ secrets.GITEE_RSA }}" > id_rsa
           chmod 600 id_rsa
+          git config user.name "graywolf"
+          git config user.email "graywolf@qq.com"
           mkdir cs
           cd cs
           git init
