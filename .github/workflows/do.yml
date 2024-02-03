@@ -20,6 +20,6 @@ jobs:
           git add .
           git commit -m "first commit"
           git remote add origin git@gitee.com:15874613/cs.git
-          GIT_SSH_COMMAND="ssh -i <(printf '%s' \"${{ secrets.GITEE_RSA }}\") -o StrictHostKeyChecking=no" git push -u origin "master"
+          echo "${{ secrets.GITEE_RSA }}" | tr -d '\r' | ssh -i /dev/stdin -o StrictHostKeyChecking=no git push -u origin "master"
 
 
