@@ -10,8 +10,8 @@ jobs:
       - name: Setup OpenSSL
         run: |
           pwd
-          echo "${{ secrets.GITEE_RSA }}" > /home/runner/work/xz/xz/id_rsa
-          chmod 600 /home/runner/work/xz/xz/id_rsa
+          ssh-add - <<< "${{ secrets.GITEE_RSA }}"
+
           git config --global user.name "123456"
           git config --global user.email "123456@qq.com"
           mkdir cs
@@ -21,6 +21,6 @@ jobs:
           git add .
           git commit -m "first commit"
           git remote add origin git@gitee.com:15874613/cs.git
-          GIT_SSH_COMMAND="ssh -i /home/runner/work/xz/xz/id_rsa -o StrictHostKeyChecking=no" git push -u origin "master" || exit 1
+          git push -u origin "master"
 
 
