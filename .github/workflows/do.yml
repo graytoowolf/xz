@@ -10,8 +10,9 @@ jobs:
       - name: Setup OpenSSL
         run: |
           pwd
-          ssh-add - <<< "${{ secrets.GITEE_RSA }}"
           echo "1111111111111"
+          ssh-add - <<< "${{ secrets.GITEE_RSA }}"
+          echo "2222222222222"
           git config --global user.name "123456"
           git config --global user.email "123456@qq.com"
           mkdir cs
