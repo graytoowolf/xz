@@ -4,6 +4,7 @@ import sys
 import json
 import hashlib
 import requests
+import shutil
 from pathlib import Path
 
 def calculate_md5(file_path):
@@ -54,6 +55,8 @@ def main():
     # 如果输出目录不存在则创建
     output_dir = Path(os.getcwd()) / "qiniu" / "win32"
     output_dir.mkdir(parents=True, exist_ok=True)
+    miniskins_dir = Path(os.getcwd()) / "qiniu" / "MiniSkins"
+    miniskins_dir.mkdir(parents=True, exist_ok=True)
 
     # 打印环境信息，便于调试
     print(f"当前工作目录: {os.getcwd()}")
@@ -142,18 +145,22 @@ def main():
 
         # 然后处理文件重命名和JSON生成
         for info in files_info:
-            # 获取父目录和新的完整路径
-            parent_dir = info["old_path"].parent
-            new_path = parent_dir / info["new_filename"]
+            # 创建与源文件相同的目录结构
+            relative_dir = info["relative_path"].parent
+            target_dir = miniskins_dir / relative_dir
+            target_dir.mkdir(parents=True, exist_ok=True)
 
-            # 重命名文件（如果新文件名与旧文件名不同）
+            # 新路径包含完整的目录结构
+            new_path = target_dir / info["new_filename"]
+
+            # 复制文件（如果新文件名与旧文件名不同）
             if info["old_path"].name != info["new_filename"]:
                 # 如果目标文件已存在，先删除它
                 if new_path.exists():
                     os.remove(new_path)
-                # 重命名文件
-                os.rename(info["old_path"], new_path)
-                print(f"已重命名文件：{info['old_path'].name} -> {info['new_filename']}")
+                # 复制文件而不是重命名，保留原文件
+                shutil.copy2(info["old_path"], new_path)
+                print(f"已复制文件：{info['old_path'].name} -> {str(relative_dir / info['new_filename'])}")
 
             # 添加到JSON文件列表
             file_info = {
