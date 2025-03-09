@@ -7,9 +7,13 @@ jobs:
     runs-on: windows-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Set file permissions
         run: |
           dir
+
       - name: 运行脚本
         run: |
           python mc.py id=$env:GITHUB_RUN_NUMBER url='https://mmc.miniskins.top'
