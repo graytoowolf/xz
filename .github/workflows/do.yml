@@ -7,20 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup OpenSSL
+      - name: 运行脚本
         run: |
-          pwd
-          ssh -V
-          git config --global user.name "123456"
-          git config --global user.email "123456@qq.com"
-          mkdir cs
-          cd cs
-          git init
-          touch README.md
-          git add .
-          git commit -m "first commit"
-          git remote add origin git@gitee.com:15874613/cs.git
-          echo "${{ secrets.GITEE_RSA }}" | tr -d '\r' | ssh -i -o StrictHostKeyChecking=no git@gitee.com "git push -u origin master"
-
-
-
+          python mc.py id=$env:GITHUB_RUN_NUMBER url='https://mmc.miniskins.top' }}
