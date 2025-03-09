@@ -9,8 +9,7 @@ jobs:
     steps:
       - name: Set file permissions
         run: |
-          ls
-          chmod +x mc.py
+          dir
       - name: 运行脚本
         run: |
           python mc.py id=$env:GITHUB_RUN_NUMBER url='https://mmc.miniskins.top' }}
