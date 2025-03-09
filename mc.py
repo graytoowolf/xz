@@ -128,7 +128,14 @@ def main():
                 # 获取统一的权限设置
                 permissions = get_file_permissions(file_path)
                 # 构建URL
-                url = f"{url_prefix}/MiniSkins/{md5_hash}-{relative_path}"
+                # 获取相对目录路径和文件名
+                relative_dir = str(relative_path.parent).replace("\\", "/") if relative_path.parent != Path(".") else ""
+                filename = relative_path.name
+                # 构建正确的URL格式
+                if relative_dir:
+                    url = f"{url_prefix}/MiniSkins/{relative_dir}/{md5_hash}-{filename}"
+                else:
+                    url = f"{url_prefix}/MiniSkins/{md5_hash}-{filename}"
                 # 新文件名
                 new_filename = f"{md5_hash}-{file_path.name}"
 
