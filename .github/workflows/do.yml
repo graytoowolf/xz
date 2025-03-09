@@ -13,7 +13,7 @@ jobs:
       - name: 设置 Python 环境
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: "3.9"
 
       - name: 安装依赖
         run: |
@@ -29,3 +29,8 @@ jobs:
         run: |
           chcp 65001
           python mc.py id=$env:GITHUB_RUN_NUMBER url='https://mmc.miniskins.top'
+      - name: 上传生成的文件
+        uses: actions/upload-artifact@v3
+        with:
+          name: generated-files
+          path: qiniu/
