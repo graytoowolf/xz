@@ -1,0 +1,42 @@
+{
+    "item.create_deep_dark.echo_cake_base": "回响蛋糕基底",
+    "item.create_deep_dark.molten_echo_bucket": "熔融回响桶",
+    "item.create_deep_dark.echo_armor_helmet": "回响头盔",
+    "block.create_deep_dark.molten_echo": "熔融回响",
+    "item.create_deep_dark.echo_sword": "回响之刃",
+    "fluid.create_deep_dark.molten_echo": "熔融回响",
+    "item.create_deep_dark.echo_armor_leggings": "回响护腿",
+    "item.create_deep_dark.sculk_flour": "幽匿粉",
+    "fluid_type.create_deep_dark.molten_echo": "液态回响",
+    "item.create_deep_dark.echo_armor_chestplate": "回响胸甲",
+    "item.create_deep_dark.echo_armor_boots": "回响战靴",
+    "block.create_deep_dark.echo_block": "回响方块",
+    
+    "item.create_deep_dark.echo_armor_helmet.description_0": "§7全套装备效果：",
+    "item.create_deep_dark.echo_armor_helmet.description_1": "§7- §a抗性提升II §7（永久）",
+    "item.create_deep_dark.echo_armor_helmet.description_2": "§7- §a力量II §7（永久）",
+    
+    "item.create_deep_dark.echo_ingot": "回响锭",
+    
+    "item.create_deep_dark.echo_sword.description_0": "§7攻击时对目标施加：",
+    "item.create_deep_dark.echo_sword.description_1": "§7- §c虚弱II §7（5秒）",
+    "item.create_deep_dark.echo_sword.description_2": "§7- §c黑暗II §7（5秒）",
+    
+    "item.create_deep_dark.echo_armor_leggings.description_0": "§7全套装备效果：",
+    "item.create_deep_dark.echo_armor_leggings.description_1": "§7- §a抗性提升II §7（永久）",
+    "item.create_deep_dark.echo_armor_leggings.description_2": "§7- §a力量II §7（永久）",
+    
+    "item_group.create_deep_dark.create_deep_dark": "深暗创艺",
+    
+    "item.create_deep_dark.echo_armor_boots.description_0": "§7全套装备效果：",
+    "item.create_deep_dark.echo_armor_boots.description_1": "§7- §a抗性提升II §7（永久）",
+    "item.create_deep_dark.echo_armor_boots.description_2": "§7- §a力量II §7（永久）",
+    
+    "item.create_deep_dark.echo_cake": "回响蛋糕",
+    "item.create_deep_dark.echo_cake.description_0": "§7烈焰蛋糕的强化版本",
+    "item.create_deep_dark.echo_cake.description_1": "§7燃烧时长19,200刻（16分钟）",
+    
+    "item.create_deep_dark.echo_armor_chestplate.description_0": "§7全套装备效果：",
+    "item.create_deep_dark.echo_armor_chestplate.description_1": "§7- §a抗性提升II §7（永久）",
+    "item.create_deep_dark.echo_armor_chestplate.description_2": "§7- §a力量II §7（永久）"
+  }

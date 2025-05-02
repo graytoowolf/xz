@@ -1,0 +1,11 @@
+{
+    "machine.fire_generator": "异火提取器",
+    "machine.dye_generator": "染料生成器",
+    "machine.fire_smelter": "异火冶炼厂",
+    "machine.stress_generator": "魔法应力生成器",
+    "machine.sequenced_assembly": "序列装配机",
+    "machine.batch_inscriber": "批量压印器",
+    "machine.animal_press": "动物压榨机",
+    "machine.token_fabricate": "凭证组装室",
+    "item.custommachinery.custom_upgrade": "机器升级"
+}

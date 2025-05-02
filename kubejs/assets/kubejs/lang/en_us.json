@@ -1,0 +1,196 @@
+{
+    "item.kubejs.stage0": "stage 0 starter",
+    "item.kubejs.stage1": "stage 1 starter",
+    "item.kubejs.stage2": "stage 2 starter",
+    "item.kubejs.stage3": "stage 3 starter",
+    "item.kubejs.stage4": "stage 4 starter",
+
+    "item.kubejs.stage_time_mix": "30 second stage updater",
+    "item.kubejs.stage_time_max": "3 minute stage updater",
+    "item.kubejs.stage_off": "Random block closers",
+    "item.kubejs.stage_time_master": "Random block debugger",
+
+    "item.kubejs.frosty_cherry_sapling": "Frosty Cherry Sapling",
+
+    "item.kubejs.frost_core": "Frost Core",
+    "item.kubejs.enchantment_core": "Enchantment Core",
+
+    "item.kubejs.capture_bottle": "Capture Bottle",
+    "item.kubejs.polar_lights_bottle": "Polar Lights Bottle",
+    "item.kubejs.polar_lights_dust": "Polar Lights Dust",
+    "item.kubejs.cold_wave_totem": "Cold Wave Totem",
+
+    "item.kubejs.random_crop_seeds": "Random Crop Seeds",
+
+    "item.kubejs.frozen_iron_ingot": "Forzen Iron Ingot",
+    "item.kubejs.frozen_iron_nugget": "Forzen Iron Nugget",
+    "item.kubejs.snow_spirit": "Snow Spirit",
+    "item.kubejs.half_frozen_iron_ingot": "Half Forzen Iron Ingot",
+    "item.kubejs.slime_frozen_iron_ingot": "Slime Forzen Iron Ingot",
+
+    "item.kubejs.cold_crystal_bucket": "Cold Crystal Bucket",
+    "item.kubejs.black_coffee_diluted_with_water_bucket": "Black Coffee Diluted With Water Bucket",
+    "item.kubejs.unstable_red_bucket": "Unstable Red Bucket",
+
+    "item.kubejs.lotus_fire": "Lotus Fire",
+    "item.kubejs.emerald_credit_card": "Emerald Credit Card",
+
+
+    "block.kubejs.frostvein_log": "Frostvein Log",
+    "block.kubejs.snowcrystal_leaves": "Snowcrystal Leaves",
+    "block.kubejs.snowcrystal_leaves_useful": "Snowcrystal Leaves Useful",
+
+    "block.kubejs.polar_lights_dust_block": "Polar Lights  Dust Block",
+    "block.kubejs.polar_lights_prism": "Polar Lights Prism",
+    "block.kubejs.polar_lights_glass": "Polar Lights Glass",
+
+    "block.kubejs.random_crop": "Random Crop",
+
+    "block.kubejs.frosting_ore": "Frosting Ore",
+    "block.kubejs.frozen_iron_ore": "Frozen Iron Ore",
+    "block.kubejs.frozen_iron_block": "Forzen Iron Block",
+
+    "block.kubejs.cracked_gold_ore": "Cracked Gold Ore",
+    "block.kubejs.ethereal_gold_ore": "Ethereal Gold Ore",
+
+    "block.kubejs.quantum_flux_compressor": "Quantum Flux Compressor",
+
+    "block.kubejs.cold_crystal": "Cold Crystal",
+    "block.kubejs.black_coffee_diluted_with_water": "Black Coffee Diluted With Water",
+    "block.kubejs.unstable_red": "Unstable Red",
+
+    "block.kubejs.pink_fire": "Pink Fire",
+    "block.kubejs.light_gray_fire": "Light Gray Fire",
+    "block.kubejs.orange_fire": "Orange Fire",
+    "block.kubejs.brown_fire": "Brown Fire",
+    "block.kubejs.magenta_fire": "Magenta Fire",
+    "block.kubejs.cyan_fire": "cyan_fire",
+    "block.kubejs.lime_fire": "Lime Fire",
+    "block.kubejs.yellow_fire": "Yellow Fire",
+    "block.kubejs.black_fire": "Black Fire",
+    "block.kubejs.light_blue_fire": "Light Blue Fire",
+    "block.kubejs.gray_fire": "Gray Fire",
+    "block.kubejs.white_fire": "White Fire",
+    "block.kubejs.blue_fire": "Blue Fire",
+    "block.kubejs.green_fire": "Green Fire",
+    "block.kubejs.red_fire": "Red Fire",
+    "block.kubejs.purple_fire": "Purple Fire",
+
+    "block.kubejs.fire_generator": "Fire Generator",
+    "block.kubejs.dye_generator": "Dye Generator",
+
+    "fluid_type.kubejs.cold_crystal": "Cold Crystal",
+    "fluid_type.kubejs.black_coffee_diluted_with_water": "Black Coffee Diluted With Water",
+    "fluid_type.kubejs.unstable_red": "Unstable Red",
+
+    "tooltip.kubejs.stage0": "Right-click to modify the game Stage to Stage 0",
+    "tooltip.kubejs.stage1": "Right-click to modify the game Stage to Stage 1",
+    "tooltip.kubejs.stage2": "Right-click to modify the game Stage to Stage 2",
+    "tooltip.kubejs.stage3": "Right-click to modify the game Stage to Stage 3",
+    "tooltip.kubejs.stage4": "Right-click to modify the game Stage to Stage 4",
+    "tooltip.kubejs.stage_time_mix": "Right-click to change the random block time to 30 seconds",
+    "tooltip.kubejs.stage_time_max": "Right-click to change the random block time to 3 minutes",
+    "tooltip.kubejs.stage_time_master": "Right-click to modify the random box time to 2 seconds, not available!",
+    "tooltip.kubejs.stage_off": "Right-click to close the random block",
+
+    "tooltip.kubejs.card": "Main right hand rain",
+
+    "tooltip.kubejs.wall_sign1": "Rare in history",
+    "tooltip.kubejs.wall_sign2": "Only one",
+    "tooltip.kubejs.wall_sign3": "You won't get it by cutting it down",
+    "tooltip.kubejs.wall_sign4": "There's a lot to lose",
+    "tooltip.kubejs.wall_sign5": "↓↓↓↓↓",
+
+    "tooltip.kubejs.rewards1": "The dark room is under judgment...",
+    "tooltip.kubejs.rewards2": "Judge success",
+    "tooltip.kubejs.rewards3": "After 40s, the reward box is destroyed and the player is transported back to the birth point",
+    "tooltip.kubejs.rewards4": "Failure. Thank you for your business",
+    "tooltip.kubejs.rewards5": "Transfer countdown:",
+
+    "tooltip.kubejs.start_click": "No team info found! Please create an initial island and join a team, if you still have problems, please contact the developer to fix it!",
+    "tooltip.kubejs.start_click_info1": "Team stage: stage ",
+    "tooltip.kubejs.start_click_info2": "Refresh time:",
+    "tooltip.kubejs.start_click_info3": "Random block close",
+
+    "tooltip.ore.copper": "The Dripstone Block can be any complete square",
+
+    "kubejs.tips.machine_fill1": "The square is the bottom center ",
+    "kubejs.tips.machine_fill2": " Non-air blocks exist in the range. Please clear them and replace them",
+
+    "kubejs.tips.place": "Drawers from the Functional Storage mod and furnaces from the Iron Furnaces mod are likely to cause crashes and corrupt your world if set to auto-output items directly into Oritech machines. Please proceed with caution and use pipes as intermediaries. If you must place them, hold an otherworld_ashes in your offhand while placing.",
+    "kubejs.tips.place2": "'s block is: ",
+
+    "text.randblock.block_time": "%s seconds left to refresh",
+    "text.randblock.block_replace": "The team box has been updated, refresh the box to",
+    "text.randblock.basic_block": "This time for the bottom refresh!",
+
+    "jei.tips.unstable_red": "Obtained by treating Redstone ore in a Centrifuge equipped with a Machine Fluid Addon",
+    "jei.tips.polar_lights_prism1": "At night, the Polar Lights Prism converts the Polar Lights Glass in the 3x3 range below it into an Polar Lights Dust Block",
+    "jei.tips.polar_lights_prism2": "If you have a Shining Block of Diamond you can place it in the second space above the Polar Lights Prism and the Polar Lights Prism will work all day",
+    "jei.tips.polar_lights_prism3": "Note: The prism and the Shining diamond block must have an air block between them",
+    "jei.tips.polar_lights_bottle": "At night, use the Capture Bottle to right click on the sky",
+    "jei.tips.capture_bottle": "At night, right-click the Capture Bottle on the sky to get the Polar Lights Bottle",
+
+    "block.kubejs.catalyze_block": "Catalyze Block",
+
+    "tooltip.kubejs.paradox_coin": "After use will randomly get good or bad luck, it is recommended to stay away from home",
+    "tooltip.kubejs.entropy_pickaxe": "Digging the Catalyze Block will give you random items, but it can also be used as a regular pick, if you don't feel wasted",
+    "tooltip.kubejs.transition_compass": "Reset the refresh area square after use",
+
+    "tooltip.kubejs.paradox_coin1": "Random blocks have been updated",
+    "tooltip.kubejs.command_disabled":"This command has been disabled",
+    "tooltip.kubejs.command_not_disabled":"You cannot close this game rule",
+    "tooltip.kubejs.command_not_abled":"You cannot open this game rule",
+    "tooltip.kubejs.command_not_change":"You cannot modify this game rule",
+    "tooltip.kubejs.command_set_true":"Game rule %d has been set as: true",
+    "tooltip.kubejs.command_set_false":"Game rule %d has been set as: false",
+    "tooltip.kubejs.command_set_integr":"Game rule %s has been set as: %s",
+
+    "chemical.mekanismgenerators.sculk_matter_gas": "Sculk Matter Gas",
+
+    "ritual.kubejs.custom_1.started": "In perfusion...",
+    "ritual.kubejs.custom_2.started": "In perfusion...",
+    "ritual.kubejs.custom_3.started": "In perfusion...",
+    "ritual.kubejs.custom_4.started": "In perfusion...",
+    "ritual.kubejs.custom_5.started": "In perfusion...",
+    "ritual.kubejs.custom_6.started": "In perfusion...",
+    "ritual.kubejs.custom_7.started": "In perfusion...",
+    "ritual.kubejs.custom_8.started": "In perfusion...",
+    "ritual.kubejs.custom_9.started": "In perfusion...",
+    "ritual.kubejs.custom_10.started": "In perfusion...",
+    "ritual.kubejs.custom_11.started": "In perfusion...",
+    "ritual.kubejs.custom_12.started": "In perfusion...",
+    "ritual.kubejs.custom_13.started": "In perfusion...",
+    "ritual.kubejs.custom_14.started": "In perfusion...",
+    "ritual.kubejs.custom_15.started": "In perfusion...",
+    "ritual.kubejs.custom_16.started": "In perfusion...",
+    "ritual.kubejs.custom_17.started": "In perfusion...",
+    "ritual.kubejs.custom_18.started": "In perfusion...",
+    "ritual.kubejs.custom_19.started": "In perfusion...",
+    "ritual.kubejs.custom_20.started": "In perfusion...",
+    "ritual.kubejs.custom_21.started": "In perfusion...",
+    "ritual.kubejs.custom_22.started": "In perfusion...",
+
+    "ritual.kubejs.custom_1.finished": "Perfusion completion",
+    "ritual.kubejs.custom_2.finished": "Perfusion completion",
+    "ritual.kubejs.custom_3.finished": "Perfusion completion",
+    "ritual.kubejs.custom_4.finished": "Perfusion completion",
+    "ritual.kubejs.custom_5.finished": "Perfusion completion",
+    "ritual.kubejs.custom_6.finished": "Perfusion completion",
+    "ritual.kubejs.custom_7.finished": "Perfusion completion",
+    "ritual.kubejs.custom_8.finished": "Perfusion completion",
+    "ritual.kubejs.custom_9.finished": "Perfusion completion",
+    "ritual.kubejs.custom_10.finished": "Perfusion completion",
+    "ritual.kubejs.custom_11.finished": "Perfusion completion",
+    "ritual.kubejs.custom_12.finished": "Perfusion completion",
+    "ritual.kubejs.custom_13.finished": "Perfusion completion",
+    "ritual.kubejs.custom_14.finished": "Perfusion completion",
+    "ritual.kubejs.custom_15.finished": "Perfusion completion",
+    "ritual.kubejs.custom_16.finished": "Perfusion completion",
+    "ritual.kubejs.custom_17.finished": "Perfusion completion",
+    "ritual.kubejs.custom_18.finished": "Perfusion completion",
+    "ritual.kubejs.custom_19.finished": "Perfusion completion",
+    "ritual.kubejs.custom_20.finished": "Perfusion completion",
+    "ritual.kubejs.custom_21.finished": "Perfusion completion",
+    "ritual.kubejs.custom_22.finished": "Perfusion completion"
+}

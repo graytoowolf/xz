@@ -1,0 +1,12 @@
+{
+    "machine.fire_generator": "異火提取器",
+    "machine.dye_generator": "染料生成器",
+    "machine.fire_smelter": "異火冶煉廠",
+    "machine.stress_generator": "魔法應力生成器",
+    "machine.sequenced_assembly": "序列裝配機",
+    "machine.batch_inscriber": "批次壓印器",
+    "machine.animal_press": "動物壓榨機",
+    "machine.token_fabricate": "憑證組裝室",
+    "item.custommachinery.custom_upgrade": "機器升級"
+
+}

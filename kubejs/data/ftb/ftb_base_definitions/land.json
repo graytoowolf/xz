@@ -1,0 +1,21 @@
+{
+    "id": "ftb:land",
+    "display": {
+        "description": "Land",
+        "preview_image": "ftb:textures/bases/land.png"
+    },
+    "construction": {
+        "structure_location": "ftb:bases/land",
+        "y_pos": 62,
+        "include_entities": true
+    },
+    "spawn_offset": [
+        -8,
+        0,
+        -22
+    ],
+    "dimension": {
+        "private": false,
+        "dimension_id": "minecraft:overworld"
+    }
+}

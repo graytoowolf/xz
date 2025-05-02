@@ -1,0 +1,202 @@
+{
+  "name": {
+    "text": "machine.sequenced_assembly",
+    "color": "green"
+  },
+  "appearance": {
+    "custommachinery:block": "kubejs:machine/sequenced_assembly"
+  },
+  "components": [
+    {
+      "type": "custommachinery:contraption",
+      "config": {
+        "TOP": "DISABLED",
+        "BOTTOM": "DISABLED",
+        "FRONT": "DISABLED",
+        "RIGHT": "DISABLED",
+        "BACK": "ENABLED",
+        "LEFT": "DISABLED"
+      }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input2",
+      "capacity": 10000,
+      "max_input": 100000,
+      "max_output": 100000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input1",
+      "capacity": 10000,
+      "max_input": 100000,
+      "max_output": 100000
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input4"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input3"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input2"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "id": "upgrade"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": "kubejs:textures/image/create_background.png",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 51,
+      "y": 109
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 230,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input1",
+      "x": 13,
+      "y": 20,
+      "height": 73
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 14,
+      "y": 96,
+      "width": 16,
+      "height": 6,
+      "tanks": [
+        "input1"
+      ]
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input2",
+      "x": 39,
+      "y": 20,
+      "height": 73
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 40,
+      "y": 96,
+      "width": 16,
+      "height": 6,
+      "tanks": [
+        "input2"
+      ]
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 187,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 102,
+      "y": 48,
+      "width": 64,
+      "height": 9
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "x": 96,
+      "y": 27,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input3",
+      "x": 130,
+      "y": 27,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input4",
+      "x": 164,
+      "y": 27,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "x": 63,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 123,
+      "y": 83,
+      "ghost": {
+        "items": {
+          "item": "custommachinery:custom_upgrade"
+        }
+      }
+    }
+  ]
+}

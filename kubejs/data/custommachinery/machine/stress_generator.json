@@ -1,0 +1,63 @@
+{
+  "name": {
+    "text": "machine.stress_generator",
+    "color": "green"
+  },
+  "appearance": {
+    "custommachinery:block": "kubejs:machine/stress_generator"
+  },
+  "components": [
+    {
+      "type": "custommachinery:source",
+      "capacity": 10000,
+      "max_input": 100000,
+      "max_output": 100000
+    },
+    {
+      "type": "custommachinery:contraption",
+      "stress_impact": 128.0,
+      "config": {
+        "TOP": "DISABLED",
+        "BOTTOM": "DISABLED",
+        "FRONT": "DISABLED",
+        "RIGHT": "DISABLED",
+        "BACK": "ENABLED",
+        "LEFT": "DISABLED"
+      }
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "id": "upgrade"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 101
+    },
+    {
+      "type": "custommachinery:source",
+      "x": 81,
+      "y": 40,
+      "width": 10,
+      "height": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 119,
+      "y": 45,
+      "ghost": {
+        "items": {
+          "item": "custommachinery:custom_upgrade"
+        }
+      }
+    }
+  ]
+}

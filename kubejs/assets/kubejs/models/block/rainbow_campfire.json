@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_campfire",
+  "textures": {
+    "fire": "kubejs:block/rainbow_campfire",
+    "lit_log": "kubejs:block/rainbow_campfire_log_lit"
+  },
+  "render_type": "cutout"
+}

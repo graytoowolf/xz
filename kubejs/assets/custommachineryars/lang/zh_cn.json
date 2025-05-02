@@ -1,0 +1,25 @@
+{
+    "custommachineryars.gui.element.source.tooltip": "魔源：%s / %s",
+    "custommachineryars.jei.ingredient.source": "魔源：%s",
+    "custommachineryars.jei.ingredient.source.pertick": "魔源：%s",
+    "custommachineryars.jei.ingredient.source.pertick.input": "每刻消耗魔源 %s @ %s/t",
+    "custommachineryars.jei.ingredient.source.pertick.output": "每刻生成魔源 %s @ %s/t",
+    "custommachineryars.jei.ingredient.source.input": "消耗 %s 魔源",
+    "custommachineryars.jei.ingredient.source.output": "生成 %s 魔源",
+    "custommachineryars.requirements.source.error.input": "魔源不足，需要 %s 但仅有 %s！",
+    "custommachineryars.requirements.source.error.output": "没有足够空间来储存 %s 魔源！",
+    "custommachineryars.requirements.sourcepertick.error.input": "魔源不足，需要 %s 但仅有 %s！",
+    "custommachineryars.requirements.sourcepertick.error.output": "没有足够空间来储存 %s 魔源！",
+    "custommachineryars.connections.send": "机器设置为发送到 %s",
+    "custommachineryars.connections.take": "机器设置为从 %s 接收",
+    "custommachineryars.connections.fail": "距离太远。",
+    "custommachineryars.relay.no_from": "未设置接收位置。",
+    "custommachineryars.relay.no_to": "未设置发送位置。",
+    "custommachineryars.relay.one_from": "从 %d 个位置接收。",
+    "custommachineryars.relay.one_to": "发送到 %d 个位置。",
+    "custommachineryars.gui.creation.components.source.title": "魔源组件",
+    "custommachinery.machine.component.source": "魔源",
+    "custommachinery.machine.guielement.source": "魔源",
+    "custommachinery.machine.component.item_source": "物品（魔源处理器）"
+  }
+  

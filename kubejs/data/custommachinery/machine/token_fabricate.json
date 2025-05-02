@@ -1,0 +1,124 @@
+{
+  "name": {
+    "text": "machine.token_fabricate",
+    "color": "green"
+  },
+  "appearance": {
+    "custommachinery:block": "kubejs:machine/token_fabricate"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 10000,
+      "max_input": 100000,
+      "max_output": 100000
+    },
+    {
+      "type": "custommachinery:source",
+      "capacity": 10000,
+      "max_input": 100000,
+      "max_output": 100000
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input1",
+      "capacity": 10000,
+      "max_input": 100000,
+      "max_output": 100000
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "id": "upgrade"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 49,
+      "y": 110
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 231,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input1",
+      "x": 61,
+      "y": 12,
+      "height": 81
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 40,
+      "y": 12,
+      "height": 81
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 172,
+      "y": 41
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 130,
+      "y": 42
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 94,
+      "y": 41
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 62,
+      "y": 94,
+      "width": 16,
+      "height": 7,
+      "tanks": [
+        "input1"
+      ]
+    },
+    {
+      "type": "custommachinery:source",
+      "x": 30,
+      "y": 12,
+      "width": 7,
+      "height": 19
+    }
+  ]
+}

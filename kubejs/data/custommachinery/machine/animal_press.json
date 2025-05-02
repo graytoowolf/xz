@@ -1,0 +1,90 @@
+{
+  "name": {
+    "text": "machine.animal_press",
+    "color": "green"
+  },
+  "appearance": {
+    "custommachinery:block": "kubejs:machine/animal_press"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 10000,
+      "max_input": 100000,
+      "max_output": 100000
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "id": "upgrade"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 46,
+      "y": 108
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 231,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 46,
+      "y": 16,
+      "height": 85
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 89,
+      "y": 44
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 166,
+      "y": 44
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 123,
+      "y": 45
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 126,
+      "y": 73,
+      "ghost": {
+        "items": {
+          "item": "custommachinery:custom_upgrade"
+        }
+      }
+    }
+  ]
+}
