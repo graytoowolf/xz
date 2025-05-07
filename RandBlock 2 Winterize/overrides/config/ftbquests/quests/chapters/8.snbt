@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "8"
+	group: "7B52078A83B75CA5"
+	icon: {
+		id: "kubejs:adamant_token"
+	}
+	id: "75FDD7E7BB84E1D7"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7A56FF0C2607A29D"
+				"72ED39700771748C"
+				"79ACDFF3B15E4120"
+				"7FCC057AD999362E"
+				"5A8A9E6A01706BD2"
+				"0E0FB8E9AED7F2B2"
+				"548F8EF0BE0B9533"
+				"00EC8094DF621F52"
+				"28ADFA03AD3E871B"
+				"236D2663298D74A8"
+				"554329AA814954D0"
+				"67C11F44CFD1F2C5"
+				"5729538D1C3640CB"
+				"16A1432D9E48C69A"
+			]
+			id: "4DD62A7923D02159"
+			rewards: [
+				{
+					id: "129AD28A7E09F858"
+					item: {
+						count: 1
+						id: "kubejs:stage_time_master"
+					}
+					type: "item"
+				}
+				{
+					id: "2EA421368A1F70F2"
+					item: {
+						count: 1
+						id: "ae2:creative_storage_cell"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "54D30BE149648F3F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "236D2663298D74A8"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "61415AFECEFED9A9"
+				item: { count: 1, id: "kubejs:adamant_token" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "548F8EF0BE0B9533"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "38227876FF4FBAD0"
+				item: { count: 1, id: "kubejs:echo_token" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "7A56FF0C2607A29D"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "0C34C59F37C01688"
+				item: { count: 1, id: "kubejs:calculation_token" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			id: "5729538D1C3640CB"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "12013499E66F4C89"
+				item: { count: 1, id: "kubejs:copper_token" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "16A1432D9E48C69A"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0494831F4B9115F4"
+				item: { count: 1, id: "kubejs:diamond_token" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "67C11F44CFD1F2C5"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "15458570D5E9E5D3"
+				item: { count: 1, id: "kubejs:engineering_token" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "554329AA814954D0"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "35197A6244673BBD"
+				item: { count: 1, id: "kubejs:glowstone_token" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "0E0FB8E9AED7F2B2"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0C19D91692407C7B"
+				item: { count: 1, id: "kubejs:gold_token" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "00EC8094DF621F52"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "055738F777440E2D"
+				item: { count: 1, id: "kubejs:iron_token" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "28ADFA03AD3E871B"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "018EBE48B0742BDA"
+				item: { count: 1, id: "kubejs:lapis_token" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "5A8A9E6A01706BD2"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "17ABF732220D2BC1"
+				item: { count: 1, id: "kubejs:netherite_token" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "72ED39700771748C"
+			tasks: [{
+				consume_items: true
+				id: "67CE8DFD0C328F0E"
+				item: { count: 1, id: "kubejs:recipe_token" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "79ACDFF3B15E4120"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "5BB15449B86040E1"
+				item: { count: 1, id: "kubejs:redstone_token" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "7FCC057AD999362E"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "5DDC9EAB3B01CA6B"
+				item: { count: 1, id: "kubejs:sky_token" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+}

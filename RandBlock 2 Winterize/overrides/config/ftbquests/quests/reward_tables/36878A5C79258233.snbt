@@ -1,0 +1,11 @@
+{
+	id: "36878A5C79258233"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "5A47FDB4BBDA208F", item: { count: 1, id: "mekanism:basic_tier_installer" } }
+		{ id: "14BC4A53F7359AAA", item: { count: 1, id: "mekanism:advanced_tier_installer" } }
+		{ id: "2D89D946F9D7FA61", item: { count: 1, id: "mekanism:elite_tier_installer" } }
+		{ id: "6FF770919C3BF9F9", item: { count: 1, id: "mekanism:ultimate_tier_installer" } }
+	]
+}

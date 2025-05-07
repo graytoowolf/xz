@@ -1,0 +1,15 @@
+[options]
+	#Prevents Death by Teleporting Player to Spawn if trying to enter an Ender Portal
+	preventdeath = true
+	#Message that displays when Teleport is blocked
+	blockedmessage = "You cannot enter this dimension!"
+	#Title for the Advancements
+	craftedmessage = " "
+	#Description for the Advancements
+	description = " "
+	#Comma seperated list of items that when crafted unlock the corresponding dimension
+	craftitems = "kubejs:frostvein_log"
+	#Comma seperated list of Dimension Resource Names
+	dimresname = "minecraft:the_nether"
+	#Comma seperated list of Dimension Display Names
+	dimnames = "Nether"

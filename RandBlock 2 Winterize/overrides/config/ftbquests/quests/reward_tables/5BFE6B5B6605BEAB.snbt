@@ -1,0 +1,31 @@
+{
+	id: "5BFE6B5B6605BEAB"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 4
+			id: "20F6F98A391AB7EF"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+		}
+		{
+			count: 4
+			id: "5D34049EF12EDDFF"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+		}
+		{
+			count: 4
+			id: "7DD7C2F07F28A108"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_chemical"
+			}
+		}
+	]
+}

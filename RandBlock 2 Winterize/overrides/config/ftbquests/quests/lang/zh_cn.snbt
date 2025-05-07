@@ -1,0 +1,720 @@
+{
+	chapter.069521AFE8C6E7AB.title: "天际归舟"
+	chapter.14A06BE761BC8B5F.title: "随机"
+	chapter.1ADD781A26C73701.title: "云水之间"
+	chapter.2244CF7722F97F2B.title: "序"
+	chapter.331E338FA7EA0AD4.title: "实用蓝图"
+	chapter.38D49EC307F0140D.title: "纸上烟云"
+	chapter.4D4749397052D7C2.title: "实用物品"
+	chapter.4E9CB8F7789AED74.title: "竹影扫阶"
+	chapter.5037E5A4207E806D.title: "借风和吟"
+	chapter.5BAF9860D79A06A2.title: "归去来兮"
+	chapter.68139194EFDDFE77.title: "商店"
+	chapter.6E0570400FAB5578.title: "雪映长空"
+	chapter.75FDD7E7BB84E1D7.title: "山高水长"
+	chapter.798734E6E7EBD503.title: "风止念起"
+	chapter_group.00E28322BE01D8B3.title: "额外"
+	chapter_group.707E332F9DC32E2B.title: "序章"
+	chapter_group.7B52078A83B75CA5.title: "主线"
+	quest.0160974B62CA67E6.quest_desc: ["挖掉它吧！"]
+	quest.01776AA4C3246C09.quest_desc: [""]
+	quest.03C1F0A93E38FF82.quest_desc: [
+		"AE网络中的该物品&6吞吐量>=20/tick&r即可完成该任务"
+		""
+		""
+		"吞吐量：指外部存储输入AE网络或AE网络输出到外部存储某样物品的效率 例如：使用4物品/tick的管道从一个满箱子向一个连接入网络的ME接口输出石头，那么石头的吞吐量为4/tick，反之从ME接口向箱子输出石头，吞吐量为-4/tick"
+	]
+	quest.03C1F0A93E38FF82.title: "无限青色混凝土！"
+	quest.03E106232835680A.quest_desc: [
+		"解放星宝石兽劳动力！"
+		""
+		"它的两边需要放置水源和岩浆"
+		"流体抽屉也可以"
+	]
+	quest.045CDB031C17A75B.quest_desc: [
+		"使用极光瓶右键灌注铜块"
+		"有10%的概率放置细雪块"
+		"（即使没有放置细雪块，灌注铜块会消耗）"
+		""
+		"生成细雪块后使用奥术桶右键该方块获得细雪桶"
+		""
+		"当然，如果你一开始就使用霜冻炼药锅收集了细雪就可以跳过这一步了"
+	]
+	quest.04FF19BAE8F21207.quest_desc: ["你刚刚绘制的五芒星还没擦掉吧"]
+	quest.066D81CA74A0BC3E.quest_desc: [
+		"将冰霜核心扔进末地传送门"
+		""
+		"然后去末地看看"
+	]
+	quest.075B6875E6C5B883.quest_desc: ["魔源电力和电力魔源"]
+	quest.075B6875E6C5B883.title: "梯云纵！"
+	quest.075DBC0933752F54.quest_desc: [
+		"右键该屏幕选择任务"
+		""
+		"然后使用管道等输入对应流体即可"
+	]
+	quest.07B556772BA739E2.quest_desc: ["我应该还种不了它"]
+	quest.08D8B1190ACBD5C6.quest_desc: [
+		"仪式：欧菲克斯的呼唤"
+		""
+		"你可与在 阿维亚之环 的基础上拓展成该仪式"
+		""
+		"拓展后的五芒星仪式可支持 阿维亚之环 和 欧菲克斯的呼唤 的所有配方"
+	]
+	quest.0941C17D75888212.quest_desc: ["小帮手可以在灵火中充电"]
+	quest.097D18E74700BAF5.quest_desc: [
+		"天气掌控者"
+		""
+		""
+		"根据掉落在附近的物品，消耗灵气更改天气，可以通过不断扔同种物品延长天气更改的时间。"
+		""
+		"需要更改的天气与主世界天气一致时，一样会消耗物品和灵气。"
+		""
+		"向日葵——晴天"
+		""
+		"火焰弹——雷雨天"
+		""
+		"&m暗海晶石——雨天&r"
+		"&m当然你现在无法获得暗海晶石&r"
+		"&m不过雷雨天跟雨天又有什么区别呢&r"
+	]
+	quest.09B056CC43CC12BF.title: "oritech插件抽奖"
+	quest.09CE9425F8FDD178.quest_desc: [
+		"16 种颜色的营火"
+		"16 种颜色的火焰"
+		""
+		"如果不喜欢营火燃烧的粒子效果"
+		"可以使用斧头右键营火灭火"
+		"灭火后的营火同样可以剪出火焰"
+		""
+		"&m&n别忘了普通营火右键可以转为带有颜色的营火&r&r"
+	]
+	quest.0AE1C6FE889E50B0.title: "蜘蛛黏液"
+	quest.0B43DB01E9F90D12.quest_desc: [
+		"&6HugMe! &r：对好友使用抱抱券发起抱抱请求"
+		""
+		"&6Let Me Feed You!&r：对好友使用食物进行投喂"
+	]
+	quest.0B661153E7580D4A.quest_desc: [
+		"一如既往"
+		""
+		"死亡不掉落已打开"
+	]
+	quest.0B7D19C9F022361D.quest_desc: ["金锭增产"]
+	quest.0BAA383779FC1C19.quest_desc: [
+		"早上一杯"
+		"中午一杯"
+		"晚上一杯"
+	]
+	quest.0D331CEC6F609128.title: "我要飞我要飞"
+	quest.0D3696696AB4C8AD.title: "抽奖"
+	quest.0D5D66CD47BC7B5A.title: "悖论硬币"
+	quest.0DC3BD54A76F7076.quest_desc: [
+		"虚空粉笔可以当作任意粉笔使用"
+		""
+		"闭着眼直接画就是了"
+	]
+	quest.0DC3BD54A76F7076.title: "我掌握了所有五芒星"
+	quest.0E22436CEADF181D.quest_desc: ["树皮可以做纸"]
+	quest.0E53ABEEDFED903E.title: "相当于钻石工具"
+	quest.10F09D79DAF2AEB2.title: "商店"
+	quest.1382E1BDD8543A08.quest_desc: [
+		"你可以给星宝石兽戴上挖掘工帽"
+		"使它可以挖掘方块"
+		"以此给你的刷石机做一个简单的自动化"
+		""
+		""
+		"注：即使你的刷石机下方放置了漏斗，也请你给星宝石兽设置一个存储箱子，否则它将不会工作"
+		""
+		"注2：若设置正确但星宝石兽不工作，可以尝试击杀它并重新放置"
+		""
+		"设置方式："
+		"1、&6shift + 右键&r 需要&a挖掘的方块&r，然后 &6右键&r &a星宝石兽&r"
+		"2、&6右键&r &a星宝石兽&r，&6shift + 右键&r &a存储方块&r"
+	]
+	quest.14CB2704CB681496.quest_desc: [
+		"AE网络中的该物品&6吞吐量>=20/tick&r即可完成该任务"
+		""
+		""
+		"吞吐量：指外部存储输入AE网络或AE网络输出到外部存储某样物品的效率 例如：使用4物品/tick的管道从一个满箱子向一个连接入网络的ME接口输出石头，那么石头的吞吐量为4/tick，反之从ME接口向箱子输出石头，吞吐量为-4/tick"
+	]
+	quest.1597CA017C3166CD.title: "MEK升级抽奖"
+	quest.16B08585CC563A01.quest_desc: ["小帮手可以在灵火中充电"]
+	quest.177715266BE0D816.title: "赚钱"
+	quest.18ABE27A93153F23.quest_desc: ["夜晚使用捕获瓶对准天空右键"]
+	quest.1AEC1C7B101BD25C.quest_desc: [
+		"它可以消耗电在附近的魔源罐中产生魔源"
+		""
+		"需要2格之内存在非空的魔源罐"
+		""
+		"如果没有魔源罐，它可以产生自然灵气的灵气"
+	]
+	quest.1AEC1C7B101BD25C.title: "电力魔源"
+	quest.1B7CBAFFEE6A36FE.title: "Stage 2"
+	quest.1C286C13057F0716.title: "工业先锋升级抽奖"
+	quest.1C347615E1E3E0FB.title: "升级抽奖箱"
+	quest.1CCFE38202C48C71.title: "夜视模块"
+	quest.1CEA4C3F0EC76E4D.title: "染料生成器"
+	quest.1D1B78068E23FC9E.quest_desc: [
+		"打包机会将其靠近的存储系统中的物品打包成包裹"
+		"对打包机输入红石信号即可进行打包操作"
+		"使用漏斗可将包裹导出"
+		""
+		"打包后的包裹输入打包机可将其解包成物品输入到其紧靠的存储系统"
+		""
+		"先放置存储系统后放置打包机会自动将输入端紧贴存储系统"
+	]
+	quest.1D775BA77117D72E.quest_desc: ["可以使仪式制作时间缩短为原来的四分之一"]
+	quest.1E6C71B6AFB6C2E2.quest_desc: ["再种一次"]
+	quest.1EB8645D93AD829C.title: "赚钱"
+	quest.1F85912F1E0FAE6A.title: "认养一头牛"
+	quest.20569265CD29B312.quest_desc: ["红石矿石增产"]
+	quest.2060A3B6497C8C38.quest_desc: ["工作效率稍慢于原版漏斗"]
+	quest.207E8930717DC1AE.quest_desc: ["你可以拆掉你的雪傀儡农场了"]
+	quest.2205CDBC27F77740.quest_desc: [
+		"AE网络中的该物品&6吞吐量>=20/tick&r即可完成该任务"
+		""
+		""
+		"吞吐量：指外部存储输入AE网络或AE网络输出到外部存储某样物品的效率 例如：使用4物品/tick的管道从一个满箱子向一个连接入网络的ME接口输出石头，那么石头的吞吐量为4/tick，反之从ME接口向箱子输出石头，吞吐量为-4/tick"
+	]
+	quest.2205CDBC27F77740.title: "无限圆石！"
+	quest.222874241F90E9ED.title: "磁铁模块"
+	quest.23B78210F891F72B.title: "外星科技"
+	quest.242BCFA40F21A622.title: "采集模块"
+	quest.2528F45E4D41D3AA.quest_desc: ["金矿增产"]
+	quest.26D440ED12315611.quest_desc: [
+		"右键任务屏幕选择任务"
+		""
+		"然后使用管道等输入对应流体即可"
+	]
+	quest.26D440ED12315611.title: "无限岩浆！"
+	quest.26E83743D8008B20.quest_desc: [
+		"铸造器也可以造萤石粉"
+		""
+		"完成试炼吧"
+		"它会给你一个刷怪笼"
+		"你可以做一个苦力怕农场"
+	]
+	quest.26E83743D8008B20.title: "萤石同化"
+	quest.27026386468483A6.quest_desc: [
+		"使用物品卷轴右键星宝石兽可以过滤工作物品"
+		""
+		"注：每次重启游戏都需重新为星宝石兽过滤 "
+	]
+	quest.27026386468483A6.title: "家养小宠物"
+	quest.27F870E0D91C1BFB.quest_desc: [
+		"它仍然是可以合成的"
+		""
+		"当然，侵染树叶也没问题"
+	]
+	quest.29532EFA8CFCCC8D.quest_desc: ["滴水石锥滴沙砾可以获得铜矿"]
+	quest.2A494300F52E2C69.quest_desc: ["红石自由！"]
+	quest.2B321574068E9ED3.quest_desc: [
+		"一杯茶 一包烟"
+		"三杯咖啡干一天"
+		""
+		""
+		"任务物品为该机器所需全部方块"
+		""
+		"提交全部物品领取结构生成器"
+		"1、生成器放置位置为整个结构最底层的中心点"
+		"2、核心机器不会自动放置，需玩家手动放置"
+		"3、玩家可在 实用蓝图 章节再次通过消耗物品来领取结构生成器"
+		"4、机器大小：7x8x7"
+		""
+		""
+		"（切记：千万不可使用复制粘贴小帮手粘贴复制该结构，有几率闪退）"
+	]
+	quest.2B321574068E9ED3.title: "一天有多少tick来着？"
+	quest.2B5B67D2FEB03352.quest_desc: ["小帮手可以在灵火中充电"]
+	quest.2B91C7FFC2DE95A0.title: "铁熔炉升级抽奖"
+	quest.2C3451160D17E546.quest_desc: [
+		"需在自然祭坛反应50s"
+		""
+		""
+		"先喝杯咖啡放松一下吧"
+		""
+		"咖啡机会在每天早上自动生成一杯咖啡"
+		""
+		"你可以喝掉它"
+		""
+		"或者存起来"
+	]
+	quest.2D18EA3845E9210C.quest_desc: [
+		"记得给它接入应力哦"
+		""
+		"它还需要放入&63个机器&r才可以工作"
+	]
+	quest.2D338BF70E70A3E5.quest_desc: [
+		"欢迎来到 &6随机空岛2：银装素裹&r"
+		""
+		"一如既往，你再次来到了这个岛屿"
+		"3x3的&a哭泣黑曜石&r平台上同样会跟随阶段刷新一些随机的方块"
+		"当然，需要&a你手持启动器右键&r启动后才会开始"
+		""
+		"这次，启动器&a不会&r在开局就送给你"
+		""
+		"尽力推进任务吧，启动器就藏在某些&a任务的奖励&r中"
+	]
+	quest.2D527CD066B751B0.quest_desc: [
+		"五芒星升级时间到"
+		""
+		"&a阿巴拉斯开环召唤术&r"
+	]
+	quest.2D6C28AF2103FEE4.quest_desc: ["金锭自动化"]
+	quest.2E616BF4E370A37E.quest_desc: ["你可以给你的铁产线做一个自动化了"]
+	quest.2E616BF4E370A37E.title: "万能的路由器"
+	quest.2EF133A86F00407D.quest_desc: ["还记得那头牛吗"]
+	quest.2FAA472EE7CEE726.quest_desc: [
+		"虽然没有无限水"
+		"但你可以使用水瓶和霜冻炼药锅获取更多的水"
+	]
+	quest.2FF04E33891A02F4.quest_desc: [
+		"炼钢！"
+		""
+		"但是现在高炉只可以使用红莲业火为燃料"
+	]
+	quest.2FFBCB2C9320CF9B.quest_desc: [
+		"使用目标标识器右键目标方块"
+		""
+		"然后再次shift+右键末影激光器"
+		""
+		"即可为末影激光器标记位置"
+		""
+		"注：末影激光器激光所过之处都会将其方块挖掘下来(除了基岩和紫水晶母岩)"
+		""
+		"它会促进母岩增长"
+	]
+	quest.3020C66011D9E435.quest_desc: [
+		"AE网络中的该物品&6吞吐量>=20/tick&r即可完成该任务"
+		""
+		""
+		"吞吐量：指外部存储输入AE网络或AE网络输出到外部存储某样物品的效率 例如：使用4物品/tick的管道从一个满箱子向一个连接入网络的ME接口输出石头，那么石头的吞吐量为4/tick，反之从ME接口向箱子输出石头，吞吐量为-4/tick"
+	]
+	quest.3020C66011D9E435.title: "无限泥土！"
+	quest.318E6470846643CE.title: "哎？怎么这么熟悉"
+	quest.31CD53B4EA30407F.title: "蓝图打印"
+	quest.3232979D9F5C5BA1.quest_desc: ["有光照的地方不会有积雪"]
+	quest.327B5DA57D1DB571.quest_desc: [""]
+	quest.32EB2D8007144CBD.title: "MEK工厂购买"
+	quest.33B4C4F9F5CD9AB6.quest_desc: [
+		"霜冻炼药锅跟原版的炼药锅一样"
+		""
+		"下雨时会收集雨水"
+		"下雪时会收集细雪"
+		""
+		"这个世界只会下雪"
+		"你可以&6尽早收集起细雪&r了"
+		""
+		"它会给你带来一些帮助的"
+		""
+		"建议你多收集一些，它还是稍微需要一点的"
+		""
+		"&a你知道吗：&r使用玻璃瓶可以将炼药锅里的雪装起来，就像装水那样"
+	]
+	quest.361D633D784F9B3D.title: "工作服"
+	quest.381EE9A729D474ED.title: "大型分子装配"
+	quest.3837D5A1F9B25997.quest_desc: [
+		"你看到旁边有棵树了吗"
+		""
+		"它可以在工作台中增殖"
+	]
+	quest.38DAF63BC9070BF9.title: "跃迁罗盘"
+	quest.392E5FE7A845D7D2.title: "惯性模块"
+	quest.3B0606C6FD6F9F71.title: "第一个创造物品"
+	quest.3CA282B42A1CF0F0.quest_desc: [""]
+	quest.3CA282B42A1CF0F0.title: "烧裂了"
+	quest.3D31DC55F70D411E.quest_desc: ["自定义机器升级！"]
+	quest.3D9F4919E65CA8F8.quest_desc: [
+		"蜘蛛在玩家256格以内"
+		"每60s会吐一次蜘蛛网"
+		""
+		"这将是你前期唯一的线的来源"
+		""
+		"&m当然你也可以干掉蜘蛛来获取线&r"
+		""
+		"&6你可以手持命名牌 使用 /nametag <name> 指令来为命名牌赋名&r"
+		""
+		"命名生物死亡会掉落命名牌"
+	]
+	quest.3E9C60AB44434CBE.title: "30秒"
+	quest.3EAA455D1382D522.title: "装箱珍珠"
+	quest.40C2AF5D1B40BF58.title: "机器大升级"
+	quest.411E29A73E38E7E6.title: "Stage 3"
+	quest.41E720274198BE90.quest_desc: [
+		"如果你有幸获得了悖论硬币、熵能镐、跃迁罗盘其中之一"
+		"将有可能获得超越当前阶段的方块"
+	]
+	quest.42A7DE86B70BB0A0.quest_desc: [
+		"在物品栏或JEI对物品按 Y 键"
+		"可在附近箱子中寻找该物品"
+		"寻找到的箱子会显示粒子效果"
+	]
+	quest.42D74929213E5EF0.title: "金属冲压机"
+	quest.436832E355E36DFA.quest_desc: [
+		"尝试使用奥术桶来接一接牛奶吧"
+		""
+		"当然也可能不是牛奶"
+		""
+		""
+		""
+		""
+		""
+		"使用奥术桶右键牛"
+		"有相同的概率获得水桶、熔岩桶、奶桶其中之一"
+	]
+	quest.436832E355E36DFA.title: "核能奶牛"
+	quest.449E9CDE3412E92F.title: "Stage 4"
+	quest.44C4F9978C3898FB.quest_desc: [
+		"使用冰凌右键雪人即可获得工作台"
+		""
+		"{@pagebreak}"
+		"&a由于游戏光碟模组：Game Discs 与服务端不兼容&r"
+		"&6故新增工作台来源&r"
+		"&a原游戏机游玩飞翔的蜜蜂游戏最大记录大于5时，使用游戏机左键空气获得工作台的逻辑并未删除&r"
+		"&6若玩家非服务端，可自行添加 Game Discs 模组体验该流程&r"
+		"当背包中有游戏光碟时"
+		"右键游戏机打开GUI"
+		""
+		"W/S选择游戏，空格或回车开始游戏，Q退出游戏，R重置游戏"
+		""
+		"游玩飞翔的蜜蜂游戏"
+		"每次游戏都会留下最大记录"
+		"当最大记录&6>=5&r时"
+		""
+		"使用游戏机&6左键空气&r"
+		"可获得工作台"
+		""
+		"注："
+		"1、游戏机本体bug，仅会在游戏中的最佳分数位置显示首次大于0的分数，后续不会更新，不影响最大分数记录"
+		"2、若真的出现游戏分数>=5而左键无效的情况，可以在工作台中合成重置游戏机，重置后需重新通关游戏"
+	]
+	quest.4959313AAD42A78E.quest_desc: ["挖掉会获得冰晶石碎片"]
+	quest.4AA624CCFD7F0819.title: "赚钱"
+	quest.4B715A252223EDC3.title: "Stage 1"
+	quest.4C1DE72BDED3AD86.quest_desc: [
+		"哦 "
+		"它是个单方块"
+		""
+		"消耗电力和魔源"
+		"使用支配之杖&6shift右键&r魔源罐然后&6shift右键&r机器，可以将魔源导入机器"
+	]
+	quest.4C8E5FE16AB6A0A4.quest_desc: [
+		"只能在白天工作"
+		""
+		"不需要燃料"
+		""
+		"工作效率为熔炉的四分之一"
+		""
+		"可在其中放入反光板提高工作效率"
+	]
+	quest.4DD62A7923D02159.title: "完结！"
+	quest.4E216C5DCDD1D7E2.quest_desc: [
+		"使用 复制粘贴小帮手 可以保存或者加载蓝图"
+		""
+		"具体用法请自行查看书籍"
+	]
+	quest.4E28D5BA00A94230.title: "pipez升级抽奖"
+	quest.4F4107098253C304.title: "mob插件抽奖"
+	quest.4F77597658C42A3A.title: "Stage 0"
+	quest.50A0601867242260.quest_desc: [""]
+	quest.510B9EA22891411A.quest_desc: [""]
+	quest.515CE9F77B27DB4A.quest_desc: [
+		"在晚上，极光棱镜会将其下方3x3范围内的极光玻璃转化为极光尘块"
+		"{image:kubejs:textures/image/2025-02-21_11.52.05.png width:40 height:40 align:left} "
+		"↓"
+		"{image:kubejs:textures/image/2025-02-21_11.53.00.png width:40 height:40 align:left}"
+		"如果你有 &6闪耀的钻石块&r"
+		"可以将其放置在极光棱镜 上方第二格的位置，这样极光棱镜将会全天工作"
+		"注：棱镜和闪耀的钻石块中间必须为空气方块"
+		""
+		"{image:kubejs:textures/image/2025-02-21_11.52.25.png width:40 height:40 align:left}"
+		"↓"
+		""
+		"{image:kubejs:textures/image/2025-02-21_11.53.16.png width:40 height:40 align:left}"
+	]
+	quest.52B4B49728840CEF.quest_desc: ["购买一点绿宝石"]
+	quest.52F491CF21FB4F87.quest_desc: ["小帮手可以在灵火中充电"]
+	quest.52F85F477F913821.quest_desc: [
+		"方块施肥器可以使用电和水来达到施肥的效果"
+		"{image:kubejs:textures/image/fertilizer.png width:200 height:200 align:center}"
+	]
+	quest.52F85F477F913821.title: "砍树小套装"
+	quest.538B0C4BB5738888.quest_desc: [
+		"这个世界不会主动刷怪(包括和平生物)"
+		""
+		"但你仍然可以通过诸如刷怪蛋、刷怪笼等方式见到怪物"
+	]
+	quest.540122B6FF9E1859.quest_desc: [
+		"使用染料直接右键营火可为其染色"
+		""
+		"当然也可以在工作台合成"
+	]
+	quest.540122B6FF9E1859.title: "异火炼铜"
+	quest.558B48FF555DF4A8.title: "MEK升级购买"
+	quest.572D7AC7678B9C72.quest_desc: ["随机方块，启动！"]
+	quest.57B765281868D580.quest_desc: ["我没有跳舞树"]
+	quest.57BE1BE620B55930.quest_desc: [
+		"使烈焰人燃烧室超级加热"
+		"甚至持续时间更长"
+	]
+	quest.590DD018111A1A5B.title: "熵能镐"
+	quest.5A27802E224E66AB.quest_desc: [
+		"你不需要搭建这个结构"
+		""
+		"当然，搭建了也么得用"
+	]
+	quest.5B94E22F5412F996.quest_desc: [
+		"几乎跟熔炉差不多"
+		""
+		"工作效率是熔炉的二分之一"
+	]
+	quest.5C3F84EA7CC993A7.title: "速度模块"
+	quest.5D70F3BD80F1236B.quest_desc: ["消耗魔源产生应力"]
+	quest.5D70F3BD80F1236B.title: "魔法驱动"
+	quest.611278C1051198C6.quest_desc: ["更快更大量的压印"]
+	quest.62591C72C6F61D8D.title: "请老天喝杯咖啡"
+	quest.628F8417032E2469.quest_desc: ["青金石自动化"]
+	quest.6406B25ABB2DDC56.quest_desc: [""]
+	quest.6406B25ABB2DDC56.title: "第一块金属"
+	quest.643196DDF8F06DF8.quest_desc: [
+		"右键任务屏幕选择任务"
+		""
+		"然后使用管道等输入对应流体即可"
+	]
+	quest.643196DDF8F06DF8.title: "无限水！"
+	quest.654A2EAF95848FB1.quest_desc: ["不需要第三只眼也可以收获的树苗"]
+	quest.6584099162EC5CA2.quest_desc: [
+		"将一个仓储链接器放置在打包机上"
+		""
+		"然后将另一个链接器右键刚刚放置的链接器以连接到同一网络"
+		""
+		"将链接后的链接器放置在另一台打包机上"
+		""
+		"两台打包机即在同一网络"
+	]
+	quest.65DCAC064A3F633F.quest_desc: [
+		"它可以当燃料使用"
+		"燃烧时间是现实世界的4个小时"
+		"如果你不觉得浪费的话"
+	]
+	quest.65E53BD75A6F3539.quest_desc: [
+		"由于需要收集雪后物品"
+		""
+		"所以前期可能长时间处于下雪状态"
+		""
+		"可以通过 &6选项-视频设置-细节-天气&r 按钮控制 下雪粒子是否可见"
+		"放置&6火把、野火灯笼&r等光照物品可以保证地上没有积雪"
+	]
+	quest.65EB67C0F4454997.quest_desc: [
+		"AE网络中的该物品&6吞吐量>=20/tick&r即可完成该任务"
+		""
+		""
+		"吞吐量：指外部存储输入AE网络或AE网络输出到外部存储某样物品的效率 例如：使用4物品/tick的管道从一个满箱子向一个连接入网络的ME接口输出石头，那么石头的吞吐量为4/tick，反之从ME接口向箱子输出石头，吞吐量为-4/tick"
+	]
+	quest.65EB67C0F4454997.title: "无限白色混凝土！"
+	quest.66048388021FF72E.title: "赚钱"
+	quest.6642CED731BB8AC5.quest_desc: [
+		"使用工厂仪表右键仓储链接器以加入网络"
+		""
+		"将仪表放置在网络中的第二台打包机（即解包机）上"
+		""
+		"在第一台打包机上放置告示牌，并写入任意文字（如：地址1），该文字即为该打包机的标识"
+		""
+		"在刚刚放置的仪表上设置对应的物品（如红石粉）"
+		""
+		"对仪表长按右键可以设置对应物品的数量（如32个红石粉）"
+		""
+		"右键仪表打开GUI，在 发送到 位置写入第一台打包机标识（即：地址1）"
+		""
+		"此时，如果第一台打包机对应的存储中存在仪表标记的物品（即：32个红石粉）"
+		""
+		"仪表会自动请求 地址1 的打包机输出对应物品（即：包含32个红石粉的包裹）"
+		""
+		"注：包裹不会自动进入第二台打包机，需玩家使用传送带或管道等物流系统进行帮助运输"
+	]
+	quest.6642CED731BB8AC5.title: "打包流水线"
+	quest.66A830760A9E565E.quest_desc: [""]
+	quest.67757C38C8F51D76.title: "异火提取器"
+	quest.678DECF720FA4677.quest_desc: [
+		"它可以消耗魔源罐里的魔源生产电"
+		""
+		"需要2格之内存在非空的魔源罐"
+	]
+	quest.678DECF720FA4677.title: "魔法电力"
+	quest.67FA216375601209.quest_desc: [
+		"仪式：阿维亚之环"
+		""
+		"魔灵全典找到该仪式可放置虚影于世界中"
+		"若魔灵全典内容为空可以shift+点击书籍右边的图标解锁全部内容"
+		""
+		"按照地上的虚影画对应的颜色，放置对应的物品"
+		""
+		"在仪式任意空白处放置献祭之碗"
+		""
+		"根据JEI提示物品，在献祭之碗上放置所需物品，最后在黄金献祭之碗上放置核心物品"
+		""
+		"等待一段时间"
+		""
+		"合成完毕"
+	]
+	quest.6995A2E8FE403A20.title: "锻造模板抽奖箱"
+	quest.6A24CEB1DD39AFCC.quest_desc: [
+		"/sethome 设置一个家"
+		"/home 返回家"
+		"/back 返回上一次传送位置或死亡位置"
+		""
+		""
+		"/ftbteambases home 回到岛屿出生点"
+		"/ftbteambases lobby 回到大厅 "
+	]
+	quest.6B191784099EDF69.quest_desc: [
+		"记得保持花朵周围的亮度"
+		""
+		"一旦形成雪片，花朵将重新变为冻花"
+	]
+	quest.6B613776EADC653A.quest_desc: [
+		"手动灵气"
+		""
+		"将 &6灵气花&r 放置到地上，使用 &6黄金叶&r &a右键&r &6灵气花&r"
+		""
+		"&6消耗&r一片黄金叶和一朵灵气花"
+		""
+		"为区块释放500000灵气"
+	]
+	quest.6B9271A87B2EA83D.quest_desc: [
+		"将冰霜核心扔进末地传送门"
+		""
+		"然后去末地看看"
+	]
+	quest.6BF0ACE64BD59294.quest_desc: ["想必你已经获得了沙子吧"]
+	quest.6CAD6FBF99F0C00D.quest_desc: ["简单的原版刷石机"]
+	quest.6F0B63A636EBA712.quest_desc: [
+		"提交全部物品领取结构生成器"
+		"1、生成器放置位置为整个结构最顶层的中心点"
+		"2、核心机器不会自动放置，需玩家手动放置"
+		"3、玩家可在 实用蓝图 章节再次通过消耗物品来领取结构生成器"
+		"4、机器大小：5x3x5"
+		""
+		"消耗魔源"
+		"使用支配之杖&6shift右键&r魔源罐然后&6shift右键&r机器，可以将魔源导入机器"
+	]
+	quest.714906C4B9A221A2.quest_desc: ["下雪天将极光尘扔入装有细雪的霜冻炼药锅中"]
+	quest.72063CBE56A663CF.quest_desc: ["石英自由！"]
+	quest.72266571CD4742C7.quest_desc: [
+		"你可以种一片地"
+		"也可以使用水培床"
+		""
+		"这个种子不能增殖"
+	]
+	quest.72EE61044C8DE1D4.quest_desc: ["科技的味道"]
+	quest.72EE61044C8DE1D4.title: "科技前夕"
+	quest.73C507241744C6C8.quest_desc: [
+		"做一个雪傀儡吧"
+		""
+		"它发出的雪球具有伤害"
+		"且被雪傀儡杀死的生物会变成一只雪傀儡"
+		""
+		"雪傀儡死亡会掉落雪魄"
+		"接下来你会大量使用到雪魄"
+		""
+		""
+		"你知道一开始产线的蜘蛛会掉落蜘蛛刷怪蛋吗"
+		"你知道有名字的生物死亡会掉落对应的命名牌吗"
+		""
+		""
+		"利用这些信息，做一个雪傀儡农场吧"
+		""
+		"什么？雪傀儡被雪傀儡杀死？那不是永动机吗"
+	]
+	quest.73C507241744C6C8.title: "它好贵啊"
+	quest.74AD922AFD8A4604.quest_desc: ["离心机 + 流体处理插件 = 可以离心流体的离心机"]
+	quest.74B94D8A1891A896.title: "量子CPU"
+	quest.758FAC3A84DE7D1A.quest_desc: [
+		"将检测终端链接至AE"
+		""
+		"使用需要检测吞吐量的物品右键终端"
+		""
+		"使用配置器右键终端选择/tick吞吐量以方便查看"
+	]
+	quest.759F8A0E04946937.title: "MEK工厂抽奖"
+	quest.75EFC2D6C71C9898.title: "工具抽奖箱"
+	quest.761CC45B7A1CE62F.title: "功能性存储升级抽奖"
+	quest.76F9C25AD3980499.quest_desc: ["你得到这些矿物了吗"]
+	quest.786832BB75330A1E.quest_desc: ["更快速的产铜"]
+	quest.7A41FBB6478BEAEF.quest_desc: [
+		"无限水已关闭"
+		""
+		"当然，只是为了乐趣，并非为了难度"
+	]
+	quest.7AD76A90086EDC11.quest_desc: ["次元物质的增殖"]
+	quest.7B75B79465582F02.quest_desc: ["熔炉只能烧出3个铜粒"]
+	quest.7BDF29F1F0C96A62.quest_desc: [
+		"一如既往"
+		""
+		"扩岛的材料我也准备好了"
+	]
+	quest.7C201EDE9231776E.quest_desc: [
+		"可以合成得到"
+		""
+		"把魔鬼梦之果扔到地上"
+		"使用打火石右键该方块"
+		"获得&6灵火&r"
+	]
+	quest.7EA7AA6AC7A74ED6.quest_desc: [
+		"刷新方块的&a平台所在的区块&r需在&aFTB地图&r中&a领取区块令其常加载&r"
+		"否则若玩家不在该区块附近将无法刷新方块"
+		""
+		"区块领取方法："
+		"1、按 &6M&r 键打开&aFTB地图&r"
+		"2、点击屏幕&6左上角&r的&a声明区块&r按钮"
+		"3、选择&a平台所在的区块&r，点击&6鼠标左键&r，完成领区块操作"
+		"4、&a再次&r &6shift + 鼠标左键&r 点击&a该区块&r，完成令其常加载操作"
+	]
+	quest.7EF5DD3CDCC06B5F.title: "赚钱"
+	quest.7F3E069B5322EEA3.title: "挑战"
+	quest.7FC107F7E7AD8422.quest_desc: [""]
+	reward_table.0980BB56FFAA8806.title: "fun"
+	reward_table.26BD8AFC4F239DBF.title: "饰品"
+	reward_table.2DCFB589F7D25C9E.title: "oritech"
+	reward_table.36878A5C79258233.title: "工厂"
+	reward_table.40FCB44DC6543DDF.title: "indu"
+	reward_table.4414CD9236113BF7.title: "硬币"
+	reward_table.54289D0FB409BA81.title: "iron"
+	reward_table.5BFE6B5B6605BEAB.title: "升级2"
+	reward_table.619FECE5A178C604.title: "mob"
+	reward_table.6218E4BE5F5FE386.title: "升级"
+	reward_table.6AE1526DD8DA4AFD.title: "pipez"
+	task.01A542C6BF868372.title: "Steage 6"
+	task.034B59E03188BF33.title: "stage 3"
+	task.0665B929A873BAC4.title: "氘氚燃料"
+	task.0A7F81526F651CCE.title: "岛屿"
+	task.0D259577D20023EF.title: "stage 0"
+	task.12C0EDBBC1C57993.title: "重要！！！"
+	task.161C2DE6E39ED071.title: "祭祀台"
+	task.20034DECE5AB0C75.title: "游戏机"
+	task.20EF825006D8651F.title: "内测阶段"
+	task.22FE548658704552.title: "玩家互动"
+	task.2778952AFBB37EBF.title: "裂变燃料"
+	task.2C938599D294475E.title: "死亡不掉落"
+	task.2DB82AFA22A028D7.title: "森林仪式"
+	task.395B59A60776F57B.title: "关闭"
+	task.4182C8ED65A6D968.title: "stage 2"
+	task.423717C6985D2E08.title: "自然祭坛"
+	task.47D50A1EF3F20DD8.title: "stage 1"
+	task.4AA276211EBA2A76.title: "Find Me"
+	task.4B28BBD3B5F9D9E3.title: "RandBlock 2：Winterize"
+	task.4F0B3AF063675E98.title: "核废料"
+	task.54E288D5583F0546.title: "岛屿"
+	task.592CD91ABFA77BA2.title: "RandBlock"
+	task.5B5B4560E64D89AE.title: "刷怪"
+	task.5E19B48014B91545.title: "无限水"
+	task.5F66D0BFE6DCD26B.title: "调试"
+	task.66030D2726BF304F.title: "stage 5"
+	task.6761B731A7ED71C8.title: "home"
+	task.732A4B23EC5F37B9.title: "跳阶段方块"
+	task.73BF5EB41CC0F455.title: "stage 4"
+	task.7795F4F9039AA7A4.title: "3分钟"
+	task.77F993986AE7CB77.title: "天气"
+	task.7F901FED95A1EFD4.title: "气态幽匿物质"
+}

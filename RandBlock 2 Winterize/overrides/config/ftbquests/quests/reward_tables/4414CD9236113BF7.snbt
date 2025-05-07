@@ -1,0 +1,59 @@
+{
+	id: "4414CD9236113BF7"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "33F3219CED022382"
+			item: {
+				count: 1
+				id: "kubejs:coin"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "7EC4A672096B27C5"
+			item: {
+				count: 1
+				id: "kubejs:coin"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 12
+			id: "4F43BAD1947C0235"
+			item: {
+				count: 1
+				id: "kubejs:coin"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 16
+			id: "599AF6BFA1667EEE"
+			item: {
+				count: 1
+				id: "kubejs:coin"
+			}
+		}
+		{
+			count: 32
+			id: "5DCC79C5FFCEDFC5"
+			item: {
+				count: 1
+				id: "kubejs:coin"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "3EFE94AA58F4879D"
+			item: {
+				count: 1
+				id: "kubejs:paradox_coin"
+			}
+			weight: 0.5f
+		}
+	]
+}

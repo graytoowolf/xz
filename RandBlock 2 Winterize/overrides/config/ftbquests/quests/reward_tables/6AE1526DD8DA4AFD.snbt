@@ -1,0 +1,75 @@
+{
+	id: "6AE1526DD8DA4AFD"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			id: "6D87D28002B7D870"
+			item: {
+				count: 1
+				id: "pipez:basic_upgrade"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "5C8EA9F4242D39F6"
+			item: {
+				count: 1
+				id: "pipez:improved_upgrade"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "52E9F8C58E715B36"
+			item: {
+				count: 1
+				id: "pipez:advanced_upgrade"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "55A0C632585430E0"
+			item: {
+				count: 1
+				id: "pipez:ultimate_upgrade"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "3099EFF1475953A7"
+			item: {
+				count: 1
+				id: "pipez:basic_upgrade"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "3226A5B8BF031F6A"
+			item: {
+				count: 1
+				id: "pipez:improved_upgrade"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 2
+			id: "306633E3314E5C9D"
+			item: {
+				count: 1
+				id: "pipez:advanced_upgrade"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "327D883ADF63696B"
+			item: {
+				count: 1
+				id: "pipez:ultimate_upgrade"
+			}
+			weight: 5.0f
+		}
+	]
+}

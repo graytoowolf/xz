@@ -1,0 +1,8 @@
+{
+    "item.minecraft.cauldron": "炼药锅",
+    "item.minecraft.bucket": "奥术桶",
+    "block.minecraft.cauldron": "霜冻炼药锅",
+    "block.minecraft.water_cauldron": "装有水的霜冻炼药锅",
+    "block.minecraft.powder_snow_cauldron": "装有细雪的霜冻炼药锅",
+    "block.minecraft.lava_cauldron": "装有熔岩的霜冻炼药锅"
+}

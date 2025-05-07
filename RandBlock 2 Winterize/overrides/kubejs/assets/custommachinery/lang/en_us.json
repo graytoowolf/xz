@@ -1,0 +1,11 @@
+{
+    "machine.fire_generator": "Fire Generator",
+    "machine.dye_generator": "Dye Generator",
+    "machine.fire_smelter": "Fire Smelter",
+    "machine.stress_generator": "Kinetic Stress Generator",
+    "machine.sequenced_assembly": "Sequenced Assembly",
+    "machine.batch_inscriber": "Batch Inscriber",
+    "machine.animal_press": "Animal Press",
+    "machine.token_fabricate": "Token Fabricate",
+    "item.custommachinery.custom_upgrade": "Machine Upgrade"
+}

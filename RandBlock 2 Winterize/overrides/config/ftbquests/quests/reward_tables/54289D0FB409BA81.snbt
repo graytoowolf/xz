@@ -1,0 +1,138 @@
+{
+	id: "54289D0FB409BA81"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			id: "4FA28CE0A66EEE1F"
+			item: {
+				count: 1
+				id: "ironfurnaces:upgrade_copper"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "722D64451F9C6058"
+			item: {
+				count: 1
+				id: "ironfurnaces:upgrade_iron2"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "73A5C66AD50827F0"
+			item: {
+				count: 1
+				id: "ironfurnaces:upgrade_gold"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "17545BCBC9B99BFA"
+			item: {
+				count: 1
+				id: "ironfurnaces:upgrade_diamond"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "09DBA7E7B37C775E"
+			item: {
+				count: 1
+				id: "ironfurnaces:upgrade_emerald"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "5873F6A739646023"
+			item: {
+				count: 1
+				id: "ironfurnaces:upgrade_obsidian"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "0A482F996D0BC3BE"
+			item: {
+				count: 1
+				id: "ironfurnaces:upgrade_netherite"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "4F7481E63EABB755"
+			item: {
+				count: 1
+				id: "ironfurnaces:augment_blasting"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "27C149C84596302C"
+			item: {
+				count: 1
+				id: "ironfurnaces:augment_smoking"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "556E696124216BEC"
+			item: {
+				count: 1
+				id: "ironfurnaces:augment_factory"
+			}
+			weight: 400.0f
+		}
+		{
+			id: "5941ECB1AB4C6FDD"
+			item: {
+				count: 1
+				id: "ironfurnaces:augment_generator"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "2D55310272E061A1"
+			item: {
+				count: 1
+				id: "ironfurnaces:augment_speed"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "4B0FAA8542978949"
+			item: {
+				count: 1
+				id: "ironfurnaces:augment_fuel"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "543DC3D41BBECF08"
+			item: {
+				components: {
+					"minecraft:custom_name": "{\"extra\":[{\"color\":\"yellow\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"i\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"aqua\",\"text\":\"w\"},{\"color\":\"blue\",\"text\":\" \"},{\"color\":\"red\",\"text\":\"F\"},{\"color\":\"aqua\",\"text\":\"u\"},{\"color\":\"aqua\",\"text\":\"r\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"c\"},{\"color\":\"aqua\",\"text\":\"e\"}],\"text\":\"\"}"
+				}
+				count: 1
+				id: "ironfurnaces:million_furnace"
+			}
+			weight: 40.0f
+		}
+		{
+			id: "7B1C2A2D20A18D03"
+			item: {
+				count: 1
+				id: "ironfurnaces:rainbow_core"
+			}
+			weight: 80.0f
+		}
+		{
+			id: "25F1C0CBA1D3FEF2"
+			item: {
+				count: 1
+				id: "ironfurnaces:rainbow_plating"
+			}
+			weight: 80.0f
+		}
+	]
+}

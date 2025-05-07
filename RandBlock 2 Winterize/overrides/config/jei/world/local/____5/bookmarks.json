@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"solarcooker:shining_diamond_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:diamond"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:phantom_membrane"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:quartz_block"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

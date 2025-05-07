@@ -1,0 +1,5 @@
+#The time to live of the red envelope
+#红包的存活时间
+# Default: 1200
+# Range: 1 ~ 24000
+ttl = 1200

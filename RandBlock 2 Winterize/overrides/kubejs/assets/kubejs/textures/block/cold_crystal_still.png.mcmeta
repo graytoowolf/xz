@@ -1,0 +1,9 @@
+{
+  "animation": {
+    "interpolate": true,
+    "frametime": 2
+  },
+  "texture":{
+    "tintindex": "0x00F5FF"
+  }
+}

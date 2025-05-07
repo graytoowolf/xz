@@ -1,0 +1,17 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"industrialforegoing:fluid_extractor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:enchantment_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:source_gem_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"industrialforegoing:machine_frame_pity"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:cold_wave_totem"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:cobblestone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:polar_lights_dust_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:polar_lights_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"naturesaura:infused_iron_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanismgenerators:fission_reactor_casing"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanismgenerators:fission_reactor_port"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanismgenerators:fission_reactor_logic_adapter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanismgenerators:fission_fuel_assembly"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanismgenerators:control_rod_assembly"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

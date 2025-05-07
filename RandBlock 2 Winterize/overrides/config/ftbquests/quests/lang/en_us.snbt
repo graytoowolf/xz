@@ -1,0 +1,492 @@
+{
+	chapter.069521AFE8C6E7AB.title: "AE2"
+	chapter.14A06BE761BC8B5F.title: "Random"
+	chapter.1ADD781A26C73701.title: "chapter 4"
+	chapter.2244CF7722F97F2B.title: "Prologue"
+	chapter.331E338FA7EA0AD4.title: "Practical Blueprints"
+	chapter.38D49EC307F0140D.title: "chapter 6"
+	chapter.4D4749397052D7C2.title: "Utility Items"
+	chapter.4E9CB8F7789AED74.title: "chapter 3"
+	chapter.5037E5A4207E806D.title: "chapter 5"
+	chapter.5BAF9860D79A06A2.title: "chapter 7"
+	chapter.68139194EFDDFE77.title: "Shop"
+	chapter.6E0570400FAB5578.title: "chapter 1"
+	chapter.75FDD7E7BB84E1D7.title: "chapter 8"
+	chapter.798734E6E7EBD503.title: "chapter 2"
+	chapter_group.00E28322BE01D8B3.title: "Extras"
+	chapter_group.707E332F9DC32E2B.title: "Prologue"
+	chapter_group.7B52078A83B75CA5.title: "Main Story"
+	quest.0160974B62CA67E6.quest_desc: ["Dig it out!"]
+	quest.01776AA4C3246C09.quest_desc: [""]
+	quest.03E106232835680A.quest_desc: [
+		"Liberate the Star Gem Beast's labor!"
+		""
+		"Place water and lava (or fluid drawers) on both sides"
+	]
+	quest.045CDB031C17A75B.quest_desc: [
+		"Right-click copper blocks with Aurora Vial to infuse them"
+		"10% chance to place powdered snow blocks"
+		"(Infusion consumes the vial even if no snow is placed)"
+		""
+		"Use an Arcane Bucket on the snow block to obtain a snow bucket"
+		""
+		"Note: You can skip this by collecting snow with a frosty cauldron"
+	]
+	quest.04FF19BAE8F21207.quest_desc: ["You haven’t erased the pentagram you just drew, right?"]
+	quest.066D81CA74A0BC3E.quest_desc: [
+		"Throw the Frost Core into the End Portal"
+		""
+		"Then check the End dimension"
+	]
+	quest.07B556772BA739E2.quest_desc: ["I can’t plant this yet"]
+	quest.08D8B1190ACBD5C6.quest_desc: [
+		"Ritual: Call of Ophix"
+		""
+		"Expand the Aviya Circle to create this ritual"
+		""
+		"The upgraded pentagram supports both Aviya Circle and Ophix’s Call"
+	]
+	quest.0941C17D75888212.quest_desc: ["Little Helper can recharge in Spirit Fire"]
+	quest.097D18E74700BAF5.quest_desc: [
+		"Weather Controller"
+		""
+		"Consumes aura to change weather based on items thrown nearby"
+		"Throwing the same item repeatedly extends the weather duration"
+		""
+		"Items and aura are consumed even if the weather matches the overworld"
+		""
+		"Sunflower — Clear"
+		"Fire Charge — Thunderstorm"
+		"&mPrismarine Crystals — Rain&r"
+		"&mYou can’t obtain prismarine crystals now&r"
+		"&mBut what’s the difference between thunderstorm and rain?&r"
+	]
+	quest.09CE9425F8FDD178.quest_desc: [
+		"16 colored campfires"
+		"16 colored flames"
+		""
+		"Extinguish campfires with an axe to remove particles"
+		"Extinguished campfires can still be clipped for flames"
+		""
+		"&m&nRegular campfires can be dyed by right-clicking&r&r"
+	]
+	quest.0AE1C6FE889E50B0.title: "Spider Slime"
+	quest.0B43DB01E9F90D12.quest_desc: [
+		"&6HugMe! &r: Use a Hug Coupon on a friend to request a hug"
+		""
+		"&6Let Me Feed You!&r: Feed friends with food"
+	]
+	quest.0B661153E7580D4A.quest_desc: [
+		"Same as always"
+		""
+		"Keep inventory on death is enabled"
+	]
+	quest.0B7D19C9F022361D.quest_desc: ["Gold Ingot Booster"]
+	quest.0BAA383779FC1C19.quest_desc: [
+		"One cup in the morning"
+		"One cup at noon"
+		"One cup at night"
+	]
+	quest.0D331CEC6F609128.title: "I Want to Fly"
+	quest.0D3696696AB4C8AD.title: "Lottery"
+	quest.0DC3BD54A76F7076.quest_desc: [
+		"Void Chalk can act as any chalk"
+		""
+		"Just draw blindly"
+	]
+	quest.0DC3BD54A76F7076.title: "Master of All Pentagrams"
+	quest.0E22436CEADF181D.quest_desc: ["Bark can make paper"]
+	quest.0E53ABEEDFED903E.title: "Equivalent to Diamond Tools"
+	quest.10F09D79DAF2AEB2.title: "Shop"
+	quest.1382E1BDD8543A08.quest_desc: [
+		"Equip Star Gem Beast with a Miner’s Cap to let it mine blocks"
+		"Use this to automate cobblestone generators"
+		""
+		"Note: Always provide a storage chest, even if using hoppers"
+		"Note: If it stops working, kill and replace the Star Gem Beast"
+		""
+		"Setup:"
+		"1. &6Shift + right-click&r the block to mine, then &6right-click&r the beast"
+		"2. &6Right-click&r the beast, &6Shift + right-click&r the storage block"
+	]
+	quest.1597CA017C3166CD.title: "MEK Upgrade Lottery"
+	quest.16B08585CC563A01.quest_desc: ["Little Helper can recharge in Spirit Fire"]
+	quest.18ABE27A93153F23.quest_desc: ["Use Capture Bottle on the sky at night"]
+	quest.1AEC1C7B101BD25C.quest_desc: [
+		"Consumes electricity to generate Mana in nearby Mana Tanks"
+		""
+		"Requires non-empty Mana Tanks within 2 blocks"
+	]
+	quest.1AEC1C7B101BD25C.title: "Electric Mana"
+	quest.1B7CBAFFEE6A36FE.title: "Stage 2"
+	quest.1C347615E1E3E0FB.title: "Upgraded Lottery Box"
+	quest.1CEA4C3F0EC76E4D.title: "Dye Generator"
+	quest.1D1B78068E23FC9E.quest_desc: [
+		"Packager packs items from adjacent storage into bundles"
+		"Redstone signal triggers packing"
+		"Use hoppers to export bundles"
+		""
+		"Unpack bundles by inputting them back into the Packager"
+		""
+		"Place storage first; Packager auto-aligns input side"
+	]
+	quest.1D775BA77117D72E.quest_desc: ["Reduces ritual crafting time to 25%"]
+	quest.1E6C71B6AFB6C2E2.quest_desc: ["Plant it again"]
+	quest.1F85912F1E0FAE6A.title: "Adopt a Cow"
+	quest.20569265CD29B312.quest_desc: ["Redstone Ore Booster"]
+	quest.2060A3B6497C8C38.quest_desc: ["Slightly slower than vanilla hoppers"]
+	quest.207E8930717DC1AE.quest_desc: ["You can dismantle your snow golem farm now"]
+	quest.23B78210F891F72B.title: "Alien Technology"
+	quest.2528F45E4D41D3AA.quest_desc: ["Gold Ore Booster"]
+	quest.26E83743D8008B20.quest_desc: [
+		"Caster can also make glowstone dust"
+		""
+		"Complete the trial to get a spawner"
+		"Build a creeper farm"
+	]
+	quest.26E83743D8008B20.title: "Glowstone Assimilation"
+	quest.27026386468483A6.quest_desc: [
+		"Right-click Star Gem Beast with Item Scroll to filter work items"
+		""
+		"Note: Reapply filters after each game restart"
+	]
+	quest.27026386468483A6.title: "Domesticated Pet"
+	quest.27F870E0D91C1BFB.quest_desc: [
+		"It’s still craftable"
+		""
+		"Infected leaves work too"
+	]
+	quest.29532EFA8CFCCC8D.quest_desc: ["Dripping gravel with pointed dripstone yields copper"]
+	quest.2A494300F52E2C69.quest_desc: ["Redstone Freedom!"]
+	quest.2B321574068E9ED3.quest_desc: [
+		"A cup of tea, a pack of cigarettes"
+		"Three coffees fuel a day"
+		""
+		"Submit all required items to claim the Structure Builder"
+		"1. Place builder at the center of the bottom layer"
+		"2. Core machines must be placed manually"
+		"3. Reclaim builders via Practical Blueprints chapter"
+		"4. Structure size: 7x8x7"
+		""
+		"Warning: Do NOT copy-paste with Little Helper (may crash)"
+	]
+	quest.2B321574068E9ED3.title: "How Many Ticks in a Day?"
+	quest.2B5B67D2FEB03352.quest_desc: ["Little Helper can recharge in Spirit Fire"]
+	quest.2C3451160D17E546.quest_desc: [
+		"Requires 50s reaction at Nature Altar"
+		""
+		"Relax with coffee"
+		""
+		"Coffee Machine generates coffee every morning"
+		"Drink or store it"
+	]
+	quest.2D338BF70E70A3E5.quest_desc: [
+		"Welcome to &6Random Skyblock 2: Silver Frost&r"
+		""
+		"Start on a 3x3 &acrying obsidian&r platform"
+		"Random blocks refresh as stages progress"
+		"Activate by &aright-clicking&r with the Starter"
+		""
+		"Note: Starter is hidden in quest rewards"
+	]
+	quest.2D527CD066B751B0.quest_desc: [
+		"Upgrade your pentagram"
+		""
+		"&aAbraxas Circle Summoning&r"
+	]
+	quest.2D6C28AF2103FEE4.quest_desc: ["Automated Gold Ingots"]
+	quest.2E616BF4E370A37E.quest_desc: ["Automate your iron production line"]
+	quest.2E616BF4E370A37E.title: "Universal Router"
+	quest.2EF133A86F00407D.quest_desc: ["Remember that cow?"]
+	quest.2FAA472EE7CEE726.quest_desc: ["Use water bottles and frost cauldrons to collect water"]
+	quest.2FF04E33891A02F4.quest_desc: [
+		"Steelmaking!"
+		""
+		"Blast furnace only accepts Crimson Flame as fuel"
+	]
+	quest.2FFBCB2C9320CF9B.quest_desc: [
+		"Right-click target block with Target Marker"
+		"Shift + right-click Ender Laser to mark position"
+		""
+		"Note: Laser mines all blocks except bedrock and amethyst buds"
+		"Promotes bud growth"
+	]
+	quest.318E6470846643CE.title: "Wait, This Feels Familiar"
+	quest.31CD53B4EA30407F.title: "Blueprint Printer"
+	quest.3232979D9F5C5BA1.quest_desc: ["No snow accumulation under light"]
+	quest.327B5DA57D1DB571.quest_desc: ["What am I fissioning? Mana?"]
+	quest.33B4C4F9F5CD9AB6.quest_desc: [
+		"Frost Cauldron collects snow (like water in rain)"
+		""
+		"Use glass bottles to collect snow"
+		"Stockpile snow early—it’s useful"
+	]
+	quest.361D633D784F9B3D.title: "Work Uniform"
+	quest.381EE9A729D474ED.title: "Large Molecular Assembly"
+	quest.3837D5A1F9B25997.quest_desc: [
+		"See that tree nearby?"
+		""
+		"It can multiply in the crafting table"
+	]
+	quest.3B0606C6FD6F9F71.title: "First Creative Item"
+	quest.3CA282B42A1CF0F0.quest_desc: [""]
+	quest.3CA282B42A1CF0F0.title: "Cracked from Heat"
+	quest.3D9F4919E65CA8F8.quest_desc: [
+		"Spiders within 256 blocks spin webs every 60s"
+		""
+		"Early-game string source"
+		""
+		"&mOr kill spiders for string&r"
+		""
+		"&6Use /nametag <name> to name mobs&r"
+		"Named mobs drop name tags"
+	]
+	quest.3E9C60AB44434CBE.title: "30 Seconds"
+	quest.3EAA455D1382D522.title: "Boxed Pearls"
+	quest.40C2AF5D1B40BF58.title: "Machine Upgrade"
+	quest.411E29A73E38E7E6.title: "Stage 3"
+	quest.41E720274198BE90.quest_desc: [
+		"Obtain Paradox Coin, Entropic Pick, or Warp Compass"
+		"May grant blocks beyond current stage"
+	]
+	quest.42A7DE86B70BB0A0.quest_desc: [
+		"Press Y on an item in inventory/JEI"
+		"Highlights nearby chests containing it"
+	]
+	quest.42D74929213E5EF0.title: "Metal Stamping Machine"
+	quest.436832E355E36DFA.quest_desc: [
+		"Right-click cows with Arcane Bucket"
+		"Randomly obtain water, lava, or milk"
+	]
+	quest.436832E355E36DFA.title: "Nuclear Cow"
+	quest.449E9CDE3412E92F.title: "Stage 4"
+	quest.44C4F9978C3898FB.quest_desc: [
+		"Right-click snowmen with Icicle to get a crafting table"
+		"{@pagebreak}"
+		"&aGame Discs mod is server-incompatible&r"
+		"&6Alternative method added&r"
+		"Play 'Flying Bees' minigame via Game Console"
+		"Score ≥5 to left-click air for a crafting table"
+	]
+	quest.4959313AAD42A78E.quest_desc: ["Mining yields Frost Crystal Shards"]
+	quest.4B715A252223EDC3.title: "Stage 1"
+	quest.4C1DE72BDED3AD86.quest_desc: [
+		"Oh"
+		"It’s a single block"
+	]
+	quest.4C8E5FE16AB6A0A4.quest_desc: [
+		"Works only in daylight"
+		"No fuel needed"
+		"25% slower than furnace"
+		"Add reflectors to speed up"
+	]
+	quest.4DD62A7923D02159.title: "Complete!"
+	quest.4E216C5DCDD1D7E2.quest_desc: [
+		"Use Copy-Paste Helper to save/load blueprints"
+		"Refer to guidebook for details"
+	]
+	quest.4F77597658C42A3A.title: "Stage 0"
+	quest.50A0601867242260.quest_desc: [""]
+	quest.510B9EA22891411A.quest_desc: [""]
+	quest.515CE9F77B27DB4A.quest_desc: [
+		"At night, the Polar Lights Prism converts the Polar Lights Glass in the 3x3 range below it into an Polar Lights Dust Block"
+		"{image:kubejs:textures/image/2025-02-21_11.52.05.png width:40 height:40 align:left} "
+		"↓"
+		"{image:kubejs:textures/image/2025-02-21_11.53.00.png width:40 height:40 align:left}"
+		"Place &6Shining Block of Diamond&r above Polar Lights Prism and the Polar Lights Prism will work all day"
+		"The prism and the Shining diamond block must have an air block between them"
+	]
+	quest.52B4B49728840CEF.quest_desc: ["Buy some emeralds"]
+	quest.52F491CF21FB4F87.quest_desc: ["Little Helper can recharge in Spirit Fire"]
+	quest.52F85F477F913821.quest_desc: [
+		"Block Fertilizer uses electricity and water"
+		"{image:kubejs:textures/image/fertilizer.png width:200 height:200 align:center}"
+	]
+	quest.52F85F477F913821.title: "Logging Kit"
+	quest.538B0C4BB5738888.quest_desc: [
+		"No natural mob spawning (including passive)"
+		"Spawn eggs and spawners still work"
+	]
+	quest.540122B6FF9E1859.quest_desc: [
+		"Right-click campfires with dye to color them"
+		"Or craft in a workbench"
+	]
+	quest.540122B6FF9E1859.title: "Exotic Fire Copper Smelting"
+	quest.572D7AC7678B9C72.quest_desc: ["Random Blocks, Activate!"]
+	quest.57B765281868D580.quest_desc: ["I don’t have a dancing tree"]
+	quest.57BE1BE620B55930.quest_desc: [
+		"Superheat Blaze Burner Chamber"
+		"Extends duration"
+	]
+	quest.5A27802E224E66AB.quest_desc: [
+		"You don’t need to build this"
+		"Building it does nothing"
+	]
+	quest.5B94E22F5412F996.quest_desc: [
+		"Similar to furnace"
+		"50% slower"
+	]
+	quest.5D70F3BD80F1236B.quest_desc: ["Consumes Mana to generate Stress"]
+	quest.5D70F3BD80F1236B.title: "Mana Drive"
+	quest.611278C1051198C6.quest_desc: ["Faster and bulk imprinting"]
+	quest.62591C72C6F61D8D.title: "Offer Coffee to the Heavens"
+	quest.628F8417032E2469.quest_desc: ["Automated Lapis"]
+	quest.6406B25ABB2DDC56.quest_desc: [""]
+	quest.6406B25ABB2DDC56.title: "First Metal"
+	quest.654A2EAF95848FB1.quest_desc: ["Saplings harvestable without Third Eye"]
+	quest.6584099162EC5CA2.quest_desc: [
+		"Place Storage Linker on Packager"
+		"Link another linker to form a network"
+		"Place linked linker on another Packager"
+	]
+	quest.65DCAC064A3F633F.quest_desc: [
+		"Can be used as fuel"
+		"Burns for 4 real-world hours"
+		"Use sparingly"
+	]
+	quest.65E53BD75A6F3539.quest_desc: [
+		"Persistent snowfall early-game"
+		"Adjust snow particles via &6Options > Video > Weather&r"
+		"Place torches to prevent snow buildup"
+	]
+	quest.6642CED731BB8AC5.quest_desc: [
+		"Use Factory Gauge on Storage Linker to join network"
+		"Place gauge on unpacking machine"
+		"Label packers with signs (e.g., 'Address1')"
+		"Set item and quantity on gauge"
+		"Input target address in gauge GUI"
+		"Note: Logistics required for bundle transport"
+	]
+	quest.6642CED731BB8AC5.title: "Packaging Pipeline"
+	quest.66A830760A9E565E.quest_desc: [""]
+	quest.67757C38C8F51D76.title: "Exotic Fire Extractor"
+	quest.678DECF720FA4677.quest_desc: [
+		"Consumes Mana from tanks to generate electricity"
+		"Requires non-empty tanks within 2 blocks"
+	]
+	quest.678DECF720FA4677.title: "Mana Electricity"
+	quest.67FA216375601209.quest_desc: [
+		"Ritual: Aviya Circle"
+		""
+		"Place phantom outlines via Tome of Spirits"
+		"Arrange colored items as shown"
+		"Place Sacrificial Bowl in empty spaces"
+		"Add required items to bowl"
+		"Wait for completion"
+	]
+	quest.6995A2E8FE403A20.title: "Smithing Template Lottery"
+	quest.6A24CEB1DD39AFCC.quest_desc: [
+		"/sethome: Set home"
+		"/home: Return home"
+		"/back: Return to last teleport/death spot"
+		""
+		"/ftbteambases home: Return to island spawn"
+		"/ftbteambases lobby: Return to lobby"
+	]
+	quest.6B191784099EDF69.quest_desc: [
+		"Maintain flower brightness"
+		"Snowflakes revert flowers to frozen state"
+	]
+	quest.6B613776EADC653A.quest_desc: [
+		"Manual Aura"
+		""
+		"Place &6Aura Flower&r and right-click with &6Golden Leaf&r"
+		"Consumes both to release 500000 aura per chunk"
+	]
+	quest.6B9271A87B2EA83D.quest_desc: [
+		"Throw Frost Core into End Portal"
+		"Check the End dimension"
+	]
+	quest.6BF0ACE64BD59294.quest_desc: ["You must have sand by now"]
+	quest.6CAD6FBF99F0C00D.quest_desc: ["Basic cobblestone generator"]
+	quest.6F0B63A636EBA712.quest_desc: [
+		"Submit items to claim Structure Builder"
+		"1. Place at bottom center"
+		"2. Core machines placed manually"
+		"3. Reclaim via Practical Blueprints"
+		"4. Size: 5x3x5"
+	]
+	quest.714906C4B9A221A2.quest_desc: ["Throw Aurora Dust into frost cauldron with snow"]
+	quest.72063CBE56A663CF.quest_desc: ["Quartz Freedom!"]
+	quest.72266571CD4742C7.quest_desc: [
+		"Plant in soil or hydroponics"
+		""
+		"Seeds cannot multiply"
+	]
+	quest.72EE61044C8DE1D4.quest_desc: ["The taste of technology"]
+	quest.72EE61044C8DE1D4.title: "Pre-Technology"
+	quest.73C507241744C6C8.quest_desc: [
+		"Build a snow golem"
+		"Its snowballs deal damage"
+		"Killed mobs turn into snow golems"
+		"Golems drop Snow Souls (used later)"
+		""
+		"Named spider spawners drop name tags"
+		"Build a snow golem farm"
+	]
+	quest.73C507241744C6C8.title: "It’s So Expensive"
+	quest.74AD922AFD8A4604.quest_desc: ["Centrifuge + Fluid Handling = Fluid centrifuge"]
+	quest.74B94D8A1891A896.title: "Quantum CPU"
+	quest.759F8A0E04946937.title: "MEK Factory Lottery"
+	quest.75EFC2D6C71C9898.title: "Tool Lottery Box"
+	quest.76F9C25AD3980499.quest_desc: ["Did you get these ores?"]
+	quest.786832BB75330A1E.quest_desc: ["Faster copper production"]
+	quest.7A41FBB6478BEAEF.quest_desc: [
+		"Infinite water disabled"
+		"Added for fun, not difficulty"
+	]
+	quest.7AD76A90086EDC11.quest_desc: ["Dimensional Matter Multiplication"]
+	quest.7B75B79465582F02.quest_desc: ["Furnace yields only 3 copper nuggets"]
+	quest.7BDF29F1F0C96A62.quest_desc: [
+		"Same as always"
+		""
+		"I’ve prepared island expansion materials"
+	]
+	quest.7C201EDE9231776E.quest_desc: [
+		"Craft Devil’s Dream Fruit"
+		"Throw it on ground and ignite with flint"
+		"Obtain &6Spirit Fire&r"
+	]
+	quest.7EA7AA6AC7A74ED6.quest_desc: [
+		"Platform chunks must be claimed and chunkloaded via FTB Map"
+		"How to claim:"
+		"1. Press &6M&r to open FTB Map"
+		"2. Click &aClaim Chunks&r button (top-left)"
+		"3. Select platform chunk and &6left-click&r"
+		"4. &6Shift + left-click&r to chunkload"
+	]
+	quest.7FC107F7E7AD8422.quest_desc: [""]
+	reward_table.26BD8AFC4F239DBF.title: "Accessories"
+	reward_table.36878A5C79258233.title: "Factory"
+	reward_table.4414CD9236113BF7.title: "Coins"
+	reward_table.6218E4BE5F5FE386.title: "Upgrades"
+	task.01A542C6BF868372.title: "Stage 6"
+	task.034B59E03188BF33.title: "Stage 3"
+	task.0A7F81526F651CCE.title: "Island"
+	task.0D259577D20023EF.title: "Stage 0"
+	task.12C0EDBBC1C57993.title: "Important!!!"
+	task.161C2DE6E39ED071.title: "Altar"
+	task.20034DECE5AB0C75.title: "Game Console"
+	task.20EF825006D8651F.title: "Closed Beta Phase"
+	task.22FE548658704552.title: "Player Interaction"
+	task.2C938599D294475E.title: "Keep Inventory"
+	task.2DB82AFA22A028D7.title: "Forest Ritual"
+	task.395B59A60776F57B.title: "Disabled"
+	task.4182C8ED65A6D968.title: "Stage 2"
+	task.423717C6985D2E08.title: "Nature Altar"
+	task.47D50A1EF3F20DD8.title: "Stage 1"
+	task.4AA276211EBA2A76.title: "Find Me"
+	task.4B28BBD3B5F9D9E3.title: "RandBlock 2: Winterize"
+	task.54E288D5583F0546.title: "Island"
+	task.592CD91ABFA77BA2.title: "RandBlock"
+	task.5B5B4560E64D89AE.title: "Spawning"
+	task.5E19B48014B91545.title: "Infinite Water"
+	task.5F66D0BFE6DCD26B.title: "Debug"
+	task.66030D2726BF304F.title: "Stage 5"
+	task.6761B731A7ED71C8.title: "Home"
+	task.732A4B23EC5F37B9.title: "Stage-Skip Blocks"
+	task.73BF5EB41CC0F455.title: "Stage 4"
+	task.7795F4F9039AA7A4.title: "3 Minutes"
+	task.77F993986AE7CB77.title: "Weather"
+	task.7F901FED95A1EFD4.title: "Gaseous Sculk"
+}

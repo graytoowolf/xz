@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"seasonsgreetings:chocolate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:cocoa_beans"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:honey_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

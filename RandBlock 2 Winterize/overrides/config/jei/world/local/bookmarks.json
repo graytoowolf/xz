@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:echo_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:gold_nugget"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

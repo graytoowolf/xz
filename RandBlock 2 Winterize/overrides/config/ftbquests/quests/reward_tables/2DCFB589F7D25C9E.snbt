@@ -1,0 +1,20 @@
+{
+	id: "2DCFB589F7D25C9E"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ id: "43B22A082888094D", item: { count: 1, id: "oritech:machine_processing_addon" } }
+		{ id: "62851B4318C059F8", item: { count: 1, id: "oritech:machine_fluid_addon" } }
+		{ id: "6C11FFC2D4302FFB", item: { count: 1, id: "oritech:machine_yield_addon" } }
+		{ id: "5319368E78DE41ED", item: { count: 1, id: "oritech:crop_filter_addon" } }
+		{ id: "7E0ADFFF351D8F9D", item: { count: 1, id: "oritech:quarry_addon" } }
+		{ id: "1F0C44E200DACDBC", item: { count: 1, id: "oritech:machine_hunter_addon" } }
+		{ id: "32522033EE7E2979", item: { count: 1, id: "oritech:machine_extender" } }
+		{ id: "267985C84D0B4E64", item: { count: 1, id: "oritech:machine_ultimate_addon" } }
+		{ id: "3905B83BB3AC7E16", item: { count: 1, id: "oritech:machine_redstone_addon" } }
+		{ id: "3D8B41126AFDB134", item: { count: 1, id: "oritech:machine_speed_addon" } }
+		{ id: "1127DA83650F7298", item: { count: 1, id: "oritech:machine_acceptor_addon" } }
+		{ id: "5B18E7EDFD79F2E9", item: { count: 1, id: "oritech:machine_capacitor_addon" } }
+		{ id: "141638872C109418", item: { count: 1, id: "oritech:machine_efficiency_addon" } }
+	]
+}

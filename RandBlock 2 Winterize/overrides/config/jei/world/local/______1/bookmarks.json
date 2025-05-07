@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"mekanismgenerators:fission_reactor_casing"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanismgenerators:fission_reactor_port"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanismgenerators:fission_fuel_assembly"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanismgenerators:control_rod_assembly"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

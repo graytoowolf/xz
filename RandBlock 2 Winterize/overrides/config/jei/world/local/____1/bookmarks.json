@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"pneumaticcraft:upgrade_matrix"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:lapis_lazuli"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

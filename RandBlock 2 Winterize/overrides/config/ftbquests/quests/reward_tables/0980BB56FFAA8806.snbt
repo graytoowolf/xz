@@ -1,0 +1,14 @@
+{
+	id: "0980BB56FFAA8806"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ id: "31135BAC4395DA72", item: { components: { "morefunctionalstorage:owner": { id: "a734730270e04a4fb384834c6e32d6fc", name: "Chu_An" }, "morefunctionalstorage:relative_direction": "front" }, count: 1, id: "morefunctionalstorage:placer_upgrade" } }
+		{ id: "28E0B4D9C8629B4B", item: { components: { "morefunctionalstorage:owner": { id: "a734730270e04a4fb384834c6e32d6fc", name: "Chu_An" }, "morefunctionalstorage:relative_direction": "front" }, count: 1, id: "morefunctionalstorage:breaker_upgrade" } }
+		{ id: "5BE2439EEC93FFBE", item: { count: 1, id: "morefunctionalstorage:speed_upgrade_augment" } }
+		{ id: "2F2EB82B137A20F4", item: { count: 1, id: "functionalstorage:copper_upgrade" } }
+		{ id: "2729D2078F65D4C3", item: { count: 1, id: "functionalstorage:gold_upgrade" } }
+		{ id: "796A359795C0751C", item: { count: 1, id: "functionalstorage:diamond_upgrade" } }
+		{ id: "2B268A769288F6D0", item: { count: 1, id: "functionalstorage:netherite_upgrade" } }
+	]
+}

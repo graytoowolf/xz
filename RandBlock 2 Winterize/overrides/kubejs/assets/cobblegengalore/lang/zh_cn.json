@@ -1,0 +1,11 @@
+{
+    "jei.cobblegengalore.blockgen": "方块生成器",
+    "block_gen.tooltip": "速度修正值: %s",
+    "block.cobblegengalore.block_gen_stone": "石制方块生成器",
+    "block.cobblegengalore.block_gen_copper": "铜制方块生成器",
+    "block.cobblegengalore.block_gen_iron": "铁制方块生成器",
+    "block.cobblegengalore.block_gen_gold": "金制方块生成器",
+    "block.cobblegengalore.block_gen_emerald": "绿宝石方块生成器",
+    "block.cobblegengalore.block_gen_diamond": "钻石方块生成器",
+    "block.cobblegengalore.block_gen_netherite": "下界合金方块生成器"
+  }

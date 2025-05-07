@@ -1,0 +1,13 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"ifeu:netherite_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"industrialforegoing:iron_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"industrialforegoing:gold_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ifeu:sculk_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:frozen_iron_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:iron_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:cobblestone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:dust_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:dimensional_mineshaft"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

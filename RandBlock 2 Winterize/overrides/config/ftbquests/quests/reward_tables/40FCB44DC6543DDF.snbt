@@ -1,0 +1,25 @@
+{
+	id: "40FCB44DC6543DDF"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ id: "4EEE5420F7FDFA9C", item: { components: { "titanium:augments": { Efficiency: 0.9f } }, count: 1, id: "industrialforegoing:efficiency_addon_tier_1" } }
+		{ id: "51D85D9FA5E74B0B", item: { components: { "titanium:augments": { Efficiency: 0.8f } }, count: 1, id: "industrialforegoing:efficiency_addon_tier_2" } }
+		{ id: "5DA55293D7B7E607", item: { components: { "titanium:augments": { Efficiency: 0.7f } }, count: 1, id: "ifeu:efficiency_addon_3" } }
+		{ id: "490902B79C410D1C", item: { components: { "titanium:augments": { Efficiency: 0.6f } }, count: 1, id: "ifeu:efficiency_addon_4" } }
+		{ id: "60E06F51658B616E", item: { components: { "titanium:augments": { Efficiency: 0.5f } }, count: 1, id: "ifeu:efficiency_addon_5" } }
+		{ id: "6D2A3E649B7E920B", item: { components: { "titanium:augments": { Efficiency: 0.39999998f } }, count: 1, id: "ifeu:efficiency_addon_6" } }
+		{ id: "46924146CF0E4EAA", item: { components: { "titanium:augments": { Processing: 2.0f } }, count: 1, id: "industrialforegoing:processing_addon_tier_1" } }
+		{ id: "451EABA43751A2EA", item: { components: { "titanium:augments": { Processing: 3.0f } }, count: 1, id: "industrialforegoing:processing_addon_tier_2" } }
+		{ id: "5B99FBE55DA43291", item: { components: { "titanium:augments": { Processing: 4.0f } }, count: 1, id: "ifeu:processing_addon_3" } }
+		{ id: "15B8C67C8067C523", item: { components: { "titanium:augments": { Processing: 5.0f } }, count: 1, id: "ifeu:processing_addon_4" } }
+		{ id: "45309677C425CA81", item: { components: { "titanium:augments": { Processing: 6.0f } }, count: 1, id: "ifeu:processing_addon_5" } }
+		{ id: "39B7D63F86FEF054", item: { components: { "titanium:augments": { Processing: 7.0f } }, count: 1, id: "ifeu:processing_addon_6" } }
+		{ id: "50AF90B3528510D8", item: { components: { "titanium:augments": { Speed: 2.0f } }, count: 1, id: "industrialforegoing:speed_addon_tier_1" } }
+		{ id: "2493643DBC7280EB", item: { components: { "titanium:augments": { Speed: 3.0f } }, count: 1, id: "industrialforegoing:speed_addon_tier_2" } }
+		{ id: "371B68B2CFC2F363", item: { components: { "titanium:augments": { Speed: 4.0f } }, count: 1, id: "ifeu:speed_addon_3" } }
+		{ id: "0523AAD4A35FFE50", item: { components: { "titanium:augments": { Speed: 5.0f } }, count: 1, id: "ifeu:speed_addon_4" } }
+		{ id: "33845F94C9F1733B", item: { components: { "titanium:augments": { Speed: 6.0f } }, count: 1, id: "ifeu:speed_addon_5" } }
+		{ id: "241215884FE5B043", item: { components: { "titanium:augments": { Speed: 7.0f } }, count: 1, id: "ifeu:speed_addon_6" } }
+	]
+}

@@ -1,0 +1,85 @@
+{
+	id: "6218E4BE5F5FE386"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 4
+			id: "50DB54D2ABCE1EB1"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "3562732187922FE9"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "1C692DAEFAB221D5"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_chemical"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "5BC95EA9E297DF6F"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "05B220BFF7CCD1A2"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "4C3E7A66D8E62C22"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_chemical"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 16
+			id: "138917231EEECA6B"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+		}
+		{
+			count: 16
+			id: "3B9AC779DFFBCA89"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+		}
+		{
+			count: 16
+			id: "52B25C17488E5FC0"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_chemical"
+			}
+		}
+	]
+}

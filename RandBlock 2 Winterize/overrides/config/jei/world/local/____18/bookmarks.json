@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:iron_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:stage0"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:stage_off"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:stage_time_master"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

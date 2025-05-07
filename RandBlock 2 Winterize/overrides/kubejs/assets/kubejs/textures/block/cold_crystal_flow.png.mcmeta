@@ -1,0 +1,8 @@
+{
+  "animation": {
+    "interpolate": true
+  },
+  "texture":{
+    "tintindex": "0x00F5FF"
+  }
+}

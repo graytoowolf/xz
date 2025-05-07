@@ -1,0 +1,149 @@
+{
+  "name": {
+    "text": "machine.fire_smelter",
+    "color": "green"
+  },
+  "appearance": {
+    "custommachinery:block": "kubejs:machine/fire_generator"
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "kubejs:lotus_fire",
+        "minecraft:charcoal",
+        "ars_nouveau:magebloom"
+      ],
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "kubejs:frozen_iron_ore",
+        "minecraft:quartz"
+      ],
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input2"
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 100000,
+      "max_input": 10000,
+      "max_output": 10000
+    },
+    {
+      "type": "custommachinery:source",
+      "capacity": 10000,
+      "max_input": 10000,
+      "max_output": 10000
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:heat",
+      "conduction": 2.0,
+      "insulation": 0.1,
+      "capacity": 10000.0,
+      "base_temp": 0.0
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "id": "upgrade"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 49,
+      "y": 110
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 231,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 119,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 146,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:heat",
+      "x": 193,
+      "y": 41
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "x": 99,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "x": 80,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 121,
+      "y": 78,
+      "ghost": {
+        "items": {
+          "item": "custommachinery:custom_upgrade"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 58,
+      "y": 48
+    },
+    {
+      "type": "custommachinery:source",
+      "x": 49,
+      "y": 48,
+      "width": 6,
+      "height": 16
+    }
+  ]
+}

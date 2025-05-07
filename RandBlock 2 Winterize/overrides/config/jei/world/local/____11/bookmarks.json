@@ -1,0 +1,4 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"custommachinery:dye_generator"}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

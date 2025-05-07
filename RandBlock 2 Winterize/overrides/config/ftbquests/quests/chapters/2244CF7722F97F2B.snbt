@@ -1,0 +1,118 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2244CF7722F97F2B"
+	group: "707E332F9DC32E2B"
+	id: "2244CF7722F97F2B"
+	images: [{
+		click: "https://www.curseforge.com/minecraft/modpacks/randblock"
+		height: 1.0d
+		hover: [
+			"整合包链接："
+			"RandBlock"
+		]
+		image: "advanced_ae:block/crafting/quantum_core_nucleus"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 1.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2D338BF70E70A3E5"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "4B28BBD3B5F9D9E3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "538B0C4BB5738888"
+			tasks: [{
+				id: "5B5B4560E64D89AE"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "0B661153E7580D4A"
+			tasks: [{
+				id: "2C938599D294475E"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "7A41FBB6478BEAEF"
+			tasks: [{
+				id: "5E19B48014B91545"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "42A7DE86B70BB0A0"
+			tasks: [{
+				id: "4AA276211EBA2A76"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "6A24CEB1DD39AFCC"
+			tasks: [{
+				id: "6761B731A7ED71C8"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "7EA7AA6AC7A74ED6"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "12C0EDBBC1C57993"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "41E720274198BE90"
+			tasks: [{
+				id: "732A4B23EC5F37B9"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "0B43DB01E9F90D12"
+			tasks: [{
+				id: "22FE548658704552"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "65E53BD75A6F3539"
+			tasks: [{
+				id: "77F993986AE7CB77"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+	]
+}

@@ -1,0 +1,185 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "14A06BE761BC8B5F"
+	group: "707E332F9DC32E2B"
+	icon: {
+		id: "kubejs:stage0"
+	}
+	id: "14A06BE761BC8B5F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["572D7AC7678B9C72"]
+			id: "4F77597658C42A3A"
+			rewards: [{
+				id: "73F90EFCC05FC456"
+				item: {
+					count: 1
+					id: "kubejs:stage0"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D259577D20023EF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["642176AB6DF1FCFF"]
+			id: "4B715A252223EDC3"
+			rewards: [{
+				id: "2255F141106212C9"
+				item: {
+					count: 1
+					id: "kubejs:stage1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47D50A1EF3F20DD8"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3825A099A9436388"]
+			id: "1B7CBAFFEE6A36FE"
+			rewards: [{
+				id: "75D4C1AC0AEA2DA5"
+				item: {
+					count: 1
+					id: "kubejs:stage2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4182C8ED65A6D968"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26E83743D8008B20"]
+			id: "411E29A73E38E7E6"
+			rewards: [{
+				id: "38909E16E7C89801"
+				item: {
+					count: 1
+					id: "kubejs:stage3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "034B59E03188BF33"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1BDC2072633BFF48"]
+			id: "449E9CDE3412E92F"
+			rewards: [{
+				id: "03DF4BD1C4FE97FA"
+				item: {
+					count: 1
+					id: "kubejs:stage4"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73BF5EB41CC0F455"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["05C0314093B9D7ED"]
+			id: "3E9C60AB44434CBE"
+			rewards: [{
+				id: "3FEDF20C29A5E995"
+				item: {
+					count: 1
+					id: "kubejs:stage_time_mix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E44485044F2CA6C"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["572D7AC7678B9C72"]
+			id: "29DC3C124F31DF12"
+			rewards: [{
+				id: "4BFBAE533DEF7201"
+				item: {
+					count: 1
+					id: "kubejs:stage_time_max"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7795F4F9039AA7A4"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["572D7AC7678B9C72"]
+			id: "4016C44A809F00AC"
+			rewards: [{
+				id: "3981E0A83DB7FA18"
+				item: {
+					count: 1
+					id: "kubejs:stage_off"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "395B59A60776F57B"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DD62A7923D02159"]
+			id: "143AEC2A7830648B"
+			rewards: [{
+				id: "7E890C640DBFB418"
+				item: {
+					count: 1
+					id: "kubejs:stage_time_master"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F66D0BFE6DCD26B"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+	]
+}

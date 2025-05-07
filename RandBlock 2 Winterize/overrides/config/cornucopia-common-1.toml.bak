@@ -1,0 +1,4 @@
+enableClearFoods = false
+# Default: 10
+# Range: 1 ~ 19
+lifeThresholdValue = 10

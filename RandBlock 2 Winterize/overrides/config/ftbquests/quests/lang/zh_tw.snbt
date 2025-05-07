@@ -1,0 +1,626 @@
+{
+	chapter.069521AFE8C6E7AB.title: "天際歸舟"
+	chapter.14A06BE761BC8B5F.title: "隨機"
+	chapter.1ADD781A26C73701.title: "雲水之間"
+	chapter.2244CF7722F97F2B.title: "序"
+	chapter.331E338FA7EA0AD4.title: "實用藍圖"
+	chapter.38D49EC307F0140D.title: "紙上煙雲"
+	chapter.4D4749397052D7C2.title: "實用物品"
+	chapter.4E9CB8F7789AED74.title: "竹影掃階"
+	chapter.5037E5A4207E806D.title: "借風和吟"
+	chapter.5BAF9860D79A06A2.title: "歸去來兮"
+	chapter.68139194EFDDFE77.title: "商店"
+	chapter.6E0570400FAB5578.title: "雪映長空"
+	chapter.75FDD7E7BB84E1D7.title: "山高水長"
+	chapter.798734E6E7EBD503.title: "風止念起"
+	chapter_group.00E28322BE01D8B3.title: "額外"
+	chapter_group.707E332F9DC32E2B.title: "序章"
+	chapter_group.7B52078A83B75CA5.title: "主線"
+	quest.0160974B62CA67E6.quest_desc: ["挖掉它吧！"]
+	quest.01776AA4C3246C09.quest_desc: [""]
+	quest.03E106232835680A.quest_desc: [
+		"解放星寶石獸勞動力！"
+		""
+		"它的兩邊需要放置水源和岩漿"
+		"流體抽屜也可以"
+	]
+	quest.045CDB031C17A75B.quest_desc: [
+		"使用極光瓶右鍵灌注銅方塊"
+		"有 10% 的機率放置粉雪塊"
+		"（即使沒有放置粉雪塊，灌注銅方塊會消耗）"
+		""
+		"生成粉雪塊後使用奧術桶右鍵該方塊獲得粉雪桶"
+		""
+		"當然，如果你一開始就使用霜凍鍋釜收集了粉雪就可以跳過這一步了"
+	]
+	quest.04FF19BAE8F21207.quest_desc: ["你剛剛繪製的五芒星還沒擦掉吧"]
+	quest.066D81CA74A0BC3E.quest_desc: [
+		"將冰霜核心扔進終界傳送門"
+		""
+		"然後去終界看看"
+	]
+	quest.07B556772BA739E2.quest_desc: ["我應該還種不了它"]
+	quest.08D8B1190ACBD5C6.quest_desc: [
+		"儀式：歐菲克斯的呼喚"
+		""
+		"你可與在 [阿維亞之環] 的基礎上拓展成該儀式"
+		""
+		"拓展後的五芒星儀式可支持 [阿維亞之環] 和 [歐菲克斯的呼喚] 的所有配方"
+	]
+	quest.0941C17D75888212.quest_desc: ["小幫手可以在靈火中充電"]
+	quest.097D18E74700BAF5.quest_desc: [
+		"天氣掌控者"
+		""
+		""
+		"根據掉落在附近的物品，消耗靈氣更改天氣，可以透過不斷扔同種物品延長天氣更改的時間。"
+		""
+		"需要更改的天氣與主世界天氣一致時，一樣會消耗物品和靈氣。"
+		""
+		"向日葵——晴天"
+		""
+		"火焰彈——暴風雨"
+		""
+		"&m暗海磷石——降雨&r"
+		"&m當然你現在無法獲得暗海磷石&r"
+		"&m不過暴風雨跟降雨又有什麼區別呢&r"
+	]
+	quest.09CE9425F8FDD178.quest_desc: [
+		"16 種顏色的營火"
+		"16 種顏色的火焰"
+		""
+		"如果不喜歡營火燃燒的粒子效果"
+		"可以使用斧頭右鍵營火滅火"
+		"滅火後的營火同樣可以剪出火焰"
+		""
+		"&m&n別忘了普通營火右鍵可以轉為帶有顏色的營火&r&r"
+	]
+	quest.0AE1C6FE889E50B0.title: "蜘蛛黏液"
+	quest.0B43DB01E9F90D12.quest_desc: [
+		"&6HugMe! &r：對好友使用抱抱券發起抱抱請求"
+		""
+		"&6Let Me Feed You!&r：對好友使用食物進行投餵"
+	]
+	quest.0B661153E7580D4A.quest_desc: [
+		"一如既往"
+		""
+		"死亡不掉落已打開"
+	]
+	quest.0B7D19C9F022361D.quest_desc: ["金錠增產"]
+	quest.0BAA383779FC1C19.quest_desc: [
+		"早上一杯"
+		"中午一杯"
+		"晚上一杯"
+	]
+	quest.0D331CEC6F609128.title: "我要飛我要飛"
+	quest.0D3696696AB4C8AD.title: "抽獎"
+	quest.0D5D66CD47BC7B5A.title: "悖論硬幣"
+	quest.0DC3BD54A76F7076.quest_desc: [
+		"虛空粉筆可以當作任意粉筆使用"
+		""
+		"閉著眼直接畫就是了"
+	]
+	quest.0DC3BD54A76F7076.title: "我掌握了所有五芒星"
+	quest.0E22436CEADF181D.quest_desc: ["樹皮可以做紙"]
+	quest.0E53ABEEDFED903E.title: "相當於鑽石工具"
+	quest.10F09D79DAF2AEB2.title: "商店"
+	quest.1382E1BDD8543A08.quest_desc: [
+		"你可以給星寶石獸戴上挖掘工帽"
+		"使它可以挖掘方塊"
+		"以此給你的刷石機做一個簡單的自動化"
+		""
+		""
+		"註：即使你的刷石機下方放置了漏斗，也請你給星寶石獸設置一個儲存箱子，否則它將不會工作"
+		""
+		"注2：若設置正確但星寶石獸不工作，可以嘗試擊殺它並重新放置"
+		""
+		"設置方式："
+		"1、&6shift + 右鍵&r 需要&a挖掘的方塊&r，然後 &6右鍵&r &a星寶石獸&r"
+		"2、&6右鍵&r &a星寶石獸&r，&6shift + 右鍵&r &a儲存方塊&r"
+	]
+	quest.1597CA017C3166CD.title: "MEK升級抽獎"
+	quest.16B08585CC563A01.quest_desc: ["小幫手可以在靈火中充電"]
+	quest.18ABE27A93153F23.quest_desc: ["夜晚使用捕獲瓶對準天空右鍵"]
+	quest.1AEC1C7B101BD25C.quest_desc: [
+		"它可以消耗電在附近的魔源罐中產生魔源"
+		""
+		"需要2格之內存在非空的魔源罐"
+	]
+	quest.1AEC1C7B101BD25C.title: "電力魔源"
+	quest.1B7CBAFFEE6A36FE.title: "階段 2"
+	quest.1C347615E1E3E0FB.title: "升級抽獎箱"
+	quest.1CEA4C3F0EC76E4D.title: "染料生成器"
+	quest.1D1B78068E23FC9E.quest_desc: [
+		"包裝機會將其靠近的儲存系統中的物品打包成包裹"
+		"對包裝機輸入紅石信號即可進行打包操作"
+		"使用漏斗可將包裹導出"
+		""
+		"打包後的包裹輸入包裝機可將其解包成物品輸入到其緊靠的儲存系統"
+		""
+		"先放置儲存系統後放置包裝機會自動將輸入端緊貼儲存系統"
+	]
+	quest.1D775BA77117D72E.quest_desc: ["可以使儀式製作時間縮短為原來的四分之一"]
+	quest.1E6C71B6AFB6C2E2.quest_desc: ["再種一次"]
+	quest.1EB8645D93AD829C.title: "賺錢"
+	quest.1F85912F1E0FAE6A.title: "認養一頭牛"
+	quest.20569265CD29B312.quest_desc: ["紅石礦增產"]
+	quest.2060A3B6497C8C38.quest_desc: ["工作效率稍慢於原版漏斗"]
+	quest.207E8930717DC1AE.quest_desc: ["你可以拆掉你的雪人農場了"]
+	quest.23B78210F891F72B.title: "外星科技"
+	quest.2528F45E4D41D3AA.quest_desc: ["金礦增產"]
+	quest.26E83743D8008B20.quest_desc: [
+		"鑄造器也可以造螢光石粉"
+		""
+		"完成試煉吧"
+		"它會給你一個生怪磚"
+		"你可以做一個苦力怕農場"
+	]
+	quest.26E83743D8008B20.title: "螢光石同化"
+	quest.27026386468483A6.quest_desc: [
+		"使用物品卷軸右鍵星寶石獸可以過濾工作物品"
+		""
+		"註：每次重啟遊戲都需重新為星寶石獸過濾 "
+	]
+	quest.27026386468483A6.title: "家養小寵物"
+	quest.27F870E0D91C1BFB.quest_desc: [
+		"它仍然是可以合成的"
+		""
+		"當然，侵染樹葉也沒問題"
+	]
+	quest.29532EFA8CFCCC8D.quest_desc: ["鐘乳石滴礫石可以獲得銅礦"]
+	quest.2A494300F52E2C69.quest_desc: ["紅石自由！"]
+	quest.2B321574068E9ED3.quest_desc: [
+		"一杯茶 一包煙"
+		"三杯咖啡幹一天"
+		""
+		""
+		"任務物品為該機器所需全部方塊"
+		""
+		"提交全部物品領取結構生成器"
+		"1、生成器放置位置為整個結構最底層的中心點"
+		"2、核心機器不會自動放置，需玩家手動放置"
+		"3、玩家可在 實用藍圖 章節再次透過消耗物品來領取結構生成器"
+		"4、機器大小：7×8×7"
+		""
+		""
+		"（切記：千萬不可使用複製貼上小幫手貼上複製該結構，有機率閃退）"
+	]
+	quest.2B321574068E9ED3.title: "一天有多少 tick 來著？"
+	quest.2B5B67D2FEB03352.quest_desc: ["小幫手可以在靈火中充電"]
+	quest.2C3451160D17E546.quest_desc: [
+		"需在自然祭壇反應 50 秒"
+		""
+		""
+		"先喝杯咖啡放鬆一下吧"
+		""
+		"咖啡機會在每天早上自動生成一杯咖啡"
+		""
+		"你可以喝掉它"
+		""
+		"或者存起來"
+	]
+	quest.2D18EA3845E9210C.quest_desc: ["記得給它接入應力哦"]
+	quest.2D338BF70E70A3E5.quest_desc: [
+		"歡迎來到 &6隨機空島2：銀裝素裹&r"
+		""
+		"一如既往，你再次來到了這個島嶼"
+		"3×3 的&a哭泣黑曜石&r平台上同樣會跟隨階段刷新一些隨機的方塊"
+		"當然，需要&a你手持啟動器右鍵&r啟動後才會開始"
+		""
+		"這次，啟動器&a不會&r在開局就送給你"
+		""
+		"盡力推進任務吧，啟動器就藏在某些&a任務的獎勵&r中"
+	]
+	quest.2D527CD066B751B0.quest_desc: [
+		"五芒星升級時間到"
+		""
+		"&a阿巴拉斯開環召喚術&r"
+	]
+	quest.2D6C28AF2103FEE4.quest_desc: ["金錠自動化"]
+	quest.2E616BF4E370A37E.quest_desc: ["你可以給你的鐵產線做一個自動化了"]
+	quest.2E616BF4E370A37E.title: "萬能的路由器"
+	quest.2EF133A86F00407D.quest_desc: ["還記得那頭牛嗎"]
+	quest.2FAA472EE7CEE726.quest_desc: [
+		"雖然沒有無限水"
+		"但你可以使用水瓶和霜凍鍋釜獲取更多的水"
+	]
+	quest.2FF04E33891A02F4.quest_desc: [
+		"煉鋼！"
+		""
+		"但是現在高爐只可以使用紅蓮業火為燃料"
+	]
+	quest.2FFBCB2C9320CF9B.quest_desc: [
+		"使用目標標識器右鍵目標方塊"
+		""
+		"然後再次 shift + 右鍵終界雷射器"
+		""
+		"即可為終界雷射器標記位置"
+		""
+		"註：終界雷射器雷射所過之處都會將其方塊挖掘下來（除了基岩和紫水晶芽床）"
+		""
+		"它會促進芽床增長"
+	]
+	quest.318E6470846643CE.title: "哎？怎麼這麼熟悉"
+	quest.31CD53B4EA30407F.title: "藍圖列印"
+	quest.3232979D9F5C5BA1.quest_desc: ["有光照的地方不會有積雪"]
+	quest.327B5DA57D1DB571.quest_desc: [""]
+	quest.33B4C4F9F5CD9AB6.quest_desc: [
+		"霜凍鍋釜跟原版的鍋釜一樣"
+		""
+		"下雨時會收集雨水"
+		"下雪時會收集粉雪"
+		""
+		"這個世界只會下雪"
+		"你可以&6盡早收集起粉雪&r了"
+		""
+		"它會給你帶來一些幫助的"
+		""
+		"建議你多收集一些，它還是稍微需要一點的"
+		""
+		"&a你知道嗎：&r使用玻璃瓶可以將鍋釜裡的雪裝起來，就像裝水那樣"
+	]
+	quest.361D633D784F9B3D.title: "工作服"
+	quest.381EE9A729D474ED.title: "大型分子裝配"
+	quest.3837D5A1F9B25997.quest_desc: [
+		"你看到旁邊有棵樹了嗎"
+		""
+		"它可以在工作台中增殖"
+	]
+	quest.38DAF63BC9070BF9.title: "躍遷羅盤"
+	quest.3B0606C6FD6F9F71.title: "第一個創造物品"
+	quest.3CA282B42A1CF0F0.quest_desc: [""]
+	quest.3CA282B42A1CF0F0.title: "燒裂了"
+	quest.3D9F4919E65CA8F8.quest_desc: [
+		"蜘蛛在玩家 256 格以內"
+		"每 60 秒會吐一次蜘蛛網"
+		""
+		"這將是你前期唯一的線的來源"
+		""
+		"&m當然你也可以幹掉蜘蛛來獲取線&r"
+		""
+		"&6你可以手持命名牌 使用 /nametag <name> 指令來為命名牌賦名&r"
+		""
+		"命名生物死亡會掉落命名牌"
+	]
+	quest.3E9C60AB44434CBE.title: "30 秒"
+	quest.3EAA455D1382D522.title: "裝箱珍珠"
+	quest.40C2AF5D1B40BF58.title: "機器大升級"
+	quest.411E29A73E38E7E6.title: "階段 3"
+	quest.41E720274198BE90.quest_desc: [
+		"如果你有幸獲得了悖論硬幣、熵能鎬、躍遷羅盤其中之一"
+		"將有可能獲得超越當前階段的方塊"
+	]
+	quest.42A7DE86B70BB0A0.quest_desc: [
+		"在物品欄或 JEI 對物品按 Y 鍵"
+		"可在附近箱子中尋找該物品"
+		"尋找到的箱子會顯示粒子效果"
+	]
+	quest.42D74929213E5EF0.title: "金屬衝壓機"
+	quest.436832E355E36DFA.quest_desc: [
+		"嘗試使用奧術桶來接一接牛奶吧"
+		""
+		"當然也可能不是牛奶"
+		""
+		""
+		""
+		""
+		""
+		"使用奧術桶右鍵牛"
+		"有相同的機率獲得水桶、熔岩桶、鮮奶桶其中之一"
+	]
+	quest.436832E355E36DFA.title: "核能乳牛"
+	quest.449E9CDE3412E92F.title: "階段 4"
+	quest.44C4F9978C3898FB.quest_desc: [
+		"使用冰凌右鍵雪人即可獲得工作台"
+		""
+		"{@pagebreak}"
+		"&a由於遊戲光碟模組：Game Discs 與服務端不相容&r"
+		"&6故新增工作台來源&r"
+		"&a原遊戲機遊玩飛翔的蜜蜂遊戲最大記錄大於 5 時，使用遊戲機左鍵空氣獲得工作台的邏輯並未刪除&r"
+		"&6若玩家非服務端，可自行添加 Game Discs 模組體驗該流程&r"
+		"當背包中有遊戲光碟時"
+		"右鍵遊戲機打開GUI"
+		""
+		"W/S 選擇遊戲，空格或回車開始遊戲，Q 退出遊戲，R 重設遊戲"
+		""
+		"遊玩飛翔的蜜蜂遊戲"
+		"每次遊戲都會留下最大記錄"
+		"當最大記錄 &6≧5&r 時"
+		""
+		"使用遊戲機&6左鍵空氣&r"
+		"可獲得工作台"
+		""
+		"註："
+		"1、遊戲機本體 bug，僅會在遊戲中的最佳分數位置顯示首次大於 0 的分數，後續不會更新，不影響最大分數記錄"
+		"2、若真的出現遊戲分數 ≧5 而左鍵無效的情況，可以在工作台中合成重設遊戲機，重設後需重新通關遊戲"
+	]
+	quest.4959313AAD42A78E.quest_desc: ["挖掉會獲得冰晶石碎片"]
+	quest.4AA624CCFD7F0819.title: "賺錢"
+	quest.4B715A252223EDC3.title: "階段 1"
+	quest.4C1DE72BDED3AD86.quest_desc: [
+		"哦 "
+		"它是個單方塊"
+	]
+	quest.4C8E5FE16AB6A0A4.quest_desc: [
+		"只能在白天工作"
+		""
+		"不需要燃料"
+		""
+		"工作效率為熔爐的四分之一"
+		""
+		"可在其中放入反光板提高工作效率"
+	]
+	quest.4DD62A7923D02159.title: "完結！"
+	quest.4E216C5DCDD1D7E2.quest_desc: [
+		"使用 複製貼上小幫手 可以保存或者載入藍圖"
+		""
+		"具體用法請自行查看書籍"
+	]
+	quest.4F77597658C42A3A.title: "階段 0"
+	quest.50A0601867242260.quest_desc: [""]
+	quest.510B9EA22891411A.quest_desc: [""]
+	quest.515CE9F77B27DB4A.quest_desc: [
+		"在晚上，極光稜鏡會將其下方3x3範圍內的極光玻璃轉化為極光塵塊"
+		"{image:kubejs:textures/image/2025-02-21_11.52.05.png width:40 height:40 align:left} "
+		"↓"
+		"{image:kubejs:textures/image/2025-02-21_11.53.00.png width:40 height:40 align:left}"
+		"如果你有 &6閃耀的鑽石方塊&r"
+		"可以將其放置在極光稜鏡 上方第二格的位置，這樣極光稜鏡將會全天工作"
+		"註：稜鏡和閃耀的鑽石方塊中間必須為空氣方塊"
+		""
+		"{image:kubejs:textures/image/2025-02-21_11.52.25.png width:40 height:40 align:left}"
+		"↓"
+		""
+		"{image:kubejs:textures/image/2025-02-21_11.53.16.png width:40 height:40 align:left}"
+	]
+	quest.52B4B49728840CEF.quest_desc: ["購買一點綠寶石"]
+	quest.52F491CF21FB4F87.quest_desc: ["小幫手可以在靈火中充電"]
+	quest.52F85F477F913821.quest_desc: [
+		"方塊施肥器可以使用電和水來達到施肥的效果"
+		"{image:kubejs:textures/image/fertilizer.png width:200 height:200 align:center}"
+	]
+	quest.52F85F477F913821.title: "砍樹小套裝"
+	quest.538B0C4BB5738888.quest_desc: [
+		"這個世界不會主動刷怪（包括和平生物）"
+		""
+		"但你仍然可以通過諸如生怪蛋、生怪磚等方式見到怪物"
+	]
+	quest.540122B6FF9E1859.quest_desc: [
+		"使用染料直接右鍵營火可為其染色"
+		""
+		"當然也可以在工作台合成"
+	]
+	quest.540122B6FF9E1859.title: "異火煉銅"
+	quest.572D7AC7678B9C72.quest_desc: ["隨機方塊，啟動！"]
+	quest.57B765281868D580.quest_desc: ["我沒有跳舞樹"]
+	quest.57BE1BE620B55930.quest_desc: [
+		"使烈焰人燃燒室超級加熱"
+		"甚至持續時間更長"
+	]
+	quest.590DD018111A1A5B.title: "熵能鎬"
+	quest.5A27802E224E66AB.quest_desc: [
+		"你不需要搭建這個結構"
+		""
+		"當然，搭建了也嗎得用"
+	]
+	quest.5B94E22F5412F996.quest_desc: [
+		"幾乎跟熔爐差不多"
+		""
+		"工作效率是熔爐的二分之一"
+	]
+	quest.5D70F3BD80F1236B.quest_desc: ["消耗魔源產生應力"]
+	quest.5D70F3BD80F1236B.title: "魔法驅動"
+	quest.611278C1051198C6.quest_desc: ["更快更大量的壓印"]
+	quest.62591C72C6F61D8D.title: "請老天喝杯咖啡"
+	quest.628F8417032E2469.quest_desc: ["青金石自動化"]
+	quest.6406B25ABB2DDC56.quest_desc: [""]
+	quest.6406B25ABB2DDC56.title: "第一塊金屬"
+	quest.654A2EAF95848FB1.quest_desc: ["不需要第三隻眼也可以收穫的樹苗"]
+	quest.6584099162EC5CA2.quest_desc: [
+		"將一個存貨鏈路放置在包裝機上"
+		""
+		"然後將另一個存貨鏈路右鍵剛剛放置的存貨鏈路以連接到同一網路"
+		""
+		"將連結後的存貨鏈路放置在另一台包裝機上"
+		""
+		"兩台包裝機即在同一網路"
+	]
+	quest.65DCAC064A3F633F.quest_desc: [
+		"它可以當燃料使用"
+		"燃燒時間是現實世界的 4 個小時"
+		"如果你不覺得浪費的話"
+	]
+	quest.65E53BD75A6F3539.quest_desc: [
+		"由於需要收集雪後物品"
+		""
+		"所以前期可能長時間處於下雪狀態"
+		""
+		"可以通過 &6選項-顯示設定-細節-天氣&r 按鈕控制 下雪粒子是否可見"
+		"放置&6火把、野火燈籠&r等光照物品可以保證地上沒有積雪"
+	]
+	quest.66048388021FF72E.title: "賺錢"
+	quest.6642CED731BB8AC5.quest_desc: [
+		"使用工廠量表右鍵存貨鏈路以加入網路"
+		""
+		"將量表放置在網路中的第二台包裝機（即解包機）上"
+		""
+		"在第一台包裝機上放置告示牌，並寫入任意文字（如：地址 1），該文字即為該包裝機的標識"
+		""
+		"在剛剛放置的量表上設置對應的物品（如紅石粉）"
+		""
+		"對量表長按右鍵可以設置對應物品的數量（如 32 個紅石粉）"
+		""
+		"右鍵量表打開 GUI，在 發送到 位置寫入第一台包裝機標識（即：地址1）"
+		""
+		"此時，如果第一台包裝機對應的儲存中存在量表標記的物品（即：32個紅石粉）"
+		""
+		"量表會自動請求 地址1 的包裝機輸出對應物品（即：包含32個紅石粉的包裹）"
+		""
+		"註：包裹不會自動進入第二台包裝機，需玩家使用傳送帶或管道等物流系統進行幫助運輸"
+	]
+	quest.6642CED731BB8AC5.title: "包裝流水線"
+	quest.66A830760A9E565E.quest_desc: [""]
+	quest.67757C38C8F51D76.title: "異火提取器"
+	quest.678DECF720FA4677.quest_desc: [
+		"它可以消耗魔源罐裡的魔源生產電"
+		""
+		"需要 2 格之內存在非空的魔源罐"
+	]
+	quest.678DECF720FA4677.title: "魔法電力"
+	quest.67FA216375601209.quest_desc: [
+		"儀式：阿維亞之環"
+		""
+		"魔靈全典找到該儀式可放置虛影於世界中"
+		"若魔靈全典內容為空可以 shift + 點擊書籍右邊的圖示解鎖全部內容"
+		""
+		"按照地上的虛影畫對應的顏色，放置對應的物品"
+		""
+		"在儀式任意空白處放置獻祭之碗"
+		""
+		"根據 JEI 提示物品，在獻祭之碗上放置所需物品，最後在黃金獻祭之碗上放置核心物品"
+		""
+		"等待一段時間"
+		""
+		"合成完畢"
+	]
+	quest.6995A2E8FE403A20.title: "鍛造模板抽獎箱"
+	quest.6A24CEB1DD39AFCC.quest_desc: [
+		"/sethome 設置一個家"
+		"/home 返回家"
+		"/back 返回上一次傳送位置或死亡位置"
+		""
+		""
+		"/ftbteambases home 回到島嶼出生點"
+		"/ftbteambases lobby 回到大廳 "
+	]
+	quest.6B191784099EDF69.quest_desc: [
+		"記得保持花朵周圍的亮度"
+		""
+		"一旦形成雪片，花朵將重新變為凍花"
+	]
+	quest.6B613776EADC653A.quest_desc: [
+		"手動靈氣"
+		""
+		"將 &6靈氣花&r 放置到地上，使用 &6黃金葉&r &a右鍵&r &6靈氣花&r"
+		""
+		"&6消耗&r一片黃金葉和一朵靈氣花"
+		""
+		"為區塊釋放 500000 靈氣"
+	]
+	quest.6B9271A87B2EA83D.quest_desc: [
+		"將冰霜核心扔進終界傳送門"
+		""
+		"然後去終界看看"
+	]
+	quest.6BF0ACE64BD59294.quest_desc: ["想必你已經獲得了沙子吧"]
+	quest.6CAD6FBF99F0C00D.quest_desc: ["簡單的原版刷石機"]
+	quest.6F0B63A636EBA712.quest_desc: [
+		"提交全部物品領取結構生成器"
+		"1、生成器放置位置為整個結構最底層的中心點"
+		"2、核心機器不會自動放置，需玩家手動放置"
+		"3、玩家可在 實用藍圖 章節再次透過消耗物品來領取結構生成器"
+		"4、機器大小：5×3×5"
+	]
+	quest.714906C4B9A221A2.quest_desc: ["下雪天將極光塵扔入裝有粉雪的霜凍鍋釜中"]
+	quest.72063CBE56A663CF.quest_desc: ["石英自由！"]
+	quest.72266571CD4742C7.quest_desc: [
+		"你可以種一片地"
+		"也可以使用水培床"
+		""
+		"這個種子不能增殖"
+	]
+	quest.72EE61044C8DE1D4.quest_desc: ["科技的味道"]
+	quest.72EE61044C8DE1D4.title: "科技前夕"
+	quest.73C507241744C6C8.quest_desc: [
+		"做一個雪人吧"
+		""
+		"它發出的雪球具有傷害"
+		"且被雪人殺死的生物會變成一隻雪人"
+		""
+		"雪人死亡會掉落雪魄"
+		"接下來你會大量使用到雪魄"
+		""
+		""
+		"你知道一開始產線的蜘蛛會掉落蜘蛛生怪蛋嗎"
+		"你知道有名字的生物死亡會掉落對應的命名牌嗎"
+		""
+		""
+		"利用這些資訊，做一個雪人農場吧"
+		""
+		"什麼？雪人被雪人殺死？那不是永動機嗎"
+	]
+	quest.73C507241744C6C8.title: "它好貴啊"
+	quest.74AD922AFD8A4604.quest_desc: ["離心機 + 流體處理插件 = 可以離心流體的離心機"]
+	quest.74B94D8A1891A896.title: "量子 CPU"
+	quest.759F8A0E04946937.title: "Mekanism 工廠抽獎"
+	quest.75EFC2D6C71C9898.title: "工具抽獎箱"
+	quest.76F9C25AD3980499.quest_desc: ["你得到這些礦物了嗎"]
+	quest.786832BB75330A1E.quest_desc: ["更快速的產銅"]
+	quest.7A41FBB6478BEAEF.quest_desc: [
+		"無限水已關閉"
+		""
+		"當然，只是為了樂趣，並非為了難度"
+	]
+	quest.7AD76A90086EDC11.quest_desc: ["次元物質的增殖"]
+	quest.7B75B79465582F02.quest_desc: ["熔爐只能燒出 3 個銅粒"]
+	quest.7BDF29F1F0C96A62.quest_desc: [
+		"一如既往"
+		""
+		"擴島的材料我也準備好了"
+	]
+	quest.7C201EDE9231776E.quest_desc: [
+		"可以合成得到"
+		""
+		"把魔鬼夢之果扔到地上"
+		"使用打火石右鍵該方塊"
+		"獲得&6靈火&r"
+	]
+	quest.7EA7AA6AC7A74ED6.quest_desc: [
+		"刷新方塊的&a平台所在的區塊&r需在 &aFTB 地圖&r中&a領取區塊令其常載入&r"
+		"否則若玩家不在該區塊附近將無法刷新方塊"
+		""
+		"區塊領取方法："
+		"1、按 &6M&r 鍵打開 &aFTB 地圖&r"
+		"2、點擊螢幕&6左上角&r的&a聲明區塊&r按鈕"
+		"3、選擇&a平台所在的區塊&r，點擊&6滑鼠左鍵&r，完成領區塊操作"
+		"4、&a再次&r &6shift + 滑鼠左鍵&r 點擊&a該區塊&r，完成令其常載入操作"
+	]
+	quest.7EF5DD3CDCC06B5F.title: "賺錢"
+	quest.7F3E069B5322EEA3.title: "挑戰"
+	quest.7FC107F7E7AD8422.quest_desc: [""]
+	reward_table.26BD8AFC4F239DBF.title: "飾品"
+	reward_table.36878A5C79258233.title: "工廠"
+	reward_table.4414CD9236113BF7.title: "硬幣"
+	reward_table.6218E4BE5F5FE386.title: "升級"
+	task.01A542C6BF868372.title: "階段 6"
+	task.034B59E03188BF33.title: "階段 3"
+	task.0665B929A873BAC4.title: "氘氚燃料"
+	task.0A7F81526F651CCE.title: "島嶼"
+	task.0D259577D20023EF.title: "階段 0"
+	task.12C0EDBBC1C57993.title: "重要！！！"
+	task.161C2DE6E39ED071.title: "祭祀台"
+	task.20034DECE5AB0C75.title: "遊戲機"
+	task.20EF825006D8651F.title: "內測階段"
+	task.22FE548658704552.title: "玩家互動"
+	task.2778952AFBB37EBF.title: "分裂燃料"
+	task.2C938599D294475E.title: "死亡不掉落"
+	task.2DB82AFA22A028D7.title: "森林儀式"
+	task.395B59A60776F57B.title: "關閉"
+	task.4182C8ED65A6D968.title: "階段 2"
+	task.423717C6985D2E08.title: "自然祭壇"
+	task.47D50A1EF3F20DD8.title: "階段 1"
+	task.4AA276211EBA2A76.title: "Find Me"
+	task.4B28BBD3B5F9D9E3.title: "RandBlock 2：Winterize"
+	task.4F0B3AF063675E98.title: "核廢料"
+	task.54E288D5583F0546.title: "島嶼"
+	task.592CD91ABFA77BA2.title: "RandBlock"
+	task.5B5B4560E64D89AE.title: "刷怪"
+	task.5E19B48014B91545.title: "無限水"
+	task.5F66D0BFE6DCD26B.title: "除錯"
+	task.66030D2726BF304F.title: "階段 5"
+	task.6761B731A7ED71C8.title: "home"
+	task.732A4B23EC5F37B9.title: "跳階段方塊"
+	task.73BF5EB41CC0F455.title: "階段 4"
+	task.7795F4F9039AA7A4.title: "3 分鐘"
+	task.77F993986AE7CB77.title: "天氣"
+	task.7F901FED95A1EFD4.title: "氣態伏聆物質"
+}

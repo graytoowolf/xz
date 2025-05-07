@@ -1,0 +1,111 @@
+{
+	id: "619FECE5A178C604"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			count: 2
+			id: "728C13FA9BBB17B7"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:fan_upgrade_height"
+			}
+		}
+		{
+			count: 2
+			id: "658C756F15F00FBE"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:fan_upgrade_width"
+			}
+		}
+		{
+			count: 2
+			id: "36AF923A05F5D01C"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:fan_upgrade_speed"
+			}
+		}
+		{
+			count: 2
+			id: "519B11D0DF571E53"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:saw_upgrade_fire"
+			}
+		}
+		{
+			count: 2
+			id: "5359544F4243FA70"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:saw_upgrade_smite"
+			}
+		}
+		{
+			count: 2
+			id: "3791D4A9791D728E"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:saw_upgrade_arthropod"
+			}
+		}
+		{
+			count: 2
+			id: "6F0B6B6D0F4B6038"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:saw_upgrade_beheading"
+			}
+		}
+		{
+			count: 2
+			id: "123ACCEE8B9924A2"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:saw_upgrade_looting"
+			}
+		}
+		{
+			count: 2
+			id: "1E0D0B1A29828EA5"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:saw_upgrade_sharpness"
+			}
+		}
+		{
+			count: 2
+			id: "040C367FEA21F343"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:absorption_upgrade"
+			}
+		}
+		{
+			count: 2
+			id: "1FE3F7E8D955EB4D"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:xp_solidifier_upgrade"
+			}
+		}
+		{
+			count: 2
+			id: "1610407BBE4D36E6"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:spawner_upgrade_height"
+			}
+		}
+		{
+			count: 2
+			id: "4731FFF428CACEB5"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:spawner_upgrade_width"
+			}
+		}
+	]
+}

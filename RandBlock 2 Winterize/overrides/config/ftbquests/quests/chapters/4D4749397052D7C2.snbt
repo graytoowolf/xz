@@ -1,0 +1,630 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4D4749397052D7C2"
+	group: "707E332F9DC32E2B"
+	icon: {
+		components: {
+			"minecraft:custom_name": "{\"extra\":[{\"color\":\"light_purple\",\"text\":\"彩\"},{\"color\":\"yellow\",\"text\":\"虹\"},{\"color\":\"aqua\",\"text\":\"熔\"},{\"color\":\"green\",\"text\":\"炉\"}],\"text\":\"\"}"
+		}
+		id: "ironfurnaces:million_furnace"
+	}
+	id: "4D4749397052D7C2"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "30423C5CDCA90E84"
+			rewards: [
+				{
+					id: "2CEB9811663FCCDB"
+					item: {
+						count: 1
+						id: "functionalstorage:linking_tool"
+					}
+					type: "item"
+				}
+				{
+					id: "5510DA8D9E098EED"
+					item: {
+						count: 1
+						id: "functionalstorage:configuration_tool"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "75D0724BFFC6DC91"
+				item: { count: 1, id: "functionalstorage:cherry_1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30423C5CDCA90E84"]
+			id: "432F37A731A693EA"
+			rewards: [{
+				id: "192F039D7698895D"
+				item: {
+					count: 1
+					id: "morefunctionalstorage:speed_upgrade_augment"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "035CDD356AB7C411"
+					item: { components: { "morefunctionalstorage:owner": { id: "a734730270e04a4fb384834c6e32d6fc", name: "Chu_An" }, "morefunctionalstorage:relative_direction": "front" }, count: 1, id: "morefunctionalstorage:placer_upgrade" }
+					type: "item"
+				}
+				{
+					id: "02D2689A5EB9DD34"
+					item: { components: { "morefunctionalstorage:owner": { id: "a734730270e04a4fb384834c6e32d6fc", name: "Chu_An" }, "morefunctionalstorage:relative_direction": "front" }, count: 1, id: "morefunctionalstorage:breaker_upgrade" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30423C5CDCA90E84"]
+			id: "51FABB0A4F66ED28"
+			tasks: [
+				{
+					id: "507C6B48440AEAC5"
+					item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:collector_upgrade" }
+					type: "item"
+				}
+				{
+					id: "7895821E3849E288"
+					item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:puller_upgrade" }
+					type: "item"
+				}
+				{
+					id: "5C150A7980775138"
+					item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:pusher_upgrade" }
+					type: "item"
+				}
+				{
+					id: "226FB894DE621A31"
+					item: { components: { "functionalstorage:slot": 0 }, count: 1, id: "functionalstorage:redstone_upgrade" }
+					type: "item"
+				}
+				{
+					id: "034D04D35360CBEC"
+					item: { count: 1, id: "functionalstorage:void_upgrade" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30423C5CDCA90E84"]
+			id: "635267FFB5023BEC"
+			tasks: [
+				{
+					id: "3D4E2294D570DBD3"
+					item: { count: 1, id: "functionalstorage:copper_upgrade" }
+					type: "item"
+				}
+				{
+					id: "648ADE2C41733588"
+					item: { count: 1, id: "functionalstorage:gold_upgrade" }
+					type: "item"
+				}
+				{
+					id: "5F6C03CE0C6C6036"
+					item: { count: 1, id: "functionalstorage:diamond_upgrade" }
+					type: "item"
+				}
+				{
+					id: "1312FDEA51C907C9"
+					item: { count: 1, id: "functionalstorage:netherite_upgrade" }
+					type: "item"
+				}
+				{
+					id: "70B5C903758F7B12"
+					item: { count: 1, id: "functionalstorage:iron_downgrade" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30423C5CDCA90E84"]
+			id: "3D167C25D264117F"
+			tasks: [
+				{
+					id: "4F639585D3990EEA"
+					item: { count: 1, id: "functionalstorage:storage_controller" }
+					type: "item"
+				}
+				{
+					id: "0999D3EA34E84CED"
+					item: { count: 1, id: "functionalstorage:fluid_1" }
+					type: "item"
+				}
+				{
+					id: "097A264ECFB74C07"
+					item: { count: 1, id: "functionalstorage:compacting_drawer" }
+					type: "item"
+				}
+				{
+					id: "7D43E73AE9B837CD"
+					item: { count: 1, id: "functionalstorage:ender_drawer" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "537C6F9E286FD8DD"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "15898D54686FDBEA"
+					item: { count: 1, id: "sfm:manager" }
+					type: "item"
+				}
+				{
+					id: "731958DD218B63F9"
+					item: { count: 1, id: "sfm:cable" }
+					type: "item"
+				}
+				{
+					id: "533E5F7AE180854C"
+					item: { count: 1, id: "sfm:disk" }
+					type: "item"
+				}
+				{
+					id: "24BA7EC3933B823D"
+					item: { count: 1, id: "sfm:labelgun" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "3CFA12ACBC92E475"
+			shape: "rsquare"
+			tasks: [{
+				id: "7B0F3367D0DCB9D9"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "5C925FC10A3485E6"
+			shape: "rsquare"
+			tasks: [{
+				id: "3BF5BAC072FFEA19"
+				item: { count: 1, id: "modularrouters:modular_router" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "76179157A373519C"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "40F7525D04207B55"
+					item: { count: 1, id: "pipez:item_pipe" }
+					type: "item"
+				}
+				{
+					id: "3474DE1607B779F3"
+					item: { count: 1, id: "pipez:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "101F613450E0FDC2"
+					item: { count: 1, id: "pipez:energy_pipe" }
+					type: "item"
+				}
+				{
+					id: "6D2A154F18EA3FAD"
+					item: { count: 1, id: "pipez:universal_pipe" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "467E5823C57D30D6"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "494BE6DD4A1410D3"
+					item: { count: 1, id: "laserio:laser_connector" }
+					type: "item"
+				}
+				{
+					id: "2193AA9570BD4DDA"
+					item: { count: 1, id: "laserio:laser_node" }
+					type: "item"
+				}
+				{
+					id: "522C91E80E2D300B"
+					item: { count: 1, id: "laserio:laser_wrench" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["467E5823C57D30D6"]
+			id: "297792718BE86D6D"
+			rewards: [{
+				count: 4
+				id: "55635E739FEAAB1E"
+				item: {
+					count: 1
+					id: "laserio:overclocker_card"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A3725196218346B"
+					item: { count: 1, id: "laserio:card_item" }
+					type: "item"
+				}
+				{
+					id: "3B2FD4FE4E7F9845"
+					item: { count: 1, id: "laserio:card_fluid" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["467E5823C57D30D6"]
+			id: "349C7859F970B7C6"
+			rewards: [{
+				count: 4
+				id: "760802BC39225C47"
+				item: {
+					count: 1
+					id: "laserio:overclocker_node"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7E419FD147497653"
+					item: { count: 1, id: "laserio:filter_basic" }
+					type: "item"
+				}
+				{
+					id: "650AB0FFD4BD5E70"
+					item: { count: 1, id: "laserio:filter_count" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "160EEE7898028AFC"
+			shape: "rsquare"
+			tasks: [{
+				id: "0F78832AC43E5D14"
+				item: { count: 1, id: "elevatorid:elevator_white" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "2AF89A13EDE8D698"
+			shape: "rsquare"
+			tasks: [{
+				id: "1E359C6EB7D696E6"
+				item: { count: 1, id: "cookingforblockheads:sink" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "30E999E436B12AE1"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3EB7D81AA5086A61"
+					item: { count: 1, id: "constructionstick:wooden_stick" }
+					type: "item"
+				}
+				{
+					id: "5F959BAC35DE9E88"
+					item: { count: 1, id: "constructionstick:copper_stick" }
+					type: "item"
+				}
+				{
+					id: "2CB092AEB5856D40"
+					item: { count: 1, id: "constructionstick:iron_stick" }
+					type: "item"
+				}
+				{
+					id: "3B0E1CDAEE44E316"
+					item: { count: 1, id: "constructionstick:diamond_stick" }
+					type: "item"
+				}
+				{
+					id: "105D75253E622B2D"
+					item: { count: 1, id: "constructionstick:netherite_stick" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "311E5F48803527AD"
+			rewards: [{
+				id: "72573662091F56B0"
+				item: {
+					count: 1
+					id: "entangled:item"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6EA702C26983D6F2"
+				item: { count: 1, id: "entangled:block" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			id: "2352CB7A02759707"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "77F5AEE0DE3E77C4"
+					item: { count: 1, id: "glassential:glass_ethereal" }
+					type: "item"
+				}
+				{
+					id: "3BC41F6DD2927895"
+					item: { count: 1, id: "glassential:glass_dark_ethereal" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "38EE16BF237B7AB7"
+			shape: "rsquare"
+			tasks: [{
+				id: "738B6F8746BF84B6"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"yellow\",\"text\":\"彩\"},{\"color\":\"yellow\",\"text\":\"虹\"},{\"color\":\"green\",\"text\":\"熔\"},{\"color\":\"yellow\",\"text\":\"炉\"}],\"text\":\"\"}" }, count: 1, id: "ironfurnaces:million_furnace" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "014F934BDB0EB54F"
+			rewards: [{
+				id: "0DBA3C023B3D9F58"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_configurator"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7225A72D8649146F"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "601D4B1BDF42FE9B"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5B065F9FE06F76E7"
+					item: { count: 1, id: "woodenhopper:wooden_hopper" }
+					type: "item"
+				}
+				{
+					id: "39429946D69A6C95"
+					item: { count: 1, id: "brickhopper:brick_hopper" }
+					type: "item"
+				}
+				{
+					id: "569171936E412F0C"
+					item: { count: 1, id: "utilitarian:fluid_hopper" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "29F79A1356435EDC"
+			shape: "rsquare"
+			tasks: [{
+				id: "2A2D7C05ADB0CDD7"
+				item: { count: 1, id: "utilitarian:angel_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "474491B46ADD9DCA"
+			shape: "rsquare"
+			tasks: [{
+				id: "524C6AE059464A81"
+				item: { count: 1, id: "utilitarian:redstone_clock" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "63FF3E118F73495A"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4DFAA8CA18A0F87A"
+					item: { count: 1, id: "simplemagnets:basicmagnet" }
+					type: "item"
+				}
+				{
+					id: "6A299C1278DC1433"
+					item: { count: 1, id: "simplemagnets:advancedmagnet" }
+					type: "item"
+				}
+				{
+					id: "3EB45A6DBFC95421"
+					item: { count: 1, id: "simplemagnets:basic_demagnetization_coil" }
+					type: "item"
+				}
+				{
+					id: "7F4E4F78E9FFECAC"
+					item: { count: 1, id: "simplemagnets:advanced_demagnetization_coil" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "3DCF5CAA4A9D703B"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2823336B8632C950"
+					item: { count: 1, id: "dimstorage:dimensional_chest" }
+					type: "item"
+				}
+				{
+					id: "6A93978E6B22A6D8"
+					item: { count: 1, id: "dimstorage:dimensional_tank" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "3B5C71AC88A7A8C1"
+			rewards: [{
+				id: "293CF8DC461236DA"
+				item: {
+					count: 1
+					id: "dimensionalpocketsii:dimensional_wrench"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "604D2856C75BF42F"
+				item: { count: 1, id: "dimensionalpocketsii:block_pocket" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "594B0E1683684EA3"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "13DB058B3651B1D4"
+					item: { count: 1, id: "enderstorage:ender_chest" }
+					type: "item"
+				}
+				{
+					id: "049F15C69D1EDF63"
+					item: { count: 1, id: "enderstorage:ender_tank" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "3BDAA97E37D4A78E"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3F0E007DABA63A46"
+					item: { count: 1, id: "mob_grinding_utils:fan" }
+					type: "item"
+				}
+				{
+					id: "5CA0F12799D4E92B"
+					item: { count: 1, id: "mob_grinding_utils:saw" }
+					type: "item"
+				}
+				{
+					id: "7AF5A1345F66D91E"
+					item: { count: 1, id: "mob_grinding_utils:absorption_hopper" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "3352051316435057"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "21D95737838537CB"
+					item: { count: 1, id: "torchmaster:feral_flare_lantern" }
+					type: "item"
+				}
+				{
+					id: "7658C1F09901C21B"
+					item: { count: 1, id: "torchmaster:megatorch" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			id: "22C34A426ED7DDA9"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3FD297AD26715F58"
+					item: { count: 1, id: "trashcans:item_trash_can" }
+					type: "item"
+				}
+				{
+					id: "37A690DC99ED2CC9"
+					item: { count: 1, id: "trashcans:liquid_trash_can" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

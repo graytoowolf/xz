@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"sophisticatedbackpacks:upgrade_base"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedstorage:upgrade_base"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:alloy_infused"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:basic_control_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,517 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "7B52078A83B75CA5"
+	icon: {
+		id: "minecraft:cherry_sapling"
+	}
+	id: "6E0570400FAB5578"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3837D5A1F9B25997"
+			rewards: [
+				{
+					count: 8
+					id: "5038099FFEC74A18"
+					item: {
+						count: 1
+						id: "winterly:icicle"
+					}
+					type: "item"
+				}
+				{
+					id: "3BE552F25FD3B34F"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "613769E03B2CB851"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:smithing_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "22B87D7ED968AE95"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:anvil_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "5ED8DF92198B2A73"
+					item: {
+						count: 1
+						id: "create:wrench"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4147D928A2D37223"
+					item: {
+						count: 1
+						id: "farmersdelight:hamburger"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "747A7ECD6E715E4B"
+					table_id: 4905771921969331191L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "03EB69024768912B"
+				item: { count: 1, id: "winterly:icicle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3837D5A1F9B25997"]
+			icon: {
+				id: "minecraft:cyan_concrete"
+			}
+			id: "7BDF29F1F0C96A62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "159F975D7777404D"
+				table_id: 4905771921969331191L
+				team_reward: true
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3B4D1C0B031CE03C"
+					item: { count: 1, id: "minecraft:cyan_concrete" }
+					type: "item"
+				}
+				{
+					id: "756D6D985E4736DB"
+					item: { count: 1, id: "minecraft:white_concrete" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3837D5A1F9B25997"]
+			id: "44C4F9978C3898FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A873C35A4F1C11E"
+					table_id: 4905771921969331191L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 8
+					id: "3D2BFCCA15A26BD7"
+					item: {
+						count: 1
+						id: "winterly:icicle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "6ECFB93244CA2196"
+				item: { count: 8, id: "winterly:icicle" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44C4F9978C3898FB"]
+			id: "7FC107F7E7AD8422"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0BAFB58BED3765C9"
+					table_id: 4905771921969331191L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "3E4D73A077FB199D"
+					item: {
+						count: 1
+						id: "kubejs:tools_raffle_box"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "65DD2A1726201FE3"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44C4F9978C3898FB"]
+			id: "07B556772BA739E2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7DBC7B2A9CEC4D29"
+					table_id: 4905771921969331191L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "7B14BC20011335CE"
+					item: {
+						components: {
+							"modonomicon:book_id": "occultism:dictionary_of_spirits"
+						}
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27D7A059B4E13EF7"
+				item: { count: 1, id: "occultism:datura_seeds" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07B556772BA739E2"]
+			id: "7C201EDE9231776E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6AE02CFF8080ED84"
+					table_id: 4905771921969331191L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "7E444671B1ED7EF4"
+					item: {
+						count: 1
+						id: "minecraft:flint_and_steel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "267213811F27ADCC"
+				item: { count: 1, id: "occultism:datura" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C201EDE9231776E"]
+			id: "46087DF35A446F0E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1BAE8F9D8C0E3F3C"
+					table_id: 4905771921969331191L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 8
+					id: "7637E6E406C39427"
+					item: {
+						count: 1
+						id: "occultism:large_candle"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07C5E73B66059BAF"
+				item: { count: 1, id: "occultism:spirit_attuned_gem" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BDF29F1F0C96A62"]
+			id: "4563611BC115359A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B7E303171660692"
+				table_id: 4905771921969331191L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B6F3D0C93C041DD"
+				item: { count: 1, id: "occultism:chalk_white_impure" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4563611BC115359A"
+				"7C201EDE9231776E"
+			]
+			id: "3511E4ACC84E63CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30D82487989F40DA"
+				table_id: 4905771921969331191L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				id: "127C155916B56E06"
+				item: { count: 1, id: "occultism:chalk_white" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7BDF29F1F0C96A62"]
+			id: "1CBC9AE455EE670B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "156DFF1C862C5D33"
+				table_id: 4905771921969331191L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				id: "0EBC52CE149F5FF3"
+				item: { count: 1, id: "occultism:otherstone" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CBC9AE455EE670B"]
+			id: "5983CD1B8C51CA62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A69CC41F0A9F333"
+				table_id: 4905771921969331191L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D2581A82B1DE4D1"
+				item: { count: 1, id: "occultism:sacrificial_bowl" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"46087DF35A446F0E"
+				"5983CD1B8C51CA62"
+			]
+			id: "1AF9527B9F0779F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1682A3772B64B86E"
+				table_id: 4905771921969331191L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				id: "150BD00F2F5D527F"
+				item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3511E4ACC84E63CB"
+				"1AF9527B9F0779F9"
+			]
+			icon: {
+				id: "occultism:chalk_lime_impure"
+			}
+			id: "67FA216375601209"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2ACAB5E8B788D415"
+					table_id: 4905771921969331191L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 4
+					id: "3FAE322C1A5EEBF4"
+					item: {
+						count: 1
+						id: "minecraft:skeleton_skull"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0822CA2A99AC9A04"
+					item: { count: 1, id: "occultism:chalk_light_gray_impure" }
+					type: "item"
+				}
+				{
+					id: "37638535661CBF17"
+					item: { count: 1, id: "occultism:chalk_lime_impure" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"67FA216375601209"
+				"46087DF35A446F0E"
+				"1AF9527B9F0779F9"
+			]
+			id: "08D8B1190ACBD5C6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CA080BAF48D8639"
+					table_id: 4905771921969331191L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "098D1F28B1A92FAA"
+					item: {
+						count: 1
+						id: "kubejs:paradox_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "5D6FF919574A172A"
+				item: { count: 1, id: "kubejs:frosty_cherry_sapling" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08D8B1190ACBD5C6"]
+			id: "572D7AC7678B9C72"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4143796597164135"
+					table_id: 4905771921969331191L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "5C68E594E8C31E74"
+					item: {
+						count: 1
+						id: "kubejs:paradox_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "713DF22F87C16C33"
+					item: {
+						count: 1
+						id: "kubejs:stage0"
+					}
+					type: "item"
+				}
+				{
+					id: "11DBE93B193586C2"
+					item: {
+						count: 1
+						id: "kubejs:stage_time_max"
+					}
+					type: "item"
+				}
+				{
+					id: "65E9B22E2CB5D379"
+					item: {
+						count: 1
+						id: "kubejs:stage_off"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "658763FACC557520"
+					item: {
+						count: 1
+						id: "farmersdelight:mutton_wrap"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				count: 2L
+				id: "236D723200DFD1E3"
+				item: { count: 1, id: "minecraft:cherry_sapling" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44C4F9978C3898FB"]
+			id: "33B4C4F9F5CD9AB6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66F62203B423EB02"
+				table_id: 4905771921969331191L
+				team_reward: true
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "34669902E3E51A7F"
+				item: { count: 1, id: "minecraft:cauldron" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+	]
+}
