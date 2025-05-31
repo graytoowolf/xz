@@ -1,0 +1,11 @@
+{
+    "name": "Livingrock",
+    "colors": [
+      "beb5a3",
+      "c7c0b0"
+    ],
+    "ingredient": {
+      "item": "botania:livingrock"
+    },
+    "inUltimateSingularity": true
+  }

@@ -1,0 +1,13 @@
+{
+    "name": "Gaia Spirit",
+    "colors": [
+      "b1dca9",
+      "dca9ca"
+    ],
+    "ingredient": {
+      "item": "botania:life_essence"
+    },
+    "materialCount": 512,
+    "inUltimateSingularity": false
+  }
+  

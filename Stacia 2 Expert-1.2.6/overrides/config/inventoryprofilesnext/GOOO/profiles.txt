@@ -1,0 +1,15 @@
+
+
+
+
+profile Saved activate HOT4
+	HOT1
+		"minecraft:enderman_spawn_egg"
+	HOT8
+		"mysticalagriculture:awakened_supremium_sword" -> "Enchantments" : [{id:"minecraft:looting",lvl:8}]
+	HOT9
+		"botania:pink_mystical_flower"
+
+profile Saved activate HOT8
+	
+

@@ -1,0 +1,30 @@
+{
+	id: "3FD7BB8905AA163E"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 4, item: "farmersdelight:pasta_with_mutton_chop" }
+		{ item: "farmersdelight:chocolate_pie" }
+		{ item: "farmersdelight:bacon_and_eggs" }
+		{ item: "farmersdelight:honey_glazed_ham_block" }
+		{ item: "farmersdelight:stuffed_pumpkin_block" }
+		{ count: 16, item: "minecraft:apple" }
+		{ count: 4, item: "farmersdelight:cooked_mutton_chops" }
+		{ count: 8, item: "pamhc2foodcore:toastitem" }
+		{ count: 3, item: "farmersdelight:roast_chicken_block" }
+		{ count: 4, item: "pamhc2foodextended:fortunecookieitem" }
+		{ count: 4, item: "farmersdelight:sweet_berry_cheesecake" }
+		{ count: 3, item: "pamhc2foodextended:cookedtofishitem" }
+		{ count: 2, item: "pamhc2foodextended:grapejellyitem" }
+		{ count: 3, item: "thermal:sushi_maki" }
+		{ count: 4, item: "pamhc2foodextended:sushiitem" }
+		{ count: 2, item: "pamhc2foodcore:basichamburgeritem" }
+		{ count: 2, item: "pamhc2foodcore:basiccheeseburgeritem" }
+		{ count: 4, item: "pamhc2foodextended:frenchtoastitem" }
+		{ count: 4, item: "create_confectionery:black_chocolate_candy_2" }
+		{ count: 4, item: "pamhc2foodcore:friesitem" }
+		{ count: 3, item: "pneumaticcraft:chips" }
+		{ count: 8, item: "minecraft:beetroot" }
+	]
+	title: "Food Crate"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "XP Jelly",
+    "colors": [
+      "abf400",
+      "abf400"
+    ],
+    "ingredient": {
+      "item": "mob_grinding_utils:solid_xp_baby"
+    },
+    "inUltimateSingularity": true
+  }

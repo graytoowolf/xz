@@ -1,0 +1,6 @@
+{
+  "block.doomedgrass.doomed_grass": "Cursed Earth",
+  "doomed_grass.description.doomed_grass_block": "Created by right-clicking with a Drop of Evil on a dirt-like block. Spawns monsters at a heavily increased rate",
+  "item.doomedgrass.doomed_fragment": "Drop Of Evil",
+  "itemGroup.doomedgrass": "Cursed Earth"
+}

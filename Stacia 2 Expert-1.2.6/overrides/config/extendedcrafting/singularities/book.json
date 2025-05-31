@@ -1,0 +1,12 @@
+{
+    "name": "Book",
+    "colors": [
+      "613d15",
+      "43230d"
+    ],
+    "ingredient": {
+      "item": "minecraft:book"
+    },
+    "materialCount": 27212,
+    "inUltimateSingularity": false
+  }

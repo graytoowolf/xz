@@ -1,0 +1,298 @@
+{
+	id: "1EB827BF5CA70369"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "standart_crate"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "functionalstorage:linking_tool"
+				tag: {
+					Action: "ADD"
+					Mode: "SINGLE"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "thermal:wrench"
+				tag: { }
+			}
+		}
+		{ item: "thermal:upgrade_augment_1", weight: 0.3f }
+		{ item: "thermal:upgrade_augment_2", weight: 0.3f }
+		{ count: 32, item: "minecraft:glowstone_dust" }
+		{ count: 16, item: "minecraft:quartz" }
+		{
+			item: {
+				Count: 1b
+				id: "ae2:item_storage_cell_4k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "refinedstorage:4k_storage_disk"
+				tag: {
+					Id: [I;
+						-1600306226
+						842222747
+						-1269391229
+						-1051350309
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "appbot:mana_storage_cell_4k"
+				tag: { }
+			}
+		}
+		{ item: "mysticalagriculture:prosperity_seed_base" }
+		{ count: 4, item: "thermal:lumium_ingot" }
+		{ count: 4, item: "thermal:signalum_ingot" }
+		{
+			item: {
+				Count: 1b
+				id: "thermal:fluid_cell"
+				tag: {
+					BlockEntityTag: {
+						TankInv: [{
+							Amount: 0
+							Capacity: 32000
+							FluidName: "minecraft:empty"
+							Tank: 0b
+						}]
+					}
+				}
+			}
+		}
+		{ item: "thermal:device_water_gen" }
+		{ item: "cookingforblockheads:sink" }
+		{ item: "botania:manasteel_block" }
+		{ count: 4, item: "botania:black_lotus" }
+		{ item: "botania:blacker_lotus" }
+		{ item: "thermal_extra:upgrade_augment", weight: 0.2f }
+		{ count: 8, item: "thermal:redstone_mushroom_spores" }
+		{ count: 2, item: "thermal:redstone_servo" }
+		{ item: "mekanism:basic_fluid_tank" }
+		{ count: 8, item: "create:andesite_alloy" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:villager_hat" }
+		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:kitty_slippers" }
+		{ count: 4, item: "minecraft:ender_pearl" }
+		{ count: 8, item: "immersiveengineering:ersatz_leather" }
+		{ item: "kubejs:basic_capacitor" }
+		{ item: "kubejs:advanced_capacitor" }
+		{ item: "kubejs:ultimate_capacitor" }
+		{ count: 4, item: "kubejs:datacard3" }
+		{ count: 4, item: "refinedstorage:speed_upgrade" }
+		{ item: "refinedstorage:stack_upgrade" }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_2" }
+		{ count: 4, item: "ae2:speed_card" }
+		{ count: 2, item: "ae2:quartz_growth_accelerator" }
+		{ count: 2, item: "pamhc2foodextended:espressoitem" }
+		{ count: 4, item: "ftbic:carbon_plate" }
+		{ item: "botania:open_crate" }
+		{ item: "botania:rune_water" }
+		{ item: "botania:rune_fire" }
+		{ item: "botania:rune_earth" }
+		{ item: "botania:rune_air" }
+		{
+			item: {
+				Count: 1b
+				id: "vanillaaiots:wooden_aiot"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vanillaaiots:diamond_aiot"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spirit:soul_steel_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spirit:soul_steel_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "minecraft:honeycomb" }
+		{ item: "ftbic:electronic_circuit" }
+		{ item: "ftbic:advanced_circuit" }
+		{ item: "ftbic:iridium_circuit" }
+		{ item: "immersiveengineering:cloche" }
+		{ item: "kubejs:pyrotheum_dust" }
+		{ item: "functionalstorage:copper_upgrade" }
+		{ item: "functionalstorage:gold_upgrade" }
+		{ item: "functionalstorage:diamond_upgrade" }
+		{ item: "functionalstorage:netherite_upgrade" }
+		{ item: "functionalstorage:iron_downgrade" }
+		{ item: "functionalstorage:simple_compacting_drawer" }
+		{ item: "functionalstorage:storage_controller" }
+		{ item: "kubejs:madeline_strawberry", weight: 0.1f }
+		{ count: 4, item: "kubejs:chipset_gold" }
+		{ count: 4, item: "kubejs:chipset_iron" }
+		{ count: 16, item: "kubejs:raw_arcane" }
+		{ item: "redstone_arsenal:flux_gem" }
+		{ item: "redstone_arsenal:flux_ingot" }
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:starbuncle_charm"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "arseng:source_storage_cell_16k"
+				tag: { }
+			}
+		}
+		{ item: "redstone_arsenal:flux_obsidian_rod" }
+		{ count: 8, item: "mekanism:upgrade_speed" }
+		{ count: 8, item: "mekanism:upgrade_energy" }
+		{
+			item: {
+				Count: 1b
+				id: "naturesaura:effect_powder"
+				tag: {
+					effect: "naturesaura:ore_spawn"
+				}
+			}
+		}
+		{ item: "ironfurnaces:upgrade_iron" }
+		{ item: "ironfurnaces:upgrade_gold" }
+		{ item: "ironfurnaces:upgrade_diamond" }
+		{ item: "ironfurnaces:upgrade_emerald" }
+		{ item: "ironfurnaces:upgrade_obsidian" }
+		{ item: "ironfurnaces:augment_factory" }
+		{ item: "ironfurnaces:augment_speed" }
+		{ item: "ironfurnaces:augment_fuel" }
+		{ count: 16, item: "immersiveengineering:coal_coke" }
+		{ item: "minecraft:bucket" }
+		{ count: 4, item: "farmersdelight:cooked_mutton_chops" }
+		{ item: "farmersdelight:chicken_sandwich" }
+		{ item: "farmersdelight:honey_cookie" }
+		{ item: "farmersdelight:glow_berry_custard" }
+		{ count: 8, item: "pamhc2foodcore:friesitem" }
+		{ count: 4, item: "farmersdelight:hamburger" }
+		{ count: 4, item: "pamhc2foodextended:hazelnutchocolateitem" }
+		{ count: 4, item: "create_confectionery:black_chocolate_candy_2" }
+		{ count: 4, item: "botania:endoflame" }
+		{ count: 8, item: "botania:fertilizer" }
+		{
+			item: {
+				Count: 1b
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					contentsUuid: [I;
+						-1561806699
+						-1750187455
+						-1285420541
+						-839683787
+					]
+					inventorySlots: 27
+					upgradeSlots: 1
+				}
+			}
+		}
+		{ item: "sophisticatedstorage:iron_to_gold_tier_upgrade" }
+		{ item: "ftbic:advanced_alloy" }
+		{ count: 2, item: "kubejs:antimatter_rod" }
+		{ item: "mekanism:thermal_evaporation_controller" }
+		{ count: 2, item: "kubejs:unit_glowstone" }
+		{
+			item: {
+				Count: 1b
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:stone"
+					Throttle: 1.0d
+				}
+			}
+			weight: 0.5f
+		}
+		{ item: "mekanism:advanced_induction_provider" }
+		{ item: "ae2things:advanced_inscriber" }
+		{ item: "stevescarts:blockcartassembler" }
+		{ item: "stevescarts:blockcargomanager" }
+		{ item: "stevescarts:blockliquidmanager" }
+		{ item: "stevescarts:component_stabilized_metal" }
+		{ item: "stevescarts:module_basic_wood_cutter" }
+		{ item: "stevescarts:module_standard_hull" }
+		{ item: "botania:terrasteel_ingot" }
+		{ item: "botania:mana_pool" }
+		{ count: 4, item: "botania:spark" }
+		{ item: "botania:spark_upgrade_dominant" }
+		{ item: "botania:spark_upgrade_recessive" }
+		{ item: "pipez:basic_upgrade" }
+		{ item: "pipez:improved_upgrade" }
+		{ item: "pipez:advanced_upgrade" }
+		{ item: "pipez:ultimate_upgrade" }
+		{ count: 16, item: "pipez:item_pipe" }
+		{ count: 16, item: "pipez:fluid_pipe" }
+		{ count: 16, item: "pipez:energy_pipe" }
+		{ count: 16, item: "pipez:gas_pipe" }
+		{ count: 2, item: "pamhc2foodextended:theatreboxitem" }
+		{ item: "pamhc2foodextended:cookedtofuttonitem" }
+		{ item: "pamhc2foodextended:anchovypepperonipizzaitem" }
+		{ count: 2, item: "pamhc2foodcore:muttonjerkyitem" }
+		{ item: "pamhc2foodextended:fishtacoitem" }
+		{ count: 2, item: "farmersdelight:egg_sandwich" }
+		{ item: "farmersdelight:melon_popsicle" }
+		{ item: "farmersdelight:cooked_chicken_cuts" }
+		{ item: "farmersdelight:rice_roll_medley_block" }
+		{ item: "farmersdelight:horse_feed" }
+		{ count: 3, item: "farmersdelight:cooked_mutton_chops" }
+		{ count: 4, item: "minecraft:cookie" }
+		{ count: 2, item: "minecraft:cooked_beef" }
+		{ count: 2, item: "minecraft:cooked_chicken" }
+		{ item: "minecraft:pufferfish" }
+		{ item: "minecraft:spider_eye" }
+		{ count: 7, item: "minecraft:carrot" }
+		{ count: 4, item: "minecraft:sweet_berries" }
+		{ item: "minecraft:mushroom_stew" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "minecraft:milk_bucket" }
+		{ item: "pamhc2foodcore:cookiesandmilkitem" }
+		{ item: "stevescarts:module_milker" }
+		{ item: "cookingforblockheads:milk_jar" }
+		{ count: 4, item: "create:polished_rose_quartz" }
+		{ count: 16, item: "minecraft:red_sandstone_stairs" }
+	]
+	title: "Standart Crate"
+}

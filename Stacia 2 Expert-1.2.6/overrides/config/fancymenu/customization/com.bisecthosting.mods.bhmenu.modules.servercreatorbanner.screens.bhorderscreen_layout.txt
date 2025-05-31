@@ -1,0 +1,102 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHOrderScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1708966150062
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:347f1a1f-20ec-4854-a876-51e7d34926c6-1708966127987] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  interactable = true
+  source = Use Code "stacia" For 25% Off!
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 31f5e57e-442d-4341-b3b4-43b9a3cc1fdb-1708965924071
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-centered
+  x = -81
+  y = 72
+  width = 162
+  height = 17
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 209f7060-eff6-46a6-baa6-f8afb1277b5f-1708965924071
+  [loading_requirement_container_meta:209f7060-eff6-46a6-baa6-f8afb1277b5f-1708965924071] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = befc6c7c-4f31-4138-bc88-ba29eb7b0c9e-1708965915959
+  [executable_block:befc6c7c-4f31-4138-bc88-ba29eb7b0c9e-1708965915959][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 450960
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 270
+  y = 291
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 13ddc77e-b04d-429e-8ad3-1d2eb913e34b-1708965915959
+  [loading_requirement_container_meta:13ddc77e-b04d-429e-8ad3-1d2eb913e34b-1708965915959] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

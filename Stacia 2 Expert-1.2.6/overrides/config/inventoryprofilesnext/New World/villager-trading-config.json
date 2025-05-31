@@ -1,0 +1,57 @@
+{
+    "globalBookmarks": {
+        "armorer": [
+        ],
+        "butcher": [
+        ],
+        "cartographer": [
+        ],
+        "cleric": [
+        ],
+        "farmer": [
+        ],
+        "fisherman": [
+        ],
+        "fletcher": [
+        ],
+        "leatherworker": [
+        ],
+        "librarian": [
+        ],
+        "mason": [
+        ],
+        "shepherd": [
+        ],
+        "toolsmith": [
+        ],
+        "weaponsmith": [
+        ],
+        "nitwit": [
+        ],
+        "none": [
+        ],
+        "___+++___ wandering ___+++___": [
+            {
+                "resultItem": "blue_skies:zeal_lighter",
+                "priceItem1": "minecraft:emerald",
+                "resultItemNBT": "{Damage:0}"
+            }
+        ]
+    },
+    "globalBookmarks1": {
+        "___+++___ wandering ___+++___": [
+        ],
+        "none": [
+        ],
+        "farmer": [
+        ]
+    },
+    "globalBookmarks2": {
+        "___+++___ wandering ___+++___": [
+        ],
+        "none": [
+        ],
+        "farmer": [
+        ]
+    }
+}

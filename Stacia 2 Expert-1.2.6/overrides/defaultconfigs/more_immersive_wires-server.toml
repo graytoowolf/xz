@@ -1,0 +1,64 @@
+
+#Wire Settings
+[wires]
+
+	#ME Glass Cable Cable Stettings
+	[wires.ae]
+		#ME Glass Cable Cable Max Length
+		#Range: 4 ~ 256
+		aeMaxLen = 32
+
+	#ME Dense Cable Cable Stettings
+	[wires.ae_dense]
+		#ME Dense Cable Cable Max Length
+		#Range: 4 ~ 256
+		ae_denseMaxLen = 32
+
+	#RS Cable Cable Stettings
+	[wires.rs]
+		#RS Cable Cable Max Length
+		#Range: 4 ~ 256
+		rsMaxLen = 32
+
+	#Logic Cable Cable Stettings
+	[wires.id]
+		#Logic Cable Cable Max Length
+		#Range: 4 ~ 256
+		idMaxLen = 32
+
+	#Networking Cable Cable Stettings
+	[wires.cc]
+		#Networking Cable Cable Max Length
+		#Range: 4 ~ 256
+		ccMaxLen = 32
+
+	#LV Cable Stettings
+	[wires.ftbic_lv]
+		#LV Cable Max Length
+		#Range: 4 ~ 256
+		ftbic_lvMaxLen = 32
+
+	#MV Cable Stettings
+	[wires.ftbic_mv]
+		#MV Cable Max Length
+		#Range: 4 ~ 256
+		ftbic_mvMaxLen = 32
+
+	#HV Cable Stettings
+	[wires.ftbic_hv]
+		#HV Cable Max Length
+		#Range: 4 ~ 256
+		ftbic_hvMaxLen = 32
+
+	#EV Cable Stettings
+	[wires.ftbic_ev]
+		#EV Cable Max Length
+		#Range: 4 ~ 256
+		ftbic_evMaxLen = 32
+
+	#IV Cable Stettings
+	[wires.ftbic_iv]
+		#IV Cable Max Length
+		#Range: 4 ~ 256
+		ftbic_ivMaxLen = 32
+

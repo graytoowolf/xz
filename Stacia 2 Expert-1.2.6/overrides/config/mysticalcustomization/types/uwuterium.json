@@ -1,0 +1,7 @@
+{
+  "textures": {
+    "stem": "mysticalagriculture:block/mystical_resource_crop",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "craftingSeed": "kubejs:tier5_crafting_seed"
+}

@@ -1,0 +1,136 @@
+
+
+
+
+profile Saved activate HOT1
+	HOT1
+		"createendertransmission:energy_transmitter"
+
+profile Saved activate HOT1
+	HOT1
+		"infused_crystals:infused_ironium_sword" -> "Enchantments" : [{id:"minecraft:looting",lvl:8}]
+	HOT2
+		"minecraft:golden_sword"
+	HOT3
+		"ae2:speed_card"
+	HOT4
+		"minecraft:enderman_spawn_egg"
+	HOT5
+		"minecraft:anvil"
+	HOT6
+		"minecraft:ender_pearl"
+	HOT7
+		"sophisticatedbackpacks:backpack"
+
+profile Saved activate HOT3
+	HOT1
+		"cyclic:ender_controller"
+	HOT2
+		"cyclic:ender_shelf"
+	HOT4
+		"minecraft:enderman_spawn_egg"
+	HOT5
+		"minecraft:anvil"
+	HOT6
+		"minecraft:ender_pearl"
+	HOT7
+		"sophisticatedbackpacks:backpack"
+	HOT8
+		"mysticalagriculture:inferium_essence"
+	HOT9
+		"minecraft:ender_pearl"
+
+profile Saved activate HOT3
+	HOT1
+		"mysticalagradditions:supremium_paxel"
+
+profile Saved activate HOT6
+	HOT1
+		"ars_nouveau:archmage_spell_book"
+	HOT2
+		"ars_nouveau:scribes_table"
+	HOT3
+		"redstone_arsenal:flux_helmet"
+	HOT4
+		"redstone_arsenal:flux_helmet"
+	HOT5
+		"powah:battery_nitro"
+	HOT6
+		"minecraft:enchanted_book"
+	HOT7
+		"minecraft:enchanted_book"
+	HEAD
+		"redstone_arsenal:flux_helmet"
+	CHEST
+		"redstone_arsenal:flux_chestplate"
+	LEGS
+		"redstone_arsenal:flux_leggings"
+	FEET
+		"redstone_arsenal:flux_boots"
+
+profile Saved activate HOT2
+	HOT1
+		"minecraft:enchanted_book"
+
+profile Saved activate HOT2
+	HOT1
+		"minecraft:enchanted_book"
+
+profile Saved activate HOT1
+	HOT1
+		"bhc:blade_of_vitality"
+	HOT2
+		"bhc:red_heart_patch"
+	HOT3
+		"extendedcrafting:basic_table"
+	HEAD
+		"deeperdarker:warden_helmet" -> "Enchantments" : [{id:"minecraft:protection",lvl:8}]
+	CHEST
+		"deeperdarker:warden_chestplate" -> "Enchantments" : [{id:"minecraft:protection",lvl:8}]
+	LEGS
+		"deeperdarker:warden_leggings" -> "Enchantments" : [{id:"minecraft:protection",lvl:8}]
+	FEET
+		"deeperdarker:warden_boots" -> "Enchantments" : [{id:"minecraft:protection",lvl:8}]
+
+profile Saved activate HOT1
+	HOT1
+		"bhc:blade_of_vitality" -> "Enchantments" : [{id:"minecraft:sharpness",lvl:1},{id:"minecraft:efficiency",lvl:1},{id:"minecraft:sweeping",lvl:9}]
+	HOT2
+		"bhc:red_heart_patch"
+	HOT3
+		"extendedcrafting:basic_table"
+	HOT4
+		"byg:pumpkin_warden_spawn_egg"
+	HOT5
+		"bhc:blade_of_vitality" -> "Enchantments" : [{id:"minecraft:sharpness",lvl:1},{id:"minecraft:efficiency",lvl:1},{id:"minecraft:sweeping",lvl:9},{id:"minecraft:fire_aspect",lvl:6}]
+	HOT6
+		"industrialforegoing:meat_feeder"
+	HOT9
+		"minecraft:bucket"
+	CHEST
+		"deeperdarker:warden_chestplate" -> "Enchantments" : [{id:"minecraft:protection",lvl:8}]
+	LEGS
+		"deeperdarker:warden_leggings" -> "Enchantments" : [{id:"minecraft:protection",lvl:8}]
+	FEET
+		"deeperdarker:warden_boots" -> "Enchantments" : [{id:"minecraft:protection",lvl:8}]
+
+profile Saved activate HOT2
+	HOT1
+		"extendedcrafting:recipe_maker"
+	HOT2
+		"mace_backport:mace" -> "Enchantments" : [{id:"travelanchors:teleportation",lvl:1}]
+	HOT9
+		"minecraft:oak_wood"
+
+profile Saved activate HOT6
+	HOT1
+		"utilitix:linked_crystal"
+	HOT2
+		"byg:blue_sage"
+	HOT3
+		"hexerei:sage_seed"
+	HOT4
+		"minecraft:dandelion"
+	HOT5
+		"minecraft:water_bucket"
+

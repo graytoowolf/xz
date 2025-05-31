@@ -1,0 +1,491 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_trap"
+	group: "264B385B6E89D41B"
+	icon: "mob_grinding_utils:saw"
+	id: "39F0612586C20390"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.3d
+		hover: [ ]
+		image: "kubejs:textures/item/questbook/titlemobtrap.png"
+		rotation: 0.0d
+		width: 7.947169811320755d
+		x: 1.0d
+		y: -4.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&dDrop Of Evil&r Is A Rare Item That Allows You To Create &dCursed Earth&r And It Only Drops From &aWither Skeletons&r."
+				"Right Click On Dirt And Watch The Monsters Spawn."
+				""
+				"&6Looting&r Affects The Drop Chance."
+			]
+			id: "239F07FBBFFF14B5"
+			rewards: [
+				{
+					count: 3
+					id: "05B2983ABB3ABF36"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "40282D4B89E749EE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			subtitle: "Extra Utilities 2? Is that you?"
+			tasks: [{
+				id: "2A8B199AEE9D1A1D"
+				item: "mob_grinding_utils:rotten_egg"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"A simple spike. "
+				"&6Doesn't&r count as a Player Kill. "
+			]
+			id: "79783E22AE44CE2A"
+			rewards: [{
+				id: "640A53A6F018C4AB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Chaos"
+			tasks: [{
+				id: "0C88CA8308FA3371"
+				item: "mob_grinding_utils:spikes"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79783E22AE44CE2A"]
+			description: [
+				"Upgradeable."
+				"&6It counts&r as a Player Kill."
+				""
+				"Most importantly, it has a &l&l&n&5Rotating Animation&r&r&r&r."
+			]
+			id: "173E808CD29D223B"
+			rewards: [{
+				id: "72E28D45E4A9CC23"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Even More Chaos"
+			tasks: [{
+				id: "2C160F642292B003"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["173E808CD29D223B"]
+			description: ["Increases Mob Masher's &6damage&r."]
+			id: "738EA53EF976596A"
+			rewards: [{
+				id: "0BB1367236D9F708"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6509FB48B20C6BD6"
+				item: "mob_grinding_utils:saw_upgrade_sharpness"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["173E808CD29D223B"]
+			description: ["Allows Mob Masher to &6drop more items&r from the mobs it kills."]
+			id: "3011F369C65819DB"
+			rewards: [{
+				id: "31863EE1BA7D8916"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "495BE22005D1E5FF"
+				item: "mob_grinding_utils:saw_upgrade_looting"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["173E808CD29D223B"]
+			description: ["Increases the probability of Mob Masher's &6Head drop&r."]
+			id: "07CF6DB9955F0E09"
+			rewards: [{
+				id: "47AE6ECF88EECD34"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "49B8863B57AEEF2F"
+				item: "mob_grinding_utils:saw_upgrade_beheading"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["239F07FBBFFF14B5"]
+			description: ["Rapidly &dspawns monsters&r in the dark, will burn if exposed to the sky during the day."]
+			icon: "mob_grinding_utils:dreadful_dirt"
+			id: "5DAA417A99B1E4B6"
+			rewards: [{
+				id: "775F927A9C463BCC"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Cursed Earth is back!"
+			tasks: [{
+				id: "3529CBDE736683A3"
+				title: "Cursed Earth"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69F42B366618A676"]
+			description: [
+				"It allows passive mobs &6spawns very quickly&r in a &65x5&r area. "
+				"A nice way to farm &aanimals&r."
+			]
+			id: "4631A51B573AF888"
+			rewards: [{
+				id: "6FD4EC31141C67A6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "328668E158B5659D"
+				item: "mob_grinding_utils:delightful_dirt"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: ["It prevents &dEnderman&r teleportation."]
+			id: "4DDBDCD19E875079"
+			rewards: [{
+				id: "1ACB0A83BF63851A"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			subtitle: "STOP TELEPORTING!"
+			tasks: [{
+				id: "04BC76038E08170F"
+				item: "mob_grinding_utils:ender_inhibitor_on"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"57B1CE87F51A1DDD"
+				"34EA7CFF4783905F"
+				"358FC4D0391D54DA"
+			]
+			description: [
+				"With Mob Swab You Can Change The Mob Inside The Spawner You Want. "
+				""
+				"Go And Right Click On The Mob You Want. Use The Mob Swab With DNA You Get To Produce &aGM Chicken Feed&r. Go And Feed A Chicken With That Chicken Feed. You Will Get The Spawn Egg. If You Go To The Spawner You Want With That Spawn Egg And Right Click, You Can Get The Mob Spawner You Want."
+				""
+				"I Know It Sounds &5OP&r, Because It Is. That's Why It's So &6Expensive&r To Craft."
+			]
+			icon: "mob_grinding_utils:mob_swab"
+			id: "1D6A25A435F0CC71"
+			rewards: [{
+				count: 16
+				id: "37BD773E2F94DC41"
+				item: "minecraft:cooked_chicken"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Explosive Chicken"
+			tasks: [
+				{
+					id: "6B8383195CB12F77"
+					item: "mob_grinding_utils:mob_swab"
+					type: "item"
+				}
+				{
+					id: "48E4ADD4779AEB48"
+					item: "mob_grinding_utils:gm_chicken_feed"
+					type: "item"
+				}
+			]
+			title: "Spawner Changer"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06585AD9FB3103E0"]
+			description: [
+				"If You Feed A Chicken With &aNutritious Chicken Feed&r, You Can Get Golden Egg."
+				""
+				"It's a nice way to peacefully carry out your evil plans."
+				""
+				"Did you know you can get more &dPink Slime&r from Passive Mobs?"
+			]
+			icon: "mob_grinding_utils:nutritious_chicken_feed"
+			id: "69F42B366618A676"
+			rewards: [{
+				id: "1504A4E8482BF001"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			subtitle: "Peaceful Life"
+			tasks: [
+				{
+					id: "7E2128B87B1C0389"
+					item: "mob_grinding_utils:nutritious_chicken_feed"
+					type: "item"
+				}
+				{
+					id: "2A8B00035D94A67E"
+					item: "mob_grinding_utils:golden_egg"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"You need something to &acollect&r the items on the ground."
+				"You can choose whatever you want, I don't want to be so linear."
+			]
+			icon: "itemcollectors:basic_collector"
+			id: "36C929986A957B5E"
+			rewards: [{
+				id: "2B338941D1DAAC2D"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			subtitle: "Into The Chest!"
+			tasks: [{
+				id: "5919E6C5ABAD9922"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemcollectors:basic_collector"
+							}
+							{
+								Count: 1b
+								id: "mob_grinding_utils:absorption_hopper"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:vacuum_module"
+								tag: {
+									modularrouters: {
+										Direction: "NONE"
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "thermal:device_collector"
+							}
+							{
+								Count: 1b
+								id: "botania:hopperhock"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Collectors"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			icon: "mob_grinding_utils:xpsolidifier"
+			id: "6A38C8A131F7FC24"
+			tasks: [
+				{
+					id: "0C2E7899CD5FD585"
+					item: "mob_grinding_utils:xpsolidifier"
+					type: "item"
+				}
+				{
+					id: "0F5D2A09197C8F1D"
+					item: "mob_grinding_utils:solid_xp_mould_baby"
+					type: "item"
+				}
+			]
+			title: "Xp Solidifier"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7FE3663E56BEEC64"
+				"737118370F9878A3"
+			]
+			id: "7C3F902C3D5A6D51"
+			tasks: [{
+				id: "5E159FBCC00A3C5C"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:jelly"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A38C8A131F7FC24"]
+			id: "7FE3663E56BEEC64"
+			tasks: [{
+				id: "555005FC1A50911F"
+				item: "mob_grinding_utils:solid_xp_baby"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Vector plates are &avery efficient&r for moving mobs."
+				"Unlike mob fans, if you &6hold Shift&r on vector plates, they will &6not affect&r you. "
+			]
+			id: "6AEE9078F2007B8B"
+			rewards: [
+				{
+					count: 16
+					id: "16314D67B1DB6A6B"
+					item: "darkutils:vector_plate"
+					type: "item"
+				}
+				{
+					id: "3CD2CE4977D6AE21"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Go Fast!"
+			tasks: [{
+				count: 6L
+				id: "15EB5184244333E2"
+				item: "darkutils:vector_plate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AEE9078F2007B8B"]
+			description: [
+				"When you are around the Mob Trap, some mobs can walk in the opposite direction of the vector plate and slow things down."
+				"Use a &6faster vector plate&r and meet them with the inevitable."
+			]
+			id: "283BF4D7840D32A8"
+			rewards: [{
+				id: "74B77C54A694D99C"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Even Faster!"
+			tasks: [{
+				count: 6L
+				id: "639DFFA2A5D6D1A9"
+				item: "darkutils:vector_plate_fast"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			icon: "mob_grinding_utils:tank_sink"
+			id: "06585AD9FB3103E0"
+			rewards: [{
+				count: 16
+				id: "608816E8468E30FB"
+				item: "mob_grinding_utils:solid_xp_baby"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.8d
+			tasks: [
+				{
+					id: "75E9C84B1276A3D5"
+					item: "mob_grinding_utils:tank_sink"
+					type: "item"
+				}
+				{
+					id: "50719CB4875AE2D8"
+					item: "mob_grinding_utils:fluid_xp_bucket"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"You don't have to think too much about which block you want to use when making Wither Trap."
+				""
+				"Because I added a special block for this case."
+				""
+				"Reinforced Obsidian is both &awither-proof&r and &adragon-proof&r."
+			]
+			id: "3CE1D62A3DFF26D2"
+			rewards: [{
+				id: "5628930A0E202C4B"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			subtitle: "Solid walls"
+			tasks: [{
+				count: 16L
+				id: "74692E80B4ED4DB2"
+				item: "kubejs:reinforced_obsidian"
+				type: "item"
+			}]
+			title: "Reinforcement"
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+	title: "Mob Trap"
+}

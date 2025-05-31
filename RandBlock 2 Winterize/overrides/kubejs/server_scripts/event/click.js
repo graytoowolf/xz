@@ -132,15 +132,15 @@ BlockEvents.broken('kubejs:catalyze_block', event => {
 
 // 锻造模板抽奖
 ItemEvents.rightClicked('kubejs:upgrade_smithing_raffle_box', event => {
-    prize_draw(event, 'kubejs:upgrade_smithing_raffle_box', upgrade_smithing, Math.floor(Math.random() * 4), 4)
+    prize_draw(event, 'kubejs:upgrade_smithing_raffle_box', global.upgrade_smithing, Math.floor(Math.random() * 4), 4)
 })
 
 // 升级抽奖
 ItemEvents.rightClicked('kubejs:upgrade_raffle_box', event => {
-    prize_draw(event, 'kubejs:upgrade_raffle_box', upgrade_addon, Math.floor(Math.random() * 8), 8)
+    prize_draw(event, 'kubejs:upgrade_raffle_box', global.upgrade_addon, Math.floor(Math.random() * 8), 8)
 })
 
 // 工具抽奖
 ItemEvents.rightClicked('kubejs:tools_raffle_box', event => {
-    prize_draw(event, 'kubejs:tools_raffle_box', tool_addon,  Math.floor(Math.random() * 1), 1)
+    prize_draw(event, 'kubejs:tools_raffle_box', global.tool_addon,  Math.floor(Math.random() * 1), 1)
 })

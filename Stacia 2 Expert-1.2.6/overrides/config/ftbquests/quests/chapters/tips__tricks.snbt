@@ -1,0 +1,525 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips__tricks"
+	group: "18514C863AB592D3"
+	icon: "botania:mana_diamond"
+	id: "526DCDF92BF5A6CB"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "infused_crystals:items/infused_diamondium_pickaxe"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: -3.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The modpack includes both &6FTB Ultimine&r and &6OreExcavation&r! "
+				""
+				"Feel free to use whichever you want."
+			]
+			icon: {
+				Count: 1b
+				id: "botania:manasteel_pick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DDC3564364909AE"
+			rewards: [{
+				id: "368ECDB30C2C2E13"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&aVein Mining!"
+			tasks: [{
+				id: "0DCAC10E269F7AE6"
+				title: "Use FTB Ultimine"
+				type: "checkmark"
+			}]
+			title: "FTB Ultimine and OreExcavation"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: ["This item allows you to accelerate the rate at which blocks tick. It passively collects time while in your inventory which you can consume by right clicking a block with it. The first click requires &630 Seconds&r, the second &660&r, the third &6120&r the fourth &6240&r and the fifth &6480&r."]
+			id: "2D718DCDE4379702"
+			subtitle: "Time Twister"
+			tasks: [{
+				id: "03FD34D245C12083"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: [
+				"Akashic Tome is a megabook that contains all the guidebooks in the game. If for any reason you lose your book, you can get it here."
+				""
+				"{image:kubejs:textures/item/layer.png width:17 height:20 align:1}"
+			]
+			icon: "akashictome:tome"
+			id: "6C93A990B2398459"
+			rewards: [{
+				id: "025BAA94F732A4F6"
+				item: {
+					Count: 1b
+					id: "akashictome:tome"
+					tag: {
+						"akashictome:data": {
+							ae2: {
+								Count: 1b
+								id: "ae2:guide"
+							}
+							apotheosis: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "apotheosis:apoth_chronicle"
+								}
+							}
+							ars_nouveau: {
+								Count: 1b
+								id: "ars_nouveau:worn_notebook"
+							}
+							bigreactors: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "bigreactors:erguide"
+								}
+							}
+							blue_skies: {
+								Count: 1b
+								id: "blue_skies:blue_journal"
+							}
+							cookingforblockheads: {
+								Count: 1b
+								id: "cookingforblockheads:recipe_book"
+							}
+							cookingforblockheads_0: {
+								Count: 1b
+								id: "cookingforblockheads:crafting_book"
+								tag: {
+									"akashictome:definedMod": "cookingforblockheads_0"
+								}
+							}
+							cyclic: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "cyclic:cyclic_guide_book"
+								}
+							}
+							engineersdecor: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "engineersdecor:engineersdecor_manual"
+								}
+							}
+							extendedcrafting: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "extendedcrafting:guide"
+								}
+							}
+							ftbic: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "ftbic:ftbic_guide"
+								}
+							}
+							immersiveengineering: {
+								Count: 1b
+								id: "immersiveengineering:manual"
+							}
+							industrialforegoing: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+							}
+							laserio: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "laserio:laseriobook"
+								}
+							}
+							modularrouters: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "modularrouters:book"
+								}
+							}
+							mysticalagriculture: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "mysticalagriculture:guide"
+								}
+							}
+							naturesaura: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "naturesaura:book"
+								}
+							}
+							occultism: {
+								Count: 1b
+								id: "occultism:dictionary_of_spirits"
+								tag: {
+									"modonomicon:book_id": "occultism:dictionary_of_spirits"
+								}
+							}
+							pneumaticcraft: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "pneumaticcraft:book"
+								}
+							}
+							powah: {
+								Count: 1b
+								id: "powah:book"
+							}
+							productivebees: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "productivebees:guide"
+								}
+							}
+							rftoolsbase: {
+								Count: 1b
+								id: "rftoolsbase:manual"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.rftoolsbase.manual\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.rftoolsbase.manual\"}]}"
+									}
+								}
+							}
+							silentgear: {
+								Count: 1b
+								id: "silentgear:blueprint_book"
+								tag: {
+									Inventory: { }
+								}
+							}
+							silentgear_0: {
+								Count: 1b
+								id: "silentgear:guide_book"
+								tag: {
+									"akashictome:definedMod": "silentgear_0"
+								}
+							}
+							solcarrot: {
+								Count: 1b
+								id: "solcarrot:food_book"
+							}
+							thermal: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "thermal:guidebook"
+								}
+							}
+						}
+						"akashictome:is_morphing": 1b
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Arcane Archive"
+			tasks: [{
+				id: "7179E52350E83A71"
+				title: "All The Books"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: [
+				"Crafting table on a stick is a special crafting table that you can use anywhere without having to put it on any floor."
+				""
+				"Pro Tip: You can also put it in &aCurios' slot&f and open it with a &ahotkey&f!"
+			]
+			id: "7135C5D201001D62"
+			rewards: [{
+				id: "26C57405C268804D"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Handyman's Helper"
+			tasks: [{
+				id: "6DF022FE33C1A528"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: ["When you insert this talisman into your &acurios slot&r, no wandering trader will spawn around you. Unlike the alternative with a sign, since it is in your inventory and not in a fixed area, no trader will spawn wherever you go."]
+			id: "1DBD1012F210BA46"
+			rewards: [{
+				id: "7CE33DD5D667E880"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			subtitle: "Go Away Wanderer!"
+			tasks: [{
+				id: "019678C1DDBE2754"
+				item: {
+					Count: 1b
+					id: "nomowanderer:no_mo_wanderer_totem"
+					tag: {
+						Enabled: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: [
+				"You can buy all &aspawn eggs&r from the market!"
+				"Of course, for a little bit &afee&r."
+			]
+			icon: "farmingforblockheads:market"
+			id: "3B975FC2B691A484"
+			rewards: [{
+				id: "2F046D6EC89F0ED9"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27F84A2EF2CF05D8"
+				title: "Spawn Eggs!"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: [
+				"You can obtain &a9 glasses&r by smelting &6Compressed Sand&r, and &aCharcoal Block&r by smelting &6Compressed Logs&r."
+				""
+				"It provides great &afuel savings&r."
+			]
+			icon: "kubejs:c_oak"
+			id: "4929C89F60544875"
+			rewards: [{
+				id: "5F8C5A4C641991B2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5D947F5EB7E6C91F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:compressed/logs"
+						}
+					}
+					title: "Any Compressed Logs"
+					type: "item"
+				}
+				{
+					id: "5B24DD2C26E4D670"
+					item: "thermal:charcoal_block"
+					type: "item"
+				}
+				{
+					id: "20D33217C3F6EB5A"
+					item: "compressium:sand_1"
+					type: "item"
+				}
+				{
+					id: "134FE3799875AA96"
+					item: "kubejs:c1_glass"
+					type: "item"
+				}
+			]
+			title: "Bulk Crafting!"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: [
+				"Mending can now work using your &aexisting xp&r, just like &6auto repair&r."
+				""
+				"(Restores 2 durability in every 10 seconds.)"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "0A83FA8E494A5F4D"
+			rewards: [{
+				id: "41E1BA1B64AD2C2F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Better Mendiiing"
+			tasks: [{
+				id: "097D37D46C5C2ED0"
+				title: "Mending is Different!"
+				type: "checkmark"
+			}]
+			title: "Mending is Different!"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"454A081CB445F1B9"
+				"358FC4D0391D54DA"
+			]
+			description: [
+				"&aEnchanter:&r This enchanter may look familiar if you've used &6&lEnderIO&r&r before."
+				"You can craft any enchantment book you want (most of them) with Book and Quill, Fluid XP and the specified materials!"
+				""
+				"This block is &6Fully Compatible with JEI&r."
+			]
+			id: "410C8D6470C8C2A0"
+			optional: true
+			rewards: [{
+				id: "7AA5BF2DD53ED2C7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "G.O.A.T of Enchanting"
+			tasks: [{
+				id: "342AA977956752D5"
+				item: {
+					Count: 1b
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:power_crusher"
+					}
+				}
+				type: "item"
+			}]
+			title: "Ender IO Enchanter"
+			x: 0.0d
+			y: 3.2500000000000004d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: [
+				"1x, 2x and 3x Compressed Block Of Coals now have &6burntime&r!"
+				""
+				"This can be useful if you want to fuel your &6Endoflames&r once and have them run for hours."
+				""
+				"Or you can just use it as a good fuel source in your furnace."
+			]
+			icon: "compressium:coal_1"
+			id: "5352B49DBED0CF4D"
+			rewards: [{
+				id: "62628C3A73CB6F79"
+				item: "compressium:coal_1"
+				type: "item"
+			}]
+			subtitle: "Longer Burntime"
+			tasks: [{
+				id: "18534C16CBD88563"
+				title: "Compressed Coal Blocks"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: [
+				"Thanks to the &6Cable Facades&r mod, you can improve your base design by hiding cables or pipes that normally do not have facade support."
+				""
+				"And It has &6Connected Textures Support&r!"
+				""
+				"Simply place &6any block&r next to the Empty Facade to change its texture."
+				""
+				"To see the blocks you facaded transparently, all you have to do is hold a &6wrench&r in your hand."
+				""
+				"&6Supported Mods:&r"
+				"• Create"
+				"• Cyclic"
+				"• LaserIO"
+				"• Mekanism"
+				"• Pipez"
+				"• Pneumatic Craft Repressurized"
+				"• Powah"
+				"• Thermal Series"
+				"• Applied Energistics 2"
+				"• Refined Storage"
+				"• Computer Craft"
+				"• Integrated Dynamics"
+				"• FTB Industrial Contraptions"
+				"• Flux Networks"
+			]
+			icon: "cable_facades:facade"
+			id: "4ACC618A33073885"
+			subtitle: "Facades Are Here!"
+			tasks: [
+				{
+					id: "5C6A8B346FE5BF15"
+					item: "cable_facades:facade"
+					type: "item"
+				}
+				{
+					id: "34536478B16D52A4"
+					item: "cable_facades:facade_wrench"
+					type: "item"
+				}
+			]
+			title: "Facade Everything"
+			x: 0.5d
+			y: 2.0d
+		}
+	]
+	title: "Tips and Tricks"
+}

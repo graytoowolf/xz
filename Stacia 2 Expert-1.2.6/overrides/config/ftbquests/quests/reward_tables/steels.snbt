@@ -1,0 +1,14 @@
+{
+	id: "50D860FF8BABA50F"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 4, item: "thermal:steel_ingot" }
+		{ count: 4, item: "kubejs:soulsteel_ingot" }
+		{ count: 4, item: "kubejs:darksteel_ingot" }
+		{ count: 4, item: "kubejs:endsteel_ingot" }
+		{ count: 4, item: "spirit:soul_steel_ingot" }
+		{ count: 4, item: "tconstruct:slimesteel_ingot" }
+	]
+	title: "Steels"
+}

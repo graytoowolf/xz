@@ -1,0 +1,130 @@
+{
+  "name": "Carpenter",
+  "appearance": {
+    "block": "ragnamod_seven:machine/carpenter",
+    "item": "ragnamod_seven:machine/carpenter",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:stone_block",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]]
+  },
+  "components": [
+    {"type": "custommachinery:fluid","capacity": 100000,"id": "xp_tank","maxInput": 10000,"maxOutput": 10000,"filter": ["#forge:fluid_xp"],"whitelist": true},
+    {"type": "custommachinery:item","id": "book","mode": "input","filter": "minecraft:writable_book","whitelist": true},
+    {"type": "custommachinery:item","id": "lapis","mode": "input","filter": "minecraft:lapis_lazuli","whitelist": true},
+    {"type": "custommachinery:item","id": "ingredient","mode": "input"},
+    {"type": "custommachinery:item","id": "enchanted_book","mode": "output"},
+
+    {"type": "custommachinery:item","id": "slot1","mode": "input","filter": "minecraft:lapis_lazuli","capacity": 1,"whitelist": true},
+    {"type": "custommachinery:item","id": "slot2","mode": "input","filter": "#forge:carpenter_items","capacity": 1,"whitelist": true},
+    {"type": "custommachinery:item","id": "slot3","mode": "input","filter": "minecraft:lapis_lazuli","capacity": 1,"whitelist": true},
+    {"type": "custommachinery:item","id": "slot4","mode": "input","filter": "minecraft:redstone","capacity": 1,"whitelist": true},
+    {"type": "custommachinery:item","id": "slot5","mode": "input","filter": "#forge:carpenter_items","capacity": 1,"whitelist": true},
+    {"type": "custommachinery:item","id": "slot6","mode": "input","filter": "minecraft:redstone","capacity": 1,"whitelist": true},
+    {"type": "custommachinery:item","id": "slot7","mode": "input","filter": "#forge:carpenter_items","capacity": 1,"whitelist": true},
+    {"type": "custommachinery:item","id": "slot8","mode": "input","filter": "#forge:carpenter_items","capacity": 1,"whitelist": true},
+    {"type": "custommachinery:item","id": "slot9","mode": "input","filter": "#forge:carpenter_items","capacity": 1,"whitelist": true}
+  ],
+  "gui": [
+    {
+      "texture": "ragnamod_seven:textures/gui/base_background.png","x": 36,"y": 0,"type": "custommachinery:texture"
+    },
+    {
+      "x": 47,"y": 80,"type": "custommachinery:player_inventory"
+    },
+    {
+      "type": "custommachinery:progress","x": 151,"y": 32
+    },
+    {
+      "id": "slot1","x": 86,"y": 12,"type": "custommachinery:slot"
+    },
+    {
+      "id": "slot2","x": 104,"y": 12,"type": "custommachinery:slot"
+    },
+    {
+      "id": "slot3","x": 122,"y": 12,"type": "custommachinery:slot"
+    },
+    {
+      "id": "slot4","x": 86,"y": 30,"type": "custommachinery:slot"
+    },
+    {
+      "id": "slot5","x": 104,"y": 30,"type": "custommachinery:slot"
+    },
+    {
+      "id": "slot6","x": 122,"y": 30,"type": "custommachinery:slot"
+    },
+    {
+      "id": "slot7","x": 86,"y": 48,"type": "custommachinery:slot"
+    },
+    {
+      "id": "slot8","x": 104,"y": 48,"type": "custommachinery:slot"
+    },
+    {
+      "id": "slot9","x": 122,"y": 48,"type": "custommachinery:slot"
+    },
+    {
+      "id": "enchanted_book",
+      "x": 183,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/base_fluid_storage.png",
+      "type": "custommachinery:fluid",
+      "x": 55,
+      "y": 12,
+      "id": "xp_tank"
+    }
+  ],
+  "jei": [
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 151,
+      "y": 32
+    },
+    {
+      "id": "book",
+      "x": 55,
+      "y": 30,
+      "type": "custommachinery:slot",
+      "ghost": "minecraft:writable_book"
+    },
+    {
+      "id": "lapis",
+      "x": 104,
+      "y": 30,
+      "type": "custommachinery:slot",
+      "ghost": "minecraft:lapis_lazuli"
+    },
+    {
+      "id": "ingredient",
+      "x": 124,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "enchanted_book",
+      "x": 183,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/base_fluid_storage_jei.png",
+      "type": "custommachinery:fluid",
+      "x": 35,
+      "y": 30,
+      "id": "xp_tank"
+    }],
+  "catalysts": []
+}

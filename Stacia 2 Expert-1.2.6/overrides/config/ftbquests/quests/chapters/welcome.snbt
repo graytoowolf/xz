@@ -1,0 +1,949 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "18514C863AB592D3"
+	icon: "ars_nouveau:summon_focus"
+	id: "5F5F943CAC6AE7AE"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:block/oak_sapling"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ars_nouveau:textures/items/summon_focus.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "kubejs:textures/item/questbook/titlecelestemountain.png"
+			rotation: 0.0d
+			width: 8.695652173913043d
+			x: 7.0d
+			y: -4.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Hello Everyone!"
+				""
+				"Welcome to &aStacia 2: Expert&r!"
+				""
+				"This modpack aims to keep your &agameplay as fun and varied&r as possible. You'll find hundreds of different recipes and automation systems you've never done before! I've also added hundreds of custom items to make your gameplay &6special&r."
+				""
+				"I recommend you to &6check JEI&r even for items you know how to make. Don't overlook the QoL recipes I've carefully added that you might find useful."
+				""
+				"Stacia 2: Expert is a good blend of the most fun parts of the Magic, Tech and Exploration mods without over grind (most of the time lol)."
+			]
+			icon: "minecraft:oak_log"
+			id: "7227D94BD940B007"
+			rewards: [{
+				id: "37ABE0EFCC670545"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&aWelcome!"
+			tasks: [{
+				id: "4B28E422262C9C36"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "It's Your First Shot!"
+			x: 0.0d
+			y: 0.6d
+		}
+		{
+			dependencies: ["7227D94BD940B007"]
+			description: [
+				"&aFirst Step:&r Classic Old Crafting Table. What could go wrong?"
+				""
+				"You can put &6Crafting Table On A Stick&r in the curio slot and open it with a keybind. It might come in handy in the mining."
+				""
+				"{image:minecraft:block/crafting_table_top width:30 height:30 align:1}"
+			]
+			id: "5C1CB0C836502ABB"
+			rewards: [
+				{
+					id: "4B2ACE0896F22CD8"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+				{
+					id: "183C8A828519A95F"
+					item: {
+						Count: 1b
+						id: "tconstruct:tinker_station"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "281A511BF6777410"
+					item: {
+						Count: 1b
+						id: "tconstruct:part_builder"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02320B80F36CE039"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+				{
+					id: "39FC95081C6D873A"
+					item: {
+						Count: 1b
+						id: "tconstruct:crafting_station"
+						tag: {
+							texture: "minecraft:oak_wood"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Crafting Center"
+			tasks: [{
+				id: "46A79E09B86E4B5F"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C1CB0C836502ABB"]
+			description: [
+				"&aPart builder&r allows you to create your dream tool by combining the parts you want."
+				""
+				"Each material has different stats, so I recommend you to check the stats of the materials first. It makes the most sense to start with &7stone tools&r as they are &aeasier to repair&r."
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:pickaxe"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:rock"
+						"tconstruct:rock"
+						"tconstruct:rock"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:stonebound"
+						}
+						{
+							level: 1
+							name: "tconstruct:pierce"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 2.0f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:durability": 117.0f
+						"tconstruct:harvest_tier": "minecraft:stone"
+						"tconstruct:mining_speed": 4.2f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "4C498DCB44225078"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38B5343968EB73D7"
+				table_id: 2213562919699284841L
+				type: "random"
+			}]
+			subtitle: "Welcome Back Tinkers"
+			tasks: [
+				{
+					id: "7E801803A3213298"
+					item: {
+						Count: 1b
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "340AA531DFA20442"
+					item: {
+						Count: 1b
+						id: "tconstruct:tool_binding"
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F210D5AC178E019"
+					item: {
+						Count: 1b
+						id: "tconstruct:tool_handle"
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Tinkers' Construct!"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C498DCB44225078"]
+			description: ["&aStone Mechanisms:&r You may need it for the recipe of some stone items.  Cavemen need some technology too."]
+			icon: "kubejs:stone_mechanism"
+			id: "1FD3FD5D06E94E1E"
+			rewards: [{
+				count: 16
+				id: "44C8B1B5841CBCAD"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			subtitle: "Neanderthal's first component"
+			tasks: [
+				{
+					id: "01E908DC84CAFDAD"
+					item: "kubejs:stone_nugget"
+					type: "item"
+				}
+				{
+					id: "25727804AE5E7616"
+					item: "kubejs:stone_mechanism"
+					type: "item"
+				}
+			]
+			title: "Stone Mechanism"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FD3FD5D06E94E1E"]
+			description: [
+				"&aFurnace:&r is your smelting powerhouse."
+				""
+				"Drop in ores to get ingots, or cook raw food for a tasty treat. It's a must-have for turning raw materials into &6valuable resources&r."
+			]
+			id: "0C6ED0C9C20182A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F0B5E6763070A1C"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Smelting Hub"
+			tasks: [{
+				id: "49B066DBF781D568"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C498DCB44225078"]
+			description: [
+				"&aTinkers' repair kits&r allow you to repair all your tools made of the same material. It might be a good idea to carry plenty of repair kits with you in the early game."
+				""
+				"For repairing, all you have to do is put the repair kit next to your tool in any crafting grid."
+			]
+			id: "33C4C718B0F6183A"
+			rewards: [
+				{
+					id: "38A1A970D795935E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "7F739DB2349395A1"
+					item: "tconstruct:pattern"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Recycling"
+			tasks: [{
+				id: "5F3B4D8FF576C450"
+				item: {
+					Count: 1b
+					id: "tconstruct:repair_kit"
+					tag: {
+						Material: "tconstruct:rock"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0C6ED0C9C20182A7"]
+			description: ["&aAndesite Alloy:&r A fundamental element in the Create mod, forms by blending andesite with other materials. This robust alloy is essential for crafting advanced machinery and tools, enhancing your technological capabilities."]
+			id: "4A0573513D707B9A"
+			rewards: [
+				{
+					count: 8
+					id: "605A477EC1FC795C"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C15387BDE256193"
+					table_id: 2213562919699284841L
+					type: "loot"
+				}
+			]
+			subtitle: "Forging Ahead with Andesite!"
+			tasks: [{
+				count: 8L
+				id: "59315536EBF57938"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Alloy Alchemy"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31F037A6B60539A9"]
+			description: [
+				"&aMillstone&r will be your first crusher-type machine on this journey. Give it some stress and press Q to drop items on it."
+				"Maybe it can be functional to get some &dsource gems&r."
+			]
+			id: "1B2D930EBB3F2A94"
+			rewards: [{
+				count: 4
+				id: "47230EFFE0120AF9"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			subtitle: "First Crusher"
+			tasks: [{
+				id: "7AD687FB122F3C40"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A0573513D707B9A"]
+			description: ["&aCogwheel:&r a vital component in Create. Link them to transfer rotational power between shafts. The backbone of mechanical precision in crafting advanced machinery."]
+			icon: "create:cogwheel"
+			id: "593AFCB9C597115E"
+			subtitle: "Mechanical Precision Gear"
+			tasks: [
+				{
+					id: "5815DE85FBD7F5DC"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "3DC6ECE4D8027544"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "Cogwheel Contraption"
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1B2D930EBB3F2A94"
+				"593AFCB9C597115E"
+				"4B3FD7D0B88EC3EC"
+			]
+			description: [
+				"Now that you have your first &dSource Gem&r, we can really get started."
+				""
+				"You may have noticed that you can also smelt &dRaw Source Gems&r in Furnace. But this means giving up an extra 20% Source Gem possibility."
+			]
+			id: "6430C8C86DF9471C"
+			rewards: [
+				{
+					count: 8
+					id: "563337597DB6AEA6"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F04ED865F187653"
+					table_id: 2213562919699284841L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "Magical Gemmms, I want them"
+			tasks: [{
+				id: "282F9A87C9FB198A"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 9.6d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["4A0573513D707B9A"]
+			description: [
+				"&aRaw Arcane:&r Find some &6arcane ore&r underground."
+				""
+				"&aMaxY =&r 96"
+				"&aMost Likely&r = 32"
+				"&aMinY =&r -32"
+			]
+			hide_dependency_lines: true
+			icon: "kubejs:raw_arcane"
+			id: "4B3FD7D0B88EC3EC"
+			rewards: [{
+				id: "7B85B71AF7640C3E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Find Some Arcane Ore"
+			tasks: [{
+				id: "7CDE6CAE7DB0753C"
+				item: "kubejs:raw_arcane"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6430C8C86DF9471C"]
+			description: [
+				"&dSourcestone&r can be considered the foundation of Ars Nouveau."
+				""
+				"Be sure to craft plenty of extra &dSourcestone&r."
+			]
+			id: "1E73A2A27BFD3B89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "003977D5F0DBFF9A"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			subtitle: "Stone of the fairies"
+			tasks: [{
+				count: 8L
+				id: "387EF27260F52784"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D0D60B6D73528FE"]
+			description: [
+				"Now you can move into the &aTechnological Age&r."
+				""
+				"This quest will unlock the &6Industrial Revolution&r Chapter!"
+			]
+			id: "1DBE71926E682A2E"
+			rewards: [
+				{
+					count: 4
+					id: "581B950672D5A55C"
+					item: "ftbic:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "00BC8F11E5D2D850"
+					item: "ftbic:fuse"
+					type: "item"
+				}
+				{
+					id: "6F3B8D67535C077D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D6596FC74F4B9CB"
+					table_id: 2213562919699284841L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "Like Industrial Craft 2"
+			tasks: [{
+				id: "534DF1194DD5B74B"
+				item: "ftbic:machine_block"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E73A2A27BFD3B89"]
+			description: [
+				"You can put &6pedestals&r around the Enchanting Apparatus and &dArcane Core&r underneath it to make it work."
+				""
+				"Some recipes have a &dsource cost&r, some do not. When you put the items correctly, crafting starts &6automatically&r. Ideal for automating with &6hoppers&r."
+				""
+				"Enchanting Apparatus reminds me of Actually Additions' &6Empowerer&r."
+			]
+			id: "1C71DD2B96CD3ACE"
+			shape: "diamond"
+			tasks: [{
+				id: "109DDC39120AF843"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E73A2A27BFD3B89"]
+			description: [
+				"&dPedestals&r are tools that allow you to place items around the &6Enchanting Apparatus&r."
+				"They can also be used around the Imbuement Chamber in some recipes."
+			]
+			id: "165C7294DC3D40E2"
+			shape: "diamond"
+			tasks: [{
+				count: 8L
+				id: "31D90D904D65360E"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			title: "Arcane Pedestals"
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E73A2A27BFD3B89"]
+			description: ["The &dArcane Core&r should always be placed under the &6Enchanting Apparatus&r. Without it, the Enchanting Apparatus will not work."]
+			id: "41A5A3AF68A139E1"
+			shape: "diamond"
+			tasks: [{
+				id: "436F82CBFDC3C8D2"
+				item: "ars_nouveau:arcane_core"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"41A5A3AF68A139E1"
+				"165C7294DC3D40E2"
+				"1C71DD2B96CD3ACE"
+			]
+			description: ["&aFirst Circuits&r: You Can Use The &6Enchanting Apparatus&r To Craft Your First Electronic Circuits!"]
+			icon: "ftbic:electronic_circuit"
+			id: "2D0D60B6D73528FE"
+			rewards: [
+				{
+					id: "17C0DF9F21AC3998"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E62524325419885"
+					table_id: 2213562919699284841L
+					type: "loot"
+				}
+			]
+			subtitle: "Beep Boop"
+			tasks: [{
+				id: "630498521801CAC0"
+				item: "ftbic:electronic_circuit"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C6ED0C9C20182A7"]
+			description: [
+				"&aTons of glass!:&r You can directly obtain &61x Compressed Glass&r by smelting Compressed Sand in a Furnace."
+				""
+				"Also this does not only apply to 1x. It applies to &6all compressed glasses from 1x to 9x&r. "
+				""
+				"Crafting thousands of glass isn't that painful anymore."
+				"You can smelt up to &6387.42M glass&r in one go."
+			]
+			icon: "minecraft:glass"
+			id: "269171EF2C689894"
+			rewards: [{
+				count: 32
+				id: "75CE59A5F42AFAF2"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Bulk Crafting!"
+			tasks: [
+				{
+					id: "17137661C85F73FF"
+					item: "compressium:sand_1"
+					type: "item"
+				}
+				{
+					id: "4D14E10718BF46F5"
+					item: "kubejs:c1_glass"
+					type: "item"
+				}
+				{
+					id: "1A358445D437B29C"
+					item: "compressium:sand_2"
+					type: "item"
+				}
+				{
+					id: "0F0BA4D7E381BD5F"
+					item: "kubejs:c2_glass"
+					type: "item"
+				}
+			]
+			title: "Tons of Glass!"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C6ED0C9C20182A7"]
+			description: [
+				"&aTons of charcoal!:&r You can directly obtain &6Charcoal Blocks&r by smelting Compressed Logs in a Furnace."
+				""
+				"This means serious &6fuel savings&r at every stage of the game."
+			]
+			icon: "thermal:charcoal_block"
+			id: "2718793BD0ED0F43"
+			rewards: [{
+				count: 4
+				id: "425156A4F918ED38"
+				item: "thermal:charcoal_block"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Bulk Crafting!"
+			tasks: [
+				{
+					id: "07F076A89FE2F260"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:compressed/logs"
+						}
+					}
+					title: "Any #forge:compressed/logs"
+					type: "item"
+				}
+				{
+					id: "732BF2C0F362162C"
+					item: "thermal:charcoal_block"
+					type: "item"
+				}
+			]
+			title: "Tons of Charcoals!"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1C71DD2B96CD3ACE"
+				"20A59E34244BDE6E"
+				"6760C40216B8E2D3"
+			]
+			description: [
+				"&dStorage Lectern&r is like an entry-level &6AE2 System&r."
+				""
+				"You can &6see the items&r in the inventories you have linked, and you can &6crafting&r with them. "
+			]
+			id: "4DE2B5E368C27F3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70214366D4FA7877"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Magical AE2"
+			tasks: [{
+				id: "59951C16BBB007D4"
+				item: "ars_nouveau:storage_lectern"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1C71DD2B96CD3ACE"]
+			description: [
+				"&dDominion Wand&r is used to &6link&r the Storage Lectern with the surrounding inventories. Within &630 block range&r."
+				""
+				"To use it, Shift Right-click the Inventory you want to link with Dominion Wand, then shift right-click Storage Lectern."
+			]
+			hide_dependency_lines: true
+			id: "6760C40216B8E2D3"
+			subtitle: "It looks like Ars Magica"
+			tasks: [{
+				id: "71A188F33A1EC3EC"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:dominion_wand"
+					tag: {
+						an_dominion_wand: {
+							entityID: -1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["165C7294DC3D40E2"]
+			description: [
+				"To obtain the &6Bookwyrms&r, right-click the Ritual Brazier with the &aTablet of Awakening&r. You will see \"&6Awaiting Activation&r\" in the Tooltip. "
+				""
+				"Then right-click with Book and Quill."
+				"The Ritual Brazier will consume it. "
+				"Then right-click with the empty hand and you will get the &6Bookwyrm Charm&r!"
+			]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:ritual_brazier"
+			id: "20A59E34244BDE6E"
+			subtitle: "I love books"
+			tasks: [
+				{
+					id: "4F5FA6CCB20FD1E5"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+				{
+					id: "0627AD82BBBDBEC7"
+					item: "ars_nouveau:ritual_awakening"
+					type: "item"
+				}
+				{
+					id: "51C820EA3EB5217F"
+					item: "minecraft:writable_book"
+					type: "item"
+				}
+			]
+			title: "Rituals!"
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["20A59E34244BDE6E"]
+			description: [
+				"&dBookwyrms&r determine the maximum number of inventories you can &6link&r to the Storage lectern."
+				""
+				"You can link &68 inventory per Bookwyrm&r. This can be any inventory, Chests, Storage Controller, Drawers etc."
+			]
+			id: "0E099C34F0842C25"
+			rewards: [
+				{
+					id: "165BCFE35BB2E840"
+					item: "ars_nouveau:bookwyrm_charm"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2541E169CE489284"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "Charms Charms Charms"
+			tasks: [{
+				id: "6F1E9F511A1BCB67"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["0C6ED0C9C20182A7"]
+			description: [
+				"&aTons of Stones!:&r You can directly obtain &6Compressed Stones&r by smelting Compressed Cobblestones in a Furnace."
+				""
+				"Also this does not only apply to 1x. It applies to &6all compressed stones from 1x to 9x&r. Considering that 9x compressed stone is 387.42M stones. "
+				""
+				"You can smelt up to &6387.42M stones&r in one go."
+			]
+			icon: "compressium:stone_1"
+			id: "6E36DD57E6E6D09A"
+			rewards: [{
+				count: 3
+				id: "3C1CDC16E7B3AE77"
+				item: "compressium:stone_1"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Bulk Crafting!"
+			tasks: [
+				{
+					id: "5FC9CB6319BE6241"
+					item: "compressium:cobblestone_1"
+					type: "item"
+				}
+				{
+					id: "4F94D9132B3E0494"
+					item: "compressium:stone_1"
+					type: "item"
+				}
+			]
+			title: "Tons of Stones!"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C6ED0C9C20182A7"]
+			description: ["By using &6Tiny Coal&r and &6Tiny Charcoal&r you can save fuel when you need to smelt less than 8 items!"]
+			icon: "utilitix:tiny_charcoal"
+			id: "30AB1D5A7A005AFC"
+			rewards: [{
+				count: 8
+				id: "42AE758BB68F08DF"
+				item: "minecraft:coal"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "I need to save fuel"
+			tasks: [{
+				id: "28E03BE434B6A000"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "utilitix:tiny_coal"
+							}
+							{
+								Count: 1b
+								id: "utilitix:tiny_charcoal"
+							}
+						]
+					}
+				}
+				title: "Tiny Coals"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DE2B5E368C27F3E"]
+			description: [
+				"Do you want to access Storage Lectern &6wirelessly&r? It is &aactually possible&r!"
+				""
+				"Using your spellbook, put a &6Projectile&r and &6Interact&r spell onto a spell parchment, then use it to apply that  spell to the &dEnchanter's Eye&r."
+				""
+				"Place the Scry Crystal facing up from the bottom of the lectern."
+				"Then, right-click the Enchanter's Eye onto the Scrying Crystal to bind them together."
+				""
+				"Now you can access the lectern wirelessly with &6infinite range&r as long as you are in the same dimension!"
+			]
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:enchanters_eye"
+				tag: { }
+			}
+			id: "4E8D4C2BC779AE56"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E64DFBF84F9A9A4"
+				table_id: 2213562919699284841L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 0.8d
+			subtitle: "Wireless Access!"
+			tasks: [
+				{
+					id: "2350F3FC86E946C7"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:enchanters_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "281588F95F9659CD"
+					item: "ars_nouveau:scryers_crystal"
+					type: "item"
+				}
+				{
+					id: "30F6E19FC21D9F2A"
+					item: "ars_nouveau:blank_parchment"
+					type: "item"
+				}
+			]
+			title: "Wireless Storage Lectern"
+			x: 13.0d
+			y: 6.0d
+		}
+	]
+	title: "Celeste Mountain"
+}

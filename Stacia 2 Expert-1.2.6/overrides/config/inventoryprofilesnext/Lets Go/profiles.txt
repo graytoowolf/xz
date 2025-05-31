@@ -1,0 +1,182 @@
+
+
+
+
+profile Saved activate HOT2
+	HOT1
+		"pocketstorage:psu_3"
+	HOT2
+		"mekanismtools:netherite_paxel"
+	HOT3
+		"notenoughwands:acceleration_wand"
+	HOT4
+		"ae2:speed_card"
+	HOT5
+		"minecraft:raw_copper"
+	HOT8
+		"ae2:certus_quartz_wrench"
+	HOT9
+		"buildinggadgets2:gadget_building"
+	HEAD
+		"mekanismtools:osmium_helmet"
+	CHEST
+		"mekanismtools:osmium_chestplate"
+	LEGS
+		"mekanismtools:osmium_leggings"
+	FEET
+		"mekanismtools:osmium_boots"
+
+profile Saved activate HOT2
+	HOT1
+		"buildinggadgets2:gadget_destruction"
+	HOT2
+		"mekanismtools:netherite_paxel"
+	HOT3
+		"notenoughwands:acceleration_wand"
+	HOT4
+		"ae2:speed_card"
+	HOT5
+		"ae2:facade"
+	HOT6
+		"fluxnetworks:flux_plug"
+	HOT8
+		"mininggadgets:mininggadget"
+	HOT9
+		"buildinggadgets2:gadget_building"
+	HEAD
+		"mekanismtools:osmium_helmet"
+	CHEST
+		"mekanismtools:osmium_chestplate"
+	LEGS
+		"mekanismtools:osmium_leggings"
+	FEET
+		"mekanismtools:osmium_boots"
+
+profile Saved activate HOT2
+	HOT1
+		"buildinggadgets2:gadget_destruction"
+	HOT2
+		"mekanismtools:netherite_paxel"
+	HOT3
+		"notenoughwands:acceleration_wand"
+	HOT4
+		"ae2:speed_card"
+	HOT5
+		"ae2:facade"
+	HOT6
+		"fluxnetworks:flux_plug"
+	HOT7
+		"industrialforegoing:speed_addon_2"
+	HOT8
+		"mininggadgets:mininggadget"
+	HOT9
+		"buildinggadgets2:gadget_building"
+	HEAD
+		"mekanismtools:osmium_helmet"
+	CHEST
+		"mekanismtools:osmium_chestplate"
+	LEGS
+		"mekanismtools:osmium_leggings"
+	FEET
+		"mekanismtools:osmium_boots"
+
+profile Saved activate HOT2
+	HOT1
+		"buildinggadgets2:gadget_destruction"
+	HOT2
+		"mekanismtools:netherite_paxel"
+	HOT3
+		"notenoughwands:acceleration_wand"
+	HOT4
+		"ae2:speed_card"
+	HOT5
+		"ae2:facade"
+	HOT6
+		"fluxnetworks:flux_plug"
+	HOT7
+		"industrialforegoing:speed_addon_2"
+	HOT8
+		"mininggadgets:mininggadget"
+	HOT9
+		"buildinggadgets2:gadget_building"
+	HEAD
+		"mekanismtools:osmium_helmet"
+	CHEST
+		"mekanismtools:osmium_chestplate"
+	LEGS
+		"mekanismtools:osmium_leggings"
+	FEET
+		"mekanismtools:osmium_boots"
+
+profile Saved activate HOT4
+	HOT1
+		"enderchests:ender_chest"
+	HOT2
+		"mekanismtools:netherite_paxel"
+	HOT3
+		"notenoughwands:acceleration_wand"
+	HOT4
+		"powah:energy_cable_nitro"
+	HOT5
+		"powah:energy_cable_nitro"
+	HOT6
+		"minecraft:warped_roots"
+	HOT7
+		"fluxnetworks:flux_point"
+	HOT9
+		"buildinggadgets2:gadget_building"
+	HEAD
+		"mekanismtools:osmium_helmet"
+	CHEST
+		"mekanismtools:osmium_chestplate"
+	LEGS
+		"mekanismtools:osmium_leggings"
+	FEET
+		"mekanismtools:osmium_boots"
+
+profile Saved activate HOT2
+	HOT1
+		"industrialforegoing:laser_drill"
+	HOT2
+		"mekanismtools:netherite_paxel" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:3},{id:"minecraft:mending",lvl:1}]
+	HOT3
+		"notenoughwands:acceleration_wand"
+	HOT4
+		"industrialforegoing:efficiency_addon_2"
+	HOT5
+		"industrialforegoing:efficiency_addon_2"
+	HOT6
+		"industrialforegoing:processing_addon_2"
+	HOT7
+		"industrialforegoing:processing_addon_2"
+	HOT8
+		"industrialforegoing:ore_laser_base"
+	HOT9
+		"buildinggadgets2:gadget_building"
+	HEAD
+		"mekanismtools:osmium_helmet"
+	CHEST
+		"mekanismtools:osmium_chestplate"
+	LEGS
+		"mekanismtools:osmium_leggings"
+	FEET
+		"mekanismtools:osmium_boots"
+
+profile Saved activate HOT2
+	HOT1
+		"powah:energy_cable_nitro"
+	HOT2
+		"mekanismtools:netherite_paxel" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:3},{id:"minecraft:mending",lvl:1}]
+	HOT3
+		"notenoughwands:acceleration_wand"
+	HOT9
+		"buildinggadgets2:gadget_building"
+	HEAD
+		"mekanismtools:osmium_helmet"
+	CHEST
+		"mekanismtools:osmium_chestplate"
+	LEGS
+		"mekanismtools:osmium_leggings"
+	FEET
+		"mekanismtools:osmium_boots"
+

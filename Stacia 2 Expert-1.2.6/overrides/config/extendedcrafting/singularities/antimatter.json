@@ -1,0 +1,13 @@
+{
+    "name": "Antimatter",
+    "colors": [
+      "7e3d74",
+      "45264c"
+    ],
+    "ingredient": {
+      "item": "ftbic:antimatter"
+    },
+    "materialCount": 2226,
+    "inUltimateSingularity": false
+  }
+  

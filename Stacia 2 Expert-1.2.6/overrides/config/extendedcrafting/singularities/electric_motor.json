@@ -1,0 +1,13 @@
+{
+    "name": "Electric Motor",
+    "colors": [
+      "e7b363",
+      "5d2312"
+    ],
+    "ingredient": {
+      "item": "createaddition:electric_motor"
+    },
+    "materialCount": 216,
+    "inUltimateSingularity": false
+  }
+  

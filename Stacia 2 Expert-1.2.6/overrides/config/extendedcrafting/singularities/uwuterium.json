@@ -1,0 +1,13 @@
+{
+    "name": "Uwuterium",
+    "colors": [
+      "b8045f",
+      "fccce3"
+    ],
+    "ingredient": {
+      "item": "kubejs:uwuterium_ingot"
+    },
+    "materialCount": 64,
+    "inUltimateSingularity": false
+  }
+  

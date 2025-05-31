@@ -1,0 +1,68 @@
+{
+  "entries": [
+    {
+      "item": "#forge:dusts",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:redstone",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:prismarine_shard",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:gravel",
+      "emc": 1
+    },
+    {
+      "item": "kubejs:uwuterium_ingot",
+      "emc": 0
+    },
+    {
+      "item": "kubejs:slate_1",
+      "emc": 153600
+    },
+    {
+      "item": "kubejs:slate_2",
+      "emc": 230400
+    },
+    {
+      "item": "kubejs:slate_3",
+      "emc": 691200
+    },
+    {
+      "item": "kubejs:slate_uwuterium",
+      "emc": 13824000
+    },
+    {
+      "item": "ae2:speed_card",
+      "emc": 90000
+    },
+    {
+      "item": "refinedstorage:speed_upgrade",
+      "emc": 90000
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:circuit_board",
+      "emc": 4096
+    },
+    {
+      "item": "thermal_extra:dragonsteel_ingot",
+      "emc": 64326
+    },
+    {
+      "item": "tconstruct:slimesteel_ingot",
+      "emc": 12834
+    }
+  ]
+}

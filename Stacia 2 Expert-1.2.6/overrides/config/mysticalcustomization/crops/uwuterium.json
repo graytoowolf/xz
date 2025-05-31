@@ -1,0 +1,13 @@
+{
+    "name": "Uwuterium",
+    "type": "uwuterium",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "kubejs:uwuterium_block"
+    },
+    "color": "fc389a",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    }
+  }

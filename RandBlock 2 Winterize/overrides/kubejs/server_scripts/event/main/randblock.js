@@ -6,11 +6,11 @@
     server.masterTime 2s刷新一次的teamId
 */
 const stageAll = {
-    "stage0": stage0,
-    "stage1": stage1,
-    "stage2": stage2,
-    "stage3": stage3,
-    "stage4": stage4
+    "stage0": global.stage0,
+    "stage1": global.stage1,
+    "stage2": global.stage2,
+    "stage3": global.stage3,
+    "stage4": global.stage4
 }
 
 LevelEvents.tick('minecraft:overworld', event => {

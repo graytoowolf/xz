@@ -1,0 +1,382 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "evil_magic"
+	group: "02FE910EDEFB2C10"
+	icon: "evilcraft:redstone_grenade"
+	id: "332C3F0F28AB4A36"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.3627118644067797d
+		hover: [ ]
+		image: "kubejs:textures/item/questbook/titleevilcraft.png"
+		rotation: 0.0d
+		width: 9.0d
+		x: 1.5d
+		y: -8.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2AAA3AC498529D68"]
+			description: [
+				"You can craft items by filling the blood in the blood infuser with any fluid pipe and placing the item in the input slot."
+				""
+				"It's pretty simple."
+			]
+			id: "2B8E7B7357B1EBD9"
+			rewards: [
+				{
+					id: "1BC267E2703E5533"
+					item: "kubejs:slate_1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0ED1DCA9B4DA7BCE"
+					item: "kubejs:slate_2"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Not Blood Altar"
+			tasks: [{
+				id: "3B2D3F15CE978E2A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 10000
+						}
+					}
+					id: "evilcraft:blood_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"To start Evilcraft, you first need some Dark Gems."
+				""
+				"It's not that hard to find, but if you still have trouble finding them, I recommend using &dScanner&r."
+				""
+				"Dark ore is a common ore that generally spawns in the overworld."
+			]
+			id: "0652A3CF81A719F2"
+			rewards: [{
+				id: "7C4C6A71539BBAA0"
+				item: "evilcraft:origins_of_darkness"
+				type: "item"
+			}]
+			subtitle: "Devilish Horn's favorite mod"
+			tasks: [{
+				id: "60A8952588790626"
+				item: "evilcraft:dark_gem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0652A3CF81A719F2"]
+			description: [
+				"&4Blood Extractor&r is a more manual way to get blood. "
+				""
+				"Keep this in your inventory when killing any mobs."
+				"It will store &4blood&r in it."
+			]
+			id: "57B785DC98C56138"
+			tasks: [{
+				id: "53C98F6F9EC94071"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 5000
+						}
+					}
+					id: "evilcraft:blood_extractor"
+					tag: {
+						Fluid: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+						}
+						capacity: 5000
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0652A3CF81A719F2"]
+			description: [
+				"Spiked Plate is the main way to get blood from mobs. "
+				""
+				"It's easy to use, Just place it on top of the &6sanguinary pedestal&r and watch the blood accumulate."
+				""
+				"When you put a spiked plate on the Sanguinary Pedestal, it will store blood inside. "
+				""
+				"It can store &410,000 mb of blood&r inside itself."
+				""
+				"You can also transfer blood to another place with any fluid pipe."
+			]
+			icon: "evilcraft:spiked_plate"
+			id: "3260EA4DC364A8CE"
+			tasks: [
+				{
+					id: "32C6AFA5F9FC26CA"
+					item: "evilcraft:spiked_plate"
+					type: "item"
+				}
+				{
+					id: "429DE3198F9369FB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Amount: 0
+								FluidName: "minecraft:empty"
+								capacity: 10000
+							}
+						}
+						id: "evilcraft:sanguinary_pedestal_0"
+						tag: {
+							Fluid: {
+								Amount: 0
+								FluidName: "minecraft:empty"
+							}
+							capacity: 10000
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"57B785DC98C56138"
+				"3260EA4DC364A8CE"
+			]
+			description: [
+				"At this point you should have your first bucket of blood. &6Congratulations!&r"
+				""
+				"I recommend setting up a mob farm and storing the blood in a &6large fluid tank&r."
+				"(Storing it inside the AE2 or RS is also an option)"
+				""
+				"Because you will need a lot of blood for the blood magic slates."
+			]
+			id: "2F4462EAE15A4F2B"
+			tasks: [{
+				id: "3E62297F414CDBAA"
+				item: "evilcraft:bucket_blood"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2F4462EAE15A4F2B"]
+			id: "2AAA3AC498529D68"
+			subtitle: "Craft Some Powered Dark Gem"
+			tasks: [{
+				id: "341C009AAC1FAEF9"
+				item: "evilcraft:dark_power_gem"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2B8E7B7357B1EBD9"]
+			description: [
+				"You will need upgrades to make some blood infuser recipes. "
+				""
+				"This is the &6first tier upgrade&r."
+				""
+				"Simply place the upgrade in the upgrade slots on the left side of the blood infuser. Placing upgrades also increases the blood capacity of the blood infuser."
+			]
+			hide_dependency_lines: true
+			id: "6FBA566D79EABB81"
+			shape: "circle"
+			subtitle: "Tank Capacity x2"
+			tasks: [{
+				id: "29BC466DCC93C107"
+				item: "evilcraft:promise_tier_1"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6FBA566D79EABB81"
+				"2B8E7B7357B1EBD9"
+			]
+			id: "30D6A394E6A3865D"
+			subtitle: "Tier 1 Slate"
+			tasks: [{
+				id: "4FAE77BD4E3820B4"
+				item: "kubejs:slate_1"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6FBA566D79EABB81"]
+			description: ["A more advanced version of Promise of Tenacity."]
+			id: "11B5E4D1FAE3066C"
+			subtitle: "Tank Capacity x4"
+			tasks: [{
+				id: "0DFF7E2014A07FE0"
+				item: "evilcraft:promise_tier_2"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"11B5E4D1FAE3066C"
+				"30D6A394E6A3865D"
+			]
+			id: "7B53845C77DD67DA"
+			subtitle: "Tier 2 Slate"
+			tasks: [{
+				id: "1763B632EFE5FDF4"
+				item: "kubejs:slate_2"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["11B5E4D1FAE3066C"]
+			id: "281960415D14E50E"
+			rewards: [{
+				id: "65F05C82937F82D2"
+				item: {
+					Count: 1b
+					id: "mekanism:advanced_fluid_tank"
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									Amount: 64000
+									FluidName: "evilcraft:blood"
+								}
+							}]
+							editMode: 0
+							owner: [I;
+								-2135483932
+								-1137425982
+								-1795900702
+								-1359176341
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5DD7C930C24BEAF6"
+				item: "evilcraft:blood_infusion_core"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["281960415D14E50E"]
+			description: ["The cornerstone of the &6Alchemical Chest&r."]
+			id: "6E431A936274AD4A"
+			rewards: [
+				{
+					count: 2
+					id: "507A771ACF4EDF71"
+					item: "create:precision_mechanism"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "1AA86051221409B2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "I'm bleeding"
+			tasks: [{
+				id: "12E09855706B84FE"
+				item: "kubejs:bloody_mechanism"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6E431A936274AD4A"
+				"737118370F9878A3"
+			]
+			description: [
+				"&6Blood Catalyst&r is used in the construction of the &aEnergy Condenser MK2&r."
+				""
+				"A must-have for ProjectE."
+			]
+			id: "4C6989E954B09CF9"
+			rewards: [{
+				count: 2
+				id: "2B6DEDE51A6BB9F8"
+				item: "evilcraft:blood_infusion_core"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "Much Endermen blood was shed for this."
+			tasks: [{
+				id: "644C1C7D93E2BF5A"
+				item: "kubejs:catal_blood"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6FBA566D79EABB81"]
+			description: [
+				"Blood Infuser can sometimes feel slow."
+				""
+				"Here's a &62x speed upgrade&r!"
+			]
+			id: "6F2436D126993305"
+			subtitle: "Machine Speed 2x"
+			tasks: [{
+				id: "085EB99810B6B83F"
+				item: "evilcraft:promise_speed_0"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+	]
+	title: "Evil Magic"
+}

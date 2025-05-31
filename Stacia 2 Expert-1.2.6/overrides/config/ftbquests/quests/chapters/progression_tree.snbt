@@ -1,0 +1,1519 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression_tree"
+	group: "18C1B22E823C48AC"
+	icon: "thermal:rf_coil"
+	id: "1F8E578AEDB637BD"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.5d
+		hover: [ ]
+		image: "kubejs:textures/item/questbook/titleprogression.png"
+		rotation: 0.0d
+		width: 8.625d
+		x: 13.0d
+		y: -6.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You should start punching trees."
+				"Until you craft the &aHopper Botany Pot&r, of course."
+				""
+				"&6————&r"
+				"This page is designed to help you avoid getting lost in your progress. For more detailed quests, check out the &6Mod Specific Quest Chapters&r."
+				"&6————&r"
+			]
+			icon: "minecraft:oak_log"
+			id: "2B1A3C9BDFB0A64D"
+			rewards: [{
+				id: "388F779B58BA970E"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+						RepairCost: 3
+						display: {
+							Name: "{\"text\":\"Chop Chop Chopper - Not One Piece Reference\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			subtitle: "Classical Beginning"
+			tasks: [{
+				count: 16L
+				id: "7B3FA917D8E8BAFA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any Logs"
+				type: "item"
+			}]
+			title: "Beginning"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["784F2200361C338B"]
+			description: [
+				"Your first tech mod will be &aFTB Industrial Contraptions&r!"
+				""
+				"It's basically the same as IC2. There are a few items that &6you can only produce on FTBIC machines&r. (Needed for progression)"
+				""
+				"So don't get the idea that FTBIC machines will be unnecessary when you start thermal or mekanism."
+			]
+			icon: "ftbic:electronic_circuit"
+			id: "03131CDAF2EA92FF"
+			rewards: [{
+				id: "70775522A3F9985F"
+				item: "ftbic:overclocker_upgrade"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "IC2 but for modern versions"
+			tasks: [
+				{
+					id: "50F5B758E4C53235"
+					item: "ftbic:electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "0CF193E59B49BAA2"
+					item: "ftbic:machine_block"
+					type: "item"
+				}
+			]
+			title: "FTB Industrial Bla Bla "
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["784F2200361C338B"]
+			description: [
+				"Storage Lectern is a &6great AE2/RS alternative&r for early game. The best part is that you can &6actually&r get it in early game."
+				"It is easy to use and can be used wirelessly. But it does not have an autocrafting feature, so don't expect it."
+				""
+				"&d———&r"
+				"For more information on Storage lectern, Check out the &dCeleste Mountain&r Chapter. I cover it in detail there."
+				"&d———&r"
+				""
+				"I highly recommend using the storage lectern. You can connect it with all inventory types. Huge diamond chests or Drawer Controller, it's your choice."
+			]
+			id: "4FC18247719265CE"
+			rewards: [
+				{
+					id: "3C0D6A208353F90B"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:diamond_chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07C5C57D43921430"
+					item: "sophisticatedstorage:stack_upgrade_tier_2"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Not Digital, But Magical Storage"
+			tasks: [{
+				id: "1C57901F4E30D6F7"
+				item: "ars_nouveau:storage_lectern"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B1A3C9BDFB0A64D"]
+			description: [
+				"One of the first mods you should start with is &6Create&r. Create's items will appear in some important places in progression. I've listed some of those items as you can see above."
+				""
+				"You will need Soulsteel Ingot to enter &aMekanism&r, and Fluxtooth Spores to enter &4Thermal Series&r."
+				""
+				"You will need Precision Mechanism to make the &6Storage Lectern&r, and Hydraulic Engine to make &5RFTools' Machine Frame&r."
+				""
+				"I recommend automating them as quickly as you can."
+			]
+			icon: "create_sa:hydraulic_engine"
+			id: "2EB9F00BFD32F6C5"
+			rewards: [
+				{
+					id: "7507F083F2C01245"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 16
+					id: "13217B46617664BF"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "15244327B9E3A819"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4BF461D62E390865"
+					item: "create:gearbox"
+					type: "item"
+				}
+			]
+			subtitle: "I can't find any create-ive jokes about Create."
+			tasks: [
+				{
+					id: "5AC2672DE7142945"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "6EA1C41A36DEFC6F"
+					item: "create_sa:hydraulic_engine"
+					type: "item"
+				}
+				{
+					id: "7378C4FA841A55C3"
+					item: "thermal:redstone_mushroom_spores"
+					type: "item"
+				}
+				{
+					id: "7A8B3CC2CF611883"
+					item: "kubejs:soulsteel_ingot"
+					type: "item"
+				}
+			]
+			title: "Create!"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"67952751D7723AAA"
+				"03131CDAF2EA92FF"
+				"00AE30D82B4A1DEE"
+			]
+			description: [
+				"If you have produced all the necessary items, it is time for Thermal! As you know, Thermal machines are generally known to be slow and are later replaced by Mekanism machines."
+				""
+				"To prevent this, &6I increased the default speed of Thermal machines&r from the config."
+				""
+				"Also, thanks to various addons, there are &6higher levels&r of Integral Components and Flux Linkage Amplifiers."
+				""
+				"&6-----&r"
+				"Additionally, you can craft any plate &a9 times faster&r using blocks in the &6Multiservo Press&r."
+				"&6-----&r"
+			]
+			icon: "thermal:machine_frame"
+			id: "41432094F97F6422"
+			rewards: [
+				{
+					id: "4C7C514E4D9F775B"
+					item: "thermalendergy:endergy_upgrade_1"
+					type: "item"
+				}
+				{
+					id: "47123DE9BFC73173"
+					item: "thermal_extra:machine_speed_augment_1"
+					type: "item"
+				}
+			]
+			subtitle: "For some reason machine frame reminds me of Lady Dimitrescu."
+			tasks: [
+				{
+					id: "5949D2866C4A43D5"
+					item: "thermal:machine_frame"
+					type: "item"
+				}
+				{
+					id: "26848D294485F06F"
+					item: "thermal:machine_press"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2EB9F00BFD32F6C5"
+				"3989AD7798522851"
+			]
+			description: [
+				"RFTools has many different toys."
+				"Don't forget to check them out. "
+				""
+				"&6Builder&r is one of them."
+			]
+			id: "53FEBE29081D5B05"
+			rewards: [
+				{
+					id: "0235C94C2556424C"
+					item: "rftoolspower:dimensionalcell"
+					type: "item"
+				}
+				{
+					id: "115A365666CC02D0"
+					item: "rftoolspower:powercell_card"
+					type: "item"
+				}
+				{
+					id: "0C22BCFEC1622CC4"
+					item: "rftoolspower:power_monitor"
+					type: "item"
+				}
+				{
+					id: "7D991CA8DA00A578"
+					item: "rftoolsutility:timer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "524039B4A690CB53"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			title: "RFTools"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2EB9F00BFD32F6C5"
+				"03131CDAF2EA92FF"
+				"48957878DD0D8D3D"
+			]
+			description: [
+				"To get the Slates you will need a blood infuser. And the good news is that &aautomatically collecting blood&r from mobs is easier than Blood magic in Evilcraft."
+				""
+				"Just place a Spiked plate on the Sanguinary Pedestal."
+				""
+				"You will also need &4Blood Catalysts&r in the endgame, so I recommend you to set up a mob farm and &astore some blood&r."
+			]
+			icon: {
+				Count: 1b
+				id: "evilcraft:blood_infuser"
+				tag: {
+					Fluid: {
+						Amount: 0
+						FluidName: "minecraft:empty"
+					}
+					capacity: 10000
+				}
+			}
+			id: "67952751D7723AAA"
+			rewards: [{
+				count: 2
+				id: "0A473347FEAB2779"
+				item: "kubejs:slate_1"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "But in this pack we will use it like blood magic."
+			tasks: [
+				{
+					id: "11B65F800AC30CF7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Amount: 0
+								FluidName: "minecraft:empty"
+								capacity: 10000
+							}
+						}
+						id: "evilcraft:blood_infuser"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1A2CB186A2A4F298"
+					item: "kubejs:slate_1"
+					type: "item"
+				}
+			]
+			title: "Not Blood Magic"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B1A3C9BDFB0A64D"]
+			description: [
+				"You can think of &dEnchanting Apparatus&r as the &6Empowerer&r from Actually Additions. It will be used in many recipes throughout the pack. You can &6input/output&r items with Hopper or any pipe, so &6it's easy to automate&r."
+				""
+				"You can check the quests in the &dCeleste Mountain&r Chapter for more details."
+				""
+				"Of course there is a better alternative. ExtendedCrafting's Crafting Core. But Crafting Core is a bit of an endgame item, I just wanted to inform you."
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "784F2200361C338B"
+			rewards: [{
+				id: "07E459BEBA587E62"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Empowerer from Ars"
+			tasks: [
+				{
+					id: "059A5DC73E7F5070"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "171FBAB8FF2948E5"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "39407CFA3604FE01"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			title: "Ars Noueveueuve"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"53FEBE29081D5B05"
+				"3989AD7798522851"
+			]
+			description: [
+				"Time to start &6Mekanism&r!"
+				""
+				"I have to say that for higher tier installers you will need to progress a lot in &6different mods&r."
+			]
+			icon: "mekanism:metallurgic_infuser"
+			id: "00AE30D82B4A1DEE"
+			rewards: [
+				{
+					count: 2
+					id: "1F55BC8DB1CDD182"
+					item: "create:sturdy_sheet"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "4D8D4CA9F72FBAFD"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					id: "29A8BA08F6C80898"
+					item: "mekanism:metallurgic_infuser"
+					type: "item"
+				}
+				{
+					id: "0F7958F55F0D6A32"
+					item: "mekanism:steel_casing"
+					type: "item"
+				}
+			]
+			title: "Mekanism"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3989AD7798522851"
+				"00AE30D82B4A1DEE"
+				"53FEBE29081D5B05"
+				"41432094F97F6422"
+			]
+			description: ["&dDigital Storage&r is a milestone. &6Congrats on your achievement!&r Here's some processors as a gift! (don't eat them)"]
+			hide_dependency_lines: true
+			icon: "ae2:controller"
+			id: "5A5C5DD1B27E437A"
+			rewards: [
+				{
+					count: 16
+					id: "1B10C115725A3A0B"
+					item: "refinedstorage:improved_processor"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 16
+					id: "18057AF87530D0DD"
+					item: "refinedstorage:advanced_processor"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 16
+					id: "62CE2730B623CA01"
+					item: "refinedstorage:basic_processor"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "219E1D3FA73B311C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "69A75DC30D80499A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:controller"
+							}
+							{
+								Count: 1b
+								id: "refinedstorage:controller"
+							}
+						]
+					}
+				}
+				title: "AE2 or RS?"
+				type: "item"
+			}]
+			title: "Digital Storage"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A5C5DD1B27E437A"]
+			description: [
+				"I noticed that many people are still not aware of &6Extended Pattern Providers&r."
+				"That's why I felt the need to mention it separately. "
+				""
+				"Extended Pattern Provider offers 36 pattern slots instead of 9. You can use it &6both&r in Processing recipes and with Moleculer Assemblers."
+				""
+				"There are also many useful blocks added by the ExtendedAE mod, such as Extended ME Drive and Extended Interface."
+				"I recommend you take a look at ExtendedAE."
+				""
+				"&6-----&r"
+				"I think you are already aware of &6RS's Netherite Crafters&r, but it would be useful to mention them as well."
+				"&6-----&r"
+			]
+			icon: "expatternprovider:ex_pattern_provider"
+			id: "2A5156752AA28CEC"
+			optional: true
+			subtitle: "More Slots For AE2 and RS"
+			tasks: [{
+				id: "75D6C7D2B65F3C68"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:ex_pattern_provider"
+							}
+							{
+								Count: 1b
+								id: "extrastorage:netherite_crafter"
+							}
+						]
+					}
+				}
+				title: "Bigger Crafters"
+				type: "item"
+			}]
+			title: "Bigger Crafters"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13CC734606C26E01"]
+			description: [
+				"&6Each seed has its own tier&r and requires crafting seeds at different tiers accordingly."
+				""
+				"You can start with &bTier 1 seeds&r."
+				""
+				"Or you can choose not to use Mystical Agriculture seeds at all. This is completely optional."
+				"(Although it is optional in all modpacks anyway.)"
+			]
+			id: "0FEA55BF939D68E7"
+			optional: true
+			rewards: [{
+				id: "7D02E33108491E2E"
+				item: "mysticalagriculture:prosperity_seed_base"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Tiered Seeds"
+			tasks: [{
+				id: "5EFCAC0D1CE769C3"
+				item: "mysticalagriculture:prosperity_seed_base"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["01E4293DEDF9E41B"]
+			description: [
+				"You can now start using &dBotanical Machinery&r."
+				""
+				"This will make automating Botania so much easier."
+				""
+				"Also, Elementium is the &6base material&r of &dUwuterium&r, after all it gets its &dcolor&r from it."
+			]
+			id: "13CC734606C26E01"
+			rewards: [{
+				id: "56B469A6CF2B6187"
+				item: "botania:manasteel_block"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Botania is now actually a tech mod. Sorry Vazkii"
+			tasks: [{
+				id: "21C2D7F21AE8CDDE"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08F8541819CB07F0"]
+			description: [
+				"Since you managed to craft this I assume you went to the Moon and back to Earth. "
+				""
+				"Now you can build the &aElven Portal&r!"
+			]
+			id: "01E4293DEDF9E41B"
+			rewards: [
+				{
+					count: 8
+					id: "0C7CC5504B31AE0D"
+					item: "botania:manasteel_ingot"
+					random_bonus: 24
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4ED599DDFE647B0F"
+					item: "botania:mana_pearl"
+					random_bonus: 24
+					type: "item"
+				}
+				{
+					count: 8
+					id: "59E9746F1D3C1237"
+					item: "botania:mana_diamond"
+					random_bonus: 24
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0AD9DB7A60EAA95A"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43441312ADCA4FD1"]
+			description: [
+				"You can obtain &aEssence Of Joyeuse&r by placing a Green Laser Lens on the Fluid Laser you placed on the Moon."
+				""
+				"You will definitely need it to be able to craft the &6Elven Gateway core&r."
+			]
+			id: "08F8541819CB07F0"
+			tasks: [{
+				id: "1D854D434630E284"
+				item: "kubejs:terrarium_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["46CBF3C9EEBFA6F2"]
+			description: ["To obtain &dStacia Ingot&r, &aTerraria Ingot&r, and &5Lunaria Ingot&r, you need to place a Fluid Laser on the &6Moon&r."]
+			icon: "industrialforegoing:fluid_laser_base"
+			id: "43441312ADCA4FD1"
+			tasks: [
+				{
+					id: "6D0BCAACE8BCB864"
+					item: "industrialforegoing:fluid_laser_base"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6498C3393E54C331"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3989AD7798522851"]
+			description: [
+				"There are 4 different Goddess ingots in the modpack."
+				"You need to &6go to the moon&r to craft 3 of them. "
+				""
+				"&6Good luck!&r"
+				""
+				"You also need a desh plate to produce Luminessence. Don't forget to grab some Desh ore while you're there. (And by a some, I mean a &4&lLOT&r&r.)"
+			]
+			icon: "ad_astra:nasa_workbench"
+			id: "46CBF3C9EEBFA6F2"
+			tasks: [
+				{
+					id: "016C76EDB38F6A0C"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_1_rocket"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C7003BCD80CE55E"
+					item: "ad_astra:nasa_workbench"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03131CDAF2EA92FF"]
+			description: [
+				"Dissulation Chamber recipes will appear frequently. That's why I recommend that you produce more than you need each time. ME Requester or RS Requester may be useful when you start Digital Storage."
+				""
+				"Anyway, the reason this quest is here is because you need the &6Supreme machine frame&r for &bNASA Workbench&r. You better get to work."
+			]
+			id: "3989AD7798522851"
+			rewards: [
+				{
+					id: "761FBA999601682B"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DE27100820C7698"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:efficiency_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F5268678D089D8A"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:processing_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "One Of The Coolest Recipe Types... ever."
+			tasks: [{
+				id: "20A37F128A746BC3"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4884E869C1259C04"]
+			description: [
+				"*Everyone calm down* Singularities &6don't require&r 10k ingots to make."
+				""
+				"Quantum Compressor is no longer used solely for making singularity."
+				""
+				"&7Black Iron Plate&r requires 8 ingots. &dUwuterium Singularity&r requires 64 uwuterium, &2Ender Catalyst&r requires 128 ender pearls."
+				""
+				"So no Quantum Compressor recipe is that bad."
+			]
+			id: "2B267B0180F98112"
+			tasks: [{
+				id: "0BBA1D2C751E6A39"
+				item: "extendedcrafting:compressor"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"48957878DD0D8D3D"
+				"784F2200361C338B"
+			]
+			description: [
+				"Did you realize that you need the Terrestrial Agglomeration Plate to craft &dUwuterium&r and &bQuantum Compressor&r?"
+				""
+				"&6Little fun fact:&r You will also need to use 2 more Terrestrial Agglomeration Plate variants throughout gameplay."
+				""
+				"&7(*whispering* Mana-Infuser ve Gaia Agglomeration Plate)&r"
+			]
+			hide_dependency_lines: true
+			icon: "botania:terra_plate"
+			id: "4884E869C1259C04"
+			rewards: [
+				{
+					id: "1D831EC23CC8FB77"
+					item: "appbot:mana_cell_housing"
+					type: "item"
+				}
+				{
+					id: "0683FD2F9E1ADABD"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "One of the big three."
+			tasks: [{
+				id: "66B9617BB721AEB3"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["508717C0B9463907"]
+			description: [
+				"&bCrafting core&r allows you to craft many recipes &6MUCH faster&r. Sometimes you will need to use it."
+				""
+				"It also allows you to get 2x output in some recipes."
+			]
+			icon: "extendedcrafting:crafting_core"
+			id: "7BF9CD198A05EEC6"
+			rewards: [{
+				count: 4
+				id: "3F783AE838D7C41F"
+				item: "thermal_extra:dragonsteel_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07B6C92B3C90E907"
+					item: "extendedcrafting:crafting_core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A62EA6E14CA2B92"
+					item: "extendedcrafting:pedestal"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B267B0180F98112"]
+			description: [
+				"The &eAdvanced Crafting Table&r allows you to craft Beehives and Nests. You can start Productive Bees (optional)."
+				""
+				"But more importantly, you can now craft &6Luminessence&r!"
+			]
+			id: "68CA287A5BC2C3C4"
+			tasks: [{
+				id: "7F932BF3EC96C92C"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68CA287A5BC2C3C4"]
+			description: [
+				"&eLuminessence&r allows you to craft &67 different higher level components&r. Each one is used in different recipes."
+				""
+				"But to summarize, you need those &6high-level components&r to automate ExtendedCrafting's tables. And of course, to craft the &4Philosopher's Stone&r."
+			]
+			id: "508717C0B9463907"
+			rewards: [{
+				count: 2
+				id: "05AC9564054D9C00"
+				item: "extendedcrafting:luminessence"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FC4F678A0AE1F98"
+				item: "extendedcrafting:luminessence"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4884E869C1259C04"
+				"13CC734606C26E01"
+			]
+			description: [
+				"&dUwuterium&r is the endgame ingot for Stacia modpacks."
+				""
+				"It will appear in many different forms. Uwuterium pearl, Uwuterium Processor, Uwuterium slate, etc."
+			]
+			id: "79814EF66393C180"
+			rewards: [{
+				count: 2
+				id: "053011CBFDF1C9B0"
+				item: "botania:blacker_lotus"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "Uwu :3"
+			tasks: [{
+				id: "16AFEB77E7D4B2B4"
+				item: "kubejs:uwuterium_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"79814EF66393C180"
+				"0FEA55BF939D68E7"
+				"7BF9CD198A05EEC6"
+			]
+			description: [
+				"You can now access Mystical Agriculture Seeds."
+				""
+				"But you will also &6definitely&r need the Infusion altar to craft &bProjectE's Covalence Dusts&r."
+			]
+			icon: "mysticalagriculture:infusion_altar"
+			id: "7BF2B59355A20BE8"
+			rewards: [
+				{
+					id: "6A529E9C1D9959E1"
+					item: "mysticalagriculture:prosperity_ingot"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					id: "24DEE2715AAD4A83"
+					item: "mysticalagriculture:prosperity_gemstone"
+					random_bonus: 7
+					type: "item"
+				}
+			]
+			subtitle: "Infusiooonnnn"
+			tasks: [
+				{
+					id: "61DCC7D9DFE36B4B"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "39A9CE1D1D5451CA"
+					item: "mysticalagriculture:infusion_pedestal"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7BF9CD198A05EEC6"]
+			description: [
+				"It feels like a starting point that feels familiar."
+				""
+				"Let me tell you so that you don't get lost in JEI."
+				"You can get &dDraconium Dust&r via sieves."
+			]
+			id: "3600AF1B1BDB8535"
+			subtitle: "Hello Darkness My Old Friend..."
+			tasks: [{
+				id: "028E6DB5AF6F6F29"
+				item: "kubejs:de_draconic_core"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B1A3C9BDFB0A64D"]
+			description: [
+				"You will need &bAquamarine Shale&r, &7Smokey Quartz&r, &1Echo Shard&r, &4Heart Of The Deep&r, and various runes soon. I recommend generating and storing as much mana as possible."
+				""
+				"You will also need lots of livingrock for &4Basic Slates&r."
+				""
+				"Also this quest does connect to the &1Terrestrial Agglomeration Plate&r quest, but I've hidden the quest line."
+			]
+			icon: "botania:mana_pool"
+			id: "48957878DD0D8D3D"
+			rewards: [
+				{
+					id: "0B0E9F263A3E7014"
+					item: "botania:monocle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3760A8541CEF46F7"
+					item: "botania:black_lotus"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "Hi Vazkii"
+			tasks: [
+				{
+					id: "5BF303E9FE968AF8"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "2AD5EAFBB5B8EB2C"
+					item: "botania:endoflame"
+					type: "item"
+				}
+			]
+			title: "Botania"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E22CD611B774D5F"]
+			description: ["You have taken the first step towards producing any &dcreative items&r!"]
+			id: "367A071A3BD127FC"
+			rewards: [{
+				id: "52872A7717F02856"
+				item: "mysticalagradditions:insanium_essence"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Most Powerful Essence"
+			tasks: [{
+				id: "0F8DDD87901703C4"
+				item: "mysticalagradditions:creative_essence"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3600AF1B1BDB8535"]
+			description: ["Thanks to &6Awakened Core&r, you can start crafting Master Infusion Crystal, Philosopher Stone, Energy Condensers and Awakened Solar Panels."]
+			id: "7E22CD611B774D5F"
+			subtitle: "Let me in"
+			tasks: [{
+				id: "58C25B05ABC87285"
+				item: "kubejs:de_awakened_core"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["367A071A3BD127FC"]
+			description: [
+				"You will need all the &dCreative Items&r for the Creative Vending Upgrade."
+				""
+				"You can check out the &dFarewell Quest Chapter&r for more details."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "3D9415BC6F61A375"
+			subtitle: "Infinity Stones! or... Creative Stones?"
+			tasks: [{
+				id: "4417738B91721385"
+				title: "All The Creative Items!"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BF9CD198A05EEC6"]
+			description: [
+				"Some items crafted in the &dEnchanting Apparatus&r give &62x the output per recipe&r when crafted in the &bCrafting Core&r. "
+				""
+				"So I recommend checking out JEI and moving some of your recipes to the Crafting Core."
+			]
+			id: "61DA3218BC20F4F2"
+			rewards: [{
+				count: 8
+				id: "18F721A62D23CE51"
+				item: "extendedcrafting:black_iron_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "I feel the power"
+			tasks: [{
+				id: "21DEDB02D89EDD01"
+				title: "Better Table"
+				type: "checkmark"
+			}]
+			title: "Better Table, Better Results"
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00AE30D82B4A1DEE"]
+			description: ["I think it's a bit early to tell, but &5antimatter pellets&r in this modpack require &d100mb of antimatter&r, &lnot&r 1000mb. "]
+			icon: "mekanism:pellet_antimatter"
+			id: "65815E8DCDE9DD3D"
+			shape: "diamond"
+			tasks: [{
+				id: "08C223E5F344D312"
+				title: "Did you know that?"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43441312ADCA4FD1"]
+			description: [
+				"All Goddess Ingots are used to craft Overpowered and Endgame items."
+				""
+				"All Goddess Ingots except Solus Ingot require you to place a fluid laser on the Moon."
+				""
+				"To obtain a Solus Ingot, you must place a fluid laser in the End Highlands biome in The End dimension."
+				""
+				""
+				"&6-----&r"
+				"&6Quick Tip:&r The Lunar Wastelands Biome is located on the moon."
+				"Don't forget to check out Whitelisted Biomes."
+				"&6-----&r"
+			]
+			icon: "kubejs:stacium_ingot"
+			id: "433E0F83FE0088F1"
+			shape: "hexagon"
+			subtitle: "We don't have a Black Swordsman."
+			tasks: [
+				{
+					id: "6C7BB35CBA275C85"
+					item: "kubejs:stacium_ingot"
+					type: "item"
+				}
+				{
+					id: "4244BA5E425C0A7A"
+					item: "kubejs:solus_ingot"
+					type: "item"
+				}
+				{
+					id: "217F7E333734D243"
+					item: "kubejs:lunaria_ingot"
+					type: "item"
+				}
+			]
+			title: "Goddess Ingots!"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E22CD611B774D5F"]
+			description: [
+				"You have managed to obtain the Core of &6ProjectE&r!"
+				""
+				"You can make in-world transmutations with the Philosopher Stone."
+				"You can open a crafting table interface."
+				"Or you can convert various items into other items. "
+			]
+			id: "2FC621AA00DD6181"
+			subtitle: "Expecto Patronum"
+			tasks: [{
+				id: "4874AEA6D5EF1B8D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4437F08E7E422438"]
+			description: [
+				"There are many ways to get EMC, but Power Flowers are a solid way."
+				""
+				"&6Power Flowers&r allow you to get &dEMC&r without doing anything. I know it sounds absurd, but naturally lower tier power flowers will allow you to get much less EMC."
+				"It's a long journey to get to Tier 16."
+			]
+			id: "675CC89A6BFB7798"
+			tasks: [{
+				id: "0A3888DD89BE195A"
+				item: "projectexpansion:final_power_flower"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FC621AA00DD6181"]
+			description: [
+				"You can \"learn\" by placing the item you want in the Fuel Slot."
+				" "
+				"By accumulating emc, you can exchange one item for another."
+				""
+				"There are different ways to get a lot of EMC."
+				"Burning &8Nehterite Block&r or &aEmerald Block&r are some of them, or using &6Power Flower&r."
+			]
+			id: "4437F08E7E422438"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55E2D509389E3315"
+				table_id: 2213562919699284841L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "560600BE964091F1"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4437F08E7E422438"
+				"675CC89A6BFB7798"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"With Tome Of Knowledge you can learn &dall the items&r in the game that have EMC at the &6same time&r."
+				""
+				"Just consume the book in the &dTransmutation Table&r."
+			]
+			hide_dependency_lines: true
+			id: "04A785F9C59C1281"
+			optional: true
+			rewards: [
+				{
+					id: "5EA159D4F22742FA"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D3263E96949B256"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "464CD05248BFF712"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 9s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21EDE89D5E12ECFC"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B4B0FBAF2F8EDB3"
+				item: "projecte:tome"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FC621AA00DD6181"]
+			description: [
+				"If you are playing in &6Multiplayer&r, you can &dshare your EMC&r with your friends using the command below!"
+				""
+				"&6/team_projecte invite [PlayerName]&r"
+				""
+				"Your friend also needs to accept the invite of course."
+				"&6/team_projecte accept&r"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-2135483932
+							-1137425982
+							-1795900702
+							-1359176341
+						]
+						Name: "AsunaStaciaa"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMDAxOTQ5NzAxOSwKICAicHJvZmlsZUlkIiA6ICI4MGI3MTllNGJjMzQ0MWMyOTRmNGJhZTJhZWZjOWQ2YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBc3VuYVN0YWNpYWEiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE1ZTIwNWQyYmNjNjY0ZTNmMWQ3NzNmZjg1ODE3N2IzZTk2ODhlNmE5NjE4Y2JiMTczNGMyZTQ1NDgxNmFhZCIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+			id: "440323184DB9DC33"
+			rewards: [
+				{
+					id: "531E4C753FCFC135"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "515FFECC1894A444"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-2135483932
+									-1137425982
+									-1795900702
+									-1359176341
+								]
+								Name: "AsunaStaciaa"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMDQ1MjE0Mzc4NCwKICAicHJvZmlsZUlkIiA6ICI4MGI3MTllNGJjMzQ0MWMyOTRmNGJhZTJhZWZjOWQ2YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBc3VuYVN0YWNpYWEiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE1ZTIwNWQyYmNjNjY0ZTNmMWQ3NzNmZjg1ODE3N2IzZTk2ODhlNmE5NjE4Y2JiMTczNGMyZTQ1NDgxNmFhZCIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					title: "&eAsunaStaciaa's Head - Literally My Head"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E08FDA7DCA1212F"
+				title: "Team ProjectE"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4437F08E7E422438"]
+			description: [
+				"The tooltip already explains enough, but I'll say it anyway."
+				""
+				"If you connect the Transmutation Interface to a &6Storage Bus or External Storage&r, you can see and use all the EMC-containing Items you learned in your system."
+				""
+				"Yes, it is &dcompatible&r with both AE2 and RS."
+			]
+			hide_dependency_lines: true
+			id: "1A2028A8C1BF17F8"
+			optional: true
+			rewards: [{
+				id: "19410823ED450A47"
+				item: "minecraft:netherite_block"
+				random_bonus: 15
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "EMC + &dAE2/RS"
+			tasks: [{
+				id: "0DE5E375F02C78B8"
+				item: "projectexpansion:transmutation_interface"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"675CC89A6BFB7798"
+				"3D9415BC6F61A375"
+			]
+			description: [
+				"&dYou're almost done!&r"
+				""
+				"If you made it this far, I hope you enjoyed the modpack, and I hope you will finish this quest and read the note I left you. ❤"
+				""
+				"Visit the &dFarewell Quest Chapter&r to obtain the Note."
+			]
+			id: "1A035B02C4DC8AC0"
+			rewards: [{
+				id: "2B0388ABFE3BDA9E"
+				type: "xp_levels"
+				xp_levels: 500
+			}]
+			shape: "gear"
+			size: 1.8d
+			subtitle: "Grand Finale"
+			tasks: [{
+				id: "72D7FC904EF6EC07"
+				item: "functionalstorage:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: 23.4d
+			y: -0.8999999999999999d
+		}
+		{
+			dependencies: ["4884E869C1259C04"]
+			description: [
+				"&4Important:&r"
+				"Item Collectors are &4not&r collecting dropped items in mana-infuser recipes for unknown reasons."
+				""
+				"It is recommended to use the Modular router's &aVacuum module&r to automate the production of Uwuterium."
+			]
+			icon: "modularrouters:modular_router"
+			id: "7861849DA1447C3F"
+			rewards: [
+				{
+					id: "00B8185EAF643E89"
+					item: {
+						Count: 1b
+						id: "modularrouters:sender_module_2"
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56032DE15FC3A300"
+					item: {
+						Count: 1b
+						id: "modularrouters:puller_module_2"
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [
+				{
+					id: "5B49B5AAEBB5AFF6"
+					item: "modularrouters:modular_router"
+					type: "item"
+				}
+				{
+					id: "12452D7934DA4B52"
+					item: {
+						Count: 1b
+						id: "modularrouters:vacuum_module"
+						tag: {
+							modularrouters: {
+								Direction: "NONE"
+								ModuleFilter: { }
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Uwuterium Ingot Production"
+			x: 12.0d
+			y: -2.0d
+		}
+	]
+	title: "Progression Tree"
+}
