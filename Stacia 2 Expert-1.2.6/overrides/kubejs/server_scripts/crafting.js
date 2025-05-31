@@ -14968,6 +14968,15 @@ event.custom({
   }
 })
 
+event.shaped('2x occultism:chalk_white_impure', [
+  'AB ',
+  'ABC',
+  'AB '
+], {
+  A: 'occultism:burnt_otherstone',
+  B: 'ftbic:mixed_metal_blend',
+  C: 'ars_nouveau:manipulation_essence'
+})
 
 //event.remove({output:''})
 //event.custom()

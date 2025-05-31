@@ -156,6 +156,8 @@ ItemEvents.tooltip(event => {
 
 
 	//Tooltips
+	event.add(['occultism:chalk_white_impure'], [[Text.of('§6The second recipe is for automation purposes. It will be useful when automating Luminessence.')],])
+	event.add(['tombstone:bag_of_seeds'], [[Text.of('DISABLED.').darkRed()],])
 	event.add(['mysticalagriculture:awakened_draconium_seeds', 'mysticalagriculture:awakened_draconium_essence'], [[Text.of('Disabled.').darkRed()],])
 	event.add('exnihilosequentia:birch_sieve', [[Text.of('Disabled. Use Oak Sieve Instead.').darkRed()],])
 	event.add('exnihilosequentia:acacia_sieve', [[Text.of('Disabled. Use Oak Sieve Instead.').darkRed()],])
@@ -276,6 +278,8 @@ JEIEvents.hideFluids(event => {
 
 
 JEIEvents.information (event =>{
+	event.addItem('occultism:chalk_white_impure', ['The second recipe is for automation purposes. It will be useful when automating Luminessence.'])
+	event.addItem('tombstone:bag_of_seeds', ['Disabled.'])
 	event.addItem('deeperdarker:heart_of_the_deep', ['If you dont want to spend tons of mana to duplicate hearts, you can get the Warden spawn egg with mob grinding utils and put it in the spawner. It will work.'])
 	event.addItem('kubejs:arcane_ore', ['MaxY: 96, MinY: -32'])
 	event.addItem('naturesaura:gold_leaf', ['To get this, right click on a tree leaf with brilliant fiber. It will spread over time. When the color of the leaf turns golden yellow, you can break it and obtain golden leaf.'])

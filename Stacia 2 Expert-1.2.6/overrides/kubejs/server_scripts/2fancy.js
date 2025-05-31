@@ -1015,7 +1015,7 @@ event.custom({
       "item": "mekanism:elite_control_circuit"
     },
 	{
-		"item": "botania:manasteel_ingot"
+		"tag": "forge:ingots/slimesteel"
 	},
 	{
 		"item": "refinedstorage:advanced_processor"
@@ -8230,7 +8230,7 @@ event.recipes.createFilling('redstone_arsenal:flux_dust', [
 	event.recipes.botania.runic_altar("2x botania:rune_earth", ['botania:manasteel_ingot', 'botania:mana_powder', 'kubejs:slate_1', 'infused_crystals:block_of_coalium', 'naturesaura:infused_iron', 'ars_nouveau:earth_essence'], 5000)
 
 	event.remove({output:'botania:rune_air'})	
-	event.recipes.botania.runic_altar("2x botania:rune_air", ['botania:manasteel_ingot', 'botania:mana_powder', 'kubejs:slate_1', 'kubejs:resonating_gem', 'naturesaura:sky_ingot', 'cyclic:charm_world'], 5000)
+	event.recipes.botania.runic_altar("2x botania:rune_air", ['botania:manasteel_ingot', 'botania:mana_powder', 'kubejs:slate_1', 'kubejs:resonating_gem', 'naturesaura:sky_ingot', 'minecraft:feather'], 5000)
 
 	event.remove({output:'botania:rune_spring'})	
 	event.recipes.botania.runic_altar("botania:rune_spring", ['kubejs:manasteel_processor', 'botania:mana_powder', 'kubejs:slate_2', 'kubejs:allay_fertilizer', 'kubejs:allay_fertilizer', 'ars_nouveau:air_essence'], 5000)
@@ -9350,6 +9350,7 @@ event.custom({
 })
 
 event.custom({"bookshelf:load_conditions":[{"type":"bookshelf:item_exists","values":["mysticalagriculture:uwuterium_seeds","mysticalagriculture:flux_uwuterium_essence"]}],"type":"botanypots:crop","seed":{"item":"mysticalagriculture:uwuterium_seeds"},"categories":["supremium"],"growthTicks":1500,"display":{"type":"botanypots:aging","block":"mysticalagriculture:uwuterium_crop"},"drops":[{"chance":1.00,"output":{"item":"mysticalagriculture:uwuterium_essence"}},{"chance":0.01,"output":{"item":"mysticalagriculture:uwuterium_seeds"}},{"chance":0.01,"output":{"item":"mysticalagriculture:fertilized_essence"},"minRolls":1,"maxRolls":1}]})
+event.custom({"bookshelf:load_conditions":[{"type":"bookshelf:item_exists","values":["hexerei:witch_hazel_sapling"]}],"type":"botanypots:crop","seed":{"item":"hexerei:witch_hazel_sapling"},"categories":["dirt"],"growthTicks":2400,"display":{"block":"hexerei:witch_hazel_sapling"},"drops":[{"chance":1.00,"output":{"item":"hexerei:witch_hazel_log"},"minRolls":2,"maxRolls":4},{"chance":0.15,"output":{"item":"hexerei:witch_hazel_sapling"}}]})
 
 event.custom({"type":"mekanism:enriching","input":{"ingredient":{"item":"kubejs:aquamarine"}},"output":{"item":"kubejs:enriched_aquamarine"}})
 
