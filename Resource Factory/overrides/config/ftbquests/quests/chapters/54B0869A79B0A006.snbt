@@ -43,7 +43,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 3.5d
+			y: 0.0d
 		}
 		{
 			id: "60CEAD982DBBF351"
@@ -58,8 +58,8 @@
 				item: { components: { "modular_machinery_reborn:machine": "mmr:nether_fluid_pump" }, count: 1, id: "modular_machinery_reborn:controller" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			id: "7F5EE82C420C49B1"
@@ -74,8 +74,8 @@
 				item: { components: { "modular_machinery_reborn:machine": "mmr:creeper_ore_replicator" }, count: 1, id: "modular_machinery_reborn:controller" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D39E4D4924ECB5A"]
@@ -132,118 +132,6 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 0.0d
-		}
-		{
-			id: "048A9D410CA4BE26"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6B34F949D062C219"
-				table_id: 3453070875555945708L
-				type: "random"
-			}]
-			tasks: [{
-				id: "2E3D1D637C6F9A00"
-				item: { count: 1, id: "replication:replica_block" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: -2.5d
-		}
-		{
-			id: "1AF3993613661CBE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "362A5A359A479230"
-				table_id: 3453070875555945708L
-				type: "random"
-			}]
-			tasks: [{
-				id: "160C0D0B61DABAFD"
-				item: { count: 1, id: "ifeu:dragon_star_block" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: -2.5d
-		}
-		{
-			id: "28A3CD08EDE5F6B3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "567C8C8F54E71076"
-				table_id: 3453070875555945708L
-				type: "random"
-			}]
-			tasks: [{
-				id: "0EA8ABCBB8D944F5"
-				item: { count: 1, id: "mysticalagriculture:awakened_supremium_gemstone_block" }
-				type: "item"
-			}]
-			x: 8.5d
-			y: -2.5d
-		}
-		{
-			id: "3C8094E215A01CA3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5117C10C2A4E4B35"
-				table_id: 3453070875555945708L
-				type: "random"
-			}]
-			tasks: [{
-				id: "71A56B0E465DC3AD"
-				item: { count: 1, id: "oritechthings:addon_block_speed_tier_9" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: -1.5d
-		}
-		{
-			id: "6338DD7A851952F1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "49077B937A498984"
-				table_id: 3453070875555945708L
-				type: "random"
-			}]
-			tasks: [{
-				id: "6B0DA106F67589E8"
-				item: { count: 1, id: "oritech:machine_core_7" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: 3.5d
-		}
-		{
-			id: "1A988CFC8E743F28"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "78320EE3A020D339"
-				table_id: 3453070875555945708L
-				type: "random"
-			}]
-			tasks: [{
-				id: "367EEE99FE4D1E20"
-				item: { count: 1, id: "oritech:machine_core_7" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: 1.0d
-		}
-		{
-			id: "51AF25BAFFFD433E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7C437B4C0B5014D7"
-				table_id: 3453070875555945708L
-				type: "random"
-			}]
-			tasks: [{
-				id: "75E9A6069540F88A"
-				item: { count: 1, id: "oritech:machine_yield_addon" }
-				type: "item"
-			}]
-			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -335,18 +223,8 @@
 				item: { components: { "modular_machinery_reborn:machine": "mmr:atomic_reconstruction_chamber" }, count: 1, id: "modular_machinery_reborn:controller" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.0d
-		}
-		{
-			id: "6BE8AFFF479D4FA5"
-			tasks: [{
-				id: "4F6F19EA223D373D"
-				item: { count: 1, id: "naturesaura:sky_ingot_block" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: -4.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["589B89B1DCA852F0"]

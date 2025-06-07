@@ -4,16 +4,10 @@
     "color": "light_purple"
   },
   "appearance": {
-    "custommachinery:mining_level": "minecraft:needs_stone_tool",
-    "block": "kubejs:machine/structure_caster_machine"
+    "custommachinery:block": "kubejs:machine/structure_caster_machine",
+    "custommachinery:mining_level": "minecraft:needs_stone_tool"
   },
   "components": [
-    {
-      "type": "custommachinery:energy",
-      "capacity": 2000000,
-      "max_input": 100000,
-      "max_output": 100000
-    },
     {
       "type": "custommachinery:item",
       "id": "input",
@@ -66,14 +60,6 @@
       "max_input": 64
     },
     {
-      "type": "custommachinery:fluid",
-      "mode": "input",
-      "id": "input_fluid",
-      "capacity": 1000000,
-      "max_input": 10000,
-      "max_output": 10000
-    },
-    {
       "type": "custommachinery:item",
       "id": "input2",
       "mode": "input"
@@ -107,6 +93,20 @@
       "type": "custommachinery:item",
       "id": "input8",
       "mode": "input"
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 2000000,
+      "max_input": 500000,
+      "max_output": 500000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_fluid",
+      "capacity": 1000000,
+      "max_input": 50000,
+      "max_output": 50000
     }
   ],
   "gui": [
@@ -140,9 +140,7 @@
       "y": 86,
       "width": 17,
       "height": 7,
-      "tanks": [
-        "input_fluid"
-      ]
+      "tanks": "input_fluid"
     },
     {
       "type": "custommachinery:status",
@@ -236,6 +234,15 @@
       "id": "both",
       "x": 180,
       "y": 10
+    }
+  ],
+  "tooltips": [
+    {
+      "text": "注意：",
+      "color": "light_purple"
+    },
+    {
+      "text": "需要"
     }
   ]
 }

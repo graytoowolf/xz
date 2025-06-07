@@ -73,6 +73,18 @@
 			x: -2.0d
 			y: -0.5d
 		}
+		{
+			id: "6054DCB6D46CF39A"
+			linked_quest: "3046E7B163EE7A95"
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			id: "6CC8A5BF456FA9F2"
+			linked_quest: "0B001D329CBEBE95"
+			x: 10.0d
+			y: -7.0d
+		}
 	]
 	quests: [
 		{
@@ -91,13 +103,14 @@
 					count: 1
 					id: "gag:time_sand_pouch"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
 				id: "5063DEA07EBFC6B2"
-				item: { count: 32, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -116,13 +129,14 @@
 					count: 1
 					id: "notenoughwands:acceleration_wand"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
 				id: "1FB0B1D65EB958FA"
-				item: { count: 32, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -162,13 +176,14 @@
 					count: 1
 					id: "mysticalagriculture:experience_droplet"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 4L
 				id: "44C708A0FFFBD60A"
-				item: { count: 8, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -181,6 +196,7 @@
 				exclude_from_claim_all: true
 				id: "4998688304B92CC4"
 				table_id: 1429139502812508716L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -199,13 +215,14 @@
 				exclude_from_claim_all: true
 				id: "67037A02D5892DB5"
 				table_id: 3015650945015072472L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 4L
 				id: "7A15158A6DB2DDEC"
-				item: { count: 4, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -227,13 +244,14 @@
 				exclude_from_claim_all: true
 				id: "78DE17928C44663F"
 				table_id: 487940877252505299L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 8L
 				id: "3F823112D0E0D10F"
-				item: { count: 16, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -254,6 +272,7 @@
 				exclude_from_claim_all: true
 				id: "62B220432A44E738"
 				table_id: 2763410123644600666L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -282,12 +301,14 @@
 					exclude_from_claim_all: true
 					id: "574D1E0369AB10F0"
 					table_id: 8571579424817464390L
+					team_reward: true
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "189CA1CBF22D17DB"
 					table_id: 8571579424817464390L
+					team_reward: true
 					type: "random"
 				}
 			]
@@ -295,7 +316,7 @@
 				consume_items: true
 				count: 2L
 				id: "3E324DAAA33A9E40"
-				item: { count: 2, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -315,6 +336,7 @@
 					count: 1
 					id: "eternal_starlight:seeking_eye"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -340,6 +362,7 @@
 						count: 1
 						id: "eternal_starlight:keeper_armor_trim_smithing_template"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -348,6 +371,7 @@
 						count: 1
 						id: "eternal_starlight:forge_armor_trim_smithing_template"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -356,6 +380,7 @@
 						count: 1
 						id: "eternal_starlight:blooming_armor_trim_smithing_template"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -382,6 +407,7 @@
 					count: 1
 					id: "eternal_starlight:chiseled_voidstone"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -398,51 +424,19 @@
 			id: "1CB87F706369A56F"
 			rewards: [
 				{
-					id: "25C154162F4DC4F4"
-					item: {
-						components: {
-							"mekanism:fluids": {
-								fluid_tanks: [{
-									amount: 256000
-									id: "industrialforegoing:ether_gas"
-								}]
-							}
-							"mekanism:owner": [I;
-								-646610735
-								-644267317
-								-1937657915
-								918600820
-							]
-							"minecraft:block_entity_data": {
-								delay: 0
-								edit_mode: 0
-								fluid_tanks: [{
-									stored: {
-										amount: 256000
-										id: "industrialforegoing:ether_gas"
-									}
-									tank: 0b
-								}]
-								id: "mekanism:ultimate_fluid_tank"
-							}
-						}
-						count: 1
-						id: "mekanism:ultimate_fluid_tank"
-					}
-					type: "item"
-				}
-				{
 					id: "573214B063544214"
 					item: {
 						count: 1
 						id: "industrialforegoing:hydroponic_bed"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "10178E58521A795A"
 					table_id: 6955175237686497106L
+					team_reward: true
 					type: "choice"
 				}
 			]
@@ -471,6 +465,7 @@
 					count: 1
 					id: "justdirethings:eclipsealloy_pickaxe"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [
@@ -515,6 +510,7 @@
 						count: 1
 						id: "solarflux:sp_custom_summon_focus_sp"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -523,6 +519,7 @@
 						count: 1
 						id: "solarflux:efficiency_upgrade"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -548,6 +545,7 @@
 					count: 1
 					id: "solarflux:efficiency_upgrade"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -570,6 +568,7 @@
 				exclude_from_claim_all: true
 				id: "42A9CFC106A10924"
 				table_id: 8434734064311255709L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -594,13 +593,14 @@
 					count: 1
 					id: "reliquary:fertile_lily_pad"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "5BBC6CCF40DBC293"
-				item: { count: 32, id: "kubejs:coin" }
+				item: { components: { "ftbquests:missing_item": "32x kubejs:coin" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -618,13 +618,14 @@
 					count: 1
 					id: "kubejs:infinity_lava_cell"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
 				id: "438A47D3CD113457"
-				item: { count: 32, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -642,13 +643,14 @@
 					count: 1
 					id: "kubejs:infinity_gray_concrete_cell"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "0B7AA00FBCB18A5D"
-				item: { count: 32, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -666,13 +668,14 @@
 					count: 1
 					id: "kubejs:infinity_orange_concrete_cell"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "228CEFF8A1289429"
-				item: { count: 32, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -690,13 +693,14 @@
 					count: 1
 					id: "kubejs:infinity_white_concrete_cell"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "0C6C5FE5DA0F777C"
-				item: { count: 32, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -714,13 +718,14 @@
 					count: 1
 					id: "kubejs:infinity_yellow_concrete_cell"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "31561FE901AACE4E"
-				item: { count: 32, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -738,13 +743,14 @@
 					count: 1
 					id: "extendedae:infinity_water_cell"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "265FFA75FCBC51F4"
-				item: { count: 32, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -762,13 +768,14 @@
 					count: 1
 					id: "extendedae:infinity_cobblestone_cell"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "4C44267FC4ABADBB"
-				item: { count: 32, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -799,7 +806,7 @@
 				{
 					count: 2L
 					id: "47BC6139E4C53545"
-					item: { count: 2, id: "kubejs:coin" }
+					item: { count: 1, id: "kubejs:coin" }
 					type: "item"
 				}
 				{
@@ -824,6 +831,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0661B17ACC01F907"]
+			dependency_requirement: "one_started"
 			icon: {
 				id: "minecraft:netherite_block"
 			}
@@ -841,14 +849,14 @@
 					consume_items: true
 					count: 64L
 					id: "496655051DBBFEA0"
-					item: { count: 64, id: "kubejs:coin" }
+					item: { count: 1, id: "kubejs:coin" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 32L
 					id: "75780B33FFC54877"
-					item: { count: 32, id: "kubejs:coin" }
+					item: { count: 1, id: "kubejs:coin" }
 					type: "item"
 				}
 			]
@@ -869,6 +877,7 @@
 					count: 1
 					id: "mob_grinding_utils:golden_egg"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -890,13 +899,14 @@
 				exclude_from_claim_all: true
 				id: "33CBEB5892798CC2"
 				table_id: 4228617547453703883L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 4L
 				id: "715C16ED85C2B6BD"
-				item: { count: 4, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -914,13 +924,14 @@
 					count: 1
 					id: "constructionstick:template_angel"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 8L
 				id: "09137233EB423FBE"
-				item: { count: 4, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -938,13 +949,14 @@
 					count: 1
 					id: "constructionstick:template_destruction"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 8L
 				id: "134A60517F9C4611"
-				item: { count: 4, id: "kubejs:coin" }
+				item: { components: { "ftbquests:missing_item": "4x kubejs:coin" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -962,13 +974,14 @@
 					count: 1
 					id: "constructionstick:template_replacement"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 8L
 				id: "78304E86C064C2B2"
-				item: { count: 4, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -986,13 +999,14 @@
 					count: 1
 					id: "constructionstick:template_unbreakable"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
 				id: "0250E57C17D35A3E"
-				item: { count: 4, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -1010,6 +1024,7 @@
 					count: 1
 					id: "constructionstick:template_battery"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -1034,7 +1049,7 @@
 				consume_items: true
 				count: 64L
 				id: "26431B40E1F9191E"
-				item: { count: 64, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -1084,6 +1099,90 @@
 			}]
 			x: 5.5d
 			y: -12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CB87F706369A56F"]
+			id: "08DD8C23932B2B99"
+			rewards: [{
+				id: "4D60EBE5D7D69E81"
+				item: {
+					components: {
+						"minecraft:block_entity_data": {
+							Items: {
+								Items: [ ]
+								Size: 2
+							}
+							SavedTanks: {
+								"pneumaticcraft:main_tank": {
+									amount: 512000
+									id: "industrialforegoing:ether_gas"
+								}
+							}
+							UpgradeInventory: {
+								Items: [ ]
+								Size: 4
+							}
+							id: "pneumaticcraft:huge_tank"
+						}
+						"pneumaticcraft:main_tank": {
+							amount: 512000
+							id: "industrialforegoing:ether_gas"
+						}
+					}
+					count: 1
+					id: "pneumaticcraft:huge_tank"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 512000
+					id: "eternal_starlight:ether"
+				}
+				id: "402C622678F212F7"
+				type: "fluid"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7F06E6914E56612A"]
+			icon: {
+				id: "justdirethings:blockplacert2"
+			}
+			id: "68E38680A2F70F0B"
+			rewards: [
+				{
+					id: "1BD95CC7B819BE9C"
+					item: {
+						count: 1
+						id: "justdirethings:blockplacert2"
+					}
+					type: "item"
+				}
+				{
+					id: "1C6A8531C9B36EC1"
+					item: {
+						count: 1
+						id: "justdirethings:blockbreakert2"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5B32A1E1BB901E47"
+				item: { count: 1, id: "kubejs:coin" }
+				type: "item"
+			}]
+			x: 6.25d
+			y: -6.875d
 		}
 	]
 }

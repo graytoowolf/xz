@@ -4,11 +4,110 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: 'extendedcrafting:advanced_table' }, 'minecraft:gold_block', 'naturesaura:sky_ingot_block')
     event.replaceInput({ id: 'extendedcrafting:flux_alternator' }, 'extendedcrafting:redstone_ingot', 'naturesaura:sky_ingot')
     event.replaceInput({ id: 'extendedcrafting:elite_table' }, 'minecraft:diamond_block', 'minecraft:netherite_ingot')
+    event.replaceInput({ id: 'extendedcrafting:crafting_core' }, 'extendedcrafting:elite_component', 'mekanism:pellet_polonium')
 
     kubejs.shapeless('2x extendedcrafting:basic_table', 'extendedcrafting:basic_table')
     kubejs.shapeless('2x extendedcrafting:advanced_table', 'extendedcrafting:advanced_table')
     kubejs.shapeless('2x extendedcrafting:elite_table', 'extendedcrafting:elite_table')
     kubejs.shapeless('2x extendedcrafting:ultimate_table', 'extendedcrafting:ultimate_table')
+
+
+    //组合
+    event.custom(
+        {
+            "type": "extendedcrafting:combination",
+            "power_cost": 1000000000,
+            "power_rate": 1000000,
+            "input": {
+                "item": "kubejs:prediction_nexus"
+            },
+            "ingredients": [
+                {
+                    "item": "functionalstorage:netherite_upgrade"
+                },
+                {
+                    "item": "functionalstorage:netherite_upgrade"
+                },
+                {
+                    "item": "functionalstorage:netherite_upgrade"
+                },
+                {
+                    "item": "functionalstorage:netherite_upgrade"
+                },
+                {
+                    "item": "functionalstorage:netherite_upgrade"
+                },
+                {
+                    "item": "functionalstorage:netherite_upgrade"
+                },
+                {
+                    "item": "functionalstorage:netherite_upgrade"
+                },
+                {
+                    "item": "functionalstorage:netherite_upgrade"
+                }
+            ],
+            "result": {
+                "id": 'functionalstorage:max_storage_upgrade'
+            }
+        }
+    )
+
+
+    event.custom(
+        {
+            "type": "extendedcrafting:shaped_table",
+            "pattern": [
+                "         ",
+                "AAAAAAAAA",
+                "BCDEFEDCB",
+                "GHIIHIIHG",
+                "FIJJKJJIF",
+                "GHIIHIIHG",
+                "BCDEFEDCB",
+                "AAAAAAAAA",
+                "         "
+            ],
+            "key": {
+                "A": {
+                    "item": "avaritia:infinity_nugget"
+                },
+                "B": {
+                    "item": "megacells:sky_bronze_ingot"
+                },
+                "C": {
+                    "item": "megacells:sky_steel_ingot"
+                },
+                "D": {
+                    "item": "extendedae:entro_ingot"
+                },
+                "E": {
+                    "item": "silentgear:tyrian_steel_ingot"
+                },
+                "F": {
+                    "item": "mysticalagriculture:awakened_supremium_ingot"
+                },
+                "G": {
+                    "item": "megacells:sky_osmium_ingot"
+                },
+                "H": {
+                    "item": "avaritia:neutron_ingot"
+                },
+                "I": {
+                    "item": "mysticalagradditions:creative_essence"
+                },
+                "J": {
+                    "item": "avaritia:infinity_catalyst"
+                },
+                "K": {
+                    "item": "kubejs:universal_circuit_matrix"
+                }
+            },
+            "result": {
+                "id": 'extendedcrafting:the_ultimate_ingot'
+            }
+        }
+    )
     event.custom(
         {
             "type": "extendedcrafting:shaped_table",
@@ -387,7 +486,7 @@ ServerEvents.recipes(event => {
             },
             "result": {
                 "id": 'solarflux:sp_avaritia.infinity',
-                "count":2
+                "count": 2
             }
         }
     )
@@ -446,461 +545,6 @@ ServerEvents.recipes(event => {
             }
         }
     )
-    event.custom(
-        {
-            "type": "extendedcrafting:shapeless_table",
-            "ingredients": [
-                {
-                    "item": "minecraft:iron_ingot"
-                },
-                {
-                    "item": "minecraft:copper_ingot"
-                },
-                {
-                    "item": "minecraft:gold_ingot"
-                },
-                {
-                    "item": "minecraft:netherite_ingot"
-                },
-                {
-                    "item": "enderio:energetic_alloy_ingot"
-                },
-                {
-                    "item": "enderio:vibrant_alloy_ingot"
-                },
-                {
-                    "item": "enderio:redstone_alloy_ingot"
-                },
-                {
-                    "item": "enderio:conductive_alloy_ingot"
-                },
-                {
-                    "item": "enderio:pulsating_alloy_ingot"
-                },
-                {
-                    "item": "enderio:dark_steel_ingot"
-                },
-                {
-                    "item": "enderio:soularium_ingot"
-                },
-                {
-                    "item": "enderio:end_steel_ingot"
-                },
-                {
-                    "item": "immersiveengineering:ingot_hop_graphite"
-                },
-                {
-                    "item": "industrialforegoing:pink_slime_ingot"
-                },
-                {
-                    "item": "justdirethings:ferricore_ingot"
-                },
-                {
-                    "item": "justdirethings:blazegold_ingot"
-                },
-                {
-                    "item": "justdirethings:eclipsealloy_ingot"
-                },
-                {
-                    "item": "mekanism:ingot_refined_obsidian"
-                },
-                {
-                    "item": "mekanism:ingot_refined_glowstone"
-                },
-                {
-                    "item": "mysticalagradditions:insanium_ingot"
-                },
-                {
-                    "item": "oritech:adamant_ingot"
-                },
-                {
-                    "item": "oritech:duratium_ingot"
-                },
-                {
-                    "item": "oritech:energite_ingot"
-                },
-                {
-                    "item": "pneumaticcraft:ingot_iron_compressed"
-                },
-                {
-                    "item": "stellaris:heavy_metal_ingot"
-                },
-                {
-                    "item": "stellaris:desh_ingot"
-                },
-                {
-                    "item": "alltheores:aluminum_ingot"
-                },
-                {
-                    "item": "alltheores:lead_ingot"
-                },
-                {
-                    "item": "alltheores:nickel_ingot"
-                },
-                {
-                    "item": "alltheores:osmium_ingot"
-                },
-                {
-                    "item": "alltheores:platinum_ingot"
-                },
-                {
-                    "item": "alltheores:silver_ingot"
-                },
-                {
-                    "item": "alltheores:tin_ingot"
-                },
-                {
-                    "item": "alltheores:uranium_ingot"
-                },
-                {
-                    "item": "alltheores:zinc_ingot"
-                },
-                {
-                    "item": "alltheores:iridium_ingot"
-                },
-                {
-                    "item": "alltheores:steel_ingot"
-                },
-                {
-                    "item": "alltheores:invar_ingot"
-                },
-                {
-                    "item": "alltheores:electrum_ingot"
-                },
-                {
-                    "item": "alltheores:bronze_ingot"
-                },
-                {
-                    "item": "alltheores:brass_ingot"
-                },
-                {
-                    "item": "alltheores:enderium_ingot"
-                },
-                {
-                    "item": "alltheores:lumium_ingot"
-                },
-                {
-                    "item": "alltheores:signalum_ingot"
-                },
-                {
-                    "item": "alltheores:constantan_ingot"
-                },
-                {
-                    "item": "extendedcrafting:black_iron_ingot"
-                },
-                {
-                    "item": "extendedcrafting:redstone_ingot"
-                },
-                {
-                    "item": "extendedcrafting:enhanced_redstone_ingot"
-                },
-                {
-                    "item": "extendedcrafting:ender_ingot"
-                },
-                {
-                    "item": "extendedcrafting:enhanced_ender_ingot"
-                },
-                {
-                    "item": "extendedcrafting:crystaltine_ingot"
-                },
-                {
-                    "item": "extendedae:entro_ingot"
-                },
-                {
-                    "item": "forbidden_arcanus:deorum_ingot"
-                },
-                {
-                    "item": "forbidden_arcanus:obsidiansteel_ingot"
-                },
-                {
-                    "item": "megacells:sky_steel_ingot"
-                },
-                {
-                    "item": "megacells:sky_bronze_ingot"
-                },
-                {
-                    "item": "megacells:sky_osmium_ingot"
-                },
-                {
-                    "item": "mysticalagriculture:prosperity_ingot"
-                },
-                {
-                    "item": "mysticalagriculture:inferium_ingot"
-                },
-                {
-                    "item": "mysticalagriculture:prudentium_ingot"
-                },
-                {
-                    "item": "mysticalagriculture:tertium_ingot"
-                },
-                {
-                    "item": "mysticalagriculture:imperium_ingot"
-                },
-                {
-                    "item": "mysticalagriculture:supremium_ingot"
-                },
-                {
-                    "item": "mysticalagriculture:awakened_supremium_ingot"
-                },
-                {
-                    "item": "mysticalagriculture:soulium_ingot"
-                },
-                {
-                    "item": "naturesaura:infused_iron"
-                },
-                {
-                    "item": "naturesaura:sky_ingot"
-                },
-                {
-                    "item": "naturesaura:depth_ingot"
-                },
-                {
-                    "item": "occultism:iesnium_ingot"
-                },
-                {
-                    "items": "silentgear:custom_ingot",
-                    "components": {
-                        "silentgear:material": {
-                            "material": "silentgear:high_carbon_steel"
-                        }
-                    },
-                    "type": "neoforge:components"
-                },
-                {
-                    "item": "silentgear:crimson_iron_ingot"
-                },
-                {
-                    "item": "silentgear:crimson_steel_ingot"
-                },
-                {
-                    "item": "silentgear:blaze_gold_ingot"
-                },
-                {
-                    "item": "silentgear:azure_silver_ingot"
-                },
-                {
-                    "item": "silentgear:azure_electrum_ingot"
-                },
-                {
-                    "item": "silentgear:tyrian_steel_ingot"
-                },
-                {
-                    "item": "trinketsandbaubles:glowing_ingot"
-                },
-                {
-                    "item": "kubejs:alloy_ingots"
-                }
-            ],
-            "result": {
-                "id": 'extendedcrafting:the_ultimate_ingot'
-            }
-        }
-    )
-    event.custom(
-        {
-            "type": "extendedcrafting:shaped_table",
-            "pattern": [
-                "ABBCDCBBA",
-                "BBCEEECBB",
-                "BCEEFEECB",
-                "CEEFFFEEC",
-                "DEFFGFFED",
-                "CEEFFFEEC",
-                "BCEEFEECB",
-                "BBCEEECBB",
-                "ABBCDCBBA"
-            ],
-            "key": {
-                "A": {
-                    "item": "mysticalagradditions:creative_essence"
-                },
-                "B": {
-                    "item": "ancientreforging:ancient_material"
-                },
-                "C": {
-                    "item": "mekanism_extras:enriched_spectrum"
-                },
-                "D": {
-                    "item": "extendedcrafting:the_ultimate_catalyst"
-                },
-                "E": {
-                    "item": "extendedcrafting:the_ultimate_ingot"
-                },
-                "F": {
-                    "item": "mekanism_extras:infinite_fluid_tank"
-                },
-                "G": {
-                    "item": "extendedcrafting:ultimate_singularity"
-                }
-            },
-            "result": {
-                "id": 'mekanism:creative_fluid_tank'
-            }
-        }
-    )
-    event.custom(
-        {
-            "type": "extendedcrafting:shaped_table",
-            "pattern": [
-                "AAAB BAAA",
-                "AC  B  CA",
-                "A CDDDC A",
-                "B DCDCD B",
-                " BDDEDDB ",
-                "B DCDCD B",
-                "A CDDDC A",
-                "AC  B  CA",
-                "AAAB BAAA"
-            ],
-            "key": {
-                "A": {
-                    "item": "mysticalagradditions:insanium_gemstone_block"
-                },
-                "B": {
-                    "item": "silentgear:glittery_dust"
-                },
-                "C": {
-                    "item": "mysticalagriculture:awakened_supremium_gemstone_block"
-                },
-                "D": {
-                    "item": "extendedcrafting:luminessence"
-                },
-                "E": {
-                    "item": "mysticalagriculture:inferium_essence"
-                }
-            },
-            "result": {
-                "id": 'mysticalagradditions:creative_essence',
-                "count": 2
-            }
-        }
-    )
-    event.custom(
-        {
-            "type": "extendedcrafting:shaped_table",
-            "pattern": [
-                "ABBCDCBBA",
-                "BBCEEECBB",
-                "BCEEFEECB",
-                "CEEFFFEEC",
-                "DEFFGFFED",
-                "CEEFFFEEC",
-                "BCEEFEECB",
-                "BBCEEECBB",
-                "ABBCDCBBA"
-            ],
-            "key": {
-                "A": {
-                    "item": "mysticalagradditions:creative_essence"
-                },
-                "B": {
-                    "item": "ancientreforging:ancient_material"
-                },
-                "C": {
-                    "item": "mekanism_extras:enriched_spectrum"
-                },
-                "D": {
-                    "item": "extendedcrafting:the_ultimate_catalyst"
-                },
-                "E": {
-                    "item": "extendedcrafting:the_ultimate_ingot"
-                },
-                "F": {
-                    "item": "mekanism_extras:infinite_chemical_tank"
-                },
-                "G": {
-                    "item": "extendedcrafting:ultimate_singularity"
-                }
-            },
-            "result": {
-                "id": 'mekanism:creative_chemical_tank'
-            }
-        }
-    )
-    event.custom(
-        {
-            "type": "extendedcrafting:shaped_table",
-            "pattern": [
-                "AAB C BAA",
-                "AAAD DAAA",
-                "BAAEEEAAB",
-                " DEAEAED ",
-                "C EEFEE C",
-                " DEAEAED ",
-                "BAAEEEAAB",
-                "AAAD DAAA",
-                "AAB C BAA"
-            ],
-            "key": {
-                "A": {
-                    "item": "mysticalagradditions:creative_essence"
-                },
-                "B": {
-                    "item": "extendedcrafting:ultimate_singularity"
-                },
-                "C": {
-                    "item": "mekanism_extras:cosmic_energy_cube"
-                },
-                "D": {
-                    "item": "extendedcrafting:the_ultimate_catalyst"
-                },
-                "E": {
-                    "item": "ancientreforging:ancient_material"
-                },
-                "F": {
-                    "item": "oritech:unstable_container"
-                }
-            },
-            result:
-                Item.of(
-                    "mekanism:creative_energy_cube[mekanism:energy={energy_containers:[L;9223372036854775807L]}]"
-                ).toJson()
-        }
-    )
-    event.custom(
-        {
-            "type": "extendedcrafting:shaped_table",
-            "pattern": [
-                "ABBBBBBBA",
-                "BACCCCCAB",
-                "BCADEDACB",
-                "BCDAFADCB",
-                "BCEFGFECB",
-                "BCDAFADCB",
-                "BCADEDACB",
-                "BACCCCCAB",
-                "ABBBBBBBA"
-            ],
-            "key": {
-                "A": {
-                    "item": "extendedcrafting:ultimate_singularity"
-                },
-                "B": {
-                    "item": "mysticalagradditions:creative_essence"
-                },
-                "C": {
-                    "item": "megacells:cell_component_256m"
-                },
-                "D": {
-                    "item": "kubejs:data_storage_core"
-                },
-                "E": {
-                    "item": "justdirethings:refined_t4_fluid_bucket"
-                },
-                "F": {
-                    "item": "extendedcrafting:the_ultimate_catalyst"
-                },
-                "G": {
-                    "item": "mekanism_extras:infinite_tier_installer"
-                }
-            },
-            "result": {
-                "id": 'ae2:creative_storage_cell'
-            }
-        }
-    )
-
-
 
     //通量合成台
     event.custom(

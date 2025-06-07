@@ -8,7 +8,12 @@
 	}
 	id: "176088AFA65F4A40"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "40A0DFF166C5462A"
+		linked_quest: "68E38680A2F70F0B"
+		x: 11.0d
+		y: 3.0d
+	}]
 	quests: [
 		{
 			id: "2EB0D9F3C48B24B5"
@@ -271,7 +276,7 @@
 					type: "item"
 				}
 				{
-					id: "734A4AF214534E2C"
+					id: "119ABB20E0D04B05"
 					item: { count: 1, id: "minecraft:iron_pickaxe" }
 					type: "item"
 				}
@@ -296,6 +301,7 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "70F87C1FE185CAD9"
@@ -354,37 +360,8 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [
-				{
-					count: 2L
-					id: "3C131CE166975808"
-					item: { count: 1, id: "alltheores:lead_clump" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "26770B2AA530A52B"
-					item: { count: 1, id: "alltheores:zinc_clump" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "02EEDAB929FE9A34"
-					item: { count: 1, id: "alltheores:tin_clump" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "3416CADFA3CDD494"
-					item: { count: 1, id: "alltheores:nickel_clump" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "63C3145568AB6CD7"
-					item: { count: 1, id: "alltheores:aluminum_clump" }
-					type: "item"
-				}
 				{
 					id: "620D02D182695523"
 					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
@@ -405,53 +382,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["4BA3E442EA3D61A4"]
-			icon: {
-				id: "occultism:otherglass_natural"
-			}
-			id: "62C5D5459C341536"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "67BE50A07A293A10"
-					table_id: 845902610244440966L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "04B62EA367008CEB"
-					table_id: 8396134760025755447L
-					type: "random"
-				}
-			]
-			shape: "gear"
-			tasks: [
-				{
-					id: "7043DCD210A85862"
-					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
-					type: "item"
-				}
-				{
-					id: "61EDF42397E15A38"
-					item: { count: 1, id: "occultism:otherglass_natural" }
-					type: "item"
-				}
-				{
-					id: "7B6FC4CB27C90C05"
-					item: { count: 1, id: "ars_nouveau:starbuncle_se" }
-					type: "item"
-				}
-				{
-					id: "20E9683B61A46941"
-					item: { count: 1, id: "ars_nouveau:conjuration_essence" }
-					type: "item"
-				}
-			]
-			x: 15.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["62C5D5459C341536"]
+			dependencies: ["4454D63D0014E5F3"]
 			id: "779D8FAC2A7672B2"
 			rewards: [
 				{
@@ -888,6 +819,7 @@
 				"57378B097DDD6BA2"
 				"643ACD619CB8F113"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "minecraft:diamond"
 			}
@@ -1033,6 +965,9 @@
 				"492388AD7860B0EE"
 				"6C587F366E7E4066"
 			]
+			icon: {
+				id: "oritech:fluxite"
+			}
 			id: "5C1319B6E5BD7539"
 			rewards: [
 				{
@@ -1064,7 +999,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["62C5D5459C341536"]
+			dependencies: ["4454D63D0014E5F3"]
+			icon: {
+				id: "naturesaura:gold_fiber"
+			}
 			id: "0EF082988964DD49"
 			rewards: [
 				{
@@ -1128,6 +1066,9 @@
 				"0EF082988964DD49"
 				"596A149915472FBB"
 			]
+			icon: {
+				id: "naturesaura:wood_stand"
+			}
 			id: "00E36CDAB15DB557"
 			rewards: [
 				{
@@ -1334,7 +1275,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5CE5E3A706CA4B05"]
@@ -1562,7 +1503,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 8.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5CE5E3A706CA4B05"]
@@ -1597,40 +1538,12 @@
 				}
 			]
 			x: 4.0d
-			y: 11.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
-				"0C574E317D32DBE4"
 				"01D3862B2C5129E8"
-			]
-			id: "7292F3BF7EA2CC77"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "76811FBB4F54B036"
-					table_id: 845902610244440966L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "46F6C287B44B83D0"
-					table_id: 8396134760025755447L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "49F93EFFF8552566"
-				item: { count: 1, id: "occultism:netherite_scrap_dust" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"7292F3BF7EA2CC77"
-				"5CE5E3A706CA4B05"
+				"0C574E317D32DBE4"
 			]
 			id: "251FC0B47FA05A05"
 			rewards: [
@@ -1648,7 +1561,6 @@
 				}
 			]
 			tasks: [{
-				count: 3L
 				id: "168A791FD5E04791"
 				item: { count: 3, id: "minecraft:netherite_scrap" }
 				type: "item"
@@ -1657,59 +1569,9 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["251FC0B47FA05A05"]
-			id: "1DF228ECAD157420"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4E14B9B801089747"
-					table_id: 845902610244440966L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "506675850786B979"
-					table_id: 8396134760025755447L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "26337F5AA982B298"
-				item: { count: 1, id: "alltheores:netherite_dust" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["1DF228ECAD157420"]
-			id: "14A17FC9D84E885A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "172A60005E8E1FE8"
-					table_id: 845902610244440966L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "54CDEAC0D2194464"
-					table_id: 8396134760025755447L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "62B05F59E96E90E1"
-				item: { count: 1, id: "mysticalagriculture:netherite_essence" }
-				type: "item"
-			}]
-			x: 16.0d
-			y: 16.0d
-		}
-		{
 			dependencies: [
-				"5C1319B6E5BD7539"
-				"14A17FC9D84E885A"
+				"251FC0B47FA05A05"
+				"4124B10C2CEEFA47"
 			]
 			id: "3F29C3B2801FD3D5"
 			rewards: [
@@ -1726,14 +1588,14 @@
 					type: "random"
 				}
 			]
-			shape: "octagon"
-			size: 2.0d
+			shape: "none"
+			size: 3.0d
 			tasks: [{
 				id: "4D1E33A9503D1173"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			x: 24.0d
+			x: 15.0d
 			y: 16.0d
 		}
 		{
@@ -1835,6 +1697,7 @@
 		{
 			dependencies: ["2E25D6A19727C431"]
 			id: "28FFDF73F9C99221"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1887,7 +1750,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["62C5D5459C341536"]
+			dependencies: ["4454D63D0014E5F3"]
 			id: "5358AE0D55D4B5A5"
 			optional: true
 			rewards: [
@@ -1909,7 +1772,7 @@
 				item: { count: 1, id: "mysticalagriculture:nether_quartz_essence" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: 6.5d
 		}
 		{
@@ -1966,6 +1829,7 @@
 		{
 			dependencies: ["7B8FE91E7EA16D27"]
 			id: "6AEB616F36CF1307"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1981,13 +1845,13 @@
 				}
 			]
 			shape: "rsquare"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "450F3774EB75FC43"
 				item: { count: 1, id: "enderio:void_chassis" }
 				type: "item"
 			}]
-			x: 20.25d
+			x: 20.5d
 			y: 3.0d
 		}
 		{
@@ -2028,10 +1892,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"26E96B4A9865EC8D"
-				"14A17FC9D84E885A"
-			]
+			dependencies: ["26E96B4A9865EC8D"]
 			icon: {
 				id: "forbidden_arcanus:eternal_stella"
 			}
@@ -2068,8 +1929,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 14.0d
+			x: 15.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["3F29C3B2801FD3D5"]
@@ -2104,12 +1965,13 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
+			x: 15.0d
 			y: 14.0d
 		}
 		{
 			dependencies: ["6AEB616F36CF1307"]
 			id: "2BBD47022A388DE1"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2125,14 +1987,14 @@
 				}
 			]
 			shape: "rsquare"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "5DD7353C471437BC"
 				item: { count: 1, id: "enderio:ensouled_chassis" }
 				type: "item"
 			}]
-			x: 22.5d
-			y: 3.0d
+			x: 20.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0603DA841059EE17"]
@@ -2419,8 +2281,8 @@
 				item: { count: 1, id: "extendedcrafting:elite_table" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: 16.0d
+			x: 15.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["105AA21BCD28B0C4"]
@@ -2447,8 +2309,8 @@
 				item: { count: 1, id: "solarflux:efficiency_upgrade" }
 				type: "item"
 			}]
-			x: 30.0d
-			y: 16.0d
+			x: 15.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["779D8FAC2A7672B2"]
@@ -2499,8 +2361,8 @@
 				item: { count: 1, id: "kubejs:synergy_core_upgrade" }
 				type: "item"
 			}]
-			x: 25.5d
-			y: 16.0d
+			x: 15.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["7F06E6914E56612A"]
@@ -2664,7 +2526,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 9.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["31DF136BFE128071"]
@@ -2706,8 +2568,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 12.5d
+			x: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["740EADE8DC446C04"]
@@ -2865,6 +2727,12 @@
 			dependencies: ["251FC0B47FA05A05"]
 			id: "6246390092391A5B"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FBECFB921CD482D"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -2877,6 +2745,9 @@
 		}
 		{
 			dependencies: ["1D3805B387A47CC4"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
 			id: "3DF94B83DBF13278"
 			optional: true
 			tasks: [
@@ -2897,7 +2768,7 @@
 				}
 			]
 			x: 21.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3DF94B83DBF13278"]
@@ -2909,7 +2780,7 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["740EADE8DC446C04"]
@@ -3103,6 +2974,12 @@
 			dependencies: ["251FC0B47FA05A05"]
 			id: "2C49BC9AF340FA89"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51A121F21BB6F915"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
 			shape: "square"
 			size: 1.25d
 			tasks: [{
@@ -3170,18 +3047,23 @@
 		{
 			dependencies: ["4CA8959208655321"]
 			icon: {
-				id: "silentgems:white_diamond"
+				id: "silentgems:white_diamond_block"
 			}
 			id: "6D5B792D8CAF8971"
 			optional: true
 			tasks: [
 				{
-					id: "17A0DDB36237D557"
+					id: "27EE334664763408"
+					item: { count: 1, id: "silentgems:white_diamond_block" }
+					type: "item"
+				}
+				{
+					id: "4B3143567C25EAAC"
 					item: { count: 1, id: "silentgems:white_diamond" }
 					type: "item"
 				}
 				{
-					id: "236A18FD45397EDD"
+					id: "188D7BF7616ECAE0"
 					item: { count: 1, id: "actuallyadditions:empowered_diamatine_crystal" }
 					type: "item"
 				}
@@ -3199,16 +3081,23 @@
 			}
 			id: "4CA8959208655321"
 			optional: true
-			tasks: [
-				{
-					id: "5A36A4E11243F838"
-					item: { count: 1, id: "minecraft:deepslate_coal_ore" }
-					optional_task: true
-					type: "item"
+			rewards: [{
+				id: "23958E5F4C6B7800"
+				item: {
+					count: 1
+					id: "minecraft:deepslate_coal_ore"
 				}
+				type: "item"
+			}]
+			tasks: [
 				{
 					id: "5615ABC52DB3DC98"
 					item: { count: 1, id: "actuallyadditions:empowered_void_crystal" }
+					type: "item"
+				}
+				{
+					id: "1F210F1865B38C5D"
+					item: { count: 1, id: "minecraft:deepslate" }
 					type: "item"
 				}
 			]
@@ -3349,6 +3238,181 @@
 			}]
 			x: 17.0d
 			y: -9.0d
+		}
+		{
+			dependencies: ["4BA3E442EA3D61A4"]
+			id: "4454D63D0014E5F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70CF6815B612E041"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "217804C00FD65D18"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5C1319B6E5BD7539"]
+			id: "4124B10C2CEEFA47"
+			tasks: [{
+				id: "6927235BEC0043FC"
+				item: { count: 1, id: "oritech:energite_ingot" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4C6F1EE123E27C13"]
+			id: "7CB95F6B62BCA3B5"
+			shape: "square"
+			tasks: [{
+				id: "04493170593F3BD3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblegengalore:block_generators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6AEB616F36CF1307"]
+			id: "403425407CDD3DDA"
+			tasks: [{
+				id: "755ED71B642B1E16"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["403425407CDD3DDA"]
+			icon: {
+				id: "mekanism:alloy_infused"
+			}
+			id: "7BAC942C75EFAD9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A5C745723241886"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "74255E5EF51AA98E"
+					item: { count: 1, id: "mekanism:alloy_infused" }
+					type: "item"
+				}
+				{
+					id: "41626D35D38FE217"
+					item: { count: 1, id: "mekanism:dust_refined_obsidian" }
+					type: "item"
+				}
+				{
+					id: "60A1F422B74EFF6B"
+					item: { count: 1, id: "mekanism:alloy_reinforced" }
+					type: "item"
+				}
+				{
+					id: "02C5D7B0056C061A"
+					item: { count: 1, id: "mekanism:alloy_atomic" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C574E317D32DBE4"]
+			id: "650E2C1065096719"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "76710A444555049D"
+				item: { components: { "occultism:max_mining_time": 200, "occultism:rolls_per_operation": 1 }, count: 1, id: "occultism:miner_afrit_deeps" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["650E2C1065096719"]
+			id: "322B40A64A32F5A6"
+			shape: "gear"
+			tasks: [{
+				id: "7F037281AEBD93B9"
+				item: { count: 1, id: "minecraft:copper_ore" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["650E2C1065096719"]
+			id: "0163A771D5F9A126"
+			shape: "gear"
+			tasks: [{
+				id: "0D3470EB1F72BB37"
+				item: { count: 1, id: "minecraft:iron_ore" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["650E2C1065096719"]
+			id: "01088490BF892B1A"
+			shape: "gear"
+			tasks: [{
+				id: "71E8CBC81EE6A215"
+				item: { count: 1, id: "minecraft:gold_ore" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["650E2C1065096719"]
+			id: "4FE0765DA7E47B02"
+			shape: "gear"
+			tasks: [{
+				id: "002A4D9E83D2BE58"
+				item: { count: 1, id: "minecraft:coal_ore" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["650E2C1065096719"]
+			id: "750E0837633BF5D0"
+			shape: "gear"
+			tasks: [{
+				id: "687C76FAF6866EC0"
+				item: { count: 1, id: "stellaris:steel_ore" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["650E2C1065096719"]
+			id: "0AC0F91532AE8E88"
+			shape: "gear"
+			tasks: [{
+				id: "4C532F56B1D97A1E"
+				item: { count: 1, id: "minecraft:nether_quartz_ore" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 15.0d
 		}
 	]
 }

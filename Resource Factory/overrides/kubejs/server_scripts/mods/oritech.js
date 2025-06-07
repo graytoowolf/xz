@@ -237,6 +237,8 @@ ServerEvents.recipes(event => {
     atomicforgeRecipes(8, 'minecraft:diamond', 'hostilenetworks:prediction_matrix', 'mysticalagriculture:diamond_essence')
     atomicforgeRecipes(2, 'powah:dielectric_casing', 'minecraft:netherite_ingot', 'powah:capacitor_basic_large')
     atomicforgeRecipes(4, 'mysticalagriculture:diamond_essence', 'mysticalagriculture:dye_essence', 'mysticalagriculture:coal_essence')
+    atomicforgeRecipes(24, 'mysticalagriculture:emerald_essence', 'silentgear:emerald_shard', 'silentgear:emerald_shard')
+    atomicforgeRecipes(24, 'mysticalagriculture:lapis_lazuli_essence', 'minecraft:lapis_lazuli', 'minecraft:lapis_lazuli')
 
 
     //粒子加速器

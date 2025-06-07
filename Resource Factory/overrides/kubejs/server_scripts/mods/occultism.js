@@ -23,13 +23,20 @@ ServerEvents.recipes(event => {
         ['minecraft:raw_gold_block', 'alltheores:gold_dust'],
         ['minecraft:raw_copper_block', 'alltheores:copper_dust']
     ]
-    const ore = ['alltheores:lead_ore', 'alltheores:zinc_ore', 'alltheores:tin_ore', 'alltheores:aluminum_ore', 'alltheores:nickel_ore', 'minecraft:gold_ore', 'minecraft:iron_ore', 'minecraft:copper_ore', 'occultism:raw_iesnium']
+    const ore = ['alltheores:lead_ore', 'alltheores:zinc_ore', 'alltheores:tin_ore', 'alltheores:aluminum_ore', 'alltheores:nickel_ore', 'occultism:raw_iesnium']
     const ore_t2 = ['alltheores:platinum_ore', 'alltheores:iridium_ore', 'alltheores:silver_ore', 'alltheores:osmium_ore', 'alltheores:uranium_ore']
     const dim_core = [
         'mysticalagradditions:end_prosperity_ore',
         'mysticalagradditions:end_inferium_ore',
         'mysticalagriculture:soulium_ore',
         'mysticalagriculture:soulstone'
+    ]
+
+    const ancinet_miner = [
+        'justdirethings:raw_ferricore', 'justdirethings:raw_blazegold', 'justdirethings:celestigem', 'justdirethings:raw_eclipsealloy'
+    ]
+    const ore_afrit_miner = [
+        'minecraft:copper_ore', 'minecraft:gold_ore', 'minecraft:iron_ore', 'minecraft:coal_ore', 'minecraft:nether_quartz_ore', 'stellaris:steel_ore'
     ]
 
     event.replaceInput({ id: 'occultism:ritual/craft_dimensional_mineshaft' }, 'occultism:iesnium_block', 'ars_nouveau:source_gem_block')
@@ -92,9 +99,9 @@ ServerEvents.recipes(event => {
     occultism.miner(WeightedRecipeResult.of('silentgear:azure_silver_ore', 8, 500), 'occultism:miner_marid_master')
     occultism.miner(WeightedRecipeResult.of('silentgear:crimson_iron_ore', 8, 500), 'occultism:miner_marid_master')
     occultism.miner(WeightedRecipeResult.of('replication:deepslate_replica_ore', 16, 100), 'occultism:miner_marid_master')
-    occultism.miner(WeightedRecipeResult.of('occultism:mining_dim_core', 1, 1000), 'occultism:miner_ancient_eldritch')
-    occultism.miner(WeightedRecipeResult.of('forbidden_arcanus:stellarite_piece', 1, 1000), 'occultism:miner_ancient_eldritch')
-
+    occultism.miner(WeightedRecipeResult.of('occultism:mining_dim_core', 1, 10), 'occultism:miner_ancient_eldritch')
+    occultism.miner(WeightedRecipeResult.of('forbidden_arcanus:stellarite_piece', 1, 100), 'occultism:miner_ancient_eldritch')
+    occultism.miner(WeightedRecipeResult.of('mysticalagradditions:insanium_essence', 8, 100), 'occultism:miner_ancient_eldritch')
 
     //仪式
     occultism.ritual(Item.of('minecraft:amethyst_block', 3),
@@ -131,67 +138,31 @@ ServerEvents.recipes(event => {
         'actuallyadditions:iron_casing',
         "occultism:craft_marid"
     ).dummy("kubejs:dummy_ritual_craft3").id("dummy_ritual_craft3")
-    // occultism.ritual(Item.of('kubejs:dirty_iron_ingot', 16),
-    //     [
-    //         'alltheores:iron_clump',
-    //         'alltheores:iron_clump',
-    //         'alltheores:iron_clump',
-    //         'alltheores:iron_clump',
-    //         'alltheores:iron_clump',
-    //         'alltheores:iron_clump',
-    //         'alltheores:iron_clump',
-    //         'alltheores:iron_clump'
-    //     ],
-    //     'naturesaura:gold_leaf',
-    //     "occultism:craft_marid", 20
-    // ).dummy("kubejs:dummy_ritual_craft4").id("dummy_ritual_craft4")
-    // occultism.ritual(Item.of('16x kubejs:dirty_copper_ingot', 16),
-    //     [
-    //         'alltheores:copper_clump',
-    //         'alltheores:copper_clump',
-    //         'alltheores:copper_clump',
-    //         'alltheores:copper_clump',
-    //         'alltheores:copper_clump',
-    //         'alltheores:copper_clump',
-    //         'alltheores:copper_clump',
-    //         'alltheores:copper_clump'
-    //     ],
-    //     'naturesaura:gold_leaf',
-    //     "occultism:craft_marid", 20
-    // ).dummy("kubejs:dummy_ritual_craft5").id("dummy_ritual_craft5")
-    // occultism.ritual(Item.of('kubejs:dirty_gold_ingot', 16),
-    //     [
-    //         'alltheores:gold_clump',
-    //         'alltheores:gold_clump',
-    //         'alltheores:gold_clump',
-    //         'alltheores:gold_clump',
-    //         'alltheores:gold_clump',
-    //         'alltheores:gold_clump',
-    //         'alltheores:gold_clump',
-    //         'alltheores:gold_clump'
-    //     ],
-    //     'naturesaura:gold_leaf',
-    //     "occultism:craft_marid", 20
-    // ).dummy("kubejs:dummy_ritual_craft6").id("dummy_ritual_craft6")
 
     dim_core.forEach(ore => {
         occultism.miner(WeightedRecipeResult.of(ore, 64, 1000), 'mysticalagriculture:wand')
     });
 
     ore.forEach(ore => {
-        occultism.miner(WeightedRecipeResult.of(ore, 24, 1000), 'ars_nouveau:summon_focus')
+        occultism.miner(WeightedRecipeResult.of(ore, 12, 1000), 'ars_nouveau:summon_focus')
     });
     ore.forEach(ore => {
-        occultism.miner(WeightedRecipeResult.of(ore, 32, 1000), 'occultism:miner_marid_master')
+        occultism.miner(WeightedRecipeResult.of(ore, 48, 1000), 'occultism:miner_marid_master')
     });
     ore.forEach(ore => {
         occultism.miner(WeightedRecipeResult.of(ore, 64, 1000), 'oritech:prometheum_ingot')
     });
-
-    ore_t2.forEach(ore => {
-        occultism.miner(WeightedRecipeResult.of(ore, 24, 1000), 'oritech:promethium_pickaxe')
+    ore_afrit_miner.forEach(ore => {
+        occultism.miner(WeightedRecipeResult.of(ore, 16, 1000), 'occultism:miner_afrit_deeps')
     });
 
+    ore_t2.forEach(ore => {
+        occultism.miner(WeightedRecipeResult.of(ore, 12, 1000), 'oritech:promethium_pickaxe')
+    });
+    
+    ancinet_miner.forEach(ore => {
+        occultism.miner(WeightedRecipeResult.of(ore, 8, 1000), 'occultism:miner_ancient_eldritch')
+    });
     crushRecipes.forEach(([input, results]) => {
         occultism.crushing(RecipeResult.of(results, 2), input, 10, 3)
     });

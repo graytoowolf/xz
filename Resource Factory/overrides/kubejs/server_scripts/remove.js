@@ -77,7 +77,6 @@ ServerEvents.recipes(event => {
         'pneumaticcraft:pressure_chamber_wall',
         'forbidden_arcanus:mundabitur_dust',
         'extendedcrafting:ultimate_table',
-        'mysticalagriculture:essence/minecraft/lapis_lazuli',
         'irons_spellbooks:ancient_debris_from_pyrium',
         'ae2:network/parts/quartz_fiber_part',
         'minecraft:netherite_ingot_from_netherite_block',
@@ -133,10 +132,35 @@ ServerEvents.recipes(event => {
         'avaritia:eio_creative_power',
         'avaritia:mek_creative_chemical_tank',
         'avaritia:mek_creative_bin',
-        'avaritia:ae2_creative_energy_cell'
-
-
-
+        'avaritia:ae2_creative_energy_cell',
+        'avaritia:enhancement_core',
+        'avaritia:extreme_smithing_table',
+        'avaritia:infinity_axe',
+        'avaritia:infinity_boots',
+        'avaritia:infinity_bow',
+        'avaritia:infinity_bucket',
+        'avaritia:infinity_chestplate',
+        'avaritia:infinity_crossbow',
+        'avaritia:infinity_elytra',
+        'avaritia:infinity_helmet',
+        'avaritia:infinity_hoe',
+        'avaritia:infinity_pants',
+        'avaritia:infinity_pickaxe',
+        'avaritia:infinity_shovel',
+        'avaritia:infinity_sword',
+        'avaritia:infinity_totem',
+        'avaritia:ultimate_stew',
+        'avaritia:star_fuel',
+        'avaritia:record_fragment',
+        'avaritia:neutron_compressor',
+        'avaritia:neutron_collector',
+        'avaritia:densest_neutron_collector',
+        'avaritia:denser_neutron_collector',
+        'avaritia:dense_neutron_collector',
+        'avaritia:cosmic_meatballs',
+        'avaritia:endest_pearl',
+        'avaritia:infinity_chest',
+        'avaritia:upgrade_smithing_template'
     ]
 
     const TYPE = [
@@ -156,7 +180,8 @@ ServerEvents.recipes(event => {
 
     const OUTPUT = [
         'occultism:spirit_attuned_gem',
-        'productivebees:honey_treat'
+        'productivebees:honey_treat',
+        'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:tets"]'
     ]
 
     const not_type_input = [

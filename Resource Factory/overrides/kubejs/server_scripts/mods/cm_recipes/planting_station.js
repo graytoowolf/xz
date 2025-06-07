@@ -104,6 +104,7 @@ const plant =
         ['mysticalagriculture:silver_seeds', 'mysticalagriculture:silver_essence'],
         ['mysticalagriculture:osmium_seeds', 'mysticalagriculture:osmium_essence'],
         ['mysticalagriculture:zinc_seeds', 'mysticalagriculture:zinc_essence'],
+        ['2x mysticalagriculture:neutronium_seeds', 'mysticalagriculture:neutronium_essence']
     ];
 
 const plant2 =

@@ -92,6 +92,17 @@ ServerEvents.recipes(event => {
         .produceItem('16x minecraft:gold_ingot', 0.5, 150, 10)
         .produceItem('16x minecraft:netherite_ingot', 0.5, 150, 30)
 
+    //下界流体钻井
+    modular_machinery_reborn.machine_recipe("mmr:nether_fluid_pump", 10)
+        .progressX(75)
+        .progressY(30)
+        .width(180)
+        .height(90)
+        .requireEnergy(200000, 10, 10)
+        .requireItem('kubejs:prediction_nexus', 30, 30)
+        .produceChemical("100000x mekmm:unstable_dimensional_gas", 110, 30)
+        .dimensions(['minecraft:the_nether'], 10, 70)
+
     //原子再构室
     modular_machinery_reborn.machine_recipe("mmr:atomic_reconstruction_chamber", 10)
         .progressX(75)

@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "EWE",
+        "WDW",
+        "EWE"
+    ],
+    "key": {
+        "E": {
+            "item": "mysticalagradditions:insanium_essence"
+        },
+        "W": {
+            "item": "avaritia:neutron_ingot"
+        },
+        "D": {
+            "tag": "c:storage_blocks/diamond"
+        }
+    },
+    "result": {
+        "id": "mysticalagradditions:neutronium_crux"
+    }
+}

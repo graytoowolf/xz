@@ -2177,7 +2177,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 13.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["7A05BC44C85C7CBB"]
@@ -2195,7 +2195,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 14.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7A05BC44C85C7CBB"]
@@ -2213,7 +2213,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 14.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7A05BC44C85C7CBB"]
@@ -2231,7 +2231,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 14.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7A05BC44C85C7CBB"]
@@ -2249,7 +2249,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 14.5d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -2272,7 +2272,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 16.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["0D83F2A70D984229"]

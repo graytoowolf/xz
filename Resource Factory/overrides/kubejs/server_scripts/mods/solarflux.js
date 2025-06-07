@@ -65,11 +65,11 @@ ServerEvents.recipes(event => {
             c: 'oritech:enderic_lens'
         }
     )
-    kubejs.shaped('kubejs:photovoltaic_cell_aura', ['aaa', 'bbb', 'cdc'],
+    kubejs.shaped('2x kubejs:photovoltaic_cell_aura', ['aaa', 'bbb', 'cdc'],
         {
             a: 'naturesaura:infused_stone',
             b: 'naturesaura:tainted_gold',
-            c: 'solarflux:photovoltaic_cell_2',
+            c: 'solarflux:photovoltaic_cell_4',
             d: 'naturesaura:infused_iron_block'
         }
     )

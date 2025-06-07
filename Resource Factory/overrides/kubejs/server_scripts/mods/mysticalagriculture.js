@@ -47,4 +47,43 @@ ServerEvents.recipes(event => {
   event.shaped('64x minecraft:lime_dye', ['  E', '  E', 'E  '], { E: dye_essence });
   event.shaped('64x minecraft:white_dye', ['EEE', '   ', '   '], { E: dye_essence });
   event.shaped('64x minecraft:gray_dye', ['  E', ' E ', 'E  '], { E: dye_essence });
+
+
+  event.custom(
+    {
+      "type": "mysticalagriculture:infusion",
+      "input": {
+        "item": 'mysticalagriculture:prosperity_seed_base'
+      },
+      "ingredients": [
+        {
+          "item": 'mysticalagradditions:insanium_essence'
+        },
+        {
+          "item": 'avaritia:neutron_ingot'
+        },
+        {
+          "item": 'mysticalagradditions:insanium_essence'
+        },
+        {
+          "item": 'avaritia:neutron_ingot'
+        },
+        {
+          "item": 'mysticalagradditions:insanium_essence'
+        },
+        {
+          "item": 'avaritia:neutron_ingot'
+        },
+        {
+          "item": 'mysticalagradditions:insanium_essence'
+        },
+        {
+          "item": 'avaritia:neutron_ingot'
+        },
+      ],
+      "result": {
+        "id": 'mysticalagriculture:neutronium_seeds'
+      }
+    }
+  )
 })

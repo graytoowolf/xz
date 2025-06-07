@@ -25,12 +25,13 @@ ServerEvents.recipes(event => {
         }
     )
     kubejs.shaped('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:creeper_ore_replicator"]', ['aaa', 'aba', 'ccc'], { a: 'replication:replica_block', b: 'oritech:promethium_pickaxe', c: 'actuallyadditions:empowered_emeradic_crystal_block' })
-    kubejs.shaped('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:quantum_color_encoder"]', ['aba', 'bcb', 'ada'],
+    kubejs.shaped('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:quantum_color_encoder"]', ['aba', 'ece', 'ada'],
         {
             a: 'kubejs:data_storage_core',
             b: 'ae2:singularity',
             c: 'mekanism:steel_casing',
-            d: 'mysticalagriculture:dye_essence'
+            d: 'mysticalagriculture:dye_essence',
+            e: 'avaritia:singularity[avaritia:singularity_id="avaritia:netherite"]'
         }
     )
 

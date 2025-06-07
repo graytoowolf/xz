@@ -101,5 +101,5 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: 'mekanism_extras:metallurgic_infusing/alloy/spectrum' }, 'mekanism_extras:alloy_shining', 'avaritia:neutron_ingot')
     event.replaceInput({ id: 'mekanism_extras:control_circuit/supreme' }, 'mekanism_extras:absolute_control_circuit', 'advanced_ae:quantum_alloy_plate')
     event.replaceInput({ id: 'mekanism_extras:control_circuit/cosmic' }, 'mekanism_extras:supreme_control_circuit', 'ifeu:dragon_star')
-    event.replaceInput({ id: 'mekanism_extras:control_circuit/infinite' }, 'mekanism_extras:cosmic_control_circuit', 'mekanism:pellet_antimatter')
+    event.replaceInput({ id: 'mekanism_extras:control_circuit/infinite' }, 'mekanism_extras:cosmic_control_circuit', 'kubejs:prediction_nexus')
 })

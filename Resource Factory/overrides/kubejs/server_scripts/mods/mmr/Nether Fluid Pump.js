@@ -63,36 +63,39 @@ MMREvents.machines(event => {
                         ],
                         "j": ["modular_machinery_reborn:casing_vent"],
                         "k": ["immersiveengineering:fluid_pump"],
-                        "n": ["#modular_machinery_reborn:fluidhatch"]
+                        "n": [
+                            "#modular_machinery_reborn:fluidhatch",
+                            "#modular_machinery_reborn_mekanism:chemicalhatch"
+                        ]
                     }
                 )
         )
-        // .addModifier(
-        //     MMRModifierReplacement.create()
-        //         .ingredient('oritech:machine_core_7')
-        //         .position(-1, 0, 0)
-        //         .addModifier(speed_modifier)
-        //         .addModifier(energy_modifier)
-        // )
-        // .addModifier(
-        //     MMRModifierReplacement.create()
-        //         .ingredient('oritech:machine_core_7')
-        //         .position(1, 0, 0)
-        //         .addModifier(speed_modifier)
-        //         .addModifier(energy_modifier)
-        // )
-        // .addModifier(
-        //     MMRModifierReplacement.create()
-        //         .ingredient('oritech:machine_yield_addon')
-        //         .position(-1, 0, 1)
-        //         .addModifier(fluid_modifier)
-        //         .addModifier(energy2_modifier)
-        // )
-        // .addModifier(
-        //     MMRModifierReplacement.create()
-        //         .ingredient('oritech:machine_yield_addon')
-        //         .position(1, 0, 1)
-        //         .addModifier(fluid_modifier)
-        //         .addModifier(energy2_modifier)
-        // )
+    // .addModifier(
+    //     MMRModifierReplacement.create()
+    //         .ingredient('oritech:machine_core_7')
+    //         .position(-1, 0, 0)
+    //         .addModifier(speed_modifier)
+    //         .addModifier(energy_modifier)
+    // )
+    // .addModifier(
+    //     MMRModifierReplacement.create()
+    //         .ingredient('oritech:machine_core_7')
+    //         .position(1, 0, 0)
+    //         .addModifier(speed_modifier)
+    //         .addModifier(energy_modifier)
+    // )
+    // .addModifier(
+    //     MMRModifierReplacement.create()
+    //         .ingredient('oritech:machine_yield_addon')
+    //         .position(-1, 0, 1)
+    //         .addModifier(fluid_modifier)
+    //         .addModifier(energy2_modifier)
+    // )
+    // .addModifier(
+    //     MMRModifierReplacement.create()
+    //         .ingredient('oritech:machine_yield_addon')
+    //         .position(1, 0, 1)
+    //         .addModifier(fluid_modifier)
+    //         .addModifier(energy2_modifier)
+    // )
 })

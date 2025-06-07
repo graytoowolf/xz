@@ -669,5 +669,35 @@
 			x: -2.0d
 			y: 4.5d
 		}
+		{
+			icon: {
+				id: "morered:red_alloy_wire"
+			}
+			id: "51CAC9B5615E5767"
+			tasks: [{
+				id: "527E29CFED0C2C32"
+				item: { count: 1, id: "morered:stone_plate" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "2491E08B0921DE97"
+			tasks: [
+				{
+					id: "6FB50768660E95F7"
+					item: { count: 1, id: "computercraft:computer_normal" }
+					type: "item"
+				}
+				{
+					id: "419B7301D729238D"
+					item: { count: 1, id: "computercraft:computer_advanced" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
 	]
 }

@@ -1249,7 +1249,7 @@
 				{
 					count: 3L
 					id: "2B8C5DE9ED8D51F1"
-					item: { count: 3, id: "kubejs:small_mixed_dust" }
+					item: { count: 1, id: "kubejs:small_mixed_dust" }
 					type: "item"
 				}
 			]
@@ -1570,12 +1570,14 @@
 					exclude_from_claim_all: true
 					id: "1CE5CAABB576ABB4"
 					table_id: 1276340034069800224L
+					team_reward: true
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "30B8459C3F6D3216"
 					table_id: 1276340034069800224L
+					team_reward: true
 					type: "random"
 				}
 			]
@@ -1583,7 +1585,7 @@
 				consume_items: true
 				count: 4L
 				id: "0460A0EEDF89AD5F"
-				item: { count: 4, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 35.5d
@@ -1601,13 +1603,14 @@
 				exclude_from_claim_all: true
 				id: "3293A75A34C0A7C5"
 				table_id: 6324960366754013625L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 4L
 				id: "30C819996C23B34F"
-				item: { count: 4, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 35.5d
@@ -1625,6 +1628,7 @@
 				exclude_from_claim_all: true
 				id: "72EDEE7952132482"
 				table_id: 2259191699529699529L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -1746,7 +1750,7 @@
 					consume_items: true
 					count: 4L
 					id: "2797FD7CD845FDF6"
-					item: { count: 4, id: "kubejs:coin" }
+					item: { components: { "ftbquests:missing_item": "4x kubejs:coin" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -1811,6 +1815,7 @@
 						count: 1
 						id: "modularrouters:blank_module"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1820,6 +1825,7 @@
 						count: 1
 						id: "modularrouters:blank_upgrade"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1829,6 +1835,7 @@
 						count: 1
 						id: "modularrouters:augment_core"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1836,7 +1843,7 @@
 				consume_items: true
 				count: 4L
 				id: "33AB2C8BA42DD87B"
-				item: { count: 4, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 35.5d
@@ -1847,6 +1854,9 @@
 				"2F658F703090B039"
 				"5DD02BA1662DAD22"
 			]
+			icon: {
+				id: "minecraft:dandelion"
+			}
 			id: "64938D0BFF9B492B"
 			optional: true
 			rewards: [
@@ -2289,7 +2299,7 @@
 				consume_items: true
 				count: 4L
 				id: "374BD1A25E6A3AAB"
-				item: { count: 4, id: "kubejs:coin" }
+				item: { count: 1, id: "kubejs:coin" }
 				type: "item"
 			}]
 			x: 24.5d
