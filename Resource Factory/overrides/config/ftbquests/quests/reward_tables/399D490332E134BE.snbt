@@ -1,0 +1,18 @@
+{
+	id: "399D490332E134BE"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ id: "3DF66A38C44D0D18", item: { count: 1, id: "mysticalagriculture:prismarine_agglomeratio" } }
+		{ id: "3A324C9028DD53F7", item: { count: 1, id: "mysticalagriculture:end_agglomeratio" } }
+		{ id: "58AD054AC14988CA", item: { count: 1, id: "mysticalagriculture:coral_agglomeratio" } }
+		{ id: "5D8A8C70D78FFD08", item: { count: 1, id: "mysticalagriculture:honey_agglomeratio" } }
+		{ id: "461882F5804B3A99", item: { count: 1, id: "mysticalagriculture:nether_agglomeratio" } }
+		{ id: "45F67AA5AECA43C5", item: { count: 1, id: "mysticalagriculture:dye_agglomeratio" } }
+		{ id: "7957775F4E72B702", item: { count: 1, id: "mysticalagriculture:nature_agglomeratio" } }
+		{ id: "2F9B44164E1C7130", item: { count: 1, id: "mysticalagriculture:fire_agglomeratio" } }
+		{ id: "6DFF3A43B8AC5F55", item: { count: 1, id: "mysticalagriculture:water_agglomeratio" } }
+		{ id: "113523C1035ACA71", item: { count: 1, id: "mysticalagriculture:earth_agglomeratio" } }
+		{ id: "088EC44641EF89E3", item: { count: 1, id: "mysticalagriculture:air_agglomeratio" } }
+	]
+}

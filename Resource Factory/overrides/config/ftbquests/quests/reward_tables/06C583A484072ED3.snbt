@@ -1,0 +1,27 @@
+{
+	id: "06C583A484072ED3"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ id: "245650BFA40A8C3C", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/bad_omen": 1 }, "minecraft:rarity": "epic" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "380AAB0494AA4F00", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/bad_omen_self": 1 }, "minecraft:rarity": "epic" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "756245918A6512DF", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/hero_of_the_village": 1 }, "minecraft:rarity": "epic" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "30232C841E6812B6", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/poison": 1 }, "minecraft:rarity": "epic" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "2C0BCA7F75567F26", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/saturation": 1 }, "minecraft:rarity": "epic" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "787994E1233C929B", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/wither": 1 }, "minecraft:rarity": "epic" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{
+			id: "028694EFD829F93D"
+			item: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "apothic_attributes:extra_long_flying"
+					}
+					"minecraft:unbreakable": { }
+				}
+				count: 1
+				id: "apotheosis:potion_charm"
+			}
+			weight: 0.3f
+		}
+	]
+}

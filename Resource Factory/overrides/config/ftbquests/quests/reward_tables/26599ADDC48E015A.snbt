@@ -1,0 +1,49 @@
+{
+	id: "26599ADDC48E015A"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ id: "15D21E818241ACB1", item: { components: { "titanium:augments": { Speed: 3.0f } }, count: 1, id: "industrialforegoing:speed_addon_tier_2" } }
+		{ id: "1A069D5A290BE160", item: { components: { "titanium:augments": { Efficiency: 0.8f } }, count: 1, id: "industrialforegoing:efficiency_addon_tier_2" } }
+		{ id: "161B2AFEF0C951AD", item: { components: { "titanium:augments": { Processing: 3.0f } }, count: 1, id: "industrialforegoing:processing_addon_tier_2" } }
+		{
+			id: "73AEAED5480FE1A3"
+			item: {
+				components: {
+					"titanium:augments": {
+						Speed: 2.0f
+					}
+				}
+				count: 1
+				id: "industrialforegoing:speed_addon_tier_1"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "47A015829AF9C8B8"
+			item: {
+				components: {
+					"titanium:augments": {
+						Efficiency: 0.9f
+					}
+				}
+				count: 1
+				id: "industrialforegoing:efficiency_addon_tier_1"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "33F49675E6572C67"
+			item: {
+				components: {
+					"titanium:augments": {
+						Processing: 2.0f
+					}
+				}
+				count: 1
+				id: "industrialforegoing:processing_addon_tier_1"
+			}
+			weight: 3.0f
+		}
+	]
+}

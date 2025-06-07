@@ -1,0 +1,42 @@
+{
+	icon: {
+		id: "ae2:cell_component_64k"
+	}
+	id: "1FFE90447DB4F918"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			id: "6CD29E092A7703F5"
+			item: {
+				count: 1
+				id: "ae2:cell_component_16k"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "40610DEFD9FCEAC9"
+			item: {
+				count: 1
+				id: "ae2:cell_component_64k"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "69AB6A7173D6079F"
+			item: {
+				count: 1
+				id: "ae2:cell_component_4k"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "2D7B41D423E7FAD4"
+			item: {
+				count: 1
+				id: "ae2:cell_component_1k"
+			}
+			weight: 10.0f
+		}
+	]
+}

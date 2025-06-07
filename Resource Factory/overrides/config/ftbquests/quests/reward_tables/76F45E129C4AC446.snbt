@@ -1,0 +1,19 @@
+{
+	id: "76F45E129C4AC446"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ id: "27AEEE6FA492256B", item: { components: { "titanium:augments": { Range: 0.0f } }, count: 1, id: "industrialforegoing:range_addon_tier_0" } }
+		{ id: "7F56AD1B1616C985", item: { components: { "titanium:augments": { Range: 1.0f } }, count: 1, id: "industrialforegoing:range_addon_tier_1" } }
+		{ id: "3563B9B46BF974E8", item: { components: { "titanium:augments": { Range: 2.0f } }, count: 1, id: "industrialforegoing:range_addon_tier_2" } }
+		{ id: "202C788217C692A3", item: { components: { "titanium:augments": { Range: 3.0f } }, count: 1, id: "industrialforegoing:range_addon_tier_3" } }
+		{ id: "33E90996842355B6", item: { components: { "titanium:augments": { Range: 4.0f } }, count: 1, id: "industrialforegoing:range_addon_tier_4" } }
+		{ id: "5CE27DA13213CF8E", item: { components: { "titanium:augments": { Range: 5.0f } }, count: 1, id: "industrialforegoing:range_addon_tier_5" } }
+		{ id: "4F416A7313046FEE", item: { components: { "titanium:augments": { Range: 6.0f } }, count: 1, id: "industrialforegoing:range_addon_tier_6" } }
+		{ id: "1B166B6DA753814F", item: { components: { "titanium:augments": { Range: 7.0f } }, count: 1, id: "industrialforegoing:range_addon_tier_7" } }
+		{ id: "5E274FA26931284B", item: { components: { "titanium:augments": { Range: 8.0f } }, count: 1, id: "industrialforegoing:range_addon_tier_8" } }
+		{ id: "743483705F18B999", item: { components: { "titanium:augments": { Range: 9.0f } }, count: 1, id: "industrialforegoing:range_addon_tier_9" } }
+		{ id: "17CF69DCB5A3D8EF", item: { components: { "titanium:augments": { Range: 10.0f } }, count: 1, id: "industrialforegoing:range_addon_tier_10" } }
+		{ id: "3FBBD4304050D32B", item: { components: { "titanium:augments": { Range: 11.0f } }, count: 1, id: "industrialforegoing:range_addon_tier_11" } }
+	]
+}

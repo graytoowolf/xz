@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube", 
+  "textures": {
+    "particle": "kubejs:block/planting_station_side", 
+    "down": "kubejs:block/planting_station_bottom",
+    "up": "kubejs:block/planting_station_top",
+    "north": "kubejs:block/planting_station_front",
+    "east": "kubejs:block/planting_station_side",
+    "south": "kubejs:block/planting_station_side",
+    "west": "kubejs:block/planting_station_side"
+  }
+}

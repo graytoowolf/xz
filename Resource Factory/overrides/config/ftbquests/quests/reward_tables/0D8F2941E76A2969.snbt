@@ -1,0 +1,11 @@
+{
+	id: "0D8F2941E76A2969"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ id: "1F9D92C40556171C", item: { count: 1, id: "justdirethings:itemcollector" } }
+		{ id: "5C6D93B1774FABE8", item: { count: 1, id: "enderio:vacuum_chest" } }
+		{ id: "67DC53EB53F32133", item: { count: 1, id: "itemcollectors:advanced_collector" } }
+		{ id: "6874276BF6B9D5BF", item: { count: 1, id: "modularrouters:vacuum_module" } }
+	]
+}

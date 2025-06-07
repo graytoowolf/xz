@@ -1,0 +1,233 @@
+{
+  "name": {
+    "text": "cm.kubejs.resource_converter",
+    "color": "aqua"
+  },
+  "appearance": {
+    "custommachinery:block": "kubejs:machine/resource_converter",
+    "custommachinery:mining_level": "minecraft:needs_stone_tool"
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 64,
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "both",
+      "capacity": 8,
+      "max_input": 64
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_4",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_5",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 5000000,
+      "max_input": 500000,
+      "max_output": 500000
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 11,
+      "y": 31,
+      "width": 19,
+      "height": 59
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 45,
+      "y": 104
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 11,
+      "y": 11
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 221,
+      "y": 11
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 40,
+      "y": 40
+    },
+        {
+      "type": "custommachinery:slot",
+      "id": "input_1",
+      "x": 60,
+      "y": 40
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_2",
+      "x": 40,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_3",
+      "x": 60,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 85,
+      "y": 52,
+      "width": 24,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "both",
+      "x": 160,
+      "y": 10
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 120,
+      "y": 40
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_1",
+      "x": 140,
+      "y": 40
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_2",
+      "x": 160,
+      "y": 40
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_3",
+      "x": 120,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_4",
+      "x": 140,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_5",
+      "x": 160,
+      "y": 60
+    }
+  ]
+}

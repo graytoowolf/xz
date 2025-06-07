@@ -1,0 +1,50 @@
+{
+	id: "750E31F13E28C29D"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			id: "1ACE18355E97343C"
+			item: {
+				count: 1
+				id: "oritech:machine_speed_addon"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "5A9EBED3CE9FF926"
+			item: {
+				count: 1
+				id: "oritech:machine_processing_addon"
+			}
+			weight: 1.5f
+		}
+		{
+			id: "6377685134A4B4B3"
+			item: {
+				count: 1
+				id: "oritech:machine_efficiency_addon"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "54CB1952D6963861"
+			item: {
+				count: 1
+				id: "oritech:machine_capacitor_addon"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "307A5EE90244868C"
+			item: {
+				count: 1
+				id: "oritech:machine_acceptor_addon"
+			}
+			weight: 2.0f
+		}
+		{ id: "7B37E57E12F3B7C6", item: { count: 1, id: "oritech:machine_ultimate_addon" } }
+		{ id: "7E5F6992D60A6DED", item: { count: 1, id: "oritech:machine_extender" } }
+		{ id: "1899DD4145C0830A", item: { count: 1, id: "oritech:capacitor_addon_extender" } }
+	]
+}

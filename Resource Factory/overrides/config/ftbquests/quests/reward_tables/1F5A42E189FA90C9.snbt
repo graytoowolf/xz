@@ -1,0 +1,79 @@
+{
+	id: "1F5A42E189FA90C9"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			id: "4B724E7569CC66A7"
+			item: {
+				count: 1
+				id: "xnet:controller"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 8
+			id: "1A65BE9F0F3E740E"
+			item: {
+				count: 1
+				id: "xnet:connector_red"
+			}
+		}
+		{
+			count: 8
+			id: "0113BFEA4D45BB5C"
+			item: {
+				count: 1
+				id: "xnet:connector_green"
+			}
+		}
+		{
+			count: 8
+			id: "28DDD60C3B6C5E74"
+			item: {
+				count: 1
+				id: "xnet:connector_blue"
+			}
+		}
+		{
+			count: 8
+			id: "1395599BF2FE9481"
+			item: {
+				count: 1
+				id: "xnet:connector_yellow"
+			}
+		}
+		{
+			count: 32
+			id: "58B4E4261DD14E75"
+			item: {
+				count: 1
+				id: "xnet:netcable_red"
+			}
+		}
+		{
+			count: 32
+			id: "2AE13F056CFB0CFE"
+			item: {
+				count: 1
+				id: "xnet:netcable_green"
+			}
+		}
+		{
+			count: 32
+			id: "1B5C695E25EAD502"
+			item: {
+				count: 1
+				id: "xnet:netcable_blue"
+			}
+		}
+		{
+			count: 32
+			id: "0C3ED8CFBAB72298"
+			item: {
+				count: 1
+				id: "xnet:netcable_yellow"
+			}
+		}
+	]
+}

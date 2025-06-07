@@ -1,0 +1,8 @@
+#Custom Replicator Recipe
+[replicator_recipes]
+	#The recipes added here will be added to the replicator. Write using modid:registeredName#amount, # followed by the amount(not null or zero) of UU matter consumed. For example:["minecraft:stone#10","mekanism:basic_bin#100"]
+	replicatorRecipe = [
+		"mekanism:steel_casing#30","industrialforegoing:machine_frame_advanced#30","mekanism:alloy_atomic#2","mekanism:alloy_infused#2","mekanism:alloy_reinforced#2","advanced_ae:quantum_alloy#5","extendedcrafting:enhanced_redstone_ingot#2","oritech:prometheum_ingot#2","oritech:processing_unit#2","oritech:flux_gate#3","oritech:super_ai_chip#5","oritech:heisenberg_compensator#10","pneumaticcraft:unassembled_pcb#2","pneumaticcraft:printed_circuit_board#5","kubejs:alloy_ingots#5",
+		"mysticalagradditions:insanium_essence#3","industrialforegoing:machine_frame_pity#2","industrialforegoing:machine_frame_simple#3","industrialforegoing:machine_frame_supreme#30","ifeu:ultimate_machine_frame#100","oritech:machine_core_7#30","mekanism:reprocessed_fissile_fragment#1","ifeu:dragon_star#5","mekanism_extras:enriched_spectrum#1000","avaritia:eternal_singularity#10000","apotheosis:common_material#1","apotheosis:uncommon_material#5","apotheosis:rare_material#15",
+		"apotheosis:epic_material#50","apotheosis:mythic_material#100","ancientreforging:ancient_material#1000","apotheosis:gem_dust#5","mekanism_extras:enriched_radiance#50","mekanism_extras:enriched_thermonuclear#200","mekanism_extras:enriched_shining#500","avaritia:cosmic_meatballs#50","avaritia:ultimate_stew#50","avaritia:endest_pearl#50"
+		]

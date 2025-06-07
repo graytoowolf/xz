@@ -1,0 +1,378 @@
+{
+	id: "7485101461A50F37"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "3EB9170E36BFB106"
+			item: {
+				count: 1
+				id: "farmersdelight:bacon_and_eggs"
+			}
+		}
+		{
+			count: 4
+			id: "2EEF81A87AFBA290"
+			item: {
+				count: 1
+				id: "farmersdelight:pasta_with_meatballs"
+			}
+		}
+		{
+			count: 4
+			id: "667A858F8E9F7A43"
+			item: {
+				count: 1
+				id: "farmersdelight:pasta_with_mutton_chop"
+			}
+		}
+		{
+			count: 4
+			id: "0CA884D54355A30B"
+			item: {
+				count: 1
+				id: "farmersdelight:mushroom_rice"
+			}
+		}
+		{
+			count: 4
+			id: "2194536DD937E406"
+			item: {
+				count: 1
+				id: "farmersdelight:roasted_mutton_chops"
+			}
+		}
+		{
+			count: 4
+			id: "3CB2E5AD5B7487D5"
+			item: {
+				count: 1
+				id: "farmersdelight:vegetable_noodles"
+			}
+		}
+		{
+			count: 4
+			id: "66B5703F5AA70807"
+			item: {
+				count: 1
+				id: "farmersdelight:steak_and_potatoes"
+			}
+		}
+		{
+			count: 4
+			id: "46C00615A804917B"
+			item: {
+				count: 1
+				id: "farmersdelight:ratatouille"
+			}
+		}
+		{
+			count: 4
+			id: "778C6C9D0B8F7973"
+			item: {
+				count: 1
+				id: "farmersdelight:squid_ink_pasta"
+			}
+		}
+		{
+			count: 4
+			id: "684199D008B181E3"
+			item: {
+				count: 1
+				id: "farmersdelight:grilled_salmon"
+			}
+		}
+		{ id: "086FD8BD76352A78", item: { count: 1, id: "farmersdelight:roast_chicken_block" } }
+		{
+			count: 4
+			id: "5C13CFC58FA21E3B"
+			item: {
+				count: 1
+				id: "farmersdelight:roast_chicken"
+			}
+		}
+		{ id: "78C112CD1A2ABDF5", item: { count: 1, id: "farmersdelight:stuffed_pumpkin_block" } }
+		{
+			count: 4
+			id: "770F181062477CAD"
+			item: {
+				count: 1
+				id: "farmersdelight:stuffed_pumpkin"
+			}
+		}
+		{ id: "24A606E21FBC387B", item: { count: 1, id: "farmersdelight:honey_glazed_ham_block" } }
+		{
+			count: 4
+			id: "6CBFCD7873583730"
+			item: {
+				count: 1
+				id: "farmersdelight:honey_glazed_ham"
+			}
+		}
+		{ id: "1215A52201F0BC38", item: { count: 1, id: "farmersdelight:shepherds_pie_block" } }
+		{
+			count: 4
+			id: "1D6CA0E2F7FBB343"
+			item: {
+				count: 1
+				id: "farmersdelight:shepherds_pie"
+			}
+		}
+		{ id: "02A12BC2D0928202", item: { count: 1, id: "farmersdelight:rice_roll_medley_block" } }
+		{
+			count: 4
+			id: "479927D19A6EC7AD"
+			item: {
+				count: 1
+				id: "farmersdelight:noodle_soup"
+			}
+		}
+		{
+			count: 4
+			id: "732F70EE61FB549A"
+			item: {
+				count: 1
+				id: "farmersdelight:baked_cod_stew"
+			}
+		}
+		{
+			count: 4
+			id: "20BBC4B03CD97528"
+			item: {
+				count: 1
+				id: "farmersdelight:pumpkin_soup"
+			}
+		}
+		{
+			count: 4
+			id: "3C52586537F9AE83"
+			item: {
+				count: 1
+				id: "farmersdelight:pumpkin_soup"
+			}
+		}
+		{
+			count: 4
+			id: "43A9E550C6E59403"
+			item: {
+				count: 1
+				id: "farmersdelight:fried_rice"
+			}
+		}
+		{
+			count: 4
+			id: "58AD54AE118BEDFE"
+			item: {
+				count: 1
+				id: "farmersdelight:fish_stew"
+			}
+		}
+		{
+			count: 4
+			id: "6B58D6BE84B3C2A3"
+			item: {
+				count: 1
+				id: "farmersdelight:vegetable_soup"
+			}
+		}
+		{
+			count: 4
+			id: "0D579F7AE2E5A681"
+			item: {
+				count: 1
+				id: "farmersdelight:chicken_soup"
+			}
+		}
+		{
+			count: 4
+			id: "1FEA632183B7968B"
+			item: {
+				count: 1
+				id: "farmersdelight:beef_stew"
+			}
+		}
+		{
+			count: 4
+			id: "5B72887B74263FF3"
+			item: {
+				count: 1
+				id: "farmersdelight:bone_broth"
+			}
+		}
+		{
+			count: 4
+			id: "40846D517E0444FF"
+			item: {
+				count: 1
+				id: "farmersdelight:kelp_roll"
+			}
+		}
+		{
+			count: 4
+			id: "4FDF32BFAF510217"
+			item: {
+				count: 1
+				id: "farmersdelight:cod_roll"
+			}
+		}
+		{
+			count: 4
+			id: "5ADBB4C45B3CB993"
+			item: {
+				count: 1
+				id: "farmersdelight:salmon_roll"
+			}
+		}
+		{
+			count: 4
+			id: "169FD4B99B5A3CA5"
+			item: {
+				count: 1
+				id: "farmersdelight:stuffed_potato"
+			}
+		}
+		{
+			count: 4
+			id: "0A8A31041E4A1EB5"
+			item: {
+				count: 1
+				id: "farmersdelight:dumplings"
+			}
+		}
+		{
+			count: 4
+			id: "5A5B8E334833DD9A"
+			item: {
+				count: 1
+				id: "farmersdelight:dumplings"
+			}
+		}
+		{
+			count: 4
+			id: "2C5D6E652F177884"
+			item: {
+				count: 1
+				id: "farmersdelight:mutton_wrap"
+			}
+		}
+		{
+			count: 4
+			id: "23BB5E5FD9F20A81"
+			item: {
+				count: 1
+				id: "farmersdelight:bacon_sandwich"
+			}
+		}
+		{
+			count: 4
+			id: "63C96BA1F91B1B2A"
+			item: {
+				count: 1
+				id: "arsdelight:grilled_chimera_skewer"
+			}
+		}
+		{
+			count: 4
+			id: "5968A70FD1832A42"
+			item: {
+				count: 1
+				id: "arsdelight:chimera_skewer"
+			}
+		}
+		{
+			count: 4
+			id: "46C88778DAEC25B4"
+			item: {
+				count: 1
+				id: "arsdelight:grilled_wilden_skewer"
+			}
+		}
+		{
+			count: 4
+			id: "674FB6B6727A3279"
+			item: {
+				count: 1
+				id: "arsdelight:wilden_skewer"
+			}
+		}
+		{
+			count: 4
+			id: "478CD864E7BFC644"
+			item: {
+				count: 1
+				id: "arsdelight:grilled_chimera_meat_slice"
+			}
+		}
+		{
+			count: 4
+			id: "2366A8D6DB03B68D"
+			item: {
+				count: 1
+				id: "arsdelight:grilled_chimera_meat"
+			}
+		}
+		{
+			count: 4
+			id: "2DA71D7C725A87E6"
+			item: {
+				count: 1
+				id: "arsdelight:grilled_wilden_meat_slice"
+			}
+		}
+		{
+			count: 4
+			id: "1CE04FA48F49B3A3"
+			item: {
+				count: 1
+				id: "arsdelight:grilled_wilden_meat"
+			}
+		}
+		{
+			count: 2
+			id: "69EF687116B18A4C"
+			item: {
+				count: 1
+				id: "arsdelight:source_berry_cupcake"
+			}
+		}
+		{
+			count: 4
+			id: "2101BCEF933F423D"
+			item: {
+				count: 1
+				id: "arsdelight:wilden_sauce"
+			}
+		}
+		{
+			count: 2
+			id: "0DBB88EBC88CB3CD"
+			item: {
+				count: 1
+				id: "arsdelight:arch_soup"
+			}
+		}
+		{
+			count: 2
+			id: "5E76ECF78C700582"
+			item: {
+				count: 1
+				id: "arsdelight:wilden_stew"
+			}
+		}
+		{
+			count: 2
+			id: "4951669FDF592EEF"
+			item: {
+				count: 1
+				id: "arsdelight:bowl_of_wilden_salad"
+			}
+		}
+		{ id: "04DC0E6A072A4921", item: { count: 1, id: "arsdelight:horn_roll" } }
+		{ id: "64E829BFB3553F61", item: { count: 1, id: "arsdelight:bowl_of_honey_glazed_chimera" } }
+		{ id: "05CB62B8E967F00F", item: { count: 1, id: "arsdelight:frostaya_mutton" } }
+		{ id: "2F9B2DD4DA6EF5A2", item: { count: 1, id: "arsdelight:bombegrante_steak" } }
+		{ id: "4C518E021CE53ACB", item: { count: 1, id: "arsdelight:bastion_pork" } }
+		{ id: "22CCF30A730CFAB7", item: { count: 1, id: "arsdelight:mendosteen_chicken" } }
+	]
+}

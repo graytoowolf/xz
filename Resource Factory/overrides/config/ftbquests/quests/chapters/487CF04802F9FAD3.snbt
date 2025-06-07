@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "487CF04802F9FAD3"
+	group: "4BB37FF82D50F5F5"
+	id: "487CF04802F9FAD3"
+	images: [{
+		click: "https://discord.gg/3bV5B3xA"
+		height: 1.0d
+		image: "ars_nouveau:textures/gui/discord_tab.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 4.5d
+	}]
+	order_index: 0
+	quest_links: [
+		{
+			id: "3F98CB85C0F55E84"
+			linked_quest: "7F06E6914E56612A"
+			shape: "gear"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "54AA515B1751AE3E"
+			linked_quest: "622B20FB6E2FBCD6"
+			shape: "gear"
+			size: 1.25d
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+	quests: [
+		{
+			id: "5095759283312A0A"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "6B802739214DC03E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2F4E35ACFF68AD7E"
+			shape: "square"
+			tasks: [{
+				id: "0B9834366A39F904"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "406E798A355807C8"
+			shape: "square"
+			tasks: [{
+				id: "2F6B21B42E3FC15B"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5095759283312A0A"]
+			id: "304B7644F5227FBB"
+			shape: "square"
+			tasks: [{
+				id: "70F0F9F84BE8C5A4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

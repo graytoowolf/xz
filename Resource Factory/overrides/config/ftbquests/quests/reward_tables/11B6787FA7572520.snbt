@@ -1,0 +1,122 @@
+{
+	id: "11B6787FA7572520"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 4
+			id: "2B69D91C95FF7AFE"
+			item: {
+				count: 1
+				id: "laserio:laser_node"
+			}
+		}
+		{
+			count: 4
+			id: "7803096FC693DE06"
+			item: {
+				count: 1
+				id: "laserio:laser_connector"
+			}
+		}
+		{
+			count: 4
+			id: "71A75754FB5FDA5F"
+			item: {
+				count: 1
+				id: "laserio:filter_basic"
+			}
+		}
+		{
+			count: 4
+			id: "5932CD4D0F9C6F3A"
+			item: {
+				count: 1
+				id: "laserio:filter_count"
+			}
+		}
+		{
+			count: 4
+			id: "0CC924C26A198541"
+			item: {
+				count: 1
+				id: "laserio:filter_tag"
+			}
+		}
+		{
+			count: 4
+			id: "2B8276424462D712"
+			item: {
+				count: 1
+				id: "laserio:filter_mod"
+			}
+		}
+		{
+			count: 4
+			id: "79A7557CA22227B4"
+			item: {
+				count: 1
+				id: "laserio:filter_nbt"
+			}
+		}
+		{
+			count: 4
+			id: "7D3D89B0F94FEC9A"
+			item: {
+				count: 1
+				id: "laserio:overclocker_card"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "7D5AA1059384BB81"
+			item: {
+				count: 1
+				id: "laserio:overclocker_node"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 32
+			id: "389DF902BDF0A2C6"
+			item: {
+				count: 1
+				id: "laserio:logic_chip"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			id: "17F4324BACAAA8BA"
+			item: {
+				count: 1
+				id: "laserio:card_item"
+			}
+		}
+		{
+			count: 4
+			id: "2A191979394E6F4D"
+			item: {
+				count: 1
+				id: "laserio:card_fluid"
+			}
+		}
+		{
+			count: 4
+			id: "17E962E8DD14CAF6"
+			item: {
+				count: 1
+				id: "laserio:card_energy"
+			}
+		}
+		{
+			count: 4
+			id: "3E4015606B98DD9D"
+			item: {
+				count: 1
+				id: "laserio:card_redstone"
+			}
+		}
+	]
+}

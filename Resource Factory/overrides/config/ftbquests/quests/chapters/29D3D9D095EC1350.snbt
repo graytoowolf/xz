@@ -1,0 +1,232 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "29D3D9D095EC1350"
+	group: "508CCAE618EF8840"
+	id: "29D3D9D095EC1350"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["144B4D213DF48B77"]
+			id: "682FCB62FBAE0865"
+			tasks: [{
+				id: "624FDA81006F3E59"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["682FCB62FBAE0865"]
+			id: "336362EABD280F94"
+			rewards: [
+				{
+					id: "456AB76BB3D45AC3"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:golden_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "52FA2BB8FCD3F663"
+					item: {
+						count: 1
+						id: "minecraft:writable_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "669EBBAE40C53CE5"
+					item: { count: 1, id: "minecraft:black_dye" }
+					type: "item"
+				}
+				{
+					id: "09EDFC7D5A2372CB"
+					item: { count: 1, id: "minecraft:ink_sac" }
+					type: "item"
+				}
+				{
+					id: "6AC132BC8E1B4B78"
+					item: { count: 1, id: "minecraft:feather" }
+					type: "item"
+				}
+				{
+					id: "681B8F83DDC8B093"
+					item: { count: 1, id: "minecraft:light_gray_dye" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["336362EABD280F94"]
+			id: "786D775E53D33DF0"
+			tasks: [{
+				id: "273B3847A699876A"
+				item: { count: 1, id: "occultism:book_of_binding_empty" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"786D775E53D33DF0"
+				"5F5CCCB3BF07B1DE"
+			]
+			id: "5E12B74F57878D7A"
+			tasks: [
+				{
+					id: "60992016DCF4B15F"
+					item: { count: 1, id: "occultism:dimensional_mineshaft" }
+					type: "item"
+				}
+				{
+					id: "3FBD6484CDCF2221"
+					item: { count: 1, id: "ars_nouveau:summon_focus" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["786D775E53D33DF0"]
+			icon: {
+				id: "ars_nouveau:ritual_brazier"
+			}
+			id: "012491145913F379"
+			rewards: [{
+				id: "3A01A93D59170F7D"
+				item: {
+					components: {
+						"!minecraft:damage": { }
+						"!minecraft:max_damage": { }
+						"apotheosis:affix_name": {
+							color: "rainbow"
+							italic: 0b
+							translate: "misc.apotheosis.affix_name.three"
+							with: [
+								{
+									translate: "affix.ancientreforging:armor/attribute/stalwart"
+								}
+								{
+									: ""
+								}
+								{
+									translate: "affix.ancientreforging:armor/attribute/adamantine.suffix"
+								}
+							]
+						}
+						"apotheosis:affixes": {
+							"ancientreforging:armor/attribute/blessed": 1.0f
+							"ancientreforging:armor/attribute/ironforged": 1.0f
+							"ancientreforging:armor/attribute/spiritual": 1.0f
+							"ancientreforging:armor/attribute/stalwart": 1.0f
+							"ancientreforging:armor/attribute/steel_touched": 1.0f
+							"ancientreforging:armor/dmg_reduction/blast_forged": 1.0f
+							"ancientreforging:armor/dmg_reduction/blockading": 1.0f
+							"ancientreforging:armor/mob_effect/bolstering": 1.0f
+							"ancientreforging:armor/mob_effect/bursting": 1.0f
+						}
+						"apotheosis:durability_bonus": 0.8348072f
+						"apotheosis:rarity": "ancientreforging:ancient"
+						"apotheosis:socketed_gems": [
+							{
+								item: {
+									components: {
+										"apotheosis:gem": "apotheosis:core/guardian"
+										"apotheosis:purity": "perfect"
+									}
+									count: 1
+									id: "apotheosis:gem"
+								}
+								slot: 0
+							}
+							{
+								item: {
+									components: {
+										"apotheosis:gem": "apotheosis:core/warlord"
+										"apotheosis:purity": "perfect"
+									}
+									count: 1
+									id: "apotheosis:gem"
+								}
+								slot: 1
+							}
+							{
+								item: {
+									components: {
+										"apotheosis:gem": "apotheosis:core/tyrannical"
+										"apotheosis:purity": "perfect"
+									}
+									count: 1
+									id: "apotheosis:gem"
+								}
+								slot: 2
+							}
+							{
+								item: {
+									components: {
+										"apotheosis:gem": "apotheosis:overworld/verdant_ruin"
+										"apotheosis:purity": "perfect"
+									}
+									count: 1
+									id: "apotheosis:gem"
+								}
+								slot: 3
+							}
+							{
+								item: {
+									components: {
+										"apotheosis:gem": "apotheosis:core/brawlers"
+										"apotheosis:purity": "perfect"
+									}
+									count: 1
+									id: "apotheosis:gem"
+								}
+								slot: 4
+							}
+						]
+						"apotheosis:sockets": 5
+						"forbidden_arcanus:modifier": "forbidden_arcanus:eternal"
+						"minecraft:item_name": "{\"extra\":[\" \",{\"translate\":\"item.minecraft.golden_chestplate\"}],\"translate\":\"modifier.forbidden_arcanus.eternal\"}"
+					}
+					count: 1
+					id: "minecraft:golden_chestplate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2FFAD96312A0C5A7"
+					item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
+					type: "item"
+				}
+				{
+					id: "219BEAA8B9C68F54"
+					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["012491145913F379"]
+			id: "5F5CCCB3BF07B1DE"
+			tasks: [{
+				id: "1CE7DCCE97B7E4A5"
+				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+	]
+}

@@ -1,0 +1,1105 @@
+{
+	chapter.041619D56AEE7696.title: "能量"
+	chapter.07A9993A4D675BBF.title: "专家"
+	chapter.135AB56F0675BAE4.title: "功能/兑换"
+	chapter.176088AFA65F4A40.title: "困难"
+	chapter.29D3D9D095EC1350.title: "困难的资源生产"
+	chapter.3506BB0F8970E932.title: "容易"
+	chapter.3C63C7C1E8ECC7AF.title: "挑战"
+	chapter.487CF04802F9FAD3.title: "欢迎"
+	chapter.4AFFD1F4E45C0112.title: "简单"
+	chapter.54B0869A79B0A006.title: "自定义机械"
+	chapter.7184AE56362FAEEE.title: "实用工具"
+	chapter.73DED79CA5687260.title: "无限供应[可选]"
+	chapter_group.29283D01EA194775.title: "提示"
+	chapter_group.4BB37FF82D50F5F5.title: "Resource Factory"
+	chapter_group.508CCAE618EF8840.title: "主线--获取资源"
+	quest.007098383D028C06.quest_desc: [
+		"这个世界只有冰和雪，当然还有天空。"
+		""
+		"初始的基地为你提供了一些机器，工具。接下来你需要用到这些机器"
+		""
+		"如果你不会使用oritech的机器可以查看每个机器左下角的问号打开wiki。"
+	]
+	quest.00E36CDAB15DB557.quest_desc: [
+		"进行仪式"
+		""
+		"此结构不需要自动化，当然对于大量制作单一物品你可以用漏斗或者管道进行半自动。"
+		""
+		"如果你是第一次接触这个mod请查看模组手册'自然灵气之书'(此任务的任务奖励)。你完全可以按照书中的进程进行，没有更改该mod的进程，可能会有一些不一样的配方。这个仪式怎么使用请看模组手册。"
+	]
+	quest.012491145913F379.quest_desc: ["你需要先启动一个基础的仪式获得一些荒野怪物的掉落物"]
+	quest.01C570A2527D9A9F.quest_desc: [
+		"第三章正式开始科技，制作自动化需要大量的能量，从这一章开始将会提供非常多的发电设备，你可以随意选择。这里推荐两个最优选。"
+		""
+		"当然蒸汽机也是一个非常好的选择，进行了加强"
+		""
+		"同时这一章开始你要着手蓄电，特别是使用太阳能的情况下。在这个阶段最好的蓄电就是oritech"
+	]
+	quest.01D3862B2C5129E8.quest_desc: ["放入工业挤压机"]
+	quest.01E508CD2B4039EC.quest_desc: [
+		"基地内有一个盔甲架，获得他并放入磨粉机粉碎获得3个木板一个圆石"
+		""
+		"注:如果你想要使用Silent Gear的工具，请先合成原版的石锹完成任务"
+	]
+	quest.025B5BF398B89211.quest_desc: [
+		"请尽快制作自动化产线！"
+		""
+		"注:法术粉碎可以不制作自动化，或者半自动，后面有更好的处理方式"
+		""
+		"如果你需要更多的初始机器请看第一章"
+	]
+	quest.025B5BF398B89211.title: "流体离心"
+	quest.02B2BBC1FD8F0AC4.quest_desc: [
+		"&a这里主要列举每个机器的可用升级及属性，模块化机械的升级方块放置位置请使用机械蓝图查看"
+		""
+		"&b自定义机器的升级为通用，后两个等级的属性差异左侧查看任务"
+		""
+		"&d注意:模块化机械的升级会一定程度的增加能量输入，如果配方无法运行请检查你的能源输入仓是否足够运行配方"
+		""
+		"配方检查时间已更改为100tick，有时候你需要等5s-10s"
+		""
+		"结构检查时间已更改为60tick"
+		""
+		"这两项配置性能影响非常大。"
+		""
+		"因为并行仓等于再创建一个机器运行，性能影响较大，所以并行仓只开放3种，最多同时处理4个配方。"
+		""
+		"在控制器页面你可以看到核心的运行情况，是的一个核心就等同于一台机器。"
+	]
+	quest.02D799A9D38E0112.quest_desc: [
+		"接下来你需要通过不同方式处理成不同的矿物原矿"
+		""
+		"请查看JEI获得配方"
+	]
+	quest.030B63A5E1BC5615.quest_desc: [
+		"像下图这样放置，注意至少需要两个盔甲架，并且放多个盔甲架需要从高处放落在挤压机上。"
+		"如果你想解放双手就把按钮换成红石钟，再加一个漏斗。"
+		"{image:ftbq:textures/squeezer.png width:100 height:100 align:center}"
+	]
+	quest.030B63A5E1BC5615.quest_subtitle: "简易自动化"
+	quest.048A9D410CA4BE26.quest_desc: [
+		"输出物品x1.5"
+		"能量输入 x2"
+	]
+	quest.04C00DFCE9633105.title: "蚀空合金镐"
+	quest.050A09D2F5D6B964.quest_desc: [
+		"我添加了新的热源"
+		""
+		""
+		"这里说一下&6热力发电机发电规则"
+		""
+		"发电公式："
+		""
+		"实际输出 = (热源温度 ÷ 1000) × 发电机基础功率"
+		""
+		"示例："
+		""
+		"岩浆块（温度800）"
+		""
+		"初级发电机（20 RF/t）→ (800 ÷ 1000) × 20 = 16 RF/t"
+		""
+		"硬化发电机（100 RF/t）→ (800 ÷ 1000) × 100 = 80 RF/t"
+		""
+		"烈焰晶体块（温度2800）"
+		""
+		"初级发电机（20 RF/t）→ (2800 ÷ 1000) × 20 = 56 RF/t"
+		""
+		"硬化发电机（100 RF/t）→ (2800 ÷ 1000) × 100 = 280 RF/t"
+	]
+	quest.050A09D2F5D6B964.title: "热力发电机"
+	quest.05A9302BEC96D4A2.quest_desc: ["将骨粉撒在草方块上破坏草获得种子"]
+	quest.06326BB3C7B244F8.quest_desc: [
+		"铁矿石受到tnt爆炸会随机掉落这三种物品，每种物品有50%概率"
+		""
+		"注意请关闭ftbc的爆炸保护，需要tnt的爆炸破坏方块才能触发配方"
+	]
+	quest.0661B17ACC01F907.quest_desc: [
+		"&3&l1.任务奖励&r"
+		""
+		""
+		"&3&l2.配方类型：方块粉碎（Block Crushing）&r"
+		"详见JEI"
+		""
+		"使一个沙砾下落砸在金块上，金块和沙砾消失掉落2个硬币"
+		""
+		"如果在前期你想自动化可以使用发射器"
+		""
+		"lychee允许带有\"lychee：dispenser_placement\"物品标签的方块被发射器放置。"
+		"在jei搜索框加一个#字符搜索标签"
+		""
+		"在前期这个配方较贵，不建议使用。"
+		""
+		""
+		"&3&l3.配方类型 dripstone_dripping&r"
+		"详见JEI"
+		""
+		"需要下界合金块，前期可以用硬币兑换下界合金块，不会消耗任何物品和方块.也就是可以一直产出硬币"
+		""
+		"{ \"text\": \"Click to jump to the page\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10FF5AD57E2C9509\" } }"
+	]
+	quest.0661B17ACC01F907.quest_subtitle: "方块粉碎"
+	quest.0661B17ACC01F907.title: "硬币获取方式"
+	quest.06A982FF7D76A6B8.quest_desc: ["虽然你无法采集黑曜石，但是你可以制造黑曜石。注意，这个机器不需要将流体放在世界中，它可以读取紧邻的储罐。同时上方自动输出，不支持管道。"]
+	quest.06A982FF7D76A6B8.title: "方块制造机"
+	quest.079AB04FBF23E4C6.quest_desc: [
+		"矿石creeper！"
+		""
+		"&d注意：矿石苦力怕的生成已被禁止，所以请不要浪费你的刷怪蛋。"
+	]
+	quest.08DDC2A943F66B27.title: "虚空石"
+	quest.09E22E5FC07B4B29.quest_desc: ["对于熔铸炉你可以选择使用，它可以获得二倍的资源"]
+	quest.09E22E5FC07B4B29.title: "熔铸炉"
+	quest.0AA1AFA2A6A78F94.quest_desc: ["更简单的获得生物燃料"]
+	quest.0AAEE6EF6A9098C8.quest_desc: [
+		"这一章节任务主要是告诉你本整合包大致的发电设备有哪些分别在哪个阶段可用，有什么更改。"
+		""
+		"还有推荐的蓄电设施"
+		""
+		"这里只有推荐的发电设备以及蓄电设备，你也可以使用其他设备，但是收益很低"
+	]
+	quest.0ABF0C9A04E8FD5C.quest_desc: [
+		"注意，请留出一定的高度"
+		""
+		"他会改变群系"
+	]
+	quest.0AC168461ABEE8A3.quest_desc: [
+		"将他放入样板供应器配合机器自带的弹出即可实现全ae精简自动化"
+		""
+		"&n&a同时在这里说一个全ae水培床方法"
+		""
+		""
+		"现在工业先锋也有复制机器配置的工具，ae有内存卡"
+		""
+		"如何摆放随意，只要保证每个水培床都接触到me接口"
+		""
+		"将感应卡放入me接口，然后标记水，以太。"
+		""
+		"再机器配置贴着me接口那一面，"
+		""
+		"水，以太，设置为蓝色自动输入"
+		""
+		"输出设置为橙色自动输出"
+		""
+		"之后使用机器配置复制器已经内存卡即可快速批量配置。"
+	]
+	quest.0AF16EEBC083692F.quest_desc: ["添加了新的配方，当然你也可以用原版的获得方式"]
+	quest.0B5F9A01D21F1673.quest_desc: [
+		"如果可以，我建议首先使用ae完成自动化，自动化过程中的物流也使用ae。其次使用SFM和XNET。对于Pipez非常不推荐，其他管道类的物流mod也不推荐使用。"
+		""
+		"你可能需要使用非常多的频道，推荐使用p2p合理分配频道"
+		""
+		"当然，你也可以使用大量无线连接器"
+		""
+		""
+		"如果你愿意使用p2p，最好创建一个子网分配频道，用无线连接器+p2p在任何地方使用少量的线缆分配频道"
+	]
+	quest.0B8A9BFC40E9BC8B.quest_desc: [
+		"&a修改配方速度，输入能量的升级的计算规则相同，使用&r&n&b乘方运算"
+		""
+		"最终结果 = 原始值 x (升级的修改值^数量)"
+		""
+		"例： "
+		"配方需要100tick完成"
+		""
+		"修改值 -50%"
+		""
+		"数量 = 1 时"
+		""
+		"实际tick = 100t x ((1-50%)^1) = 50t"
+		""
+		"数量= 2 时"
+		""
+		"实际tick = 100t x ((1-50%)^2) = 25t"
+	]
+	quest.0B8A9BFC40E9BC8B.quest_subtitle: "&d仅适用于自定义机器mod(左方)"
+	quest.0CC209E3C58B6E97.title: "ME无限白色混凝土元件"
+	quest.0CCA89A3C3254661.quest_subtitle: "切换游戏模式！"
+	quest.0D39E4D4924ECB5A.quest_desc: ["获得煤炭"]
+	quest.0D4E1B2EA42C352B.quest_desc: [""]
+	quest.0EF082988964DD49.quest_desc: ["你可以直接使用附魔装置制作或者使用闪耀纤维感染树叶"]
+	quest.0FE8D37FDBF6565D.title: "工业先锋范围升级"
+	quest.10FF5AD57E2C9509.title: "下界合金块"
+	quest.11CCB6E06846DE77.quest_desc: [""]
+	quest.11E65111F81B652D.quest_desc: [
+		"如何获得至高木？"
+		"你需要吃下魔鬼之梦果实获得第三只眼的效果之后破坏深色橡木"
+	]
+	quest.11E65111F81B652D.title: "第三只眼"
+	quest.12F08B14875B0620.quest_desc: [
+		"更高级的仪式"
+		""
+		"高级的仪式需要使用火灵及魔王等级的五芒星，五芒星中会用到一定数量的此物品。同时还有凋零骷髅头颅。"
+	]
+	quest.138CF12DADEF45E1.quest_desc: ["需要在下界维度才可以使用"]
+	quest.144B4D213DF48B77.quest_desc: ["下一章将深入新生魔艺和神秘学以及实用拓展"]
+	quest.144B4D213DF48B77.title: "树苗！"
+	quest.144E2C4FE77A9CE9.quest_desc: ["这些强大的物流mod如果你不会使用请查询相关wiki学习。特别是SFM，如果你会简单的使用SFM在制作自动化产线时会简单并且美观很多"]
+	quest.154E070E961C8AE4.quest_desc: [
+		"凝胶的配置进行了修改默认合成完之后有10%概率\"死亡\""
+		""
+		"现在合成完之后不会死亡，你可以更简单的进行自动化"
+	]
+	quest.1679204D62E35548.quest_desc: [
+		"刷怪蛋需要副手拿着rftools的注射器并击杀对应怪物获得，女巫刷怪蛋需要使用僵尸刷怪蛋点击嬗变催化器"
+		""
+		"请查看JEI"
+		""
+		"接下来需要开始制作自动化产线，现在先吃点好的"
+	]
+	quest.16C26AB017A1E0B6.title: "ME无限橙色混凝土元件"
+	quest.16E6CAEA83F9827B.quest_desc: [
+		"将他放入样板供应器配合机器自带的弹出即可实现全ae精简自动化"
+		""
+		"&n&a同时在这里说一个全ae水培床方法"
+		""
+		""
+		"现在工业先锋也有复制机器配置的工具，ae有内存卡"
+		""
+		"如何摆放随意，只要保证每个水培床都接触到me接口"
+		""
+		"将感应卡放入me接口，然后标记水，以太。"
+		""
+		"机器配置贴着me接口那一面:"
+		""
+		"水，以太，设置为蓝色自动输入"
+		""
+		"输出设置为橙色自动输出"
+		""
+		"之后使用机器配置复制器已经内存卡即可快速批量配置。"
+	]
+	quest.175E2BA8D14DC1FC.quest_desc: [
+		"ae的附属非常丰富，几乎可以存储一切"
+		""
+		"非常建议使用能源元件存储能源"
+	]
+	quest.17B39420E23D3CB9.quest_desc: ["注意：创造模式压缩机也会爆炸，如果你把他搞炸了只能暂时使用其他压缩机了"]
+	quest.17B39420E23D3CB9.title: "压力室"
+	quest.1862824C8247A775.title: "效率升级"
+	quest.199D30DBADFBC067.quest_desc: ["不过还需处理一下"]
+	quest.19A6EB1D731ED07D.quest_desc: [
+		"接下来你需要先制作一个刷怪塔获取魔源，当然你也可以使用其他方式"
+		""
+		"如果你是第一次接触新生魔艺这个mod，你需要制作一本模组手册'破旧的笔记本'(上一个任务的任务奖励)。之后你有任何的问题都可以查看这本手册.如果你需要查看特定物品，你只需要把手册放置在物品栏内，之后打开背包光标放在新生魔艺的物品上你会发现有一个不一样的图标，你只需要按住ctrl即可打开这个物品的页面。"
+	]
+	quest.19FA5DAF81DD0626.title: "工业先锋升级"
+	quest.1A7C3016DA72EED8.quest_desc: ["末影珍珠碎片制作末影珍珠，需要10t，"]
+	quest.1A988CFC8E743F28.quest_desc: [
+		"乘法"
+		"每个升级："
+		"速度x0.5"
+		"输入能量x1.2"
+	]
+	quest.1AE68832252A5F79.quest_desc: [
+		"oritech蒸汽机大加强，蒸汽转rf比例由1:1增强为1:3。"
+		""
+		"本整合包应该不会缺电，无论是太阳能还是蒸汽发电，还是后面的powah热力发电机都有非常变态的发电。"
+		"但是无论如何我都建议蓄电。"
+	]
+	quest.1AF3993613661CBE.quest_desc: [
+		"输出物品x2"
+		"输入能量x3"
+	]
+	quest.1B7110926EA1142B.quest_desc: [
+		"可以刷出很多生物，具体还是要看你所在的生物群系。是的我没更改这个世界的生物群系，只更改了地形。"
+		""
+		"可能最大的作用是可以刷新出新生魔艺的几种生物"
+	]
+	quest.1CB87F706369A56F.quest_desc: [""]
+	quest.1CFD9999D345FE40.title: "锻造模板"
+	quest.1D3805B387A47CC4.quest_desc: ["这条线以石油为主,近期oritech进行了改动，现在可以用生物燃油"]
+	quest.1DFF21003A3D5571.quest_desc: [""]
+	quest.1DFF21003A3D5571.quest_subtitle: "神奇的流体"
+	quest.1EAD7EDA5719CE25.quest_desc: ["流体离心"]
+	quest.1EB86343B7795878.quest_desc: ["整合包的内容到这即为结束。后面的内容是可选的，当然你也可以尝试一下，我已经适当的优化减少大量重复工作"]
+	quest.1EB86343B7795878.quest_subtitle: "End"
+	quest.1EB86343B7795878.title: "结束"
+	quest.1EDE998B4C1BA0BA.quest_desc: ["试试手气吧"]
+	quest.1EE80EF904B139C5.quest_desc: ["使用屠刀击杀苦力怕掉落动物油脂。快来和 Creeper 1V1对决吧 "]
+	quest.1EE80EF904B139C5.title: "蜡烛"
+	quest.1F24A8C0A170E7B8.quest_desc: ["既然回响碎片可以合成幽匿块，那为什么不能反向拆分呢？"]
+	quest.1F55222AE112C86F.quest_desc: ["现在你可以制作所有使用离魂种子基座的种子,不过这个配方较贵"]
+	quest.21226F9FFB23A3C2.quest_desc: ["翻倍翻倍翻倍"]
+	quest.21CA62E3B28BFCDE.quest_desc: [
+		"是不是感觉少了些什么？"
+		""
+		"作物获取方式详见JEI信息页面"
+	]
+	quest.21F50313E204994A.title: "喷气背包"
+	quest.21FA3BDCBFD1E65E.title: "切换至夜晚"
+	quest.22D75F194F7EB51F.quest_desc: ["你也可以合成苍穹锭但是会亏损8个"]
+	quest.240AC279C39676F9.quest_desc: ["升级效果增加 5% -> 10%"]
+	quest.2498D13B7C1FFE0B.quest_desc: [""]
+	quest.25677BC8D035CC09.quest_desc: ["此结构不需要自动化。同时还有一个部分人不知道的小知识，它&l&3可以同时进行至多16个配方并且只消耗一个呼唤之魂&r。需要放置在祭坛里的材料可以堆叠，至多16个，如果该物品堆叠小于16，只可以放置该物品的最大堆叠的数量。这里同时放置多少个物品你就可以同时制作多少个配方，并且只消耗一个呼唤之魂"]
+	quest.25A2914BA1ED9463.quest_desc: ["如果你需要制作oritech机器的自动化，这个升级插件将很有用"]
+	quest.25B71B3FE4C38504.quest_desc: ["获得这五种掉落物"]
+	quest.26635D693EE7F7A9.quest_desc: ["我修改了苔石的配方，现在你可以很容易的循环"]
+	quest.26E96B4A9865EC8D.quest_desc: ["下界合金镐采集矿石掉落8个粗矿"]
+	quest.2777D655AD35A4D5.quest_desc: [
+		"第四章深入oritech，同时需要运行许多模拟室，会用到更多电量，所以我对powah的发电设备进行了更改。热力发电机会是最好用的发电设备"
+		""
+		"对于蓄电，仍然推荐oritech，但是为了让这个装置能存更多的电，你需要消耗非常多的电。当然如果你的资源足够制作ae能源元件，这是更好的选择。"
+	]
+	quest.27D6F945364ECD17.quest_desc: ["因为用量不大你完全可以不处理他,你可以直接使用碎矿者粉碎"]
+	quest.28234803F4228D45.quest_desc: ["非常建议使用充能油，相对来说非常容易获得。"]
+	quest.28A3CD08EDE5F6B3.quest_desc: [
+		"输出物品x3"
+		"输入能量x4"
+	]
+	quest.28B46DC4C22FA5C3.title: "x2"
+	quest.28FFDF73F9C99221.quest_desc: ["使用钻石镐采集矿物可以一次掉落3个粗矿"]
+	quest.2A9B6C568BE5C8B4.title: "离心"
+	quest.2B22777A54A4610C.title: "如果你喜欢使用母岩"
+	quest.2BC01095CF10CD31.quest_desc: ["第二章依旧不需要使用太多能量"]
+	quest.2CD2CD8261662996.quest_desc: ["第一章对于电量消耗并不高，初始的两个太阳能+蓄电足够使用"]
+	quest.2D6C26682FBCE962.title: "普通品质能力图腾"
+	quest.2E25D6A19727C431.quest_desc: ["你可以选择使用高炉烧制高定向热解石墨粉"]
+	quest.2E25D6A19727C431.title: "你这钻石保真吗"
+	quest.2E7589912F871976.quest_desc: [""]
+	quest.2EB0D9F3C48B24B5.quest_desc: [
+		"前面两章已经为你构建自动化产线提供了较为基础的材料，现在你需要制造中级资源的生产线。"
+		""
+		"本章涉及新生魔艺，神秘学，实用拓展，沉浸工程，自然灵气"
+	]
+	quest.2EFCA72376C251F6.quest_desc: [
+		"使用生物质在离心机内制作木板"
+		""
+		"你现在已经可以制作基础的工具，但是离树苗依旧很遥远"
+	]
+	quest.2F2014A69453B4C1.title: "防止你的任务卡住"
+	quest.2F3E7AF12C4649F4.quest_desc: [
+		"从现在开始你需要大量使用灵气"
+		""
+		"你可以使用模组的方法制造灵气，也可以使用我添加的方块点击事件"
+		""
+		"使用铁石右键沼泽之霍米消耗一个铁石生成灵气"
+	]
+	quest.2F4E35ACFF68AD7E.quest_desc: [
+		"使用/skyblock gui打开基地队伍创建页面"
+		""
+		"基地内的oritech机器由于是直接生成，存在一定问题，请将核心机器以及机器核心重新放置激活"
+	]
+	quest.2F658F703090B039.quest_subtitle: "真的自然吗?"
+	quest.304B7644F5227FBB.quest_desc: [
+		"如果你发现有不合理的地方，有配方错误或者其他问题可以在discord上反馈。"
+		""
+		"但是我的能力有限，我只能在整合包的mod配置，配方，任务等方面提供帮助。mod导致的崩溃等等我无法提供帮助。"
+		""
+		"如果你有好的建议也可以在discord上反馈。"
+		""
+		"点击下方图片跳转至discord邀请链接"
+	]
+	quest.31313166D085D850.quest_desc: ["如果你不想使用太阳能，此发电设备产蒸汽应该是最好的选择，或者你可以选择使用岩浆发电机烧蒸汽，使用蒸汽发电"]
+	quest.31DE6D7842A42FAD.quest_desc: [
+		"为机器添加了新的配方"
+		""
+		"具体查看jei"
+	]
+	quest.31DE6D7842A42FAD.title: "岩浆发电机"
+	quest.31DF136BFE128071.quest_desc: ["你的第一颗绿宝石需要与村民交易获得"]
+	quest.31DF136BFE128071.title: "村民"
+	quest.324C8CA19E6C7D46.quest_desc: ["无论如何都强烈建议使用装配矩阵，在进行大量合成，多并行任务中，装配矩阵比分子装配室拥有更好的性能。"]
+	quest.32F047ECA679411B.quest_desc: [
+		"将怪物掉落物放入磨粉机制作生物质"
+		""
+		"&a由于此结构是直接生成，oritech的机器可能会出现问题，你需要将机器以及机器核心重新放置."
+		""
+		"给你一个石镐，防止你没有足够的材料制作"
+	]
+	quest.3345D0EC20666C11.quest_desc: [""]
+	quest.3345D0EC20666C11.quest_subtitle: "可以使用对着方块使用生物质无限获取"
+	quest.3359E5A18FA2E7E6.quest_desc: [""]
+	quest.336362EABD280F94.quest_desc: [
+		"获取墨囊和羽毛制作书与笔"
+		""
+		"请查看JEI"
+	]
+	quest.339BFD843B424AC8.quest_desc: ["火之精华可以作为高炉燃料"]
+	quest.33FD5243265FB8F1.title: "时间之袋"
+	quest.347FF35851FB0BBF.quest_desc: [
+		"经典套娃，因为改配方太麻烦了，而且目前你肯定可以ae自动化。"
+		"所以我为powah加了些新的东西，完全是无解的轮椅"
+	]
+	quest.347FF35851FB0BBF.title: "powah"
+	quest.34F5FB938BF1BB0F.quest_desc: ["你只需要制作一个然后使用量子色彩编码器复制"]
+	quest.35D3FD2600DFD679.quest_desc: [
+		"现在你可以逐渐拆除你的产线，神秘农业，蜜蜂让你更容易的获得资源。"
+		""
+		"本章节虽为挑战，但是难度其实并不高。之所以命名挑战是因为这章你需要枯燥的走完mek的流程。"
+		"当然我也更改了一些配置文件来减少无意义的堆量/挂机。"
+		"当你做出终极工作台你就已经完成了这个包，后续仍然有一个可以选择的章节，在最后你可以切换游戏模式。为了服务器玩家考虑，不会给与op。"
+		""
+		"主要围绕mek以及meke进行魔改"
+	]
+	quest.3623DB1E4690ED6D.quest_desc: ["使用焦黑石英右键铁质外壳"]
+	quest.3727A98F9FE7EE6F.quest_desc: [
+		"你可以诅咒土来生成怪物，如果你想要更高的效率可以尝试更新诅咒土周围方块的状态"
+		""
+		"推荐使用红石笔，它可以在方块的下方放置红石线路。"
+	]
+	quest.3727A98F9FE7EE6F.title: "刷怪房"
+	quest.373CF04B703CDFD3.quest_desc: [""]
+	quest.375D57D2A1094B78.quest_desc: ["虽然蜜蜂在后期才能用，但是现在升级不需要末影龙碎块，更好获得升级，更快的启动养蜂"]
+	quest.375D57D2A1094B78.quest_subtitle: "开始养蜂吧"
+	quest.375D57D2A1094B78.title: "蜂巢"
+	quest.377F0126736A3D8A.title: "创造魔源罐"
+	quest.39E04A38A821D2A1.quest_desc: [
+		"使用熔炉烧制可以获得粒，拥有一定数量的铁之后制作原子再构机转换为粗矿"
+		""
+		"前期你可以暂时不制作自动化"
+	]
+	quest.3A185BD975D6CEE2.quest_desc: [""]
+	quest.3A898E23FE7823F1.quest_desc: [""]
+	quest.3AB5259251805213.quest_desc: [
+		"非常强劲，专为减少堆机器数量从而提升性能。"
+		""
+		"具体可以查看JEI"
+		""
+		"普通作物一次产出8个作物"
+		""
+		"树苗一次产出16个原木"
+		""
+		"精华作物一次产出对应的3个精华"
+	]
+	quest.3AE5A9BE1CEAA28B.quest_desc: [
+		"迟到的熔岩"
+		""
+		"你已经可以初步处理资源，下面将会是更复杂的资源自动化产线。"
+		""
+		"你需要使用xnet或sfm模组"
+	]
+	quest.3B3E170A85E47E72.quest_desc: ["在你获得青金石之前可以使用这些\"特殊\"的太阳能"]
+	quest.3BF024909BE91F70.quest_desc: [
+		"你可以使用复制粘贴小帮手导入模板"
+		""
+		"需要特定结构，每个配方所需结构都不同"
+		""
+		"详见jei左下角。"
+		""
+		"点击可在世界附近机器进行投影"
+	]
+	quest.3BF890095E8FA3C5.quest_desc: [
+		"是的他非常高级，可以设置每个材料从机器的哪个面进入，而不是贴着样板的那一面。"
+		""
+		"你可以使用它轻而易举的实现mek需要灌注的机器自动化。当然你也可以使用缓存材料再发配的方式。但是这样就多次输入输出，增加性能消耗，同时也会影响一定的制作速度，最重要的是非常不简洁。"
+	]
+	quest.3C8094E215A01CA3.quest_desc: [
+		"乘法"
+		"每个升级："
+		"速度x0.5"
+		"能量消耗x1.2"
+	]
+	quest.3C81BE038CDA5776.quest_subtitle: "可以使用对着方块使用生物质无限获取"
+	quest.3CB88DEE1A453586.quest_desc: ["整合包以禁忌与奥秘mod结尾"]
+	quest.3D714471CCDFD213.title: "sfm"
+	quest.3DF94B83DBF13278.quest_desc: ["添加凋零骷髅头的配方，但是注意此配方电量消耗较高"]
+	quest.3E586BE69DD4F5CB.quest_desc: ["更多产出"]
+	quest.3E73B152FDCC4B42.quest_desc: ["钢棒不够用？换一些吧"]
+	quest.3E96EB1F4C106690.quest_subtitle: "4000"
+	quest.3EC61A7D551725B4.title: "寻觅之眼"
+	quest.3F29C3B2801FD3D5.title: "原版之巅"
+	quest.3FF3FE9EBD1C8902.quest_desc: [
+		"为热力发电机，岩浆发电机添加了新的可用配方，还添加了流体冷却剂，非常强悍。"
+		""
+		"同时修改了所有发电机的传输上限，懒得填就全部加0了"
+	]
+	quest.406E798A355807C8.quest_desc: [
+		"配方检查时间已更改为100tick，有时候你需要等5s-10s"
+		""
+		"结构检查时间已更改为60tick"
+		""
+		"这两项配置性能影响非常大。"
+		""
+		"因为并行仓等于再创建一个机器运行，性能影响较大，所以并行仓只开放3种，最多同时处理4个配方。"
+		""
+		"在控制器页面你可以看到核心的运行情况，是的一个核心就等同于一台机器。"
+	]
+	quest.40C2FC6E8583F35A.title: "稀有品质能力图腾"
+	quest.40E4001BE8DBDE7B.quest_desc: ["如果你觉得物质球生产的不够快可以使用他"]
+	quest.4164048B9D647F83.quest_desc: [""]
+	quest.4164048B9D647F83.quest_subtitle: "快捷移动"
+	quest.419FC2C65337ED91.quest_desc: [""]
+	quest.41B4A4C639B6A36B.quest_subtitle: "可能是...生物科技?"
+	quest.41B4A4C639B6A36B.title: "反应堆"
+	quest.42DCBCC128FC9BD2.quest_desc: [
+		"更强的压印器，"
+		""
+		"需要在下界才能使用"
+	]
+	quest.435B711F4AE93C23.quest_desc: [
+		"见下图："
+		"以紫水晶块配方为例，"
+		"需要确保滴水石锥上方第二格的方块是配方指定的方块，这里是魔源宝石块，滴水石锥上面第一格的方块可以使用任意方块，滴水石锥下方第一个方块确保为配方指定的方块，这里是闪长岩。"
+		""
+		"其他配方所需要的方块请查看jei"
+		""
+		"{image:ftbq:textures/dripstone.png width:60 height:160 align:center}"
+	]
+	quest.435B711F4AE93C23.title: "更简单的紫水晶块自动化"
+	quest.445666848E98B868.quest_desc: [
+		"涡轮现在底部可以为非正方形。"
+		"你可以创建一个矩形的涡轮，比如底部是5x7高9的涡轮。但是涡轮转子应该还是需要在底部中心"
+	]
+	quest.44C16BD67973A765.title: "模块化路由器"
+	quest.46127B8AAF7D2EC6.quest_subtitle: "随时随地访问ae"
+	quest.46871D79BB4CD92C.title: "oritech机器升级插件"
+	quest.468C776398601BD3.quest_desc: [
+		"这三种是你现在可以做的方块破坏方式"
+		""
+		""
+		"&b如果使用模块化机械的破坏模块请在合成的时候与铁镐或者其他lootjs修改指定的镐子合成。"
+		"因为模块化机械的破坏模块用什么镐子合成就等于用什么镐子破坏方块"
+		""
+		"&3我只推荐模块化机械的破坏升级，因为他不消耗耐久。或者抽屉的破坏升级也可以。"
+	]
+	quest.468C776398601BD3.title: "自动破坏"
+	quest.476F10E5499D0411.title: "青金石"
+	quest.479F7308E52F4B1E.quest_desc: [""]
+	quest.47DF495D396D0281.quest_desc: ["塑料片按一定比例可以相互转换"]
+	quest.48C526E6A596B8B6.title: "ME无限熔岩元件"
+	quest.492437D84B7C4D62.quest_desc: ["注意不要把钻石精华直接合成钻石，这样很亏"]
+	quest.49FA3FD10194305B.quest_subtitle: "8000"
+	quest.4A2046A338F71D8F.quest_desc: [
+		"园艺玻璃罩的已更改配置，进行了增强"
+		""
+		"能量消耗8rf/t -> 40rf/t"
+		""
+		"生长加速调节系数 1 -> 5"
+	]
+	quest.4A43C2B2B9D56B57.quest_desc: ["使用合金炉更简单的合成末影水晶"]
+	quest.4A69B963DF84A84A.quest_desc: ["丢进矿石催化流体"]
+	quest.4AD4E11994BC7A00.quest_desc: ["雪层下有浮冰和冰，破坏之后获得水，你需要用桶装起来"]
+	quest.4B258131D1FBF0BB.quest_desc: [
+		"要处理这些矿你需要使用这个特殊的方块"
+		""
+		"这个方块会将下面两格的特定方块转换，可以同时转换。"
+		""
+		"注意他只有在游戏时间13000 至 24000工作，也就是夜晚。"
+		""
+		"想要全天工作需要在上方隔开一格放置一个下界之星块，这里一定要注意，&c透镜方块上方第一格必须是空气方块"
+		""
+		"使用方法："
+		""
+		"夜晚工作版本："
+		""
+		"在下方两格内放置特定方块，等待一段时间。"
+		""
+		"见下图，注意这个搭建方式&b需要游戏时间为夜晚"
+		""
+		"{image:ftbq:textures/lens_cube.png width:100 height:100 align:center}"
+		""
+		"全天工作版本："
+		""
+		"在透镜方块的上方第二格放置下界之星方块，注意这里&b透镜方块的上方必须为空气方块，也就是不要放任何方块。"
+		""
+		"见下图"
+		""
+		""
+		"{image:ftbq:textures/lens_cube_star.png width:100 height:100 align:center}"
+	]
+	quest.4B3764A0A5271F52.title: "ME无限灰色混凝土元件"
+	quest.4B9EC9356071C4E2.quest_desc: [
+		"获得种子"
+		""
+		"如果没有魔鬼之梦种子，可以使用小麦种子转换"
+	]
+	quest.4BA3E442EA3D61A4.quest_desc: [
+		"你需要召唤一个火灵等级的碎矿者"
+		""
+		"火灵碎矿者可以两倍输出，魔王碎矿者可以三倍。"
+		""
+		"当然你需要自动化这个过程，可以使用新生魔艺将碎矿者收容。之后你可以通过管道等物流手段将粗矿给碎矿者，处理好的产物会掉落在周围"
+	]
+	quest.4BA3E442EA3D61A4.title: "更高效的处理方式"
+	quest.4BD777D4C5261D30.quest_desc: [
+		"现在开始你的第一个仪式，它用来制作紫水晶块"
+		""
+		"如何制作请查看jei，jei页面中会告诉你一些信息，比如这个合成需要什么五芒星，以及什么条件。如果你不知道五芒星是什么，请查看模组提供的手册'魔灵全典'"
+		""
+		"jei配方页面的中心，献祭碗上的物品需要最后使用，如果某些仪式需要一些额外的条件，比如献祭牛，需要在仪式开始之后杀死一只牛才会继续进行仪式."
+		""
+		"使用的献祭碗不同也会影响配方制作时间，具体请查看魔灵全典"
+	]
+	quest.4BE21D77F674D482.quest_desc: ["如果你的电力不足够你使用可以消耗四个硬币换取"]
+	quest.4BF27A63E3657D16.quest_desc: [
+		"铲雪合成雪块尝试点击\"崩坏催化器\""
+		""
+		"有50%的概率获得一个石子"
+	]
+	quest.4C1822C4A1BEA2FA.quest_desc: ["获取更多矿石"]
+	quest.4C39AD27248D206D.quest_desc: [""]
+	quest.4C39AD27248D206D.quest_subtitle: "可以使用对着方块使用生物质无限获取"
+	quest.4C6F1EE123E27C13.quest_desc: ["似乎有些贵"]
+	quest.4DF07A6F5024CF27.quest_desc: [
+		"MEK的部分机器配方进行了更改"
+		""
+		""
+		"热力蒸馏："
+		"温度与产出量的比率 0.4 -> 2"
+		""
+		"同时最大容量和输出量也已经x10"
+		""
+		"太阳能中子活化："
+		""
+		"最大处理速率 64mb/t -> 128mb/t"
+		""
+		"超临界移相器："
+		""
+		"原: 1000mb钋 -> 1mb反物质"
+		"现: 100mb钋 -> 1mb反物质"
+		""
+		""
+		"裂变反应堆现在有更高的输入速率，并且水冷在3000mb/t下可以稳定运行"
+		""
+		"&c重要更改："
+		""
+		"工业涡轮现在极限输出为177mrf/t"
+		""
+		"并且使用水冷聚变堆供给蒸汽比直接输入氘氚燃料更好。"
+	]
+	quest.4DF07A6F5024CF27.title: "MEK配置更改说明"
+	quest.4E36168F63DE1F03.title: "更多的初始机器"
+	quest.4E579BA683696FA7.quest_desc: [
+		"时间水晶块可复制"
+		""
+		"悖论机器的配置进行了更改，现在不会产生悖论能量，你可以放心安全的一直使用"
+		""
+		"添加了更多可以复制的方块，删除mek的rboit实体的复制（复制物品bug）"
+		""
+		"添加的方块见左侧任务"
+		""
+		"为了平衡此改动，对复制的消耗也进行改动。"
+		""
+		"复制单个方块消耗的能量 250krf -> 1mrf (x4)"
+		""
+		"复制单个方块消耗的时间流体 50mb -> 150mb (x3)"
+		""
+		"能量缓存 10mrf -> 20mrf (x2)"
+		""
+		"流体缓存 16b -> 64b (x4)"
+	]
+	quest.5095759283312A0A.quest_desc: [
+		"这是一个使用kubejs的中度魔改包，主要对资源获取方式进行改动"
+		""
+		"&a任务非常重要，在前期使用了较多的lootjs修改战利品表，jei无法查询到这些更改，需要通过任务文本。"
+	]
+	quest.5095759283312A0A.title: "欢迎"
+	quest.515DCA34AC5E3E49.quest_desc: [
+		"如果愿意，你可以在下界找到生成烈焰人的地方。"
+		""
+		"烈焰人刷怪蛋的获取方法："
+	]
+	quest.51911A6A7B0A24DE.quest_desc: [
+		"此结构的自动化很简单，只需要给他输入物品，之后再使用管道抽取合成完的物品即可。注意提取祭坛合成完的物品不需要进行白名单过滤。你可以理解为它内部有两个槽，一个只能输入，一个只能输出，合成后的物品会到只能输出的槽内。并且因为另一个槽只能输入，所以他不会被管道提取，只能手动拿出。"
+		""
+		"在开始进行下界合金线之前你应该先提升一下发电量，你可能至少需要4000rf/t才能保证不停电"
+		""
+		"下界合金线是全包最难的一部分，开始制作下界合金说明你已经进入整合包流程的中期。"
+		""
+		"在游戏中期你需要深度进行科技发展，并且为所有资源制造产线。虽然在游戏后期有更好的资源获取方式，但是为了到达后期你仍然需要大量的资源。"
+		""
+		"如果你还没有获得飞行道具，那在这送你一个，祝你好运。"
+		""
+		"最好使用SFM或者XNET，使用普通管道不仅可能会造成更多卡顿并且不好管理"
+	]
+	quest.51AF25BAFFFD433E.quest_desc: [
+		"乘法"
+		"每个升级："
+		"流体输出x2"
+		"能量输入x2"
+	]
+	quest.5286C42A41B1E872.quest_desc: [
+		"如果你的催化器丢了你可以拆掉基地的黑色和黄色混凝土合成"
+		""
+		"催化器本身也可以复制"
+		""
+		"请查看JEI"
+	]
+	quest.5286C42A41B1E872.title: "如果你的催化器丢了"
+	quest.52DE003F3FBF932A.title: "加速魔杖"
+	quest.52E43BEBC542C44E.quest_desc: [
+		"莲叶放在耕地下方。上方放置收获塔以及箱子，耕地与收获塔平齐，收获塔可以含水并且不会流动"
+		"{image:ftbq:textures/farmland.png width:160 height:120 align:center}"
+	]
+	quest.52E43BEBC542C44E.title: "种植小套装"
+	quest.53B66702A4EC6F8B.quest_desc: ["现在数据模型无法通过击杀怪物升级。直接合成出来的模型可以在模拟室运行并升级。"]
+	quest.53B66702A4EC6F8B.title: "数据模型"
+	quest.53D379D339681F0F.title: "领取模板"
+	quest.55136F75E778B3F0.quest_desc: [
+		"使用他之前你需要制造一个足够大的储电系统，此机器电量消耗非常高 2mrf/t"
+		""
+		"如果你没有足够的电量储蓄可能会导致基地电量供应不足。"
+		""
+		"他还有更多便捷性配方，请查看jei"
+	]
+	quest.55814A0C1004934B.quest_desc: ["强大的染料"]
+	quest.56EF4279DC2F37A3.quest_desc: [
+		"园艺玻璃罩的已更改配置，进行了增强"
+		""
+		"能量消耗8rf/t -> 40rf/t"
+		""
+		"生长加速调节系数 1 -> 5"
+	]
+	quest.57B3ECC3C9F3721D.quest_desc: ["永恒星光的内容可以自行探索，其维度特有的液体“以太”可以兑换三种种子"]
+	quest.57EBD2B64B26D200.quest_desc: [
+		"这章将对前一章的资源获取方式重构，略微降低产量，但是现在就可以制作。"
+		""
+		"这会是你的第一个自动化资源产线"
+	]
+	quest.591296A5CDEDB374.quest_desc: ["更好的生物质来源"]
+	quest.5956593A6BC00A11.quest_desc: [
+		"制造灵火"
+		""
+		"你需要同时进行新生魔艺和神秘学"
+		""
+		"如果你是第一次接触神秘学mod，你需要制作一本模组手册'魔灵全典'(上一个任务奖励给的那本书)。之后你需要查看手册的内容来了解这个mod。不过我已经对这个mod的流程进行了破坏，你无法完全按照他的手册内的流程进行，但是你可以查看他有什么功能，仪式该怎么用，一些物品怎么获得，&l&b以及最重要的绘制五芒星&r，你需要使用手册提供的多方块结构预览功能在世界上预览这个五芒星，辅助你绘制。"
+	]
+	quest.596A149915472FBB.quest_desc: ["你可以直接使用附魔装置制作或者使用闪耀纤维感染树叶"]
+	quest.5A8CCE261FBE3F68.quest_desc: ["为一些喜欢制作创造物品的玩家添加一个章节"]
+	quest.5AE18B930943C320.quest_desc: ["不推荐使用，很不稳定，很容易引起崩溃。"]
+	quest.5C1319B6E5BD7539.quest_desc: ["别忘记了紫水晶母岩也可以采集紫水晶"]
+	quest.5C4C458936890FAD.quest_desc: [
+		"你应该已经去过地狱了吧，地狱现在是空的，但是会生成结构。"
+		"不过这也有好处，更高的怪物刷新效率。"
+		""
+		"这章会使用到经验，也有部分合成需要在下界维度完成"
+	]
+	quest.5C4C458936890FAD.quest_subtitle: "附属任务需要下界维度合成"
+	quest.5CA6A5C01F80CA5D.quest_desc: [
+		"挖掉房子上的橙色混凝土并点击嬗变催化器获得铜，"
+		"使用3个铜制作一个桶"
+		""
+		"&a注：如果你不想破坏房子可以对着方块使用生物质，不消耗生物质并可以无限获取"
+	]
+	quest.5CE5E3A706CA4B05.quest_desc: [""]
+	quest.5DD02BA1662DAD22.quest_desc: [
+		"现在你可以使用更高级的物流制作复杂的自动化产线"
+		""
+		"当然如果你觉得这些物流mod太贵了可以到右方的任务抽奖！"
+		""
+		"不过你需要先制作出各个mod的核心机器才可以"
+	]
+	quest.5E12B74F57878D7A.quest_desc: ["首先你需要制作一个维度矿井"]
+	quest.5E4F3962A5AD5AF0.quest_desc: [""]
+	quest.5E6314F0CC52D342.quest_desc: ["这里给你一个黑洞，&4但请小心使用！"]
+	quest.5EBC2B938A8F9092.quest_desc: ["打造一个完全由ae调度的世界"]
+	quest.5EBC2B938A8F9092.title: "真正的AE"
+	quest.5F5CCCB3BF07B1DE.quest_desc: ["接着投入三种荒野怪物的掉落物召唤荒野奇美拉并且击杀"]
+	quest.5FA1AB460E41B487.quest_subtitle: "可重复领取!"
+	quest.602F9A30887BAB2F.quest_desc: ["掺杂着红石和萤石"]
+	quest.605FDBE6465B2B3F.quest_desc: [""]
+	quest.605FDBE6465B2B3F.title: "套娃滚开!"
+	quest.606A0DF94E9A03EB.quest_desc: ["你想挑战一下吗？"]
+	quest.606A0DF94E9A03EB.quest_subtitle: "其实这个挑战没有难度只是需要消耗时间设计"
+	quest.606A0DF94E9A03EB.title: "15000J挑战"
+	quest.61A1016EBE26A9B6.quest_desc: [""]
+	quest.61A1016EBE26A9B6.title: "史诗品质能力图腾"
+	quest.61A63CC53BEB7AF2.title: "ME无限黄色混凝土元件"
+	quest.621FEF4C683F7FF1.quest_desc: ["之后的内容你可以自行探索"]
+	quest.622B20FB6E2FBCD6.quest_desc: [
+		"你可以更改ae2的频道模式，可以选择x2,x4或者default。"
+		""
+		"如果你是在服务器上玩，请先查看服务器频道是否已经被更改过，如果已经更改不再是默认的8频道。那么请不要浪费64个硬币。"
+	]
+	quest.622B20FB6E2FBCD6.title: "ae2 channelmode"
+	quest.6246390092391A5B.quest_desc: [
+		"添加了四种新的可充能物品"
+		""
+		"添加多种可复制物品，详见下方任务以及JEI"
+	]
+	quest.62C5D5459C341536.quest_desc: [
+		"现在你已经可以获得很多的资源，可以开始oritech和沉浸工程了"
+		""
+		"&6这里要注意，灌注室不会消耗奥术基座上的物品.也就是只消耗需要放入灌注室的物品，从jei中看就是每个配方最中间的物品会被消耗&r"
+		""
+		"灌注室虽然产量翻倍，但是速度较慢，需要堆一定的数量。如果使用SFM这会非常方便。"
+		""
+		"所以无论如何都一定要学SFM，而且本包没有什么复杂的自动化，你只需要会SFM的基础部分就足够。"
+		""
+		"下面是我使用SFM制作的自动化产线，稍微有些乱。"
+		""
+		"但是如果没有SFM或者XNET只会更乱，到处都是管道。"
+		"{image:ftbq:textures/auto_ore.png width:180 height:100 align:center}"
+	]
+	quest.62F6EFB9C2F6D4EF.quest_desc: ["子网是ae最重要的功能之一"]
+	quest.62F6EFB9C2F6D4EF.title: "ae子网"
+	quest.6338DD7A851952F1.quest_desc: [
+		"乘法"
+		"每个升级："
+		"速度x0.5"
+		"输入能量x1.2"
+	]
+	quest.6435BC291AB841B2.title: "ME无限水元件"
+	quest.643ACD619CB8F113.quest_desc: [
+		"掉落4-10个钻石碎片和一个钻石，钻石碎片的概率为50%,钻石的掉落概率为30%"
+		""
+		"实测10组白色钻石大概可以掉落3组半的钻石"
+	]
+	quest.644CF305F02BD276.title: "防止你弄丢了"
+	quest.6472A4BB056312EC.quest_subtitle: "16000"
+	quest.64938D0BFF9B492B.quest_desc: ["左手拿自然精华，右手拿染料精华右键草方块随机获得一种花"]
+	quest.64938D0BFF9B492B.title: "花"
+	quest.65B742E5DDDE7382.quest_desc: [
+		"五颜六色的粉笔真好看"
+		""
+		"这两只粉笔可以替代所有颜色的粉笔。如果这两只粉笔丢了可以用雪球制作"
+		""
+		"这个挎包可以辅助你更好的绘制五芒星"
+	]
+	quest.65E75B018C33226E.quest_desc: ["获得一些怪物掉落物制作生物质"]
+	quest.66565ACE98FF3D19.quest_desc: [
+		"更强大的升级，可以&n&a增加机器产物的数量&r(还有更强大的，见下一等级的升级)"
+		""
+		"每个升级都可以为机器多添加一个物品输出，&b加法运算"
+		""
+		"实际输出数量 = 原始数量 +升级数量"
+		""
+		"例："
+		""
+		"配方：一个红石产出一个钻石"
+		""
+		"升级数量 = 1 时"
+		""
+		"实际数量 = 1 + 1 = 2"
+		""
+		"升级数量 = 2 时"
+		""
+		"实际数量 = 1 + 2 = 3"
+	]
+	quest.682FCB62FBAE0865.quest_desc: [
+		"前面两章为你构建自动化产线创造了条件，现在你需要在生产出少量中级资源后立即进行产线设计以及创建"
+		""
+		"这一章你需要进行新生魔艺，神秘学，实用拓展，自然灵气，以及沉浸工程"
+	]
+	quest.68F6A277A5E0B2EE.quest_desc: ["更高效的获取木头"]
+	quest.69E347FADB29BDC1.title: "富饶莲叶"
+	quest.6AB44A78201B9E40.quest_desc: ["凿子雕刻骨块"]
+	quest.6AB44A78201B9E40.title: "骷髅头"
+	quest.6AEB616F36CF1307.quest_desc: ["eio在这个包存在感很低，也不会对其进行改动。但要注意一点，避免使用eio的管道传输，特别是添加升级。"]
+	quest.6BC38C61915A2D82.quest_desc: ["将法师之花投入水中,或使用离心机"]
+	quest.6BC38C61915A2D82.title: "矿石催化液体"
+	quest.6BCC9CBB393D0BC2.quest_desc: [""]
+	quest.6BD389B1495E9FB2.title: "腐烂鸡蛋"
+	quest.6BE8AFFF479D4FA5.quest_desc: [
+		"乘法"
+		"每个升级："
+		"速度x0.5"
+		"能量消耗x1.3"
+	]
+	quest.6CBC226964F66FE9.quest_desc: [
+		"你需要拆下你的地板"
+		""
+		"如果你还需要更多，你需要用硬币换取"
+	]
+	quest.6CBC226964F66FE9.title: "需要更多初始机器"
+	quest.6F7D3C2FEA071CB3.quest_desc: [
+		"感谢你玩到了现在，经过前面三章你现在已经可以完成大部分配方的自动化。马上你就可以真正的拥有ae，你需要熟练的使用ae进行各种自动化任务。"
+		"同时本章难度为专家，资源收益降低，配方复杂程度增加。但是如果你成功的获取了一些特定资源，你的收益将会变得比原来更高。"
+		""
+		"你已经可以获得一些基础资源，在这章你可以获取到更高级的资源，包括生物资源，高等级矿石资源。"
+		""
+		"本章涉及模组："
+		""
+		"oritech，Stellaris，Just Dire Things，powah，工业先锋，矿石苦力怕"
+	]
+	quest.6FFE4438CE61747D.title: "经验"
+	quest.7066AD7F1AD5F679.quest_desc: ["如果你的物质不够用可以复制一些"]
+	quest.70B6115B888D27A1.quest_desc: [
+		"你可能需要建造两个反应堆，一个大的水冷堆，一个小的钠冷堆"
+		""
+		"当然你也可以直接建造一个大的钠冷"
+	]
+	quest.70E0F0D76E46CFEE.quest_subtitle: "有意思的小玩意"
+	quest.7144325CB43A6349.quest_desc: ["世界由蓝冰，冰，雪三层构成，其中蓝冰层内有大量蓝冰。冰层中有大量的冰和浮冰。雪层有雪块"]
+	quest.7144325CB43A6349.title: "世界结构"
+	quest.725D64CED35F67F6.quest_desc: [""]
+	quest.726FF92DCD698598.quest_desc: [
+		"下界合金的自动化需要消耗大量灵气，如果你需要自动化就需要使用射击标靶。制作一个镶金黑石需要10000灵气，雪球射击一次7000。对于使用雪球可以用最简单的四面发射器+红石钟一直射，毕竟雪球非常好获得.但是雪球可能无法跟得上灵气消耗。末影珍珠或箭是更好的选择。我推荐使用末影珍珠一次50000，并且我添加了新的更便宜的末影珍珠获得方式。详见JEI。使用末影珍最好制作一个红石控制。"
+		""
+		"&e当然对于自动化还有一个小技巧&r。此物品必须要从北面开始射击，并且需要轮流射击，那可以从北面开始给红石信号，之后按照轮流射击的顺序使用红石中继器依次给红石信号。"
+		""
+		""
+		"对于自动化雪球我仍然推荐物品路由器，破坏模块需要一个空模块和一个带有#minecraft:pickaxes标签的工具合成。而某些模组的全能工具或镐尖斧都带有这个标签，同时加上破坏模块实际等效于使用合成破坏模块的这个工具。全能工具以及镐尖斧都带有'#minecraft:shovels'标签，可以采集雪，掉落雪球。"
+	]
+	quest.7292F3BF7EA2CC77.quest_desc: ["注意这一是一个循环配方，输入充能油会输出晶化油。"]
+	quest.73C784094F86DFE9.quest_desc: ["一定要预留足够大的空间"]
+	quest.740EADE8DC446C04.quest_desc: [
+		"需要100krf，原子再构机存储300krf，一次只能充能三个物品。"
+		""
+		"这只是暂时的。"
+	]
+	quest.740EADE8DC446C04.quest_subtitle: "其实这算是补丁"
+	quest.74F3F69F1E0B015F.title: "不会真的有人弄丢终端吧"
+	quest.7502387C327F54E9.quest_desc: [
+		"很多资源你都需要使用战利品制造器获得"
+		""
+		"请尽快使用模拟室生产战利品以及预测产物"
+	]
+	quest.7557AA035F152AA3.quest_desc: [
+		"第五章仅推荐涡轮，我对配置进行了更改，现在极限输出可以达到177mrf/t。"
+		"这个发电速率完全足够使用。同时我还对mek的许多东西进行了更改，详情看第五章任务。"
+		""
+		"蓄电设备你有多种选择，256m能源元件依旧是最优选。oritech仍然可以使用。但是不推荐mek的感应矩阵，收益远不如能源元件。"
+	]
+	quest.7591BD12F91FFBA5.quest_desc: ["你可以选择直接烧制，但是我更推荐增产"]
+	quest.7591BD12F91FFBA5.title: "粗矿"
+	quest.759F1E81DB9DC7DF.quest_desc: ["再次翻倍"]
+	quest.76B0CA596A054D0C.title: "laserio"
+	quest.76BEA820EA36E8AE.quest_desc: [
+		"充能的能量只有1000rf,即使是最低级的充能棒一个也可以10tick完成充能"
+		""
+		""
+	]
+	quest.779D8FAC2A7672B2.quest_desc: [
+		"你的能量还够用吗？"
+		""
+		"现在oritech的机器配方已经是无序配方，但是这个插件依旧在某些情况下可以用到"
+	]
+	quest.791A9805DFD6E3A0.quest_desc: ["要开始mek，你需要制作邪灵矿工采集挖矿维度核心"]
+	quest.798EC89CA9502A11.quest_desc: ["你可以直接烧制也可以处理，不过无论如何我都建议通过各种方式处理增产"]
+	quest.7A0FE0300CA3EC9E.title: "xnet"
+	quest.7C1046D50616C4F9.quest_desc: [
+		"自动粉碎"
+		""
+		"你需要使用法术炮塔释放法术'粉碎'.具体如何使用请查看模组手册"
+	]
+	quest.7CAF3CB4952C2D76.quest_desc: ["如果你觉得仪式太麻烦请看附属任务"]
+	quest.7CAF3CB4952C2D76.title: "改变天气"
+	quest.7D32B5BF735BBB55.quest_desc: ["如果你有办法自动/批量杀boss，这个太阳能是首选。"]
+	quest.7D5E9DEA6F81B2DA.quest_desc: [
+		"你还无法制作工厂升级"
+		""
+		"mek电路板配方已经更改，减少套娃。但更麻烦"
+		""
+		"详见JEI"
+	]
+	quest.7D624F60FAC91599.quest_desc: ["可以直接合成灌注铁锭等等"]
+	quest.7D860C7964BADF21.quest_desc: ["最好使用时运采集"]
+	quest.7DAB30476AE1D164.quest_desc: [
+		"本整合包最强大的升级，限制数量为8，可以增加配方输出数量，使用&n&b乘法运算"
+		""
+		"计算式 ： 实际数量 = 原始数量 x 修改值 x 升级数量"
+		""
+		"例："
+		""
+		"配方：一个红石产出一个钻石"
+		""
+		"修改值 +100% (实际就是x2)"
+		""
+		"升级数量 = 1 时"
+		""
+		"实际数量 = 1 x 2 x 1 = 2 "
+		""
+		"升级数量 = 2 时"
+		""
+		"实际数量 = 1 x 2 x 2 = 4"
+	]
+	quest.7DAB30476AE1D164.quest_subtitle: "&5超载！"
+	quest.7DB9397B3D2522BE.quest_desc: ["前期你暂时还没发获得凋零骷髅头"]
+	quest.7DEAAEF9029466CC.title: "ME无限圆石元件"
+	quest.7E644C5375EC2C86.quest_desc: ["可以通过合成获得，为了获取更多的安山岩你可以使用方块制造机"]
+	quest.7F06E6914E56612A.quest_desc: [
+		"&c本包已经更改了部分矿石掉落物，你会发现有些矿石采集之后掉落原矿，而不是粗矿。"
+		""
+		"我已经使用lootjs修改部分矿石的掉落物，只有使用特定镐才能掉落指定数量的粗矿，&n并且不受时运影响；否则只会掉落原矿"
+		""
+		"    镐子材料     掉落数量    "
+		"       &b铁            &a1            "
+		""
+		"      &b钻石           &a3"
+		""
+		"    &b下界合金        &a8"
+		""
+		"    &b蚀空合金        &a12"
+	]
+	quest.7F06E6914E56612A.title: "重要！"
+	quest.7F9D098C06A38D4E.quest_desc: [
+		"有精准采集和范围挖掘两种模式"
+		""
+		"精准采集附魔在这个整合包中有一个bug，不知道你发现了没？"
+		""
+		"你可以在下一页看到这个bug的说明"
+		""
+		"也许可以自己先探索一下？随便挖挖？"
+		""
+		""
+		"{@pagebreak}"
+		""
+		"首先将模式调节为精准采集，之后挖掘掉落原矿的矿石，你会发现他有两个掉落物。"
+		""
+		"这可能是因为我使用lootjs仅仅删除了粗矿的掉落物，并且添加了原矿的掉落物。"
+		""
+		"但是当使用精准采集挖掘只会掉落原矿，但是代码中只会删除粗矿，这样就等于没有删除物品并添加了一个原矿的掉落物."
+		""
+		"如果让lootjs判断附魔或者再删除一下原矿应该就可以解决，但是我懒得写了。"
+	]
+	quest.7F9D098C06A38D4E.quest_subtitle: "刻意留下的bug"
+	reward.2A6FDBB30D17CDAE.title: "10分钟药水效果"
+	reward.3CE93347FF047384.title: "run /weather clear 10d"
+	reward.63B2E201F7108FC0.title: "run /gag give_time @p[limit=1] 10000000"
+	reward.67469440031FF2EC.title: "/time set night"
+	reward.679A24D21DBAB469.title: "/gamemode survival @p"
+	reward.7019CFCE98C0C753.title: "/gamemode creative @p"
+	reward_table.06C583A484072ED3.title: "图腾3"
+	reward_table.0A4D9D40B003AA3E.title: "tier1"
+	reward_table.0BBD3FF136321386.title: "tier2"
+	reward_table.0D8F2941E76A2969.title: "物品收集器"
+	reward_table.11B6787FA7572520.title: "laserIO"
+	reward_table.13D552CE4F9E322C.title: "图腾1"
+	reward_table.1F5A42E189FA90C9.title: "XNET"
+	reward_table.1FFE90447DB4F918.title: "ae元件"
+	reward_table.26599ADDC48E015A.title: "工业先锋升级"
+	reward_table.29D9BE8E9031C6D8.title: "图腾2"
+	reward_table.2FEBC5AA89C25CEC.title: "tier3"
+	reward_table.399D490332E134BE.title: "团块"
+	reward_table.3AAF114156F626CB.title: "建筑棒"
+	reward_table.4D9F81D07094967C.title: "ae方块"
+	reward_table.57C6C5F146CC21B9.title: "SFM"
+	reward_table.6085BF0750E58F52.title: "三种子"
+	reward_table.7485101461A50F37.title: "食物"
+	reward_table.750E31F13E28C29D.title: "oritech升级"
+	reward_table.76F45E129C4AC446.title: "范围升级"
+	task.0009D48A783A79D9.title: "MEK配方更改说明"
+	task.02A9E1D9CB46FD60.title: "能量"
+	task.0B9834366A39F904.title: "基地"
+	task.1473502E64D77E35.title: "添加的可复制方块"
+	task.15F705760E59A6C4.title: "升级计算规则"
+	task.17007852C41A49C5.title: "创造模式"
+	task.1E5841567FABF006.title: "Any #cobblegengalore:block_generators"
+	task.1FC7FC091D0FA66C.title: "能量生产"
+	task.1FF2DACA5BAC64BE.title: "章节1"
+	task.21FC0403B5B2D2BA.title: "创造物品"
+	task.25B6EAAD74169D57.title: "章节2"
+	task.25E8980CD6EFC2E0.title: "章节3"
+	task.29C791E8A7553310.title: "章节4"
+	task.2BF54090209BB9BF.title: "Any #cobblegengalore:block_generators"
+	task.2CDF3C04D5F118D8.title: "Any #minecraft:saplings"
+	task.2CEA450195E80430.title: "AE完全体！"
+	task.2F6B21B42E3FC15B.title: "模块化机械注意事项"
+	task.32EDBEEFFFD38C62.title: "Any #powah:thermo_generators"
+	task.3418821629F47B43.title: "章节5"
+	task.40594566A137373D.title: "水"
+	task.4327B98AD415CA93.title: "Any #constructionstick:construction_sticks"
+	task.46361671624E95E8.title: "铜，铁，金"
+	task.4ABFE403E8D660B1.title: "创造物品"
+	task.4B2DC07BFCBD98EA.title: "自动化物流"
+	task.4C529FB5E3B291C4.title: "Any #cobblegengalore:block_generators"
+	task.4C83407E416DF730.title: "须知"
+	task.51313BFD12FDE40F.title: "foundry_controllers"
+	task.52767F6531C904CD.title: "Any #cobblegengalore:block_generators"
+	task.5475690AE7886EAF.title: "Any #powah:magmators"
+	task.58825E17E396C8D7.title: "环顾四周"
+	task.5A7EC8ED62F53133.title: "Any #hostilenetworks:custom_tooltip_colors"
+	task.6100FF1EF681E242.title: "挑战奖励"
+	task.624FDA81006F3E59.title: "困难！"
+	task.64061CB880CC2691.title: "default"
+	task.6625636D7136779F.title: "能量"
+	task.6896832D26887B5A.title: "Any #powah:reactors"
+	task.69542B4CEB9CDD0F.title: "x4"
+	task.6DB42D683F9DED34.title: "挑战"
+	task.708421E72241DC0D.title: "发酵"
+	task.774FDE8C95F912F0.title: "Any #occultism:candles"
+	task.7A002776E6D3A0B6.title: "Any #productivebees:solitary_overworld_nests"
+	task.7C20D9219C404813.title: "困难！"
+	task.7D5E8042FED16601.title: "全息面板"
+}

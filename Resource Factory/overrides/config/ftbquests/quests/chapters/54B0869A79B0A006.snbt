@@ -1,0 +1,381 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "54B0869A79B0A006"
+	group: "29283D01EA194775"
+	icon: {
+		id: "kubejs:overload_core_upgrade"
+	}
+	id: "54B0869A79B0A006"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "02B2BBC1FD8F0AC4"
+			rewards: [{
+				id: "08AFEE3812082BD7"
+				item: {
+					count: 1
+					id: "modular_machinery_reborn:blueprint"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4C83407E416DF730"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "54A581365F4ECFA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "044D0879FC9000EE"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2267F5E0BA5D953A"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:large_imprinter" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "60CEAD982DBBF351"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A8253A935A05DFC"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "756982B0D4550C88"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:nether_fluid_pump" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "7F5EE82C420C49B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36121D758DCA7C92"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3397DDF88640989D"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:creeper_ore_replicator" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D39E4D4924ECB5A"]
+			icon: {
+				components: {
+					"custommachinery:machine": "minecraft:compressor"
+				}
+				id: "custommachinery:custom_machine_item"
+			}
+			id: "2B7552116573D0B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21AAA60378D1C57E"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2933C31C98187A9C"
+				item: { components: { "custommachinery:machine": "minecraft:compressor" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AD661F85D67012A"]
+			id: "686B4265F0517A47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C219FAF83495413"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2EE8686E80B2451F"
+				item: { components: { "custommachinery:machine": "minecraft:resource_converter" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BF024909BE91F70"]
+			id: "1E61DB0E477D67C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BEC82F1E94C146E"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EAF8762A2BA3368"
+				item: { components: { "custommachinery:machine": "minecraft:structural_casting_machine" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "048A9D410CA4BE26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B34F949D062C219"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E3D1D637C6F9A00"
+				item: { count: 1, id: "replication:replica_block" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "1AF3993613661CBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "362A5A359A479230"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "160C0D0B61DABAFD"
+				item: { count: 1, id: "ifeu:dragon_star_block" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "28A3CD08EDE5F6B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "567C8C8F54E71076"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0EA8ABCBB8D944F5"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_gemstone_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			id: "3C8094E215A01CA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5117C10C2A4E4B35"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "71A56B0E465DC3AD"
+				item: { count: 1, id: "oritechthings:addon_block_speed_tier_9" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			id: "6338DD7A851952F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49077B937A498984"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B0DA106F67589E8"
+				item: { count: 1, id: "oritech:machine_core_7" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "1A988CFC8E743F28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78320EE3A020D339"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "367EEE99FE4D1E20"
+				item: { count: 1, id: "oritech:machine_core_7" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "51AF25BAFFFD433E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C437B4C0B5014D7"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75E9A6069540F88A"
+				item: { count: 1, id: "oritech:machine_yield_addon" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "767D88EE6941ECCA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "737799E826E26CEE"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B8DC685D5606200"
+				item: { count: 1, id: "kubejs:swift_shard_upgrade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "3184A09FA482396A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BE831935DE4B631"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65873A6A7D1B3D29"
+				item: { count: 1, id: "kubejs:swift_core_upgrade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "66565ACE98FF3D19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1984CB2618338B8F"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6160F1C7EF6E951C"
+				item: { count: 1, id: "kubejs:synergy_core_upgrade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "7DAB30476AE1D164"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "402AE36FE9506DBF"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "65C1F41DBB3E59D9"
+				item: { count: 1, id: "kubejs:overload_core_upgrade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["02B2BBC1FD8F0AC4"]
+			id: "0B8A9BFC40E9BC8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0173F5BA4C780F5B"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15F705760E59A6C4"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "3CD9C807EFAF58DD"
+			tasks: [{
+				id: "677DAF179FC2FEF9"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:atomic_reconstruction_chamber" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "6BE8AFFF479D4FA5"
+			tasks: [{
+				id: "4F6F19EA223D373D"
+				item: { count: 1, id: "naturesaura:sky_ingot_block" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["589B89B1DCA852F0"]
+			id: "45A9B1F2CA8551F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CBD2997ADDE911E"
+				table_id: 3453070875555945708L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58018707F421EE1C"
+				item: { components: { "custommachinery:machine": "minecraft:essence_processor" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AB5259251805213"]
+			id: "2C8E03327202FA09"
+			shape: "square"
+			tasks: [{
+				id: "16D1C5C2CAB57940"
+				item: { components: { "custommachinery:machine": "minecraft:planting_station" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+}

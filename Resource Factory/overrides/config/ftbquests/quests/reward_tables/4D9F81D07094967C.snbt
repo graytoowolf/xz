@@ -1,0 +1,43 @@
+{
+	icon: {
+		id: "ae2:item_storage_cell_1k"
+	}
+	id: "4D9F81D07094967C"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			id: "2A6A59AB9C2F4D09"
+			item: {
+				count: 1
+				id: "extendedae:ex_drive"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 32
+			id: "4697B50DD0EC066D"
+			item: {
+				count: 1
+				id: "ae2:orange_smart_cable"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "26A5631D45B57C84"
+			item: {
+				count: 1
+				id: "ae2:controller"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "727CE9F23520BE8C"
+			item: {
+				count: 1
+				id: "ae2:creative_energy_cell"
+			}
+			weight: 0.1f
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	id: "3AAF114156F626CB"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ id: "37A265AA127AEA25", item: { count: 1, id: "constructionstick:wooden_stick" } }
+		{ id: "74B6F1B238BF551B", item: { count: 1, id: "constructionstick:copper_stick" } }
+		{ id: "09693D3D611E3AFA", item: { count: 1, id: "constructionstick:iron_stick" } }
+		{ id: "0FAA6C1AEBB4A159", item: { count: 1, id: "constructionstick:diamond_stick" } }
+		{ id: "7DB092DC66106F72", item: { count: 1, id: "constructionstick:netherite_stick" } }
+	]
+}

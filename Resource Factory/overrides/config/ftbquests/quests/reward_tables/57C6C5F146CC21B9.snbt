@@ -1,0 +1,18 @@
+{
+	id: "57C6C5F146CC21B9"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 16
+			id: "663A3DA4AE51534A"
+			item: {
+				count: 1
+				id: "sfm:cable"
+			}
+			weight: 2.0f
+		}
+		{ id: "3E6EAF0B0FD3E1E9", item: { count: 1, id: "sfm:manager" } }
+		{ id: "277EC1FCCA663199", item: { count: 1, id: "sfm:disk" } }
+	]
+}

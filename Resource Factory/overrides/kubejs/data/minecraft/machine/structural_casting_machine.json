@@ -1,0 +1,241 @@
+{
+  "name": {
+    "text": "cm.kubejs.structural_casting_machine",
+    "color": "light_purple"
+  },
+  "appearance": {
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "block": "kubejs:machine/structure_caster_machine"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 2000000,
+      "max_input": 100000,
+      "max_output": 100000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 64,
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "both",
+      "capacity": 8,
+      "max_input": 64
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_fluid",
+      "capacity": 1000000,
+      "max_input": 10000,
+      "max_output": 10000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input5",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input6",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input7",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input8",
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 44,
+      "y": 105
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 10,
+      "y": 40,
+      "width": 20
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_fluid",
+      "x": 31,
+      "y": 40,
+      "width": 19,
+      "highlight": false
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 32,
+      "y": 86,
+      "width": 17,
+      "height": 7,
+      "tanks": [
+        "input_fluid"
+      ]
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 10,
+      "y": 11
+    },
+    {
+      "type": "custommachinery:reset",
+      "tooltips": [],
+      "x": 32,
+      "y": 14
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 221,
+      "y": 10
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "x": 110,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 70,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "x": 90,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input3",
+      "x": 70,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input4",
+      "x": 90,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input5",
+      "x": 110,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input6",
+      "x": 70,
+      "y": 70
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input7",
+      "x": 90,
+      "y": 70
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input8",
+      "x": 110,
+      "y": 70
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 136,
+      "y": 51
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 160,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output1",
+      "x": 180,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "both",
+      "x": 180,
+      "y": 10
+    }
+  ]
+}

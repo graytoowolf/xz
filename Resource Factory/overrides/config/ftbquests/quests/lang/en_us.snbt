@@ -1,0 +1,1105 @@
+{
+	chapter.041619D56AEE7696.title: "Energy"
+	chapter.07A9993A4D675BBF.title: "Expert"
+	chapter.135AB56F0675BAE4.title: "Function/Exchange"
+	chapter.176088AFA65F4A40.title: "Hard"
+	chapter.29D3D9D095EC1350.title: "Hard Resource Production"
+	chapter.3506BB0F8970E932.title: "Easy"
+	chapter.3C63C7C1E8ECC7AF.title: "Challenge"
+	chapter.487CF04802F9FAD3.title: "Welcome"
+	chapter.4AFFD1F4E45C0112.title: "Simple"
+	chapter.54B0869A79B0A006.title: "Custom Machinery"
+	chapter.7184AE56362FAEEE.title: "Utilities"
+	chapter.73DED79CA5687260.title: "Unlimited Supply [Optional]"
+	chapter_group.29283D01EA194775.title: "Tips"
+	chapter_group.4BB37FF82D50F5F5.title: "Resource Factory"
+	chapter_group.508CCAE618EF8840.title: "Main Quest -- Acquiring Resources"
+	quest.007098383D028C06.quest_desc: [
+		"This world is only ice and snow, and of course, the sky."
+		""
+		"The initial base provides you with some machines, tools. You will need to use these machines next."
+		""
+		"If you don't know how to use Oritech machines, you can check the question mark in the bottom left corner of each machine to open the wiki."
+	]
+	quest.00E36CDAB15DB557.quest_desc: [
+		"Perform a ritual."
+		""
+		"This structure does not require automation. Of course, for large-scale production of a single item, you can use hoppers or pipes for semi-automation."
+		""
+		"If this is your first time encountering this mod, please check the mod's manual, 'Book of Natural Aura' (quest reward for this task). You can completely follow the progress in the book; the mod's progression has not been changed, though there might be some different recipes. Please refer to the mod manual for how to use this ritual."
+	]
+	quest.012491145913F379.quest_desc: ["You need to first start a basic ritual to get some drops from wilderness mobs."]
+	quest.01C570A2527D9A9F.quest_desc: [
+		"Chapter 3 officially begins with technology. Creating automation requires a large amount of energy. Starting from this chapter, many power generation devices will be provided, and you can choose freely. Here are two optimal choices."
+		""
+		"Of course, the steam engine is also a very good choice, and it has been enhanced."
+		""
+		"Also, starting from this chapter, you need to focus on power storage, especially when using solar power. At this stage, the best power storage is Oritech."
+	]
+	quest.01D3862B2C5129E8.quest_desc: ["Place into an Industrial Squeezer"]
+	quest.01E508CD2B4039EC.quest_desc: [
+		"There is an armor stand in the base, obtain it and put it into a pulverizer to get 3 planks and one cobblestone."
+		""
+		"Note: If you want to use Silent Gear tools, please first craft a vanilla Stone Shovel to complete the quest."
+	]
+	quest.025B5BF398B89211.quest_desc: [
+		"Please set up an automated production line as soon as possible!"
+		""
+		"Note: Spell Crushing does not need to be automated, or can be semi-automated. There will be better processing methods later."
+		""
+		"If you need more initial machines, please see the first chapter."
+	]
+	quest.025B5BF398B89211.title: "Fluid Centrifuge"
+	quest.02B2BBC1FD8F0AC4.quest_desc: [
+		"&aThis mainly lists the available upgrades and attributes for each machine. For the placement of Modular Machinery upgrade blocks, please use the Machine Blueprint to check."
+		""
+		"&bUpgrades for Custom Machines are universal. For the attribute differences of the latter two tiers, please check the tasks on the left."
+		""
+		"&dNote: Modular Machinery upgrades will increase energy input to some extent. If a recipe cannot run, please check if your energy input hatch is sufficient to run the recipe."
+		""
+		"Recipe check time has been changed to 100 ticks, sometimes you need to wait 5s-10s."
+		""
+		"Structure check time has been changed to 60 ticks."
+		""
+		"These two configurations have a very large impact on performance."
+		""
+		"Because parallel hatches are equivalent to creating another machine to run, which has a large performance impact, only 3 types of parallel hatches are available, processing a maximum of 4 recipes simultaneously."
+		""
+		"On the controller page, you can see the operational status of the core; yes, one core is equivalent to one machine."
+	]
+	quest.02D799A9D38E0112.quest_desc: [
+		"Next, you need to process these into different raw ore minerals through various methods."
+		""
+		"Please check JEI for recipes."
+	]
+	quest.030B63A5E1BC5615.quest_desc: [
+		"Place as shown in the image below. Note that at least two armor stands are required, and if placing multiple armor stands, they need to be dropped onto the squeezer from a height."
+		"If you want to free your hands, replace the button with a redstone clock and add a hopper."
+		"{image:ftbq:textures/squeezer.png width:100 height:100 align:center}"
+	]
+	quest.030B63A5E1BC5615.quest_subtitle: "Simple Automation"
+	quest.048A9D410CA4BE26.quest_desc: [
+		"Output items x1.5"
+		"Energy input x2"
+	]
+	quest.04C00DFCE9633105.title: "Eclipse Alloy Pickaxe"
+	quest.050A09D2F5D6B964.quest_desc: [
+		"I have added new heat sources."
+		""
+		""
+		"Let's talk about the &6Thermoelectric Generator power generation rules here."
+		""
+		"Generation Formula:"
+		""
+		"Actual Output = (Heat Source Temperature ÷ 1000) × Generator Base Power"
+		""
+		"Example:"
+		""
+		"Magma Block (Temperature 800)"
+		""
+		"Basic Generator (20 RF/t) → (800 ÷ 1000) × 20 = 16 RF/t"
+		""
+		"Hardened Generator (100 RF/t) → (800 ÷ 1000) × 100 = 80 RF/t"
+		""
+		"Blazing Crystal Block (Temperature 2800)"
+		""
+		"Basic Generator (20 RF/t) → (2800 ÷ 1000) × 20 = 56 RF/t"
+		""
+		"Hardened Generator (100 RF/t) → (2800 ÷ 1000) × 100 = 280 RF/t"
+	]
+	quest.050A09D2F5D6B964.title: "Thermoelectric Generator"
+	quest.05A9302BEC96D4A2.quest_desc: ["Sprinkle bonemeal on a grass block and break the grass to get seeds."]
+	quest.06326BB3C7B244F8.quest_desc: [
+		"Iron ore subjected to TNT explosion will randomly drop these three items, each item has a 50% probability."
+		""
+		"Note: Please disable FTB Chunks explosion protection. The TNT explosion needs to destroy blocks to trigger the recipe."
+	]
+	quest.0661B17ACC01F907.quest_desc: [
+		"&3&l1. Quest Reward&r"
+		""
+		""
+		"&3&l2. Recipe Type: Block Crushing&r"
+		"See JEI for details"
+		""
+		"Make a piece of gravel fall onto a gold block. The gold block and gravel will disappear, dropping 2 coins."
+		""
+		"If you want to automate this in the early game, you can use a dispenser."
+		""
+		"Lychee allows blocks with the \"lychee:dispenser_placement\" item tag to be placed by dispensers."
+		"Add a # character in the JEI search box to search for tags."
+		""
+		"This recipe is quite expensive in the early game and is not recommended."
+		""
+		""
+		"&3&l3. Recipe Type: dripstone_dripping&r"
+		"See JEI for details"
+		""
+		"Requires Netherite Blocks. In the early game, you can exchange coins for Netherite Blocks. It will not consume any items or blocks, meaning it can continuously produce coins."
+		""
+		"{ \"text\": \"Click to jump to the page\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10FF5AD57E2C9509\" } }"
+	]
+	quest.0661B17ACC01F907.quest_subtitle: "Block Crushing"
+	quest.0661B17ACC01F907.title: "Coin Acquisition Method"
+	quest.06A982FF7D76A6B8.quest_desc: ["Although you cannot mine Obsidian, you can craft it. Note that this machine does not require the fluid to be placed in the world; it can read from adjacent tanks. Also, it outputs automatically from the top and does not support pipes."]
+	quest.06A982FF7D76A6B8.title: "Block Placer"
+	quest.079AB04FBF23E4C6.quest_desc: [
+		"Ore Creeper!"
+		""
+		"&dNote: Ore Creeper spawning has been disabled, so please don't waste your spawn eggs."
+	]
+	quest.08DDC2A943F66B27.title: "Voidstone"
+	quest.09E22E5FC07B4B29.quest_desc: ["You can choose to use the Smeltery; it can yield double the resources."]
+	quest.09E22E5FC07B4B29.title: "Smeltery"
+	quest.0AA1AFA2A6A78F94.quest_desc: ["A simpler way to obtain biofuel."]
+	quest.0AAEE6EF6A9098C8.quest_desc: [
+		"The quests in this chapter mainly inform you about the general power generation devices available in this modpack, at which stage they are usable, and what changes have been made."
+		""
+		"It also recommends power storage facilities."
+		""
+		"Only recommended power generation and storage devices are listed here. You can use other devices, but the returns will be very low."
+	]
+	quest.0ABF0C9A04E8FD5C.quest_desc: [
+		"Note, please leave a certain amount of height."
+		""
+		"It will change the biome."
+	]
+	quest.0AC168461ABEE8A3.quest_desc: [
+		"Place it in a Pattern Provider along with the machine's built-in eject function to achieve full AE streamlined automation."
+		""
+		"&n&aAlso, here's a method for a full AE Hydroponic Bed setup:"
+		""
+		""
+		"Industrial Foregoing now also has tools for copying machine configurations, and AE has Memory Cards."
+		""
+		"Placement is flexible, as long as each Hydroponic Bed is in contact with an ME Interface."
+		""
+		"Place a Fuzzy Card into the ME Interface, then mark Water and Ether Gas."
+		""
+		"On the machine configuration side adjacent to the ME Interface,"
+		""
+		"Set Water and Ether Gas to blue (auto-input)."
+		""
+		"Set output to orange (auto-output)."
+		""
+		"Afterward, use the Machine Configuration Copier and Memory Card for quick batch configuration."
+	]
+	quest.0AF16EEBC083692F.quest_desc: ["New recipes have been added, but of course, you can also use the vanilla methods to obtain them."]
+	quest.0B5F9A01D21F1673.quest_desc: [
+		"If possible, I recommend using AE for automation first, and also use AE for logistics during the automation process. Secondly, use SFM and XNET. Pipez is highly not recommended, and other pipe-based logistics mods are also not recommended."
+		""
+		"You may need to use many channels; it's recommended to use P2P to reasonably allocate channels."
+		""
+		"Of course, you can also use a large number of Wireless Connectors."
+		""
+		""
+		"If you are willing to use P2P, it's best to create a subnetwork to allocate channels, using Wireless Connectors + P2P to distribute channels anywhere with a small amount of cable."
+	]
+	quest.0B8A9BFC40E9BC8B.quest_desc: [
+		"&aThe calculation rules for upgrades modifying recipe speed and energy input are the same, using &r&n&bexponential calculation."
+		""
+		"Final Result = Original Value x (Upgrade Modifier ^ Quantity)"
+		""
+		"Example: "
+		"Recipe takes 100 ticks to complete."
+		""
+		"Modifier -50%"
+		""
+		"Quantity = 1:"
+		""
+		"Actual Ticks = 100t x ((1-50%)^1) = 50t"
+		""
+		"Quantity = 2:"
+		""
+		"Actual Ticks = 100t x ((1-50%)^2) = 25t"
+	]
+	quest.0B8A9BFC40E9BC8B.quest_subtitle: "&dOnly applicable to Custom Machinery mod (left side)"
+	quest.0CC209E3C58B6E97.title: "ME Infinite White Concrete Cell"
+	quest.0CCA89A3C3254661.quest_subtitle: "Switch game mode!"
+	quest.0D39E4D4924ECB5A.quest_desc: ["Obtain Coal"]
+	quest.0D4E1B2EA42C352B.quest_desc: [""]
+	quest.0EF082988964DD49.quest_desc: ["You can craft it directly using the Enchanting Apparatus or infect leaves with Shining Fiber."]
+	quest.0FE8D37FDBF6565D.title: "Industrial Foregoing Range Upgrade"
+	quest.10FF5AD57E2C9509.title: "Netherite Block"
+	quest.11CCB6E06846DE77.quest_desc: [""]
+	quest.11E65111F81B652D.quest_desc: [
+		"How to obtain Archwood?"
+		"You need to eat a Demon's Dream fruit to get the Third Eye effect, then break Dark Oak Logs."
+	]
+	quest.11E65111F81B652D.title: "Third Eye"
+	quest.12F08B14875B0620.quest_desc: [
+		"More advanced rituals."
+		""
+		"Advanced rituals require the use of Afrit and Marid tier pentagrams, which use a certain number of this item, as well as Wither Skeleton Skulls."
+	]
+	quest.138CF12DADEF45E1.quest_desc: ["Can only be used in the Nether dimension."]
+	quest.144B4D213DF48B77.quest_desc: ["The next chapter will delve into Ars Nouveau, Occultism, and Actually Additions."]
+	quest.144B4D213DF48B77.title: "Saplings!"
+	quest.144E2C4FE77A9CE9.quest_desc: ["If you don't know how to use these powerful logistics mods, please consult the relevant wikis to learn. Especially SFM; if you can use SFM simply, creating automated production lines will be much easier and more aesthetically pleasing."]
+	quest.154E070E961C8AE4.quest_desc: [
+		"Goo's configuration has been modified. By default, there's a 10% chance of it \"dying\" after crafting."
+		""
+		"Now it won't die after crafting, making automation easier for you."
+	]
+	quest.1679204D62E35548.quest_desc: [
+		"Spawn eggs need to be obtained by holding RFTools' Syringe in the off-hand and killing the corresponding mob. Witch spawn eggs require using a Zombie spawn egg on a Transmutation Catalyst."
+		""
+		"Please check JEI."
+		""
+		"Next, you need to start creating automated production lines. For now, let's eat something good."
+	]
+	quest.16C26AB017A1E0B6.title: "ME Infinite Orange Concrete Cell"
+	quest.16E6CAEA83F9827B.quest_desc: [
+		"Place it in a Pattern Provider along with the machine's built-in eject function to achieve full AE streamlined automation."
+		""
+		"&n&aAlso, here's a method for a full AE Hydroponic Bed setup:"
+		""
+		""
+		"Industrial Foregoing now also has tools for copying machine configurations, and AE has Memory Cards."
+		""
+		"Placement is flexible, as long as each Hydroponic Bed is in contact with an ME Interface."
+		""
+		"Place a Fuzzy Card into the ME Interface, then mark Water and Ether Gas."
+		""
+		"On the machine configuration side adjacent to the ME Interface:"
+		""
+		"Set Water and Ether Gas to blue (auto-input)."
+		""
+		"Set output to orange (auto-output)."
+		""
+		"Afterward, use the Machine Configuration Copier and Memory Card for quick batch configuration."
+	]
+	quest.175E2BA8D14DC1FC.quest_desc: [
+		"AE's addons are very rich and can store almost anything."
+		""
+		"It is highly recommended to use Energy Cells for energy storage."
+	]
+	quest.17B39420E23D3CB9.quest_desc: ["Note: Creative Mode Compressors can also explode. If you blow it up, you'll have to temporarily use other compressors."]
+	quest.17B39420E23D3CB9.title: "Pressure Chamber"
+	quest.1862824C8247A775.title: "Efficiency Upgrade"
+	quest.199D30DBADFBC067.quest_desc: ["But it still needs some processing."]
+	quest.19A6EB1D731ED07D.quest_desc: [
+		"Next, you need to build a mob farm to obtain Source. Of course, you can also use other methods."
+		""
+		"If this is your first time encountering the Ars Nouveau mod, you need to craft a mod manual, 'Worn Notebook' (quest reward from the previous task). After that, you can check this manual for any questions you have. If you need to look up a specific item, you just need to place the manual in your inventory, then open your inventory and hover your cursor over an Ars Nouveau item. You will see a different icon; just hold Ctrl to open the page for that item."
+	]
+	quest.19FA5DAF81DD0626.title: "Industrial Foregoing Upgrade"
+	quest.1A7C3016DA72EED8.quest_desc: ["Ender Pearl Shards to make Ender Pearls, takes 10t."]
+	quest.1A988CFC8E743F28.quest_desc: [
+		"Multiplicative"
+		"Each upgrade:"
+		"Speed x0.5"
+		"Energy input x1.2"
+	]
+	quest.1AE68832252A5F79.quest_desc: [
+		"Oritech Steam Engine significantly buffed, steam to RF ratio increased from 1:1 to 1:3."
+		""
+		"This modpack should not lack power. Whether it's solar power, steam power, or the later Powah Thermoelectric Generators, all offer very insane power generation."
+		"However, I always recommend power storage."
+	]
+	quest.1AF3993613661CBE.quest_desc: [
+		"Output items x2"
+		"Energy input x3"
+	]
+	quest.1B7110926EA1142B.quest_desc: [
+		"Many creatures can spawn, depending on the biome you are in. Yes, I haven't changed the biomes of this world, only the terrain."
+		""
+		"Perhaps its greatest use is spawning several types of Ars Nouveau creatures."
+	]
+	quest.1CB87F706369A56F.quest_desc: [""]
+	quest.1CFD9999D345FE40.title: "Smithing Template"
+	quest.1D3805B387A47CC4.quest_desc: ["This line focuses on petroleum. Recently, Oritech has made changes, and now biofuel can be used."]
+	quest.1DFF21003A3D5571.quest_desc: [""]
+	quest.1DFF21003A3D5571.quest_subtitle: "Magical Fluid"
+	quest.1EAD7EDA5719CE25.quest_desc: ["Fluid Centrifuge"]
+	quest.1EB86343B7795878.quest_desc: ["The content of this modpack ends here. The following content is optional. Of course, you can also try it out; I have appropriately optimized it to reduce a lot of repetitive work."]
+	quest.1EB86343B7795878.quest_subtitle: "End"
+	quest.1EB86343B7795878.title: "End"
+	quest.1EDE998B4C1BA0BA.quest_desc: ["Try your luck!"]
+	quest.1EE80EF904B139C5.quest_desc: ["Kill a Creeper with a Butcher Knife to get Tallow. Come on and have a 1v1 duel with a Creeper!"]
+	quest.1EE80EF904B139C5.title: "Candle"
+	quest.1F24A8C0A170E7B8.quest_desc: ["Since Echo Shards can be crafted into Sculk Blocks, why can't they be split back?"]
+	quest.1F55222AE112C86F.quest_desc: ["Now you can craft all seeds that use the Soul Sand Pedestal, but this recipe is quite expensive."]
+	quest.21226F9FFB23A3C2.quest_desc: ["Double, double, double!"]
+	quest.21CA62E3B28BFCDE.quest_desc: [
+		"Doesn't it feel like something is missing?"
+		""
+		"Crop acquisition methods can be found on the JEI information page."
+	]
+	quest.21F50313E204994A.title: "Jetpack"
+	quest.21FA3BDCBFD1E65E.title: "Switch to Night"
+	quest.22D75F194F7EB51F.quest_desc: ["You can also craft Sky Ingots, but you will lose 8 of them."]
+	quest.240AC279C39676F9.quest_desc: ["Upgrade effect increased 5% -> 10%"]
+	quest.2498D13B7C1FFE0B.quest_desc: [""]
+	quest.25677BC8D035CC09.quest_desc: ["This structure does not require automation. Also, a little-known fact that some people don't know: it &l&3can process up to 16 recipes simultaneously while consuming only one Calling Spirit&r. Materials placed in the altar can be stacked up to 16. If an item's stack size is less than 16, only the maximum stack size of that item can be placed. The number of items placed simultaneously determines how many recipes you can craft at the same time, and it still only consumes one Calling Spirit."]
+	quest.25A2914BA1ED9463.quest_desc: ["If you need to automate Oritech machines, this upgrade addon will be very useful."]
+	quest.25B71B3FE4C38504.quest_desc: ["Obtain these five drops."]
+	quest.26635D693EE7F7A9.quest_desc: ["I've modified the Mossy Cobblestone recipe; now you can easily loop it."]
+	quest.26E96B4A9865EC8D.quest_desc: ["A Netherite Pickaxe mining ore drops 8 raw ores."]
+	quest.2777D655AD35A4D5.quest_desc: [
+		"Chapter 4 delves into Oritech. At the same time, running many Simulation Chambers will consume more power, so I have made changes to Powah's power generation devices. The Thermoelectric Generator will be the most useful power generation device."
+		""
+		"For power storage, Oritech is still recommended, but to make this device store more power, you will need to consume a very large amount of power. Of course, if you have enough resources to make AE Energy Cells, that is a better choice."
+	]
+	quest.27D6F945364ECD17.quest_desc: ["Since the usage amount is not large, you don't need to process it at all. You can directly use a Crusher Spirit to pulverize it."]
+	quest.28234803F4228D45.quest_desc: ["It is highly recommended to use Charged Oil, as it is relatively easy to obtain."]
+	quest.28A3CD08EDE5F6B3.quest_desc: [
+		"Output items x3"
+		"Energy input x4"
+	]
+	quest.28B46DC4C22FA5C3.title: "x2"
+	quest.28FFDF73F9C99221.quest_desc: ["Using a Diamond Pickaxe to mine ore can drop 3 raw ores at once."]
+	quest.2A9B6C568BE5C8B4.title: "Centrifuge"
+	quest.2B22777A54A4610C.title: "If You Like Using Budding Blocks"
+	quest.2BC01095CF10CD31.quest_desc: ["Chapter 2 still doesn't require much energy."]
+	quest.2CD2CD8261662996.quest_desc: ["Chapter 1 doesn't consume much power; the initial two solar panels + power storage are sufficient."]
+	quest.2D6C26682FBCE962.title: "Common Quality Ability Totem"
+	quest.2E25D6A19727C431.quest_desc: ["You can choose to use a Blast Furnace to smelt High-Purity Pyrolytic Carbon Dust."]
+	quest.2E25D6A19727C431.title: "Is This Diamond Authentic?"
+	quest.2E7589912F871976.quest_desc: [""]
+	quest.2EB0D9F3C48B24B5.quest_desc: [
+		"The previous two chapters have provided you with relatively basic materials for building automated production lines. Now you need to create production lines for intermediate resources."
+		""
+		"This chapter involves Ars Nouveau, Occultism, Actually Additions, Immersive Engineering, and Nature's Aura."
+	]
+	quest.2EFCA72376C251F6.quest_desc: [
+		"Use Biomass in a Centrifuge to make planks."
+		""
+		"You can now make basic tools, but you are still far from saplings."
+	]
+	quest.2F2014A69453B4C1.title: "Prevent Your Quests From Getting Stuck"
+	quest.2F3E7AF12C4649F4.quest_desc: [
+		"From now on, you will need to use Aura extensively."
+		""
+		"You can generate Aura using the mod's methods, or by using the block click event I added."
+		""
+		"Right-click a Swampy Homie with Ironstone to consume one Ironstone and generate Aura."
+	]
+	quest.2F4E35ACFF68AD7E.quest_desc: [
+		"Use /skyblock gui to open the base team creation page."
+		""
+		"The Oritech machines in the base were directly generated and have some issues. Please pick up and replace the core machine and the machine core to reactivate them."
+	]
+	quest.2F658F703090B039.quest_subtitle: "Really Natural?"
+	quest.304B7644F5227FBB.quest_desc: [
+		"If you find anything unreasonable, recipe errors, or other issues, you can provide feedback on Discord."
+		""
+		"However, my abilities are limited. I can only provide help with modpack configurations, recipes, quests, etc. I cannot help with crashes caused by mods."
+		""
+		"If you have good suggestions, you can also provide feedback on Discord."
+		""
+		"Click the image below to jump to the Discord invitation link."
+	]
+	quest.31313166D085D850.quest_desc: ["If you don't want to use solar power, this power generation device should be the best choice for steam production, or you can choose to use a Magmatic Dynamo to burn steam for power generation."]
+	quest.31DE6D7842A42FAD.quest_desc: [
+		"New recipes have been added for the machine."
+		""
+		"Check JEI for details."
+	]
+	quest.31DE6D7842A42FAD.title: "Magmatic Dynamo"
+	quest.31DF136BFE128071.quest_desc: ["You need to trade with a Villager to get your first Emerald."]
+	quest.31DF136BFE128071.title: "Villager"
+	quest.324C8CA19E6C7D46.quest_desc: ["Regardless, it is strongly recommended to use Assembly Matrices. For large-scale crafting and multiple parallel tasks, Assembly Matrices have better performance than Molecular Assemblers."]
+	quest.32F047ECA679411B.quest_desc: [
+		"Put monster drops into a Pulverizer to make Biomass."
+		""
+		"&aSince this structure was directly generated, Oritech machines might have issues. You need to pick up and replace the machine and its core."
+		""
+		"Here's a Stone Pickaxe, in case you don't have enough materials to make one."
+	]
+	quest.3345D0EC20666C11.quest_desc: [""]
+	quest.3345D0EC20666C11.quest_subtitle: "Can be infinitely obtained by using Biomass on blocks"
+	quest.3359E5A18FA2E7E6.quest_desc: [""]
+	quest.336362EABD280F94.quest_desc: [
+		"Obtain Ink Sacs and Feathers to make a Book and Quill."
+		""
+		"Please check JEI."
+	]
+	quest.339BFD843B424AC8.quest_desc: ["Fire Essence can be used as Blast Furnace fuel."]
+	quest.33FD5243265FB8F1.title: "Bag of Time"
+	quest.347FF35851FB0BBF.quest_desc: [
+		"Classic nesting doll. Because changing recipes is too troublesome, and you can definitely automate with AE by now."
+		"So I added some new things to Powah, completely unhinged wheelchairs."
+	]
+	quest.347FF35851FB0BBF.title: "Powah"
+	quest.34F5FB938BF1BB0F.quest_desc: ["You only need to craft one and then use the Quantum Color Encoder to duplicate it."]
+	quest.35D3FD2600DFD679.quest_desc: [
+		"Now you can gradually dismantle your production lines. Mystical Agriculture and Bees make it easier for you to obtain resources."
+		""
+		"This chapter, although labeled as a challenge, is not actually very difficult. It's named 'Challenge' because this chapter requires you to tediously go through Mekanism's progression."
+		"Of course, I have also changed some configuration files to reduce meaningless grinding/idling."
+		"When you craft the Ultimate Crafting Table, you have completed this pack. There is still an optional chapter afterwards, and at the end, you can switch game modes. For server players, OP will not be granted."
+		""
+		"Mainly modded around Mekanism and MekaEvolution."
+	]
+	quest.3623DB1E4690ED6D.quest_desc: ["Right-click an Iron Casing with Scorched Quartz."]
+	quest.3727A98F9FE7EE6F.quest_desc: [
+		"You can use Cursed Earth to spawn monsters. If you want higher efficiency, you can try updating the state of the blocks around the Cursed Earth."
+		""
+		"It's recommended to use a Redstone Pen, as it can place redstone lines underneath blocks."
+	]
+	quest.3727A98F9FE7EE6F.title: "Mob Farm"
+	quest.373CF04B703CDFD3.quest_desc: [""]
+	quest.375D57D2A1094B78.quest_desc: ["Although bees can only be used in the later stages, upgrading now doesn't require Ender Dragon Chunks, making upgrades easier to obtain and beekeeping start faster."]
+	quest.375D57D2A1094B78.quest_subtitle: "Let's Start Beekeeping"
+	quest.375D57D2A1094B78.title: "Apiary"
+	quest.377F0126736A3D8A.title: "Creative Source Jar"
+	quest.39E04A38A821D2A1.quest_desc: [
+		"Smelting in a furnace yields nuggets. After obtaining a certain amount of iron, craft an Atomic Reconstructor to convert them into raw ore."
+		""
+		"You don't need to automate this in the early game."
+	]
+	quest.3A185BD975D6CEE2.quest_desc: [""]
+	quest.3A898E23FE7823F1.quest_desc: [""]
+	quest.3AB5259251805213.quest_desc: [
+		"Very powerful, specifically designed to reduce the number of machines stacked, thereby improving performance."
+		""
+		"Check JEI for details."
+		""
+		"Normal crops yield 8 crops at a time."
+		""
+		"Saplings yield 16 logs at a time."
+		""
+		"Essence crops yield 3 corresponding essences at a time."
+	]
+	quest.3AE5A9BE1CEAA28B.quest_desc: [
+		"Belated Lava."
+		""
+		"You can now initially process resources. Next will be more complex automated resource production lines."
+		""
+		"You will need to use XNet or SFM mods."
+	]
+	quest.3B3E170A85E47E72.quest_desc: ["Before you get Lapis Lazuli, you can use these \"special\" solar panels."]
+	quest.3BF024909BE91F70.quest_desc: [
+		"You can use the Copy-Paste Gadget to import templates."
+		""
+		"Requires a specific structure; each recipe requires a different structure."
+		""
+		"See the bottom left of JEI for details."
+		""
+		"Click to project it near machines in the world."
+	]
+	quest.3BF890095E8FA3C5.quest_desc: [
+		"Yes, it's very advanced. You can set which face of the machine each material enters from, not just the face the pattern is against."
+		""
+		"You can use it to easily automate Mekanism machines that require infusion. Of course, you can also use a method of caching materials and then distributing them. However, this involves multiple input/output steps, increasing performance consumption, affecting production speed, and most importantly, it's not very clean."
+	]
+	quest.3C8094E215A01CA3.quest_desc: [
+		"Multiplicative"
+		"Each upgrade:"
+		"Speed x0.5"
+		"Energy consumption x1.2"
+	]
+	quest.3C81BE038CDA5776.quest_subtitle: "Can be infinitely obtained by using Biomass on blocks"
+	quest.3CB88DEE1A453586.quest_desc: ["This modpack ends with the Forbidden & Arcanus mod."]
+	quest.3D714471CCDFD213.title: "SFM"
+	quest.3DF94B83DBF13278.quest_desc: ["Added a recipe for Wither Skeleton Skulls, but note that this recipe has a high power consumption."]
+	quest.3E586BE69DD4F5CB.quest_desc: ["More output"]
+	quest.3E73B152FDCC4B42.quest_desc: ["Not enough Steel Rods? Exchange some!"]
+	quest.3E96EB1F4C106690.quest_subtitle: "4000"
+	quest.3EC61A7D551725B4.title: "Eye of Seeking"
+	quest.3F29C3B2801FD3D5.title: "Pinnacle of Vanilla"
+	quest.3FF3FE9EBD1C8902.quest_desc: [
+		"New recipes have been added for the Thermoelectric Generator and Magmatic Dynamo. Fluid Coolant has also been added, which is very powerful."
+		""
+		"Additionally, the transfer limits for all generators have been modified; too lazy to fill them in, so they all have 0 added."
+	]
+	quest.406E798A355807C8.quest_desc: [
+		"Recipe check time has been changed to 100 ticks, sometimes you need to wait 5s-10s."
+		""
+		"Structure check time has been changed to 60 ticks."
+		""
+		"These two configurations have a very large impact on performance."
+		""
+		"Because parallel hatches are equivalent to creating another machine to run, which has a large performance impact, only 3 types of parallel hatches are available, processing a maximum of 4 recipes simultaneously."
+		""
+		"On the controller page, you can see the operational status of the core; yes, one core is equivalent to one machine."
+	]
+	quest.40C2FC6E8583F35A.title: "Rare Quality Ability Totem"
+	quest.40E4001BE8DBDE7B.quest_desc: ["If you feel Matter Balls are not being produced fast enough, you can use this."]
+	quest.4164048B9D647F83.quest_desc: [""]
+	quest.4164048B9D647F83.quest_subtitle: "Quick Travel"
+	quest.419FC2C65337ED91.quest_desc: [""]
+	quest.41B4A4C639B6A36B.quest_subtitle: "Maybe... Biotechnology?"
+	quest.41B4A4C639B6A36B.title: "Reactor"
+	quest.42DCBCC128FC9BD2.quest_desc: [
+		"A more powerful imprinter."
+		""
+		"Needs to be used in the Nether."
+	]
+	quest.435B711F4AE93C23.quest_desc: [
+		"See image below:"
+		"Taking the Amethyst Block recipe as an example,"
+		"Ensure the block in the second space above the Pointed Dripstone is the block specified by the recipe (here, Source Gem Block). The block in the first space above the Pointed Dripstone can be any block. Ensure the block directly below the Pointed Dripstone is the block specified by the recipe (here, Diorite)."
+		""
+		"For blocks required by other recipes, please check JEI."
+		""
+		"{image:ftbq:textures/dripstone.png width:60 height:160 align:center}"
+	]
+	quest.435B711F4AE93C23.title: "Simpler Amethyst Block Automation"
+	quest.445666848E98B868.quest_desc: [
+		"The turbine base can now be non-square."
+		"You can create a rectangular turbine, for example, a turbine with a 5x7 base and a height of 9. However, the turbine rotor should still be in the center of the base."
+	]
+	quest.44C16BD67973A765.title: "Modular Router"
+	quest.46127B8AAF7D2EC6.quest_subtitle: "Access AE Anytime, Anywhere"
+	quest.46871D79BB4CD92C.title: "Oritech Machine Upgrade Addon"
+	quest.468C776398601BD3.quest_desc: [
+		"These three are the block breaking methods you can currently make."
+		""
+		""
+		"&bIf using the Modular Machinery breaking module, please craft it with an Iron Pickaxe or other pickaxes specified by LootJS modifications."
+		"Because the breaking module of Modular Machinery acts as whatever pickaxe it's crafted with when breaking blocks."
+		""
+		"&3I only recommend the Modular Machinery breaking upgrade because it doesn't consume durability. Alternatively, the Drawer's breaking upgrade is also fine."
+	]
+	quest.468C776398601BD3.title: "Auto Breaking"
+	quest.476F10E5499D0411.title: "Lapis Lazuli"
+	quest.479F7308E52F4B1E.quest_desc: [""]
+	quest.47DF495D396D0281.quest_desc: ["Plastic sheets can be converted into each other at a certain ratio."]
+	quest.48C526E6A596B8B6.title: "ME Infinite Lava Cell"
+	quest.492437D84B7C4D62.quest_desc: ["Be careful not to craft Diamond Essence directly into Diamonds, as this is very inefficient."]
+	quest.49FA3FD10194305B.quest_subtitle: "8000"
+	quest.4A2046A338F71D8F.quest_desc: [
+		"The configuration of the Garden Cloche has been changed and enhanced."
+		""
+		"Energy consumption 8rf/t -> 40rf/t"
+		""
+		"Growth acceleration adjustment coefficient 1 -> 5"
+	]
+	quest.4A43C2B2B9D56B57.quest_desc: ["Use an Alloy Smelter for a simpler way to craft Ender Crystals."]
+	quest.4A69B963DF84A84A.quest_desc: ["Throw into Ore Catalytic Liquid."]
+	quest.4AD4E11994BC7A00.quest_desc: ["There is Packed Ice and Ice under the snow layer. Break them to get water, which you need to collect with a bucket."]
+	quest.4B258131D1FBF0BB.quest_desc: [
+		"To process these ores, you need to use this special block."
+		""
+		"This block will convert specific blocks in the two spaces below it, and can convert them simultaneously."
+		""
+		"Note that it only works between game time 13000 and 24000, which is nighttime."
+		""
+		"To work all day, you need to place a Nether Star block one space above it. It is crucial to note here that &cthe space directly above the Lens Cube must be an air block."
+		""
+		"How to use:"
+		""
+		"Nighttime operation version:"
+		""
+		"Place specific blocks within the two spaces below it and wait for a period of time."
+		""
+		"See the image below. Note that this setup &brequires the game time to be nighttime."
+		""
+		"{image:ftbq:textures/lens_cube.png width:100 height:100 align:center}"
+		""
+		"All-day operation version:"
+		""
+		"Place a Nether Star block in the second space above the Lens Cube. Note here that &bthe space directly above the Lens Cube must be an air block, meaning do not place any blocks there."
+		""
+		"See the image below."
+		""
+		""
+		"{image:ftbq:textures/lens_cube_star.png width:100 height:100 align:center}"
+	]
+	quest.4B3764A0A5271F52.title: "ME Infinite Gray Concrete Cell"
+	quest.4B9EC9356071C4E2.quest_desc: [
+		"Obtain seeds."
+		""
+		"If you don't have Demon's Dream seeds, you can convert Wheat Seeds."
+	]
+	quest.4BA3E442EA3D61A4.quest_desc: [
+		"You need to summon an Afrit-tier Crusher Spirit."
+		""
+		"Afrit Crushers can double the output, and Marid Crushers can triple it."
+		""
+		"Of course, you need to automate this process. You can use Ars Nouveau to contain the Crusher Spirit. Then, you can use pipes or other logistics to feed raw ore to the Crusher, and the processed products will drop nearby."
+	]
+	quest.4BA3E442EA3D61A4.title: "More Efficient Processing"
+	quest.4BD777D4C5261D30.quest_desc: [
+		"Now, start your first ritual; it's used to create Amethyst Blocks."
+		""
+		"To learn how to craft, please check JEI. The JEI page will provide you with some information, such as which pentagram this synthesis requires and under what conditions. If you don't know what a pentagram is, please check the mod's manual, 'Codex Spiritus'."
+		""
+		"In the center of the JEI recipe page, the item on the Sacrificial Bowl needs to be used last. If some rituals require additional conditions, such as sacrificing a cow, you need to kill a cow after the ritual starts for it to continue."
+		""
+		"The type of Sacrificial Bowl used also affects the recipe crafting time. Please check the Codex Spiritus for details."
+	]
+	quest.4BE21D77F674D482.quest_desc: ["If your power is insufficient, you can exchange four Coins for more."]
+	quest.4BF27A63E3657D16.quest_desc: [
+		"Craft Snow Blocks by shoveling snow, then try clicking the \"Crushing Catalyst\"."
+		""
+		"There's a 50% chance to get a piece of gravel."
+	]
+	quest.4C1822C4A1BEA2FA.quest_desc: ["Obtain more ore."]
+	quest.4C39AD27248D206D.quest_desc: [""]
+	quest.4C39AD27248D206D.quest_subtitle: "Can be infinitely obtained by using Biomass on blocks"
+	quest.4C6F1EE123E27C13.quest_desc: ["Seems a bit expensive."]
+	quest.4DF07A6F5024CF27.quest_desc: [
+		"Some Mekanism machine recipes have been changed."
+		""
+		""
+		"Thermal Evaporation Plant:"
+		"Temperature to output ratio 0.4 -> 2"
+		""
+		"Maximum capacity and output volume have also been x10."
+		""
+		"Solar Neutron Activator:"
+		""
+		"Max processing rate 64mb/t -> 128mb/t"
+		""
+		"Supercritical Phase Shifter:"
+		""
+		"Original: 1000mb Polonium -> 1mb Antimatter"
+		"Current: 100mb Polonium -> 1mb Antimatter"
+		""
+		""
+		"Fission Reactor now has a higher input rate, and water cooling can run stably at 3000mb/t."
+		""
+		"&cImportant Changes:"
+		""
+		"Industrial Turbine now has a maximum output of 177MRF/t."
+		""
+		"And supplying steam from a water-cooled Fusion Reactor is better than directly inputting D-T fuel."
+	]
+	quest.4DF07A6F5024CF27.title: "MEK Configuration Changes"
+	quest.4E36168F63DE1F03.title: "More Initial Machines"
+	quest.4E579BA683696FA7.quest_desc: [
+		"Time Crystal Blocks can be duplicated."
+		""
+		"The configuration of the Paradox Machine has been changed; it will no longer generate paradox energy, so you can use it safely and continuously."
+		""
+		"More blocks have been added that can be duplicated. Duplication of Mekanism's Robit entity has been removed (item duplication bug)."
+		""
+		"See the tasks on the left for added blocks."
+		""
+		"To balance this change, the cost of duplication has also been modified."
+		""
+		"Energy cost to duplicate a single block: 250kRF -> 1MRF (x4)"
+		""
+		"Time Fluid cost to duplicate a single block: 50mB -> 150mB (x3)"
+		""
+		"Energy buffer: 10MRF -> 20MRF (x2)"
+		""
+		"Fluid buffer: 16B -> 64B (x4)"
+	]
+	quest.5095759283312A0A.quest_desc: [
+		"This is a lightly modded pack using KubeJS, primarily altering resource acquisition methods."
+		""
+		"&aQuests are very important. In the early game, LootJS is used extensively to modify loot tables. JEI cannot query these changes; you need to rely on the quest text."
+	]
+	quest.5095759283312A0A.title: "Welcome"
+	quest.515DCA34AC5E3E49.quest_desc: [
+		"If you wish, you can find a place where Blazes spawn in the Nether."
+		""
+		"Method to obtain Blaze spawn eggs:"
+	]
+	quest.51911A6A7B0A24DE.quest_desc: [
+		"Automating this structure is very simple; you just need to input items into it and then use pipes to extract the crafted items. Note that extracting crafted items from the altar does not require whitelist filtering. You can think of it as having two internal slots: one for input only and one for output only. Crafted items will go into the output-only slot. And because the other slot is input-only, it cannot be extracted by pipes and can only be taken out manually."
+		""
+		"Before starting the Netherite line, you should upgrade your power generation. You might need at least 4000 RF/t to avoid power outages."
+		""
+		"The Netherite line is the most difficult part of the entire pack. Starting to make Netherite means you've entered the mid-game of the modpack."
+		""
+		"In the mid-game, you need to delve deep into technological development and create production lines for all resources. Although there are better ways to acquire resources in the late game, you still need a large amount of resources to reach the late game."
+		""
+		"If you haven't obtained a flight item yet, here's one for you. Good luck."
+		""
+		"It's best to use SFM or XNet. Using regular pipes might not only cause more lag but also be difficult to manage."
+	]
+	quest.51AF25BAFFFD433E.quest_desc: [
+		"Multiplicative"
+		"Each upgrade:"
+		"Fluid output x2"
+		"Energy input x2"
+	]
+	quest.5286C42A41B1E872.quest_desc: [
+		"If you lose your catalyst, you can dismantle the black and yellow concrete from your base to craft it."
+		""
+		"The catalyst itself can also be duplicated."
+		""
+		"Please check JEI."
+	]
+	quest.5286C42A41B1E872.title: "If You Lose Your Catalyst"
+	quest.52DE003F3FBF932A.title: "Acceleration Wand"
+	quest.52E43BEBC542C44E.quest_desc: [
+		"Place Lily Pads beneath a farmland block. Place a Harvest Pylon and a chest on top. The farmland and Harvest Pylon should be at the same level. The Harvest Pylon can hold water without it flowing."
+		"{image:ftbq:textures/farmland.png width:160 height:120 align:center}"
+	]
+	quest.52E43BEBC542C44E.title: "Small Planting Set"
+	quest.53B66702A4EC6F8B.quest_desc: ["Data Models can no longer be upgraded by killing mobs. Models crafted directly can be run and upgraded in the Simulation Chamber."]
+	quest.53B66702A4EC6F8B.title: "Data Models"
+	quest.53D379D339681F0F.title: "Claim Template"
+	quest.55136F75E778B3F0.quest_desc: [
+		"Before using it, you need to create a sufficiently large power storage system. This machine has a very high power consumption: 2MRF/t."
+		""
+		"If you don't have enough power storage, it might lead to insufficient power supply for your base."
+		""
+		"It also has more convenient recipes; please check JEI."
+	]
+	quest.55814A0C1004934B.quest_desc: ["Powerful Dyes"]
+	quest.56EF4279DC2F37A3.quest_desc: [
+		"The configuration of the Garden Cloche has been changed and enhanced."
+		""
+		"Energy consumption 8rf/t -> 40rf/t"
+		""
+		"Growth acceleration adjustment coefficient 1 -> 5"
+	]
+	quest.57B3ECC3C9F3721D.quest_desc: ["The content of Eternal Starlight can be explored on your own. Its dimension-specific fluid, \"Ether Gas\", can be exchanged for three types of seeds."]
+	quest.57EBD2B64B26D200.quest_desc: [
+		"This chapter will restructure the resource acquisition methods from the previous chapter, slightly reducing output but allowing crafting now."
+		""
+		"This will be your first automated resource production line."
+	]
+	quest.591296A5CDEDB374.quest_desc: ["Better source of Biomass."]
+	quest.5956593A6BC00A11.quest_desc: [
+		"Create Spirit Fire."
+		""
+		"You need to progress in both Ars Nouveau and Occultism simultaneously."
+		""
+		"If this is your first time encountering the Occultism mod, you need to craft a mod manual, 'Codex Spiritus' (the book rewarded in the previous task). After that, you need to check the manual's content to understand this mod. However, I have already disrupted this mod's progression, so you cannot completely follow its manual's flow. But you can see what functions it has, how rituals are used, how some items are obtained, &l&band most importantly, how to draw pentagrams&r. You need to use the multi-block structure preview function provided by the manual to preview the pentagram in the world to assist you in drawing it."
+	]
+	quest.596A149915472FBB.quest_desc: ["You can craft it directly using the Enchanting Apparatus or infect leaves with Shining Fiber."]
+	quest.5A8CCE261FBE3F68.quest_desc: ["Adding a chapter for players who enjoy crafting creative items."]
+	quest.5AE18B930943C320.quest_desc: ["Not recommended for use, very unstable, and can easily cause crashes."]
+	quest.5C1319B6E5BD7539.quest_desc: ["Don't forget that Amethyst Budding Blocks can also be used to harvest Amethyst."]
+	quest.5C4C458936890FAD.quest_desc: [
+		"You should have been to the Nether by now. The Nether is currently empty, but structures will generate."
+		"However, this also has its benefits: higher monster spawn efficiency."
+		""
+		"This chapter will involve using experience, and some crafting will need to be done in the Nether dimension."
+	]
+	quest.5C4C458936890FAD.quest_subtitle: "Side quests require Nether dimension crafting"
+	quest.5CA6A5C01F80CA5D.quest_desc: [
+		"Mine the orange concrete from your house walls and click the Transmutation Catalyst to get copper."
+		"Use 3 copper to make a bucket."
+		""
+		"&aNote: If you don't want to destroy your house, you can use Biomass on blocks. It won't consume Biomass and can be obtained infinitely."
+	]
+	quest.5CE5E3A706CA4B05.quest_desc: [""]
+	quest.5DD02BA1662DAD22.quest_desc: [
+		"Now you can use more advanced logistics to create complex automated production lines."
+		""
+		"Of course, if you find these logistics mods too expensive, you can try the lottery task on the right!"
+		""
+		"However, you need to craft the core machines of each mod first."
+	]
+	quest.5E12B74F57878D7A.quest_desc: ["First, you need to create a Dimensional Mineshaft."]
+	quest.5E4F3962A5AD5AF0.quest_desc: [""]
+	quest.5E6314F0CC52D342.quest_desc: ["Here is a black hole for you, &4but please use it carefully!"]
+	quest.5EBC2B938A8F9092.quest_desc: ["Build a world entirely orchestrated by AE."]
+	quest.5EBC2B938A8F9092.title: "True AE"
+	quest.5F5CCCB3BF07B1DE.quest_desc: ["Next, throw in the drops of the three wilderness mobs to summon the Wilden Chimera and defeat it."]
+	quest.5FA1AB460E41B487.quest_subtitle: "Repeatable!"
+	quest.602F9A30887BAB2F.quest_desc: ["Mixed with Redstone and Glowstone."]
+	quest.605FDBE6465B2B3F.quest_desc: [""]
+	quest.605FDBE6465B2B3F.title: "Nesting Dolls Begone!"
+	quest.606A0DF94E9A03EB.quest_desc: ["Do you want to take on the challenge?"]
+	quest.606A0DF94E9A03EB.quest_subtitle: "Actually, this challenge isn't difficult, it just requires time to design."
+	quest.606A0DF94E9A03EB.title: "15000J Challenge"
+	quest.61A1016EBE26A9B6.quest_desc: [""]
+	quest.61A1016EBE26A9B6.title: "Epic Quality Ability Totem"
+	quest.61A63CC53BEB7AF2.title: "ME Infinite Yellow Concrete Cell"
+	quest.621FEF4C683F7FF1.quest_desc: ["You can explore the rest of the content on your own."]
+	quest.622B20FB6E2FBCD6.quest_desc: [
+		"You can change AE2's channel mode, choosing between x2, x4, or default."
+		""
+		"If you are playing on a server, please first check if the server's channel mode has already been changed. If it has been changed and is no longer the default 8 channels, then please don't waste 64 coins."
+	]
+	quest.622B20FB6E2FBCD6.title: "AE2 Channel Mode"
+	quest.6246390092391A5B.quest_desc: [
+		"Added four new chargeable items."
+		""
+		"Added multiple duplicable items, see the tasks below and JEI for details."
+	]
+	quest.62C5D5459C341536.quest_desc: [
+		"Now that you can obtain a lot of resources, you can start with Oritech and Immersive Engineering."
+		""
+		"&6Note here, the Infusion Chamber will not consume items on the Arcane Pedestal. That is, it only consumes items that need to be placed into the Infusion Chamber; from JEI's perspective, it's the item in the very center of each recipe that gets consumed.&r"
+		""
+		"Although the Infusion Chamber doubles output, it is relatively slow and requires stacking a certain number. This becomes very convenient if using SFM."
+		""
+		"Therefore, it is essential to learn SFM. Moreover, this pack doesn't have very complex automation; you only need to know the basics of SFM."
+		""
+		"Below is an automated production line I created using SFM. It's a bit messy."
+		""
+		"However, without SFM or XNet, it would be even messier, with pipes everywhere."
+		"{image:ftbq:textures/auto_ore.png width:180 height:100 align:center}"
+	]
+	quest.62F6EFB9C2F6D4EF.quest_desc: ["Subnetworks are one of AE's most important features."]
+	quest.62F6EFB9C2F6D4EF.title: "AE Subnetwork"
+	quest.6338DD7A851952F1.quest_desc: [
+		"Multiplicative"
+		"Each upgrade:"
+		"Speed x0.5"
+		"Energy input x1.2"
+	]
+	quest.6435BC291AB841B2.title: "ME Infinite Water Cell"
+	quest.643ACD619CB8F113.quest_desc: [
+		"Drops 4-10 Diamond Shards and one Diamond. The probability of Diamond Shards is 50%, and the drop probability of Diamonds is 30%."
+		""
+		"Tested: 10 sets of White Diamonds yield about 3.5 sets of Diamonds."
+	]
+	quest.644CF305F02BD276.title: "In Case You Lose It"
+	quest.6472A4BB056312EC.quest_subtitle: "16000"
+	quest.64938D0BFF9B492B.quest_desc: ["Hold Nature Essence in your main hand and Dye Essence in your off-hand, then right-click a grass block to randomly get a type of flower."]
+	quest.64938D0BFF9B492B.title: "Flowers"
+	quest.65B742E5DDDE7382.quest_desc: [
+		"Colorful chalks are so pretty."
+		""
+		"These two chalks can replace all other colors of chalk. If these two chalks are lost, they can be crafted with snowballs."
+		""
+		"This satchel can assist you in better drawing pentagrams."
+	]
+	quest.65E75B018C33226E.quest_desc: ["Obtain some monster drops to make Biomass."]
+	quest.66565ACE98FF3D19.quest_desc: [
+		"A more powerful upgrade that can &n&aincrease the quantity of machine products&r (there are even more powerful ones, see the next tier of upgrades)."
+		""
+		"Each upgrade can add one more item output to the machine, &badditive calculation."
+		""
+		"Actual Output Quantity = Original Quantity + Number of Upgrades"
+		""
+		"Example:"
+		""
+		"Recipe: One Redstone produces one Diamond."
+		""
+		"Number of Upgrades = 1:"
+		""
+		"Actual Quantity = 1 + 1 = 2"
+		""
+		"Number of Upgrades = 2:"
+		""
+		"Actual Quantity = 1 + 2 = 3"
+	]
+	quest.682FCB62FBAE0865.quest_desc: [
+		"The previous two chapters created the conditions for you to build automated production lines. Now, after producing a small amount of intermediate resources, you need to immediately design and create these production lines."
+		""
+		"This chapter requires you to engage with Ars Nouveau, Occultism, Actually Additions, Nature's Aura, and Immersive Engineering."
+	]
+	quest.68F6A277A5E0B2EE.quest_desc: ["More efficient way to get wood."]
+	quest.69E347FADB29BDC1.title: "Rich Lily Pad"
+	quest.6AB44A78201B9E40.quest_desc: ["Carve a Bone Block with a Chisel."]
+	quest.6AB44A78201B9E40.title: "Skull"
+	quest.6AEB616F36CF1307.quest_desc: ["Ender IO has a low presence in this pack and will not be modified. However, be careful to avoid using EIO pipes for transport, especially with upgrades."]
+	quest.6BC38C61915A2D82.quest_desc: ["Throw Magebloom into water, or use a centrifuge."]
+	quest.6BC38C61915A2D82.title: "Ore Catalytic Liquid"
+	quest.6BCC9CBB393D0BC2.quest_desc: [""]
+	quest.6BD389B1495E9FB2.title: "Rotten Egg"
+	quest.6BE8AFFF479D4FA5.quest_desc: [
+		"Multiplicative"
+		"Each upgrade:"
+		"Speed x0.5"
+		"Energy consumption x1.3"
+	]
+	quest.6CBC226964F66FE9.quest_desc: [
+		"You need to dismantle your floor."
+		""
+		"If you need more, you'll have to exchange Coins for them."
+	]
+	quest.6CBC226964F66FE9.title: "Need More Initial Machines"
+	quest.6F7D3C2FEA071CB3.quest_desc: [
+		"Thank you for playing this far. After the previous three chapters, you can now automate most recipes. Soon, you will truly own AE, and you need to be proficient in using AE for various automation tasks."
+		"At the same time, this chapter is expert difficulty, with reduced resource returns and increased recipe complexity. However, if you successfully obtain certain specific resources, your returns will be even higher than before."
+		""
+		"You can already obtain some basic resources. In this chapter, you can obtain more advanced resources, including biological resources and high-level ore resources."
+		""
+		"Mods involved in this chapter:"
+		""
+		"Oritech, Stellaris, Just Dire Things, Powah, Industrial Foregoing, Ore Creepers."
+	]
+	quest.6FFE4438CE61747D.title: "Experience"
+	quest.7066AD7F1AD5F679.quest_desc: ["If you don't have enough matter, you can duplicate some."]
+	quest.70B6115B888D27A1.quest_desc: [
+		"You might need to build two reactors: a large water-cooled one and a small sodium-cooled one."
+		""
+		"Of course, you can also directly build a large sodium-cooled one."
+	]
+	quest.70E0F0D76E46CFEE.quest_subtitle: "Interesting Little Gadgets"
+	quest.7144325CB43A6349.quest_desc: ["The world is composed of three layers: Blue Ice, Ice, and Snow. The Blue Ice layer contains a large amount of Blue Ice. The Ice layer contains a lot of Ice and Packed Ice. The Snow layer has Snow Blocks."]
+	quest.7144325CB43A6349.title: "World Structure"
+	quest.725D64CED35F67F6.quest_desc: [""]
+	quest.726FF92DCD698598.quest_desc: [
+		"Automating Netherite requires a large amount of Aura. If you need automation, you'll need to use Shooting Targets. Crafting one Gilded Blackstone requires 10,000 Aura; shooting once with a snowball costs 7,000. For snowballs, you can use a simple four-sided dispenser + redstone clock to shoot continuously, as snowballs are very easy to obtain. However, snowballs might not keep up with Aura consumption. Ender Pearls or arrows are better choices. I recommend using Ender Pearls, which cost 50,000 Aura per use, and I've added a new, cheaper way to obtain Ender Pearls. See JEI for details. It's best to create a redstone control setup when using Ender Pearls."
+		""
+		"&eOf course, there's a little trick for automation&r. This item must be shot starting from the north side, and it needs to be shot in turns. So, you can give a redstone signal from the north side, and then use redstone repeaters to give redstone signals in the order of the turns."
+		""
+		""
+		"For automating snowballs, I still recommend the Item Router. The Breaking Module needs an empty module and a tool with the #minecraft:pickaxes tag to craft. Some mods' all-in-one tools or paxel tools have this tag, and combining them with the Breaking Module effectively makes the module act like the tool used to craft it. All-in-one tools and paxel tools also have the '#minecraft:shovels' tag, allowing them to collect snow and drop snowballs."
+	]
+	quest.7292F3BF7EA2CC77.quest_desc: ["Note that this is a looping recipe; inputting Charged Oil will output Crystallized Oil."]
+	quest.73C784094F86DFE9.quest_desc: ["Be sure to leave enough space."]
+	quest.740EADE8DC446C04.quest_desc: [
+		"Requires 100kRF. The Atomic Reconstructor stores 300kRF and can only charge three items at a time."
+		""
+		"This is only temporary."
+	]
+	quest.740EADE8DC446C04.quest_subtitle: "Actually, this is a patch."
+	quest.74F3F69F1E0B015F.title: "No One Really Loses Their Terminal, Right?"
+	quest.7502387C327F54E9.quest_desc: [
+		"Many resources you need will be obtained using the Loot Fabricator."
+		""
+		"Please use the Simulation Chamber as soon as possible to produce loot and prediction prints."
+	]
+	quest.7557AA035F152AA3.quest_desc: [
+		"Chapter 5 only recommends the turbine. I have made changes to its configuration, and now the maximum output can reach 177 MRF/t."
+		"This power generation rate is completely sufficient. At the same time, I have also made changes to many other Mekanism items; see the Chapter 5 quests for details."
+		""
+		"You have multiple choices for power storage. The 256M Energy Cell is still the best option. Oritech can still be used. However, Mekanism's Induction Matrix is not recommended, as its returns are far inferior to Energy Cells."
+	]
+	quest.7591BD12F91FFBA5.quest_desc: ["You can choose to smelt it directly, but I recommend increasing the yield."]
+	quest.7591BD12F91FFBA5.title: "Raw Ore"
+	quest.759F1E81DB9DC7DF.quest_desc: ["Double it again!"]
+	quest.76B0CA596A054D0C.title: "LaserIO"
+	quest.76BEA820EA36E8AE.quest_desc: [
+		"The charging energy is only 1000 RF. Even the lowest tier charging rod can complete charging in 10 ticks."
+		""
+		""
+	]
+	quest.779D8FAC2A7672B2.quest_desc: [
+		"Is your energy still sufficient?"
+		""
+		"Now Oritech machine recipes are shapeless, but this plugin can still be useful in some situations."
+	]
+	quest.791A9805DFD6E3A0.quest_desc: ["To start Mekanism, you need to craft an Eldritch Miner to collect Mining Dimension Cores."]
+	quest.798EC89CA9502A11.quest_desc: ["You can smelt it directly or process it. However, regardless, I recommend processing it through various means to increase the yield."]
+	quest.7A0FE0300CA3EC9E.title: "XNet"
+	quest.7C1046D50616C4F9.quest_desc: [
+		"Auto-Pulverizing."
+		""
+		"You need to use a Spell Turret to cast the 'Pulverize' spell. Please check the mod manual for specific usage instructions."
+	]
+	quest.7CAF3CB4952C2D76.quest_desc: ["If you find rituals too troublesome, please see the side quests."]
+	quest.7CAF3CB4952C2D76.title: "Change Weather"
+	quest.7D32B5BF735BBB55.quest_desc: ["If you have a way to automatically/batch kill bosses, this solar panel is the top choice."]
+	quest.7D5E9DEA6F81B2DA.quest_desc: [
+		"You cannot craft factory upgrades yet."
+		""
+		"Mekanism circuit board recipes have been changed, reducing nesting doll crafting. But it's more troublesome."
+		""
+		"See JEI for details."
+	]
+	quest.7D624F60FAC91599.quest_desc: ["Can directly craft Infused Iron Ingots, etc."]
+	quest.7D860C7964BADF21.quest_desc: ["It's best to mine with Fortune."]
+	quest.7DAB30476AE1D164.quest_desc: [
+		"The most powerful upgrade in this modpack, limited to 8. It can increase the output quantity of recipes, using &n&bmultiplicative calculation."
+		""
+		"Formula: Actual Quantity = Original Quantity x Modifier Value x Number of Upgrades"
+		""
+		"Example:"
+		""
+		"Recipe: One Redstone produces one Diamond."
+		""
+		"Modifier Value +100% (actually x2)"
+		""
+		"Number of Upgrades = 1:"
+		""
+		"Actual Quantity = 1 x 2 x 1 = 2"
+		""
+		"Number of Upgrades = 2:"
+		""
+		"Actual Quantity = 1 x 2 x 2 = 4"
+	]
+	quest.7DAB30476AE1D164.quest_subtitle: "&5Overload!"
+	quest.7DB9397B3D2522BE.quest_desc: ["You can't get Wither Skeleton Skulls in the early game yet."]
+	quest.7DEAAEF9029466CC.title: "ME Infinite Cobblestone Cell"
+	quest.7E644C5375EC2C86.quest_desc: ["Can be obtained through crafting. To get more Andesite, you can use a Block Placer."]
+	quest.7F06E6914E56612A.quest_desc: [
+		"&cSome ore drops in this pack have been changed. You will find that some ores drop the ore block itself when mined, instead of raw ore."
+		""
+		"I have used LootJS to modify the drops of some ores. Only specific pickaxes can drop a specified number of raw ores, &nand this is not affected by Fortune&r; otherwise, only the ore block will drop."
+		""
+		"    Pickaxe Material     Drop Quantity    "
+		"       &bIron            &a1            "
+		""
+		"      &bDiamond           &a3"
+		""
+		"    &bNetherite        &a8"
+		""
+		"    &bEclipse Alloy        &a12"
+	]
+	quest.7F06E6914E56612A.title: "Important!"
+	quest.7F9D098C06A38D4E.quest_desc: [
+		"There are two modes: Silk Touch and Area Mining."
+		""
+		"The Silk Touch enchantment has a bug in this modpack. Have you discovered it?"
+		""
+		"You can see the explanation of this bug on the next page."
+		""
+		"Maybe explore it yourself first? Just dig around?"
+		""
+		""
+		"{@pagebreak}"
+		""
+		"First, set the mode to Silk Touch, then mine ores that drop ore blocks. You will find that it drops two items."
+		""
+		"This might be because I used LootJS to only remove the raw ore drop and added the ore block drop."
+		""
+		"However, when mining with Silk Touch, it only drops the ore block, but the code only removes raw ore, so it's like not removing any item and adding an ore block drop."
+		""
+		"If LootJS were to check for enchantments or remove the ore block drop again, it should be resolved, but I'm too lazy to write it."
+	]
+	quest.7F9D098C06A38D4E.quest_subtitle: "Intentional Bug"
+	reward.2A6FDBB30D17CDAE.title: "10 Minute Potion Effect"
+	reward.3CE93347FF047384.title: "run /weather clear 10d"
+	reward.63B2E201F7108FC0.title: "run /gag give_time @p[limit=1] 10000000"
+	reward.67469440031FF2EC.title: "/time set night"
+	reward.679A24D21DBAB469.title: "/gamemode survival @p"
+	reward.7019CFCE98C0C753.title: "/gamemode creative @p"
+	reward_table.06C583A484072ED3.title: "Totem Tier 3"
+	reward_table.0A4D9D40B003AA3E.title: "Tier 1"
+	reward_table.0BBD3FF136321386.title: "Tier 2"
+	reward_table.0D8F2941E76A2969.title: "Item Collector"
+	reward_table.11B6787FA7572520.title: "LaserIO"
+	reward_table.13D552CE4F9E322C.title: "Totem Tier 1"
+	reward_table.1F5A42E189FA90C9.title: "XNet"
+	reward_table.1FFE90447DB4F918.title: "AE Components"
+	reward_table.26599ADDC48E015A.title: "Industrial Foregoing Upgrade"
+	reward_table.29D9BE8E9031C6D8.title: "Totem Tier 2"
+	reward_table.2FEBC5AA89C25CEC.title: "Tier 3"
+	reward_table.399D490332E134BE.title: "Clumps"
+	reward_table.3AAF114156F626CB.title: "Construction Wand"
+	reward_table.4D9F81D07094967C.title: "AE Blocks"
+	reward_table.57C6C5F146CC21B9.title: "SFM"
+	reward_table.6085BF0750E58F52.title: "Three Seeds"
+	reward_table.7485101461A50F37.title: "Food"
+	reward_table.750E31F13E28C29D.title: "Oritech Upgrade"
+	reward_table.76F45E129C4AC446.title: "Range Upgrade"
+	task.0009D48A783A79D9.title: "Mekanism Recipe Change Notes"
+	task.02A9E1D9CB46FD60.title: "Energy"
+	task.0B9834366A39F904.title: "Base"
+	task.1473502E64D77E35.title: "Added Duplicable Blocks"
+	task.15F705760E59A6C4.title: "Upgrade Calculation Rules"
+	task.17007852C41A49C5.title: "Creative Mode"
+	task.1E5841567FABF006.title: "Any #cobblegengalore:block_generators"
+	task.1FC7FC091D0FA66C.title: "Energy Production"
+	task.1FF2DACA5BAC64BE.title: "Chapter 1"
+	task.21FC0403B5B2D2BA.title: "Creative Items"
+	task.25B6EAAD74169D57.title: "Chapter 2"
+	task.25E8980CD6EFC2E0.title: "Chapter 3"
+	task.29C791E8A7553310.title: "Chapter 4"
+	task.2BF54090209BB9BF.title: "Any #cobblegengalore:block_generators"
+	task.2CDF3C04D5F118D8.title: "Any #minecraft:saplings"
+	task.2CEA450195E80430.title: "AE Perfection!"
+	task.2F6B21B42E3FC15B.title: "Modular Machinery Notes"
+	task.32EDBEEFFFD38C62.title: "Any #powah:thermo_generators"
+	task.3418821629F47B43.title: "Chapter 5"
+	task.40594566A137373D.title: "Water"
+	task.4327B98AD415CA93.title: "Any #constructionstick:construction_sticks"
+	task.46361671624E95E8.title: "Copper, Iron, Gold"
+	task.4ABFE403E8D660B1.title: "Creative Items"
+	task.4B2DC07BFCBD98EA.title: "Automation Logistics"
+	task.4C529FB5E3B291C4.title: "Any #cobblegengalore:block_generators"
+	task.4C83407E416DF730.title: "Notice"
+	task.51313BFD12FDE40F.title: "foundry_controllers"
+	task.52767F6531C904CD.title: "Any #cobblegengalore:block_generators"
+	task.5475690AE7886EAF.title: "Any #powah:magmators"
+	task.58825E17E396C8D7.title: "Look Around"
+	task.5A7EC8ED62F53133.title: "Any #hostilenetworks:custom_tooltip_colors"
+	task.6100FF1EF681E242.title: "Challenge Reward"
+	task.624FDA81006F3E59.title: "Hard!"
+	task.64061CB880CC2691.title: "Default"
+	task.6625636D7136779F.title: "Energy"
+	task.6896832D26887B5A.title: "Any #powah:reactors"
+	task.69542B4CEB9CDD0F.title: "x4"
+	task.6DB42D683F9DED34.title: "Challenge"
+	task.708421E72241DC0D.title: "Fermentation"
+	task.774FDE8C95F912F0.title: "Any #occultism:candles"
+	task.7A002776E6D3A0B6.title: "Any #productivebees:solitary_overworld_nests"
+	task.7C20D9219C404813.title: "Hard!"
+	task.7D5E8042FED16601.title: "Hologram Panel"
+}

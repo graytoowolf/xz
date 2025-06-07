@@ -1,0 +1,37 @@
+{
+	id: "13D552CE4F9E322C"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ id: "7E9F4BD4E9991F11", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/wind_charged_others": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "648D0AF1F258D790", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:special/bonemealer": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "185F961DB9D9F7D2", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:special/fertility": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "22B581A112DCEC6E", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/wind_charged": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "662355BF4A3A9A5F", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/weaving_others": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "5E128D023D0B1343", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/weaving": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "50025C799B114310", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/haste": 3 } }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "4E3FB432329DCA9E", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/slowness": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "29E98C1C01E1EB48", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/slow_falling": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "2F46727B1425AA93", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/glowing": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "346BB6C6D97D1BF4", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/oozing_others": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "2510A41E6756A670", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/fire_resistance": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "582593EBBB48ADAE", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/oozing": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "4A4F9B4F930B165E", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/dolphins_grace": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "7CEE209706E767D8", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/night_vision": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "0E4D5447E3562F27", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:attribute_modifier/knockback": 5 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "3BEE3FA974F049A4", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:attribute_modifier/impacting_legs": 5 } }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "391456162568A412", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/jump_boost": 1 } }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "0C99554974D1A6B9", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/speed": 1 } }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "6454E7EEBC089F3C", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/strength": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "0B964E804E6CE26C", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/water_breathing": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "19BFD21AC64E544E", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:attribute_modifier/entity_range": 5 } }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "7DD067C109DE39FC", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/invisibility": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "5F31902F4E10F319", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:special/step_assist": 1 } }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "46C62903B4EF54C4", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:special/power_stare": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "602C6D5A39838CEF", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/infested_others": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "3C5461AB4B8E117F", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:attribute_modifier/block_range": 5 } }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "6DFF03FB049DF36C", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:special/magnetize": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "1A1F648037821C6B", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/infested": 1 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "284C939EE9D8C230", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:attribute_modifier/attack_steroids": 5 }, "minecraft:rarity": "uncommon" }, count: 1, id: "everlastingabilities:ability_totem" } }
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube", 
+  "textures": {
+    "particle": "kubejs:block/machine_side_universal", 
+    "down": "kubejs:block/machine_bottom_universal",
+    "up": "kubejs:block/machine_top_universal",
+    "north": "kubejs:block/compressor_front",
+    "east": "kubejs:block/machine_side_universal",
+    "south": "kubejs:block/machine_side_universal",
+    "west": "kubejs:block/machine_side_universal"
+  }
+}

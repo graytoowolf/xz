@@ -1,0 +1,42 @@
+{
+	id: "0A4D9D40B003AA3E"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 2
+			id: "2A79387FF3B3551F"
+			item: {
+				count: 1
+				id: "kubejs:coin"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "40DE29C4C60E018C"
+			item: {
+				count: 1
+				id: "kubejs:coin"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "7E2D639373782114"
+			item: {
+				count: 1
+				id: "kubejs:coin"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "080FF9F544A1A54E"
+			item: {
+				count: 1
+				id: "kubejs:coin"
+			}
+		}
+	]
+}

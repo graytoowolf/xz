@@ -1,0 +1,20 @@
+ServerEvents.recipes(event => {
+    const { custommachinery } = event.recipes
+
+    custommachinery.custom_machine("minecraft:compressor", 40)
+        .requireEnergy(8000)
+        .requireItem('4x oritech:biomass')
+        .produceItem('minecraft:coal')
+    custommachinery.custom_machine("minecraft:compressor", 40)
+        .requireEnergyPerTick(512)
+        .requireItem('2x minecraft:ender_pearl')
+        .produceItem('actuallyadditions:diamatine_crystal')
+    custommachinery.custom_machine("minecraft:compressor", 40)
+        .requireEnergyPerTick(512)
+        .requireItem('18x minecraft:ender_pearl')
+        .produceItem('actuallyadditions:diamatine_crystal_block')
+    custommachinery.custom_machine("minecraft:compressor", 60)
+        .requireEnergyPerTick(64)
+        .requireItem('4x integrateddynamics:crystalized_menril_chunk')
+        .produceItem('integrateddynamics:crystalized_chorus_chunk')
+})

@@ -1,0 +1,20 @@
+{
+	id: "29D9BE8E9031C6D8"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ id: "5AE701B1E0A97615", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/luck": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "307A09F6315A4A23", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/levitation": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "78A0EEF274B57CBC", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/hunger": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "1FB255B611A2CE6A", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/darkness": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "5F16D6F2F998E503", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/conduit_power": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "188D20B56B0F10E4", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/blindness": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "31656EE253301473", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/absorption": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "7B4477245AD4DA3B", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:attribute_modifier/hidden_chestplate": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "575F66BDC9FE61C8", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:attribute_modifier/heart_gainer": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "2EA81F0FCFAE55C0", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/regeneration": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "188B7B84F54D49D8", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/resistance": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "04149C7FEAF52045", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/unluck": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+		{ id: "70D1417752DC1DB7", item: { components: { "everlastingabilities:ability_store": { "everlastingabilities:effect/weakness": 1 }, "minecraft:rarity": "rare" }, count: 1, id: "everlastingabilities:ability_totem" } }
+	]
+}

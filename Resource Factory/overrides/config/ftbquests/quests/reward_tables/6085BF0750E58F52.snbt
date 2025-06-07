@@ -1,0 +1,10 @@
+{
+	id: "6085BF0750E58F52"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ id: "16AB80C1DDB3906E", item: { count: 1, id: "mysticalagriculture:wood_seeds" } }
+		{ id: "50C4E837D6E9E076", item: { count: 1, id: "mysticalagriculture:nature_seeds" } }
+		{ id: "5BB0E949A417157C", item: { count: 1, id: "mysticalagriculture:dye_seeds" } }
+	]
+}
