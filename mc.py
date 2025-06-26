@@ -39,7 +39,7 @@ def create_zip_archive(source_dir, zip_path):
                     relative_path = file_path.relative_to(source_dir)
                     zipf.write(file_path, relative_path)
                     print(f"已添加到压缩包: {relative_path}")
-
+        
         print(f"已成功创建压缩包：{zip_path}")
         return True
     except Exception as e:
